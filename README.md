@@ -5,7 +5,7 @@ This means that links to videos and some URLs may not work.***
 
 ***Email: datascience@nhs.net***
 
-***To contact us raise an issue and will respond promptly.***
+***To contact us raise an issue on Gitub or via email and will respond promptly.***
 
 # RAP community of practice
 Welcome to the landing page for the RAP community of practice repo. 
