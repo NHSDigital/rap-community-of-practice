@@ -56,7 +56,7 @@ Once you have completed your self-assessment and thought about the level of RAP 
 
 ## Silver level RAP
 
-- [ ] Have you shared your code publicly on github? [See process flow for publishing safely].
+- [ ] Have you shared your code publicly on github? [See process flow for publishing safely](development-approach/08_how-to-publish-your-code-in-the-open.md).
 - [ ] Does your code include unit tests and regression tests? [See unit tests](development-approach/04_unit-tests.md).
 - [ ] Does your repo include dependency management?
 
