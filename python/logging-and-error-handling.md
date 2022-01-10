@@ -72,7 +72,7 @@ You can see that the information we described in the `format` argument is captur
 * Line number where the log was triggered (`lineno`)
 * Process ID of the process where the log happened (`processName`)
 
-You can find a full list of things to add in the [docs](https://docs.python.org/3/library/logging.html#formatter-objects)
+You can find a full list of things to add in the [docs](https://docs.python.org/3/library/logging.html#formatter-objects).
 
 # Error handling
 Error handling using try/except is useful and powerful. When python hits an error, it produces something called an exception. An exception is an object that tries can tell you something about what has gone wrong. There are many different types of exceptions - see the full list [here](https://www.tutorialsteacher.com/python/error-types-in-python). 
