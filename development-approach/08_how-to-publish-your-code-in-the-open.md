@@ -43,7 +43,7 @@ This checklist covers the review process in place to ensure that the code is:
 4. No data should be stored in the snapshot.  
 
 To access the checklist click on the link below and select the Download option:
-* [Repository validation checklist]
+* [Repository validation checklist](https://github.com/NHSDigital/rap-community-of-practice/blob/main/images/Fit_for_publishing_checklist.docx)
 
 For each subsection of the checklist an **internal reviewer** is assigned by the development team to check and add comments and suggestions to be impletemented. Once those are reviewed and implemented the checklist is passed on to an **external reviewer** (outside of the development team) to carry out checks and add any comments and suggestions in the external review columns. Once the external review is complete, each checklist section is assigned a **RAG status** by the lead analyst.
 
