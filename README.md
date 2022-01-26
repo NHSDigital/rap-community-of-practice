@@ -20,6 +20,9 @@ The community of practice aims to support teams in adopting RAP practices throug
 
 This work is prompted by the observations that teams can struggle to adopt RAP practices without direct support. While no one element of RAP is particularly difficult, learning several new skills at the same time as delivering BAU is challenging. Teams can struggle to find the defended time to embed these practices. See the Statistics Authority report on [the barriers to RAP adoption](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/) for more information. Luckily, in NHSD we have strong senior support for RAP and many teams have already begun to adopt many of the practices included in RAP. Consequently, we already have a large pool of skilled, ethusiastic analysts who are willing to help others. These resources also aim to support the goals laid out in the Goldacre report [Bringing NHS data analysis into the 21st century](https://journals.sagepub.com/doi/10.1177/0141076820930666) and to align with Tim Berners-Lee's [Five star data](https://5stardata.info/en/) principles.
 
+## RAP package template
+We have built a Python RAP package template and it's freely available to use via Github, [see RAP package template](https://github.com/NHSDigital/rap-package-template).
+
 ## Support and training
 If your team is embarking upon a RAP journey, you should look at our [what is RAP](what-is-RAP.md) page and try to complete the [self-assessment](what-is-RAP.md#rap-self-assessment). From there, we recommend reaching out for some in-person support. The RAP Champion Function (within the Data Science Skilled Team) can offer support in many forms:
 * Reviewing your RAP work and assessing your progress against the [levels of RAP](what-is-RAP.md#levels-of-rap)
