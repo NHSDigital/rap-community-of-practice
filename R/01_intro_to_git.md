@@ -1,17 +1,17 @@
 # Overview
-This page is intended as a starting point for someone who is new to using git. It shows you the basic commands and the workflow to use git on your own. 
+This page is intended as a starting point for someone who is new to using Git. It shows you the basic commands and the workflow to use Git on your own. 
 
-To use git as a team you should complete this section and the following section on [using git collaboratively](02_using-git-collaboratively.md).
+To use Git as a team you should complete this section and the following section on [using git collaboratively](02_using-git-collaboratively.md).
 
 # What is version control?
 Version control is the practice of tracking and managing any changes on project's code, files or folders over time. This allows you to observe a detailed history of the changes made and enables your team members to collaborate on the same project.
  
 In Git, each user has the entire repository (project's working directory) on their computer (offline), hence, they can work separately offline until they opt to push their updated version of the code to the remote (online) central repository. 
 
-Remote repositories are versions of your project that are hosted on an online Version Control System. In NHS Digital, we store that in GitLab site for internal users (GitHub site for the public).
+Remote repositories are versions of your project that are hosted on an online Version Control System. In NHS Digital, we store that in GitLab, site for internal users (GitHub, site for the public).
 
 ## Why should I care?
-Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHSD has chosen. While git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
+Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHSD has chosen. While Git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
 
 The benefits of using version control include:
 
@@ -26,7 +26,7 @@ The benefits of using version control include:
 * The ability to try out experiments without the risk of breaking your main code
 
 # Video showing git workflow and commands:
-This short video tutorial walks you through how to create a repository and use basic git commands:
+This short video tutorial walks you through how to create a repository and use basic Git commands:
 
 [Link to video tutorial]
 
@@ -39,9 +39,9 @@ We have also produced a short video that gives some more theoretical explanation
 
 Below is a list of common commands for reference. We only list basic commands here. This is just to flag to you that these commands exist. You can google for more detail on any of them.
 
-* Create a new git repo locally: `git init`. The init command is short for "initialise", it's the command that will do all of the initial setup of a repository. The folder needs to actually exist before we can create a new repository with Git.
+* Create a new Git repo locally: `git init`. The init command is short for "initialise", it's the command that will do all of the initial setup of a repository. The folder needs to actually exist before we can create a new repository with Git.
  
-* Clone an existing Git Repository: `git clone <url>`. Happens only once, when you need to create a local copy of a Gitlab repository.
+* Clone an existing Git Repository: `git clone <url>`. Happens only once, when you need to create a local copy of a Git repository.
 
 * Check whether any files have changed in a repository: `git status`. It lists the files you've changed and those you still need to add or commit. It displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.
 
@@ -59,8 +59,248 @@ Below is a list of common commands for reference. We only list basic commands he
  
 * Show unstaged changes between your index and working directory: `git diff`. Press `Q` to exit the diff log.
 
-* Ignore files: `.git-ignore file`. This file specifies untracked files that git should ignore such as the sensitive information related to security or the data itself. Files already tracked by git are not affected.
+* Ignore files: `.git-ignore file`. This file specifies untracked files that Git should ignore such as the sensitive information related to security or the data itself. Files already tracked by git are not affected.
 
 * Display a list of all branches in the repository: `git branch -a`.
 
 * Delete a local branch: `git branch -D <your branch name>`.
+
+# Setup for Git Basics exercise
+## Creating your access token on GitLab
+
+When copying a Git repository for the first time, Git will prompt you to input your credentials, to verify your ID. This will be your GitLab username and the GitLab access token as your password. 
+
+* To create the access token, head over to Preferences in GitLab, after clicking the top right profile picture:
+
+![](../images/image1.jpg)
+
+* On the left hand side menu select Access token. You should see this page after clicking:
+
+![](../images/image21.jpg)
+
+* Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc). This will be your password for the Git credentials (task 2 of this exercise).
+
+## Creating your access token on GitHub
+There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab, you will need to input your GitHub username and access token to verify your credentials.
+
+When selecting the scope of the access token, the default options that should be ticked are: repo, admin:repo_hook and delete_repo.
+
+**Do not** forget to paste/save your access token somewhere safe as you won't be able to access it again. 
+
+### HTTPS vs SSH key
+You might come across SSH protocol keys, as it is essentially another option to create a password and verify your credentials. This section on [HTTPS vs SSH](https://happygitwithr.com/https-pat.html#https-vs-ssh) protocol options of setting up credentials on GitHub explains the differences between these two options. There are pros and cons for both, I would recommend the HTTPS option for Git beginners.
+
+## Troubleshooting credentials
+You might see something like this at any point:
+```
+remote: HTTP Basic: Access denied
+remote: You must use a personal access with 'read_repository or 'write_repository' scope for Git over HTTP.
+remote: You can generate one at https:// etc etc...
+remote: Authentication failed for 'repository address you're attempting to git clone'
+```
+This can mean a number of things: either your access token has expired or you have entered the wrong access token for your password (or username even). If your access token has expired or about to expire, you can check by going to Gitlab Profile -> Preferences -> Access Tokens then scroll all the way down and see if there’s an Active Access Token and check the expiration date. 
+* These steps will help you fix your access to the repository:
+
+1. To fix this we need to create a new access token (don’t assign a date this time, so it will never expire).
+
+2. In the command terminal type ```git pull -v``` (v stands for verification). This should prompt a new Git credentials window.
+
+* If you don't have an existing repository, and can't do step 2, then:
+
+1. In the terminal type ```git clone <git repo's copied clone url>``` but with the new credentials included in the URL, so:
+```
+C:\My_documents>git clone https://<username>:<password>@<domain>/example.git 
+```
+So, in my case it would be:
+```
+C:\My_documents>git clone https://<username>:<MY_NEW_ACCESS_TOKEN>@<domain>/example.git 
+```
+# Exercises 1 - 6: Accessing a Git repository, creating a branch, adding a new file, uploading your changes to GitHub
+**Getting started** - tasks 1 and 2 will be relevant only when accessing a repository for the **first time**.
+
+>If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
+
+## 1. Creating your local Git repository folder
+
+i. Open a Command terminal. This can be any terminal, Anaconda Prompt or Git Bash etc. To access the terminal, click the Search option on the Windows toolbar and type "Anaconda Prompt" and open it. The file directory address that's displayed in the terminal will usually be the default top level C drive address or something similar.
+```
+(base) C:\Windows\system32>
+```
+ii. Create a folder in your local directory, this is where the GitHub (remote) repository will be copied/downloaded to. In the Anaconda Prompt terminal type ```cd <windows explorer repo folder address you just created>```, ```cd``` stands for Change Directory, and what this means is that the default terminal address will be directed to the new directory, the new folder address. Any Git commands applied in the terminal will apply to the current directory.
+```
+(base) C:\Windows\system32>cd C:\Users\<username>\Documents\my_project_folder\demo
+(base) C:\Users\<username>\Documents\my_project_folder\demo>
+```
+## 2. Git clone (copy a GitHub repository)
+i. The repository's clone URL will be on the GitHub repository's main page (see image below).
+
+![](../images/repo_url.JPG)
+
+ii. Type ```git clone <repository's clone url>``` the git-demo repository using your local terminal (Anaconda Prompt). Enter your credentials when prompted (gitlab username and access token for the password.)
+```
+(base) C:\Users\<username>\Documents\my_project_folder\RAP>git clone <paste the repo url address from the image above> 
+```
+iii. Type ```cd <windows explorer repo folder address>``` (open the newly downloaded git folder) in the Anaconda Prompt to assign the root level of the directory to the top level of the repository. This because the terminal is assigned to the folder containing the Git repository, not the folder that IS the Git repository.
+
+iv. Type ```git status``` in the terminal. You should see the this message:
+
+![](../images/image3.jpg)
+
+## 3. Create and switch to a new branch
+
+Notice how in the image above, the first line says "On branch main". In Git, **"main"** is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "main" branch. This means that "main" can be seen as a repository's "default" branch. The main branch should always be locked, to protect the main build of your working code and/or documentation. To add new code/documentation/make any edits to the main branch, you need to submit a [pull request](01_intro-to-git.md#general-how-to-submit-a-pull-request).
+
+**"Branch"** is another word for "version". Usually when developing a document or slides for a presentation, we could have numerous versions of the same slides, with small or major differences. By using different branches (or versions) of the same code, we can safely work and test without breaking the publication code, that resides in the default master branch of the repository.
+
+i. To create a **new branch**, head over to GitHub, on the repository's main page, same webpage we used to find the Git clone repository's URL. On the left hand side menu select Repository -> Branches.
+
+![](../images/select_branches.JPG)
+
+ii. Once in the branches list page, select New Branch (big blue button) on the right hand side.
+
+![](../images/new_branch.JPG)
+
+iii. In the New Branch page, type your branch name and select the branch you want to copy from. On most cases it will be the master branch so Gitlab has this option select by default. Once happy with your choices, select Create branch.
+
+![](../images/branch_info.JPG)
+
+iv. Back to the terminal (e.g. Anaconda Prompt etc), type `git branch -a` to view a list of all available branches existing in the repository. The branches that contain the `remote/` path are the branches online, on Gitlab. Have a look at the list. You will notice your new branch is not there yet. To update your local master branch with all the lastest updates on Gitlab, type ```git pull```. Type `git branch -a` and you should see your branch available in the list now.
+
+v. To start working on your branch and select, type in the terminal `git checkout <your branch name>`.
+
+vi. Type ```git status``` and this way you can confirm that you are in a new branch. Git will display a message showing the current branch name and the current branch's information.
+
+![](../images/image564.JPG)
+
+_**Reminder:** any changes you make while in the main branch won't be uploaded to GitHub, as the main branch is protected and locked, so make sure you are in your own working branch! You can confirm this with step vi. above._
+
+### Branch naming strategy
+
+Following an agreed naming convention will make it much easier to keep the team's work organised. We follow use this approach:
+
+    <project_id>_<initials>_<ticket_number>_<brief-description>
+
+Here the project_id refers to our project ID in confluence (DS218). The initials are from my name. The ticket number refers to the jira ticket number. 
+E.g.:
+
+    DS218_CQ_167_Add-field-definitions
+
+Naming branches in this way helps to make it very clear what change should be happening in the branch. Sometimes code review will reveal that a branch that was intended to make one specific change in fact makes several changes. This should be avoided and the code review should reject the additional changes.
+
+## 4. Add a new file
+
+By adding a new file to the project, you can avoid conflicts as each analyst will create and upload their own file.
+
+There are many ways to add a new file to your branch. One way is to upload a file directly to your branch on Gitlab. 
+
+The easiest way is to simply create the file (any type of file) in your working directory, while in your branch. You can also copy a file from another directory. The file you create or copy can be any type of file.
+
+For this exercise, create a file while in Spyder, with simply right-clicking on the repository's folder and then selecting the Create New File option:
+
+* To view and edit the repository's folders and files in RStudio:
+    1. Open RStudio
+    2. On the top toolbar go Projects -> New Project, this will open a Create New Project dialogue.
+
+    
+
+    3. In the Create New Project dialogue, select existing directory (since we have already cloned the Gitlab repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository:
+
+    
+
+    4. In the Select directory dialogue, select the folder that contains your repository's contents. In this example, I have a repository called "demo":
+
+    
+
+    5. You should be able to see the project structure on the left hand side menu as it is displayed on Gitlab, in the image above.
+    6. Right-click on the Practice folder and select New and New File.
+
+    
+
+    7. Name the file.
+    8. Add something into that file.
+    9. Save it on Spyder.
+
+## 5. Commit your changes (follow basic Git command workflow)
+
+In the Anaconda Prompt (or any terminal of your choice) type the following. I suggest you read through the git messages displayed after each command entered in the terminal, to familiarise yourself with the logic.
+
+i. Type ```git status``` to see the modifications that haven't been staged yet (in red colour).
+
+ii. Type ```git add <filename>``` to stage your changes. Or ```git add .``` to simply stage all changes automatically (use with caution).
+
+iii. Type ```git status``` to see the file modifications now have a green colour. This means that git add was succesfull.
+
+iv. Type ```git commit -m "your commit message here"``` to commit these changes.
+
+v. Type ```git status``` to view the status of your repo. There should be no modifications visible (or colours!).
+
+vi. Type ```git push```. This command will upload all your commited changes to GitHub.
+
+## 6. Check the repository on GitHub to view the changes updated
+Simply head over to GitHub, and the repository page on GitHub, select your branch and compare the changes between your branch and the master branch.
+
+![](../images/dropdown_menu_repo.JPG)
+
+**Solution to Intro exercise covers steps 3 - Submitting a Merge request**
+
+<details>
+  <summary>Spoiler warning</summary>
+Recording [here]
+</details>
+
+# General: How to submit a pull request
+
+To submit a pull request:
+
+1. Simply head over to GitHub and to the respective repository
+
+2. Select Merge requests on the menu on the left hand side. 
+
+3. On the right select New Merge Request (big blue button).
+
+4. Target branch will always (in most cases) be the master branch. Source branch is your working branch.
+
+5. Click Compare branches and Continue
+
+6. Fill out any information related to the Merge request, title, description, any comments. Assign yourself as the Assignee, assign someone in your team to be the Reviewer. Then, select Create Merge Request.
+
+# General: How to accept a pull request
+
+Once you are assigned the merge request's reviewer, you should receive an email notification from Gitlab with a link to the merge request's webpage.
+
+You can also view any active merge requests by clicking on the left hand side menu, once in the repository's page.
+
+![](../images/image6.jpg)
+
+In the merge request page, there are three tabs: Overview, Commits and Changes.
+
+**Overview** is the main merge request page. It contains the merge request's description, timeline and comments left by the assignee or reviewer. The approve button does not impact the merge request itself. Not selecting the Approve button won't affect the status or progress of the merge request. Gitlab has made this available for teams that are interested in 2-step review procesess where one analyst submits a merge request, another approves the request and the reviewer confirms the merge.
+
+* Deleting the Source branch: this will automatically delete the branch created for the merge request. Untick this option to keep the source branch.
+* Squash commits: ticking this will merge the history of commits for the source branch into one commit. This can be useful when the merge request is not a major update and you don't want your repository's history of commits to contain commits with messages such as "fixed typo" "replaced incorrectly placed image".
+
+**Commits** tab displays a history of the merge request's commits. So for example, if the reviewer decides that minor adjustments are required and the assignee pushes these changes to Gitlab, then these commits will be captured in this tab.
+
+**Changes** tab, here you can see all the new changes in the merge request's source branch. You can also opt for a side-by-side comparison, and see line-by-line how the master version and new branch version compare. You can also leave comments on each file's line, which will also be recorded in the Overview tab's timeline.
+
+If you are happy with the new changes, then select Merge and the merge request should be completed in a few seconds.
+
+# General: How to update your local master branch to the latest remote master version on GitHub/GitLab
+
+1. Open the Anaconda Prompt terminal or Git Bash or any other terminal you wish to use. This can be accessed by typing, for example Anaconda Prompt, in the search bar, after opening the search icon on your Windows toolbar.
+
+2. Type ```cd <paste your work directory address>``` in the terminal to switch to your working directory. This is where the Git repository is cloned/copied/downloaded to, on your local machine (or RDS environment or any environment you're using). This will cause the default terminal address to be directed at the new directory. (see [Git Clone instructions above](01_intro-to-git.md#3-git-clone-copydownload-a-gitlab-repository)  for more info)
+
+3. Type ```git status``` in the terminal to ensure that ```ii``` happened successfully and you are on the default master branch. You should see this message: 
+
+![](../images/image3.jpg)
+
+4. Type ```git pull``` to update your local master branch with the latest version of the remote/online/Gitlab master branch. This might take a few seconds.
+
+# General: the .gitignore file
+.gitignore is a text file that contains file extensions and directories' paths that we wish git to ignore. For example, we have created a repository on Gitlab that should never contain data. To ensure this, in the repository's .gitignore file will include ```.csv```, `.xlsx` etc.
+
+Github has a .gitignore [template](https://github.com/github/gitignore/blob/master/Python.gitignore) available for analysts and developers to use for their own projects. Notice how in the template, lines 117-118 contain Spyder project settings, which are configuration files created by Spyder when you first open your repository as a Spyder project. Sometimes these configuration files can contain information you don't want to publish on Github/Gitlab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
+
+# External links
+* [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
