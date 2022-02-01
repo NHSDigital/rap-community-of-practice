@@ -285,7 +285,7 @@ In the merge request page, there are three tabs: Overview, Commits and Changes.
 
 If you are happy with the new changes, then select Merge and the merge request should be completed in a few seconds.
 
-# General: How to update your local master branch to the latest remote master version on GitHub/GitLab
+# General: How to update your local main branch to the latest remote main version on GitHub/GitLab
 
 1. Open the Anaconda Prompt terminal or Git Bash or any other terminal you wish to use. This can be accessed by typing, for example Anaconda Prompt, in the search bar, after opening the search icon on your Windows toolbar.
 
@@ -295,12 +295,12 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 ![](../images/image3.jpg)
 
-4. Type ```git pull``` to update your local master branch with the latest version of the remote/online/Gitlab master branch. This might take a few seconds.
+4. Type ```git pull``` to update your local main branch with the latest version of the remote/online GitHub main branch. This might take a few seconds.
 
 # General: the .gitignore file
-.gitignore is a text file that contains file extensions and directories' paths that we wish git to ignore. For example, we have created a repository on Gitlab that should never contain data. To ensure this, in the repository's .gitignore file will include ```.csv```, `.xlsx` etc.
+.gitignore is a text file that contains file extensions and directories' paths that we wish Git to ignore. For example, we have created a repository on GitHub that should never contain any sensitive data. To ensure this, in the repository's .gitignore file we will include ```.csv```, `.xlsx` or any other file format that can contain data.
 
-Github has a .gitignore [template](https://github.com/github/gitignore/blob/master/Python.gitignore) available for analysts and developers to use for their own projects. Notice how in the template, lines 117-118 contain Spyder project settings, which are configuration files created by Spyder when you first open your repository as a Spyder project. Sometimes these configuration files can contain information you don't want to publish on Github/Gitlab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
+GitHub has a .gitignore [template](https://github.com/github/gitignore/blob/master/Python.gitignore) available to analysts and developers to use in their projects. Notice how in the template, lines 117-118 contain Spyder project settings, which are configuration files created by Spyder when you first open your repository as a Spyder project. Sometimes these configuration files can contain information you don't want to publish on GitHub/GitLab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
 
 # External links
 * [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
