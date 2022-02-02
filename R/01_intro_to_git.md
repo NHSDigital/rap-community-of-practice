@@ -25,7 +25,7 @@ The benefits of using version control include:
 * The ability to make changes without breaking anything - through running automated tests
 * The ability to try out experiments without the risk of breaking your main code
 
-# Video showing git workflow and commands:
+# Video showing git workflow and commands (TBD)
 This short video tutorial walks you through how to create a repository and use basic Git commands:
 
 [Link to video tutorial]
@@ -59,7 +59,7 @@ Below is a list of common commands for reference. We only list basic commands he
  
 * Show unstaged changes between your index and working directory: `git diff`. Press `Q` to exit the diff log.
 
-* Ignore files: `.git-ignore file`. This file specifies untracked files that Git should ignore such as the sensitive information related to security or the data itself. Files already tracked by git are not affected.
+* Ignore files: `.git-ignore file`. This file specifies untracked files that Git should ignore such as the sensitive information related to security or the data itself. Files already tracked by Git are not affected.
 
 * Display a list of all branches in the repository: `git branch -a`.
 
@@ -81,7 +81,7 @@ When copying a Git repository for the first time, Git will prompt you to input y
 * Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc). This will be your password for the Git credentials (task 2 of this exercise).
 
 ## Creating your access token on GitHub
-There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab, you will need to input your GitHub username and access token to verify your credentials.
+There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab, simply input your GitHub username and access token to verify your credentials.
 
 When selecting the scope of the access token, the default options that should be ticked are: repo, admin:repo_hook and delete_repo.
 
@@ -120,7 +120,9 @@ C:\My_documents>git clone https://<username>:<MY_NEW_ACCESS_TOKEN>@<domain>/exam
 
 >If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
 
-## 1. Creating your local Git repository folder
+## Using Rstudio Desktop
+
+### 1. Creating your local Git repository folder
 
 i. Open a Command terminal. This can be any terminal, Anaconda Prompt or Git Bash etc. To access the terminal, click the Search option on the Windows toolbar and type "Anaconda Prompt" and open it. The file directory address that's displayed in the terminal will usually be the default top level C drive address or something similar.
 ```
@@ -131,7 +133,7 @@ ii. Create a folder in your local directory, this is where the GitHub (remote) r
 (base) C:\Windows\system32>cd C:\Users\<username>\Documents\my_project_folder\demo
 (base) C:\Users\<username>\Documents\my_project_folder\demo>
 ```
-## 2. Git clone (copy a GitHub repository)
+### 2. Git clone (copy a GitHub repository)
 i. The repository's clone URL will be on the GitHub repository's main page (see image below).
 
 ![](../images/repo_url.JPG)
@@ -146,7 +148,7 @@ iv. Type ```git status``` in the terminal. You should see the this message:
 
 ![](../images/image3.jpg)
 
-## 3. Create and switch to a new branch
+### 3. Create and switch to a new branch
 
 Notice how in the image above, the first line says "On branch main". In Git, **"main"** is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "main" branch. This means that "main" can be seen as a repository's "default" branch. The main branch should always be locked, to protect the main build of your working code and/or documentation. To add new code/documentation/make any edits to the main branch, you need to submit a [pull request](01_intro-to-git.md#general-how-to-submit-a-pull-request).
 
@@ -174,7 +176,7 @@ vi. Type ```git status``` and this way you can confirm that you are in a new bra
 
 _**Reminder:** any changes you make while in the main branch won't be uploaded to GitHub, as the main branch is protected and locked, so make sure you are in your own working branch! You can confirm this with step vi. above._
 
-### Branch naming strategy
+#### Branch naming strategy
 
 Following an agreed naming convention will make it much easier to keep the team's work organised. We follow use this approach:
 
@@ -187,7 +189,7 @@ E.g.:
 
 Naming branches in this way helps to make it very clear what change should be happening in the branch. Sometimes code review will reveal that a branch that was intended to make one specific change in fact makes several changes. This should be avoided and the code review should reject the additional changes.
 
-## 4. Add a new file
+### 4. Add a new file
 
 By adding a new file to the project, you can avoid conflicts as each analyst will create and upload their own file.
 
@@ -220,7 +222,7 @@ For this exercise, create a file while in Spyder, with simply right-clicking on 
     8. Add something into that file.
     9. Save it on Spyder.
 
-## 5. Commit your changes (follow basic Git command workflow)
+### 5. Commit your changes (follow basic Git command workflow)
 
 In the Anaconda Prompt (or any terminal of your choice) type the following. I suggest you read through the git messages displayed after each command entered in the terminal, to familiarise yourself with the logic.
 
@@ -236,17 +238,14 @@ v. Type ```git status``` to view the status of your repo. There should be no mod
 
 vi. Type ```git push```. This command will upload all your commited changes to GitHub.
 
-## 6. Check the repository on GitHub to view the changes updated
+### 6. Check the repository on GitHub to view the changes updated
 Simply head over to GitHub, and the repository page on GitHub, select your branch and compare the changes between your branch and the master branch.
 
 ![](../images/dropdown_menu_repo.JPG)
 
-**Solution to Intro exercise covers steps 3 - Submitting a Merge request**
+## Using RStudio Cloud
 
-<details>
-  <summary>Spoiler warning</summary>
-Recording [here]
-</details>
+
 
 # General: How to submit a pull request
 
@@ -254,34 +253,35 @@ To submit a pull request:
 
 1. Simply head over to GitHub and to the respective repository
 
-2. Select Merge requests on the menu on the left hand side. 
+2. Select Pull requests on the top bar menu. 
 
-3. On the right select New Merge Request (big blue button).
+3. Either select New Pull Request (big green button) on the right hand side or select Compare & pull request if you recently pushed new changes to the branch.
 
-4. Target branch will always (in most cases) be the master branch. Source branch is your working branch.
+4. Base ref will default to the main branch, head ref will be the branch you wish to merge with the main branch. You can change any of these options, there will be occasions you won't always aim to merge every branch to the main branch.
 
-5. Click Compare branches and Continue
+5. Click Create Pull Request.
 
-6. Fill out any information related to the Merge request, title, description, any comments. Assign yourself as the Assignee, assign someone in your team to be the Reviewer. Then, select Create Merge Request.
+6. Fill out any information related to the Pull request, title, description, any comments. On the rigth hand side you can assign yourself as the Assignee, and assign someone in your team to be the Reviewer. Then, select Create Pull Request.
 
 # General: How to accept a pull request
 
-Once you are assigned the merge request's reviewer, you should receive an email notification from Gitlab with a link to the merge request's webpage.
+Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the mpull request's webpage.
 
-You can also view any active merge requests by clicking on the left hand side menu, once in the repository's page.
+You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
 
-![](../images/image6.jpg)
+On the Pull request page, there are four tabs: Conversation, Commits, Checks and Files changed:
 
-In the merge request page, there are three tabs: Overview, Commits and Changes.
+**Conversation** is the main pull request page. It contains the pull request's description, timeline and comments left by the assignee or reviewer. To merge a pull request you have 3 presented options:
 
-**Overview** is the main merge request page. It contains the merge request's description, timeline and comments left by the assignee or reviewer. The approve button does not impact the merge request itself. Not selecting the Approve button won't affect the status or progress of the merge request. Gitlab has made this available for teams that are interested in 2-step review procesess where one analyst submits a merge request, another approves the request and the reviewer confirms the merge.
-
-* Deleting the Source branch: this will automatically delete the branch created for the merge request. Untick this option to keep the source branch.
-* Squash commits: ticking this will merge the history of commits for the source branch into one commit. This can be useful when the merge request is not a major update and you don't want your repository's history of commits to contain commits with messages such as "fixed typo" "replaced incorrectly placed image".
+1) Merge pull request: this will keep all commits history of the source branch and will be added to the target branch. Creates a symbolic commit.
+2) Squash and merge: ticking this will merge the history of commits for the source branch into one commit. This can be useful when the merge request is not a major update and you don't want your repository's history of commits to contain commits with messages such as "fixed typo", "replaced incorrectly placed image". Creates a symbolic commit.
+3) Rebase and merge: adds all source branch commits in front of the target branch's commits. Does not create a symbolic commit.
 
 **Commits** tab displays a history of the merge request's commits. So for example, if the reviewer decides that minor adjustments are required and the assignee pushes these changes to Gitlab, then these commits will be captured in this tab.
 
-**Changes** tab, here you can see all the new changes in the merge request's source branch. You can also opt for a side-by-side comparison, and see line-by-line how the master version and new branch version compare. You can also leave comments on each file's line, which will also be recorded in the Overview tab's timeline.
+**Files changed** tab, here you can see all the new changes in the merge request's source branch. You can also opt for a side-by-side comparison, and see line-by-line how the master version and new branch version compare. You can also leave comments on each file's line, which will also be recorded in the Overview tab's timeline.
+
+**Checks** is part of the GitHub Actions functionality, which enchances your code review processes with apps and automated reviewing checks. This is inactive on default.
 
 If you are happy with the new changes, then select Merge and the merge request should be completed in a few seconds.
 
