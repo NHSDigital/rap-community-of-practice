@@ -265,25 +265,31 @@ To submit a pull request:
 
 # General: How to accept a pull request
 
-Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the mpull request's webpage.
-
-You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
+Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the mpull request's webpage. You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
 
 On the Pull request page, there are four tabs: Conversation, Commits, Checks and Files changed:
 
+### Conversation
+
 **Conversation** is the main pull request page. It contains the pull request's description, timeline and comments left by the assignee or reviewer. To merge a pull request you have 3 presented options:
 
-1) Merge pull request: this will keep all commits history of the source branch and will be added to the target branch. Creates a symbolic commit.
-2) Squash and merge: ticking this will merge the history of commits for the source branch into one commit. This can be useful when the merge request is not a major update and you don't want your repository's history of commits to contain commits with messages such as "fixed typo", "replaced incorrectly placed image". Creates a symbolic commit.
-3) Rebase and merge: adds all source branch commits in front of the target branch's commits. Does not create a symbolic commit.
+* Merge pull request: this will keep all commits history of the source branch and will be added to the target branch. Creates a symbolic commit.
+* Squash and merge: ticking this will merge the history of commits for the source branch into one commit. This can be useful when the pull request is not a major update and you don't want your repository's history of commits to contain commits with messages such as "fixed typo", "replaced incorrectly placed image". Creates a symbolic commit.
+* Rebase and merge: adds all source branch commits in front of the target branch's commits. Does not create a symbolic commit.
 
-**Commits** tab displays a history of the merge request's commits. So for example, if the reviewer decides that minor adjustments are required and the assignee pushes these changes to Gitlab, then these commits will be captured in this tab.
+### Commits
 
-**Files changed** tab, here you can see all the new changes in the merge request's source branch. You can also opt for a side-by-side comparison, and see line-by-line how the master version and new branch version compare. You can also leave comments on each file's line, which will also be recorded in the Overview tab's timeline.
+**Commits** tab displays a history of the pull request's commits. So for example, if the reviewer decides that minor adjustments are required and the assignee pushes these changes to Gitlab, then these commits will be captured in this tab.
+
+### Files changes
+
+**Files changed** tab, here you can see all the new changes in the pull request's source branch. You can also opt for a side-by-side comparison, and see line-by-line how the master version and new branch version compare. You can also leave comments on each file's line, which will also be recorded in the Conversation tab's timeline.
+
+### Checks
 
 **Checks** is part of the GitHub Actions functionality, which enchances your code review processes with apps and automated reviewing checks. This is inactive on default.
 
-If you are happy with the new changes, then select Merge and the merge request should be completed in a few seconds.
+If you are happy to merge the two branches, then select the type of Pull Request you wish to apply and the pull request should be completed in a few seconds.
 
 # General: How to update your local main branch to the latest remote main version on GitHub/GitLab
 
@@ -291,11 +297,13 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 2. Type ```cd <paste your work directory address>``` in the terminal to switch to your working directory. This is where the Git repository is cloned/copied/downloaded to, on your local machine (or RDS environment or any environment you're using). This will cause the default terminal address to be directed at the new directory. (see [Git Clone instructions above](01_intro-to-git.md#3-git-clone-copydownload-a-gitlab-repository)  for more info)
 
-3. Type ```git status``` in the terminal to ensure that ```ii``` happened successfully and you are on the default master branch. You should see this message: 
+3. Type ```git status``` in the terminal to ensure that ```ii``` happened successfully and you are on the default main branch. You should see this message: 
 
 ![](../images/image3.jpg)
 
 4. Type ```git pull``` to update your local main branch with the latest version of the remote/online GitHub main branch. This might take a few seconds.
+
+(Optional) 5. If you're in a different branch and not the main branch, then type in the terminal ```git checkout main``` and then ```git status``` to confirm you are on the main branch.
 
 # General: the .gitignore file
 .gitignore is a text file that contains file extensions and directories' paths that we wish Git to ignore. For example, we have created a repository on GitHub that should never contain any sensitive data. To ensure this, in the repository's .gitignore file we will include ```.csv```, `.xlsx` or any other file format that can contain data.
@@ -304,3 +312,4 @@ GitHub has a .gitignore [template](https://github.com/github/gitignore/blob/mast
 
 # External links
 * [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
+* [GitHub Docs - Pull requests](https://docs.github.com/en/pull-requests)
