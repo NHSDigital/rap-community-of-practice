@@ -83,7 +83,7 @@ When copying a Git repository for the first time, Git will prompt you to input y
 ## Creating your access token on GitHub
 There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab, simply input your GitHub username and access token to verify your credentials.
 
-When selecting the scope of the access token, the default options that should be ticked are: repo, admin:repo_hook and delete_repo.
+When selecting the access token's scope, the default options that should be ticked are: repo, admin:repo_hook and delete_repo.
 
 **Do not** forget to paste/save your access token somewhere safe as you won't be able to access it again. 
 
@@ -134,15 +134,18 @@ ii. Create a folder in your local directory, this is where the GitHub (remote) r
 (base) C:\Users\<username>\Documents\my_project_folder\demo>
 ```
 ### 2. Git clone (copy a GitHub repository)
+
+> If you're using GitLab instead of GitHub, these [steps](https://github.com/NHSDigital/rap-community-of-practice/blob/main/development-approach/01_intro-to-git.md#2-git-clone-copydownload-a-gitlab-repository) will help you set up.
+
 i. The repository's clone URL will be on the GitHub repository's main page (see image below).
 
-![](../images/repo_url.JPG)
+![](../images/git_clone.PNG)
 
-ii. Type ```git clone <repository's clone url>``` the git-demo repository using your local terminal (Anaconda Prompt). Enter your credentials when prompted (gitlab username and access token for the password.)
+ii. Type ```git clone <repository's clone url>``` the git-demo repository using your local terminal. Enter your credentials when prompted (GitHub username and access token for the password.)
 ```
-(base) C:\Users\<username>\Documents\my_project_folder\RAP>git clone <paste the repo url address from the image above> 
+(base) C:\Users\<username>\Documents\my_project_folder\demo>git clone <paste the repo url address from the image above> 
 ```
-iii. Type ```cd <windows explorer repo folder address>``` (open the newly downloaded git folder) in the Anaconda Prompt to assign the root level of the directory to the top level of the repository. This because the terminal is assigned to the folder containing the Git repository, not the folder that IS the Git repository.
+iii. Type ```cd <windows explorer repo folder address>``` (open the newly downloaded git folder) in the terminal to assign the root level of the directory to the top level of the repository. This because the terminal is assigned to the folder containing the Git repository, not the folder that IS the Git repository.
 
 iv. Type ```git status``` in the terminal. You should see the this message:
 
@@ -154,19 +157,17 @@ Notice how in the image above, the first line says "On branch main". In Git, **"
 
 **"Branch"** is another word for "version". Usually when developing a document or slides for a presentation, we could have numerous versions of the same slides, with small or major differences. By using different branches (or versions) of the same code, we can safely work and test without breaking the publication code, that resides in the default master branch of the repository.
 
-i. To create a **new branch**, head over to GitHub, on the repository's main page, same webpage we used to find the Git clone repository's URL. On the left hand side menu select Repository -> Branches.
+i. To create a **new branch**, head over to GitHub, on the repository's main page, same webpage we used to find the Git clone repository's URL. To create a new branch on GitHub simply click on the "main" button underneath your repository's title.
 
-![](../images/select_branches.JPG)
+![](../images/create_branch.PNG)
 
-ii. Once in the branches list page, select New Branch (big blue button) on the right hand side.
+ii. Once in the dropdown menu, type in the branch's new name and hit Enter. You should now have a new branch, copy of the main branch.
 
-![](../images/new_branch.JPG)
+![](../images/create_branch_github.PNG)
 
-iii. In the New Branch page, type your branch name and select the branch you want to copy from. On most cases it will be the master branch so Gitlab has this option select by default. Once happy with your choices, select Create branch.
+iii. In the above image notice how it points the original branch we are copying from, in grey letters: from "main". If you wish to create a new branch, which will be a copy from a different branch to "main", then set the repository to the branch you wish to copy from and then repeat steps i. and ii.
 
-![](../images/branch_info.JPG)
-
-iv. Back to the terminal (e.g. Anaconda Prompt etc), type `git branch -a` to view a list of all available branches existing in the repository. The branches that contain the `remote/` path are the branches online, on Gitlab. Have a look at the list. You will notice your new branch is not there yet. To update your local master branch with all the lastest updates on Gitlab, type ```git pull```. Type `git branch -a` and you should see your branch available in the list now.
+iv. Back to the terminal (e.g. Command Prompt/Anaconda Prompt/Git Bash etc.), type `git branch -a` to view a list of all available branches existing in the repository. The branches that contain the `remote/` path are the branches online, on GitHub. Have a look at the list. You will notice your new branch is not there yet. To update your local master branch with all the lastest updates on Gitlab, type ```git pull```. Type `git branch -a` and you should see your branch available in the list now.
 
 v. To start working on your branch and select, type in the terminal `git checkout <your branch name>`.
 
@@ -193,34 +194,29 @@ Naming branches in this way helps to make it very clear what change should be ha
 
 By adding a new file to the project, you can avoid conflicts as each analyst will create and upload their own file.
 
-There are many ways to add a new file to your branch. One way is to upload a file directly to your branch on Gitlab. 
+There are many ways to add a new file to your branch. One way is to upload a file directly to your branch on GitHub. 
 
 The easiest way is to simply create the file (any type of file) in your working directory, while in your branch. You can also copy a file from another directory. The file you create or copy can be any type of file.
 
-For this exercise, create a file while in Spyder, with simply right-clicking on the repository's folder and then selecting the Create New File option:
+For this exercise, create a file while in RStudio, with simply right-clicking on the repository's folder and then selecting the Create New File option:
 
 * To view and edit the repository's folders and files in RStudio:
     1. Open RStudio
-    2. On the top toolbar go Projects -> New Project, this will open a Create New Project dialogue.
+    2. On the top toolbar go File -> New Project, this will open a Create New Project dialogue.
 
+    ![](../images/new_project.PNG)
+
+    3. In the Create New Project dialogue, select existing directory (since we have already cloned the GitHub repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository and click Create Project.
+
+    ![](../images/create_new_project.PNG)
+
+    4. You should be able to see the project structure on the lower right hand side windown as it is displayed on GitHub.
     
+    ![](../images/project_structure.PNG)
 
-    3. In the Create New Project dialogue, select existing directory (since we have already cloned the Gitlab repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository:
-
-    
-
-    4. In the Select directory dialogue, select the folder that contains your repository's contents. In this example, I have a repository called "demo":
-
-    
-
-    5. You should be able to see the project structure on the left hand side menu as it is displayed on Gitlab, in the image above.
-    6. Right-click on the Practice folder and select New and New File.
-
-    
-
-    7. Name the file.
-    8. Add something into that file.
-    9. Save it on Spyder.
+    5. On the top toolbar select File -> New File -> Rscript and save the file somewhere in your repository (don't forget to name your Rscipt!).
+    6. Add something into that file, a simple print statement or a comment.
+    7. Save it on RStudio.
 
 ### 5. Commit your changes (follow basic Git command workflow)
 
@@ -230,7 +226,7 @@ i. Type ```git status``` to see the modifications that haven't been staged yet (
 
 ii. Type ```git add <filename>``` to stage your changes. Or ```git add .``` to simply stage all changes automatically (use with caution).
 
-iii. Type ```git status``` to see the file modifications now have a green colour. This means that git add was succesfull.
+iii. Type ```git status``` to see the file modifications now have a green colour. This means that Git add was succesfull.
 
 iv. Type ```git commit -m "your commit message here"``` to commit these changes.
 
@@ -240,8 +236,6 @@ vi. Type ```git push```. This command will upload all your commited changes to G
 
 ### 6. Check the repository on GitHub to view the changes updated
 Simply head over to GitHub, and the repository page on GitHub, select your branch and compare the changes between your branch and the master branch.
-
-![](../images/dropdown_menu_repo.JPG)
 
 ## Using RStudio Cloud
 
@@ -265,7 +259,9 @@ To submit a pull request:
 
 # General: How to accept a pull request
 
-Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the mpull request's webpage. You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
+Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the pull request's webpage. You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
+
+![](../images/pull_requests.PNG)
 
 On the Pull request page, there are four tabs: Conversation, Commits, Checks and Files changed:
 
