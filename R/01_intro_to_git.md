@@ -238,8 +238,21 @@ vi. Type ```git push```. This command will upload all your commited changes to G
 Simply head over to GitHub, and the repository page on GitHub, select your branch and compare the changes between your branch and the master branch.
 
 ## Using RStudio Cloud
+To use GitHub with RStudio Cloud and not RStudio desktop, first create an account with RStudio Cloud. RStudio Cloud has a detailed [guide](https://rstudio.cloud/learn/guide) on how to create projects, how to manage workspaces within the Cloud, how to handle permissions and teaching spaces.
 
+* To create a project from GitHub, select the "Your Workspace" option on the left hand side once in RStudio Cloud and select New Project on the far right of the top toolbar, in the Your Projects space.
 
+![](../images/new_project_git.PNG)
+
+* This will open a new dialogue that will ask for the Git Repository URL, this is the URL you copy, as described in [Step 2](01_intro_to_git.md#2-git-clone-copy-a-github-repository) of this guide. 
+* You will be prompted to enter your username (GitHub username) and your password, which is the access token created from the [Create Access token step](01_intro_to_git.md#creating-your-access-token-on-github).
+* Once the Git repository is deployed, you will notice the repository file structure on the right hand side panel.
+
+![](../images/project_structure.PNG)
+
+* Steps [3](01_intro_to_git.md#3-create-and-switch-to-a-new-branch), [4](01_intro_to_git.md#4-add-a-new-file) and [5](01_intro_to_git.md#5-commit-your-changes-follow-basic-git-command-workflow) will be the same, the only change being that instead of using your local terminal to input Git commands, you will be using the RStudio Cloud built-in terminal.
+
+![](../images/terminal.PNG)
 
 # General: How to submit a pull request
 
