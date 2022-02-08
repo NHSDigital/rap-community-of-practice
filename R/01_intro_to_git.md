@@ -25,19 +25,19 @@ The benefits of using version control include:
 * The ability to make changes without breaking anything - through running automated tests
 * The ability to try out experiments without the risk of breaking your main code
 
+# Glossary of terms
+Here's a list of commonly used Git terms, that will help you understand the technical jargon mentioned in the next sections:
+* [Git terminology](https://www.javatpoint.com/git-terminology)
+
 # Video showing git workflow and commands (TBD)
 This short video tutorial walks you through how to create a repository and use basic Git commands:
 
 [Link to video tutorial]
 
-We have also produced a short video that gives some more theoretical explanation of how version control works: 
-
-[Link to video]
-<br/><br/>
-
 # Common basic commands:
+Below is a list of common commands for reference. We only list basic commands here. This is just to flag to you that these commands exist. 
 
-Below is a list of common commands for reference. We only list basic commands here. This is just to flag to you that these commands exist. You can google for more detail on any of them.
+* [Git commands cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
 * Create a new Git repo locally: `git init`. The init command is short for "initialise", it's the command that will do all of the initial setup of a repository. The folder needs to actually exist before we can create a new repository with Git.
  
@@ -59,36 +59,22 @@ Below is a list of common commands for reference. We only list basic commands he
  
 * Show unstaged changes between your index and working directory: `git diff`. Press `Q` to exit the diff log.
 
-* Ignore files: `.git-ignore file`. This file specifies untracked files that Git should ignore such as the sensitive information related to security or the data itself. Files already tracked by Git are not affected.
+* Ignore files: `.gitignore file`. This file specifies untracked files that Git should ignore such as the sensitive information related to security or the data itself. Files already tracked by Git are not affected.
 
 * Display a list of all branches in the repository: `git branch -a`.
 
 * Delete a local branch: `git branch -D <your branch name>`.
 
 # Setup for Git Basics exercise
-## Creating your access token on GitLab
-
-When copying a Git repository for the first time, Git will prompt you to input your credentials, to verify your ID. This will be your GitLab username and the GitLab access token as your password. 
-
-* To create the access token, head over to Preferences in GitLab, after clicking the top right profile picture:
-
-![](../images/image1.jpg)
-
-* On the left hand side menu select Access token. You should see this page after clicking:
-
-![](../images/image21.jpg)
-
-* Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc). This will be your password for the Git credentials (task 2 of this exercise).
-
 ## Creating your access token on GitHub
-There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab, simply input your GitHub username and access token to verify your credentials.
+There is an excellent step by step guide on [How to Create your Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on GitHub by GitHub Docs. The process is exactly the same as GitLab (see [credentials for GitLab](https://github.com/NHSDigital/rap-community-of-practice/blob/main/development-approach/01_intro-to-git.md#creating-your-access-token)), simply input your GitHub username and access token to verify your credentials.
 
 When selecting the access token's scope, the default options that should be ticked are: repo, admin:repo_hook and delete_repo.
 
 **Do not** forget to paste/save your access token somewhere safe as you won't be able to access it again. 
 
 ### HTTPS vs SSH key
-You might come across SSH protocol keys, as it is essentially another option to create a password and verify your credentials. This section on [HTTPS vs SSH](https://happygitwithr.com/https-pat.html#https-vs-ssh) protocol options of setting up credentials on GitHub explains the differences between these two options. There are pros and cons for both, I would recommend the HTTPS option for Git beginners.
+You might come across SSH protocol keys, as it is essentially another option to create a password and verify your credentials. This section on [HTTPS vs SSH](https://happygitwithr.com/https-pat.html#https-vs-ssh) protocol options of setting up credentials on GitHub explains the differences between these two options. There are pros and cons for both, we would recommend the HTTPS option for Git beginners.
 
 ## Troubleshooting credentials
 You might see something like this at any point:
@@ -218,6 +204,8 @@ For this exercise, create a file while in RStudio, with simply right-clicking on
     6. Add something into that file, a simple print statement or a comment.
     7. Save it on RStudio.
 
+**Tip:** RStudio will have created a .Rproj/.Rhistory configuration file when you create an R project. To avoid having this uploaded to GitHub, a .gitignore file that contains those file formats will automatically block them from being pushed to the repository. See [.gitignore](01_intro_to_git.md#general-the-gitignore-file) for more information.
+
 ### 5. Commit your changes (follow basic Git command workflow)
 
 In the Anaconda Prompt (or any terminal of your choice) type the following. I suggest you read through the git messages displayed after each command entered in the terminal, to familiarise yourself with the logic.
@@ -255,6 +243,8 @@ To use GitHub with RStudio Cloud and not RStudio desktop, first create an accoun
 ![](../images/terminal.PNG)
 
 # General: How to submit a pull request
+
+**Pull request (PR)** is the application you submit on the GitHub repository, to announce to other collaborators working on the repository that you have a new change ready to be merged/part of the main build, the main branch of the repository. Then, either your collaborators or someone you assign will review the change and the branch you have been working on to determine whether the change is ready to be merged with the main branch. The equivalent term for GitLab users is Merge Request (MR).
 
 To submit a pull request:
 
@@ -317,7 +307,7 @@ If you are happy to merge the two branches, then select the type of Pull Request
 # General: the .gitignore file
 .gitignore is a text file that contains file extensions and directories' paths that we wish Git to ignore. For example, we have created a repository on GitHub that should never contain any sensitive data. To ensure this, in the repository's .gitignore file we will include ```.csv```, `.xlsx` or any other file format that can contain data.
 
-GitHub has a .gitignore [template](https://github.com/github/gitignore/blob/master/Python.gitignore) available to analysts and developers to use in their projects. Notice how in the template, lines 117-118 contain Spyder project settings, which are configuration files created by Spyder when you first open your repository as a Spyder project. Sometimes these configuration files can contain information you don't want to publish on GitHub/GitLab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
+GitHub has a .gitignore [template](https://github.com/github/gitignore/blob/main/R.gitignore) available to analysts and developers to use in their projects. Notice how in the template, line 22 contain RStudio project settings, which are configuration files created by RStudio when you first open your repository as an RStudio project. Sometimes these configuration files can contain information you don't want to publish on GitHub/GitLab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
 
 # External links
 * [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
