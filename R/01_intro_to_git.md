@@ -206,7 +206,7 @@ For this exercise, create a file while in RStudio, with simply right-clicking on
 
 **Tip:** RStudio will have created a .Rproj/.Rhistory configuration file when you create an R project. To avoid having this uploaded to GitHub, a .gitignore file that contains those file formats will automatically block them from being pushed to the repository. See [.gitignore](01_intro_to_git.md#general-the-gitignore-file) for more information.
 
-### 5. Commit your changes (follow basic Git command workflow)
+### 5. Commit your changes (follow standard Git command workflow)
 
 In the Anaconda Prompt (or any terminal of your choice) type the following. I suggest you read through the git messages displayed after each command entered in the terminal, to familiarise yourself with the logic.
 
