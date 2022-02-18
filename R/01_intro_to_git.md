@@ -29,11 +29,6 @@ The benefits of using version control include:
 Here's a list of commonly used Git terms, that will help you understand the technical jargon mentioned in the next sections:
 * [Git terminology](https://www.javatpoint.com/git-terminology)
 
-# Video showing git workflow and commands (TBD)
-This short video tutorial walks you through how to create a repository and use basic Git commands:
-
-[Link to video tutorial]
-
 # Common basic commands:
 Below is a list of common commands for reference. We only list basic commands here. This is just to flag to you that these commands exist. 
 
@@ -73,6 +68,9 @@ When selecting the access token's scope, the default options that should be tick
 
 **Do not** forget to paste/save your access token somewhere safe as you won't be able to access it again. 
 
+### Video: How to create an access token on GitHub
+Here's a video on how to create the access token on GitHub: [Access token video](https://vimeo.com/678170438)
+
 ### HTTPS vs SSH key
 You might come across SSH protocol keys, as it is essentially another option to create a password and verify your credentials. This section on [HTTPS vs SSH](https://happygitwithr.com/https-pat.html#https-vs-ssh) protocol options of setting up credentials on GitHub explains the differences between these two options. There are pros and cons for both, we would recommend the HTTPS option for Git beginners.
 
@@ -104,9 +102,10 @@ C:\My_documents>git clone https://<username>:<MY_NEW_ACCESS_TOKEN>@<domain>/exam
 # Exercises 1 - 6: Accessing a Git repository, creating a branch, adding a new file, uploading your changes to GitHub
 **Getting started** - tasks 1 and 2 will be relevant only when accessing a repository for the **first time**.
 
->If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
+### Video: Solution to exercises 1 - 6 (Using RStudio Desktop)
+Here's the video solution to exercises 1-6: [Video exercises solution](https://vimeo.com/678172959)
 
-## Using Rstudio Desktop
+## Using RStudio Desktop
 
 ### 1. Creating your local Git repository folder
 
