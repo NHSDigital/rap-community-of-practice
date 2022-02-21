@@ -1,5 +1,5 @@
 # Overview
-This page is intended as a starting point for someone who is new to using Git. It shows you the basic commands and the workflow to use Git on your own. 
+This page is intended as a starting point for R users who are new to using Git. It shows you the basic commands and the workflow to use Git on your own, in conjunction with using RStudio desktop or RStudio Cloud. 
 
 To use Git as a team you should complete this section and the following section on [using git collaboratively](02_using-git-collaboratively.md).
 
