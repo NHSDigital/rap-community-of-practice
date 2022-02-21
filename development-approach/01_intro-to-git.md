@@ -28,11 +28,11 @@ The benefits of using version control include:
 # Video showing git workflow and commands:
 This short video tutorial walks you through how to create a repository and use basic git commands:
 
-[Link to video tutorial]
+[Link to video tutorial](https://vimeo.com/678267338)
 
 We have also produced a short video that gives some more theoretical explanation of how version control works: 
 
-[Link to video]
+[Link to video](https://vimeo.com/678169794)
 <br/><br/>
 
 # Common basic commands:
