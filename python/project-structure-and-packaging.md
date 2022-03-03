@@ -132,7 +132,7 @@ This is a really big topic and we don't want to replicate material that you can 
 * [Packaging your Python project](https://packaging.python.org/tutorials/packaging-projects/)
 
 * [Packages and modules from the offical docs](https://docs.python.org/3/tutorial/modules.html#packages). 
-*Good for understanding how to organise and import sub-packages.*
+*Good for understanding on how to organise and import sub-packages.*
 
 * [Datacamp Python Data Science Toolbox (part 1)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1)
 
