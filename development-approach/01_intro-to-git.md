@@ -235,13 +235,6 @@ Simply head over to Gitlab, and the repository page on Gitlab, select your branc
 
 ![](../images/dropdown_menu_repo.JPG)
 
-**Solution to Intro exercise covers steps 3 - Submitting a Merge request**
-
-<details>
-  <summary>Spoiler warning</summary>
-Recording [here]
-</details>
-
 # General: How to submit a merge request
 
 To submit a merge request:
