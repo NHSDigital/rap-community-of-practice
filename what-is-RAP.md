@@ -51,7 +51,7 @@ Once you have completed your self-assessment and thought about the level of RAP 
 
 - [ ] Are all of your outputs produced by code without the need for manual work? (NB: outputs means data, statistics, text, figures. We stop short of the CMS tool)
 - [ ] Is your code well-documented including docstrings for functions, commented code, a README to explain overall code structure, and links to the main publication?
-- [ ] Has your code been peer reviewed?
+- [ ] Has your code been peer reviewed? [See Code Review](development-approach/09_code-review.md).
 - [ ] Do you use reusable functions where appropriate? [See Python functions](python/python-functions.md).
 
 ## Silver level RAP
