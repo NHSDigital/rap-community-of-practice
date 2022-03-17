@@ -25,6 +25,10 @@ The benefits of using version control include:
 * The ability to make changes without breaking anything - through running automated tests
 * The ability to try out experiments without the risk of breaking your main code
 
+# Glossary of terms
+Here's a list of commonly used Git terms, that will help you understand the technical jargon mentioned in the next sections:
+* [Git terminology](https://www.javatpoint.com/git-terminology)
+
 # Video showing git workflow and commands:
 This short video tutorial walks you through how to create a repository and use basic git commands:
 
@@ -33,11 +37,12 @@ This short video tutorial walks you through how to create a repository and use b
 We have also produced a short video that gives some more theoretical explanation of how version control works: 
 
 [Link to video](https://vimeo.com/678169794)
-<br/><br/>
 
 # Common basic commands:
 
 Below is a list of common commands for reference. We only list basic commands here. This is just to flag to you that these commands exist. You can google for more detail on any of them.
+
+* [Git commands cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)
 
 * Create a new git repo locally: `git init`. The init command is short for "initialise", it's the command that will do all of the initial setup of a repository. The folder needs to actually exist before we can create a new repository with Git.
  
