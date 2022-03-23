@@ -115,7 +115,9 @@ C:\My_documents>git clone https://<username>:<MY_NEW_ACCESS_TOKEN>@<domain>/exam
 
 >If stuck at any point feel free to go through the video tutorials mentioned in the previous sections of this guide).
 
->If stuck on creating an access token watch [this], covers step 2.
+>If stuck on creating an access token watch [this](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EZ_3Ec0BIOpJhuvxyyeKWlcBc_5ZtCr6BRkOFanFEt7AfA?e=eTlXgK).
+
+*Disclaimer: the above video will not load for external users.*
 
 ## 1. Creating your local git repository folder
 
@@ -255,6 +257,13 @@ To submit a merge request:
 5. Click Compare branches and Continue
 
 6. Fill out any information related to the Merge request, title, description, any comments. Assign yourself as the Assignee, assign someone in your team to be the Reviewer. Then, select Create Merge Request.
+
+# General for GitLab: Mark your merge request as a draft
+After submitting a merge/pull request, you can block the request from being merged if you opt for the "Mark as draft option":
+
+![](../images/draft_example.PNG)
+
+This will assign your request as a draft merge request, blocking it from being merged. Once the development work is completed then you can unassign the "Mark as draft" option and the merge request can be accepted.
 
 # General: How to accept a merge request
 

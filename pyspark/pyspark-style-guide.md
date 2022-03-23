@@ -45,6 +45,12 @@ F.datediff()
 ```
 <br/>
 
+## Reading a table
+To get started we will usually want to read a table from a database into a DataFrame.
+```
+df = spark.table('my_database.my_table')
+```
+
 ## Select
 The Spark equivalent of SQL's SELECT is the `.select()` method. This method takes multiple arguments - one for each column you want to select. These arguments can either be the column name as a string (one for each column) or a column object (using the df.colName syntax). If you are using Spark version before 3.0 then do this:
 
@@ -65,9 +71,10 @@ In our approach, we use the initial `.select()` statement to (1) rename columns 
 ```
 my_df = (
     my_df.select(
-        F.col('NHS_NUMBER').cast("String").alias('NHS_NUMBER'),
-        F.col('BirthDate').cast("Date").alias('BIRTH_DATE'),
-        F.col('Appointments_count').cast("Integer").alias('APPOINTMENTS_COUNT')
+        F.col("NHS_NUMBER").cast("String").alias("NHS_NUMBER"),
+        F.col("BirthDate").cast("Date").alias("BIRTH_DATE"),
+        F.col("Appointments_count").cast("Integer").alias("APPOINTMENTS_COUNT")
+        )
 )
 
 ```

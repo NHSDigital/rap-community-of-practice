@@ -44,7 +44,7 @@ The table shows a quick summary of the features of notebooks compared to IDEs. F
 
 | Feature                                             | Notebooks   | IDEs   |
 | --------------------------------------------------- | :---------: | :----: |
-| Interactive outputs (tables, plots, etc)            | O           | X      |
+| Interactive outputs (tables, plots, etc)            | O           | X*     |
 | Storytelling and sharing results                    | O           | X      |
 | Benefits out-of-the-box (minimal configuration)     | O           | X      |
 | Deterministic outputs (i.e. same result every run)  | X           | O      |
@@ -54,6 +54,8 @@ The table shows a quick summary of the features of notebooks compared to IDEs. F
 | Autocomplete / autoformatting & syntax highlighting | X           | O      |
 | Compatible with sharing code external to NHSD       | X           | O      |
 
+*See [Interactive cells in IDEs?](#interactive-cells-in-ides)
+
 ### Key
 | Label | Description                     |
 | ----- | ------------------------------- |
@@ -62,6 +64,11 @@ The table shows a quick summary of the features of notebooks compared to IDEs. F
 
 
 ## Why use notebooks over IDEs?
+
+### :exclamation: Sharing notebooks can lead to accidental PII disclosure!
+| :exclamation: Since notebooks are bundled with outputs from the most recent run, you will need to be extremely careful about accidental PII disclosure if you are sharing notebooks. For this reason using notebooks is not compatible with the 'Open Code' project. If you want to share your code with external users you should avoid notebooks. See the [open code guide for more info](./08_how-to-publish-your-code-in-the-open.md) |
+| ------------------------------------- |
+
 ### Interactive outputs
 One primary **feature of notebooks of any flavour is the interactivity**: code is written in (preferably small) snippets within cells, and each cell has its own output; often the output is interactive in some way - e.g. tables where the user can scroll through and select rows and columns, plots which can be zoomed or panned, and so on. 
 
@@ -73,8 +80,6 @@ Interactivity simply isn't possibly in the same way with scripts/modules/etc in 
 Related to the interactivity of cell outputs, **notebooks offer a great way to tell stories with data**. Since (depending on the environment) cells can contain different types of code, from Python, R and SQL to Markdown, and cells containing code can be hidden to reveal only their outputs, it is possible to create a fully interactive, code-free presentation of analysis.
 
 So for projects where presenting findings to stakeholders is a key components, notebooks offer a lot of functionality that will help support the analysts during delivery. Notebooks can even by exported as HTML files and the full analysis shared online (i.e. embedded in a webpage) or offline (i.e. as a static file).
-
-### **Important: since notebooks are bundled with outputs from the most recent run, you will need to be extremely careful about accidental PII disclosure if you are sharing notebooks**. For this reason using notebooks is not compatible with the 'Open Code' project. If you want to share your code with external users you should avoid notebooks. See the [open code guide for more info](08_how-to-publish-your-code-in-the-open.md).
 
 ### Quick & easy set up
 Another nice benefit of notebooks is that they are generally set up to work out of the box. Whether opening a notebook in Databricks or Jupyter, the full development environment is often already their in a fairly complete form, enabling the users to get connected to the data and get started working right away.
@@ -168,6 +173,15 @@ Tests are harder to implement in notebooks because testing frameworks, such as u
 Where notebooks focus on analytical work, IDEs are designed for software development: they offer numerous features to support the person writing the code, through features like autocompletion and autoformatting to syntax highlighting and linting. IDEs can be configured to spot potential syntax errors and bugs at the time of writing, which makes spotting them much easier.
 
 **IDEs often make writing code simpler and easier** by taking many of the tedious and monotonous away from the developer, often with the result that **code is faster to write, easier to read and of higher quality**. While some such features exist in notebooks, such as autoclosure of brackets and quotations, the scope of the functionality is quite limited.
+
+### Interactive cells in IDEs
+Some IDEs offer ways to use [Jupyter-like cells](https://code.visualstudio.com/docs/python/jupyter-support-py#_jupyter-code-cells) within scripts/modules: special comments in the code (e.g. VSCode and Spyder use `# %%`) are used to mark different 'cells'; the IDE or some extensions (e.g. the Python extension in VSCode) will identify these comments and allow code within a cell to be run 'interactively'; results from running interactive cells are stored in an IPython kernel that the IDE is running, but **no outputs are saved within the code or the metadata** as they with Jupyter notebooks. 
+
+Using interactive cells in IDEs can offer a nice balance for analysts implementing RAP in their working practices: 
+- Interactive cells allow for data [exploration and analysis through code](#interactive-outputs)
+- But, since the cells are marked out by comments, the code is still a module or script, rather than a notebook
+- This comes with all the [benefits of an IDE workflow](#why-use-ides-over-notebooks), without [risking accidental PII disclosure](#sharing-notebooks-can-lead-to-accidental-PII-disclosure). 
+
 
 ## Where do I go from here?
 Hopefully, it is clear that there is no 'right' or 'wrong' choice when it comes to workflow: rather it is a question of which workflow is going to better support the needs of the project.

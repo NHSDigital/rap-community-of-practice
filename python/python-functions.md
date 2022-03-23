@@ -13,12 +13,17 @@ This wiki page is focused on the use cases for functions rather than a general g
 # Features of a function
 In Python, the standard library provides many useful built-in function such as len(), print(), str(), int(), however the programmer can define their own function to suit their particular needs and requirements.
 
-Python functions are defined by using the defkeyword. Here is an example of a python function which converts the argument `temp` which is a value representing a temperature in Fahrenheit, into Celsius:
+Python functions are defined by using the `def` keyword. Here is an example of a python function which converts the argument `temp` which is a value representing a temperature in Fahrenheit, into Celsius:
 
 ```python
+    # Define the function
     def fahrenheit_to_celsius(temp):
         new_temp = (temp - 32) * (5/9)
         return new_temp
+
+    # Use the function
+    fahrenheit_to_celsius(77)
+    >>> 25.0
 ```
 
 It's also a common convention to return a Python expression directly, instead of assigning it to a variable. In previous example, we can re-write the same function to be more concise:
@@ -63,7 +68,7 @@ For example, we take the following function (from geeksforgeeks) to implement bu
                 if arr[j] > arr[j + 1] :
                     arr[j], arr[j + 1] = arr[j + 1], arr[j]
 ```
-If we had three arrays we wanted to sort (arr1, arr2, arr3) and we didn't use a function we would have to repeat our code three times. This produces messy code that is hard to read:
+If we had three arrays we wanted to sort (arr1, arr2, arr3) and we didn't use a function we would have to repeat our code three times. This produces messy code that is hard to read. Can you spot the errors in the code below?
 
 ```python
     # Sort array 1
@@ -74,16 +79,16 @@ If we had three arrays we wanted to sort (arr1, arr2, arr3) and we didn't use a 
                 arr1[j], arr1[j + 1] = arr1[j + 1], arr1[j]
     # Sort array 2
     n = len(arr2)
-    for i in range(n-1):
+    for i in range(m-1):
         for j in range(0, n-i-1):
             if arr2[j] > arr2[j + 1] :
-                arr2[j], arr2[j + 1] = arr2[j + 1], arr2[j]
+                arr2[i], arr2[j + 1] = arr2[j + 1], arr2[j]
     # Sort array 3
     n = len(arr3)
-    for i in range(n-1):
-        for j in range(0, n-i-1):
+    for j in range(n-1):
+        for i in range(0, n-i-1):
             if arr3[j] > arr3[j + 1] :
-                arr3[j], arr3[j + 1] = arr3[j + 1], arr3[j]
+                arr3[j], arr3[j + 1] = arr3[j + 1], arr3[i]
 ```
 
 Writing repetitive non-functional code is bad practice. Copy pasting processes like this and changing variable names can result in mistakes and will make a project excessively verbose. By using the defined function before, all of these issues are fixed with no functionality lost:
@@ -127,11 +132,11 @@ Using functions can better elucidate the steps of a process. A long process typi
     golden_record = create_golden_record_table(record_scores=record_scores,
                                                 best_record=best_record)
     # Step 5: Derive additional fields for the golden record table
-    golden_record = enrich_golden_record(golden_record=golden_record, 
+    enriched_golden_record = enrich_golden_record(golden_record=golden_record, 
                                         hes_diabetes=hes_diabetes,
                                         imd_scores=imd_scores)
     # Step 6: Output the golden record table to SQL so we can avoid recalculating next time
-    write_df_to_SQL(df_to_write = golden_record,
+    write_df_to_SQL(df_to_write = enriched_golden_record,
                     target_table = golden_record_sql,
                     mode = 'overwrite',
                     database = params['work_db'])
@@ -243,6 +248,7 @@ def fahrenheit_to_celsius(temp: float) -> float:
    
    Example:
       fahrenheit_to_celsius(temp=77)
+      >>> 25.0
    """
    new_temp = (temp - 32) * (5/9)    
    return new_temp

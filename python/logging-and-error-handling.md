@@ -74,6 +74,12 @@ You can see that the information we described in the `format` argument is captur
 
 You can find a full list of things to add in the [docs](https://docs.python.org/3/library/logging.html#formatter-objects).
 
+## Video tutorial: Logging demo
+
+Watch [here](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EVBYaWavrUJIrR-VhMOl9lUB54xtX1bil_JrOYla9Yxn_w?e=H6WAKO).
+
+*Disclaimer: the above video will not load for external users.*
+
 # Error handling
 Error handling using try/except is useful and powerful. When python hits an error, it produces something called an exception. An exception is an object that tries can tell you something about what has gone wrong. There are many different types of exceptions - see the full list [here](https://www.tutorialsteacher.com/python/error-types-in-python). 
 

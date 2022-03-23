@@ -26,6 +26,8 @@ An example of how tidy data enables analysts is that keeping this consistent for
 
 # What is tidy data
 
+* [See Hadley Wickham's excellent book for a great explanation](https://r4ds.had.co.nz/tidy-data.html)
+
 It can be confusing in a large dataset which data is an observation (e.g. all measurements for a specific patient across all attributes) and which data is a variable (i.e. the values for a specific type of attribute so the treatment type or the results of a treatment).
  
 There are several conventions on how a tidy dataset is structured but the most common one follows Codd's 3rd normal form (Codd, 1990):
@@ -68,7 +70,7 @@ In the subsection above, an example of a messy dataset was transformed to a tidy
 **_Note:_**
 _It's perfectly valid and understandable to have your own structured way of presenting data in your published outputs, like in the table below (Occupation and Salaries). You should only format your data like this as a final output step - after producing your data in tidy format. Tidy data focuses not so much on the data formatting perspective but on the data production side, as tidy data enables the analyst to focus on analytical questions and not on data processing._
  
-**-> How to transform your tidy data into a publication style output example: [From tidy to publication output]**
+**-> How to transform your tidy data into a publication style output example: [From tidy to publication output](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/ERwnmjF6HlVFuGmmJI3QzpcBFMm2yPxp46vkWNeAbS5D5g?e=6dQWmM).**
 
 ### 1. BAD: Column headers as values, not as names
  
@@ -202,7 +204,10 @@ In these cases, it is recommended that each table is 'tidied' up, and then combi
  
 # Diabetes example
 
-### [Diabetes tidy data example] - video link
+### [Diabetes tidy data example](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EXUO-qsiHRNFpPhoqAeVJ8YB-q8fx9dC8YKMaviuh1jqCg?e=pWvR1T)
+
+*Disclaimer: the above video will not load for external users.*
+
 In this video:
 * SQL vs pyspark outputs comparison (messy vs tidy data)
 * Data shown in suppressed/published form and dummy data

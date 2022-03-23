@@ -2,7 +2,9 @@
  
 In the video below, you can view the git workflow that's follows the changes made to a working branch, committing the changes and pushing them to the repository, on Gitlab. Then, a merge request is submitted to merge these changes to the master branch of the repository. The merge request is reviewed and approved, while the working branch is deleted after serving its purpose.
 
-[video tutorial: working collaborative with git]
+[Video tutorial: working collaborative with git](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/Eb0vXOi_udFLjlICjtw3wNsB7kdTHMUG20yutsfl0PG7jw?e=0qUhuu)
+
+*Disclaimer: the above video will not load for external users.*
 
 * **In GitLab**, click on "Branches" in the "Repository" menu on the left hand side.
 * Click the "New branch" blue button.
@@ -35,7 +37,9 @@ In the video below, you can view the git workflow that's follows the changes mad
 
 How to update your branch to the latest version of the master branch, managing conflicts, merge request conflicts and review: 
 
-[video tutorial: handling and avoiding merge conflicts]
+[Video tutorial: handling and avoiding merge conflicts](https://hscic365.sharepoint.com/:v:/s/RAPcommunityofpractice/EV5kIZgXyQNOk8sXsN6LXLQBZkfuTQ9ErT_41Tj6oLltlQ?e=gBNpA0)
+
+*Disclaimer: the above video will not load for external users.*
 
 ### How to resolve merge conflicts using git - if they occur
 Follow the same steps as above, up to the point of raising the merge request.

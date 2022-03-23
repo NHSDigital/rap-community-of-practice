@@ -30,17 +30,17 @@ These levels of RAP are the outcome of discussions on the cross-govt RAP group, 
 
 These levels aim to offer teams a recommended maturity map for adopting RAP practices. We have seen that teams who skip the early capabilities struggle to make effective progress. These capabilities are independent and so you don't need to adopt all at once. Team leads should balance the BAU delivery, resourcing constraints, and RAP development as fits their agreed objectives. 
 
-In order for a publication to be considered a reproducible analytical pipeline, it must at least meet all of the requirements of *baseline RAP*.
+**In order for a publication to be considered a reproducible analytical pipeline, it must at least meet all of the requirements of *baseline RAP*. Typically teams will go beyond this minimum baseline and we encourage this. The baseline serves to describe the absolute minimum needed to be considered RAP.** 
 
-### Baseline RAP
+### Baseline RAP - the minimum to be considered RAP
 - [ ] Data produced by code in an open-source language (e.g., python, R, SQL) 
 - [ ] Code is version controlled. This should be the fundamental basis for all later improvements. [See git basics](development-approach/01_intro-to-git.md) and [Using git collaboratively](development-approach/02_using-git-collaboratively.md)
 - [ ] Code has been peer reviewed and adheres to agreed coding standards. E.g [style guide for Pyspark](pyspark/pyspark-style-guide.md).
 - [ ] Code is published publicly on github. [See process flow for publishing safely](https://nhsd-confluence.digital.nhs.uk/display/DAT/DS_216%3A+Main+diagram)
 - [ ] Open data published (if there is a publication) 
-- [ ] The publication should link to the code repo and vice versa (if there is a publication) 
+- [ ] The publication should link to the code repo and vice versa (if there is a publication).
 
-### Silver RAP
+### Silver RAP - a recommended middle ground
 - [ ] Are all outputs produced by code without the need for manual work? 
 - [ ] Code is well-organised following [standard directory format](python/project-structure-and-packaging.md)
 - [ ] Is your code well-documented including user guidance (aka desk notes or runbooks), a README to explain overall code structure and usage, docstrings for functions, commented code, and links to the main publication? 
