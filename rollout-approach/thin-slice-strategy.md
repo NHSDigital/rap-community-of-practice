@@ -18,7 +18,7 @@ This strategy is particularly relevant for the work we are trying to do here. We
 
 |Goal | Solution | Consequence |
 | --- | --- | --- |
-| We want to build this pipeline as quickly as possible | Accept the most basic code that is functional despite lower code quality | Code will be more difficult to run and maintain. Tech debt will snowball until BAU delivery becomes impossible |
+| We want to build this pipeline as quickly as possible | Accept the most basic code that is functional despite lower code quality | Code will be more difficult to run and maintain. Risk that [tech debt](https://en.wikipedia.org/wiki/Technical_debt) may snowball until BAU delivery becomes impossible |
 | We want to build the best possible pipeline | Hire a team of external specialists to do it for us | Risk that the team becomes demotivated or does not understand the code |
 | We want to train our analysts to write good code | Give analysts lots of defended time away from their day job with high-quality in-person training | BAU delivery will slow down. May not be possible given resource constraints |
 ||
@@ -44,7 +44,9 @@ The thin-slice strategy is the best way I've come up with to do this. It fits we
 3. **Replicate the target outputs.** We try to replicate those outputs as quickly as possible. At this phase we don't focus on code quality. Instead, we try to understand the logic of the process. The goal is just to recreate those numbers. Since we are only dealing with a small subset of the overall publication, we avoid getting totally swamped in complexity. Nevertheless - even this simplified thin-slice can be a substantial challenge. This phase forces us to grapple with a lot of the complexities of the process - e.g., funny joins, complex derivations, or logic that is spread across multiple sections of code. This is the most uncertain part of the process - but that is the whole point. We want to tackle the hard stuff up front.
 
 4. **Refactor and improve.** 
-    Once we can accurately calculate the target outputs, we move into a more interesting, iterative mode. We step back and review the end-to-end data flow. We ask ourselves how it can be simplified or reorganised to be easier to maintain. We look for sections of code that could be made into reusable functions. We set up unit tests and regression tests where appropriate. We discuss on style and naming conventions. Eventually the whole team converges on a consensus.
+Once we can accurately calculate the target outputs, we move into a more interesting, iterative mode. We step back and review the end-to-end data flow. We ask ourselves how it can be simplified or reorganised to be easier to maintain. We look for sections of code that could be made into reusable functions. We set up unit tests and regression tests where appropriate. We discuss on style and naming conventions. Eventually the whole team converges on a consensus.
+    
+    This **design phase** is iterative. We might review and improve the code several times before we decide to move forward. We often draw the analogy with writing the text for a publication. You would not publish the first draft of your publication - instead you go through several rounds of review and rewriting. Why would we treat our code any differently?
     
     In short - we give ourselves the time and space to make this thin-slice as good as we can possibly make it. Because this is such a small sliver of the overall project, it does not take long to make these improvements. Usually you only need to change a tens of lines of code rather than thousands. 
 
@@ -76,11 +78,22 @@ FAQs:
     
     - The thin-slice is the minimal piece of functionality that allows us to build an end-to-end pipeline. This early phase of development is helpful for training a team and improving code quality. The thin-slice is therefore motivated by helping the delivery team to deliver effectively. It does not represent something to be delivered to customers.
 
-        By contrast, a minimal viable product (MVP) is the most basic thing that a team could deliver to customers. MVP has a really peculiar meaning in the context of a pipeline migration since the 'minimal' thing to be delivered will typically be the full publication. 
+        By contrast, a minimal viable product (MVP) is the most basic thing that a team could deliver to customers. MVP has a really peculiar meaning in the context of a pipeline migration since the 'minimal' thing to be delivered will typically be the full publication.
+
+
+- What happens if rebuilding the pipeline uncovers errors in the existing pipeline (and hence published statistics)?
+
+    - It is a near certainty that some minor errors will be discovered as part of any migration. This is particularly the case for building RAP pipelines since you are adding additional tests and safeguards to spot errors. 
+
+        We consider this a natural and important opportunity to improve the publication. We sit down with the team and discuss where the issue may have arisen and how we can prevent it in the future.
+
+        Likewise, if there is an opportunity to make a substantial improvement to an existing publication we address that in collaboration with the team. We do not hold too tight to the idea of replicating historical outputs but instead aim for a pragmatic approach.
+
 
 - What happens if we discover more problems after we have moved out of the thin-slice phase?
 
     - You will almost certainly discover more problems after the thin-slice phase. Hopefully the high code quality that comes from the thin-slice phase will make it more easy to resolve the problem, e.g., by refactoring the code.
+
 
 - How would this strategy work in a situation where you were working on a brand new project, rather than migrating a legacy pipeline?
 
