@@ -38,10 +38,12 @@ We maintain a list of people who are willing to dedicate some time to support ot
 As we work alongside teams, we try to produce reusable learning materials pitched at specifically supporting NHSD teams. We try (with partial success) to avoid reproducing guidance that is easily available online. Instead, we link to lots of external resources where you can self-serve. Our focus instead aims to create some bespoke guidance that lays out how you would accomplish these practices in the NHSD setting.
 
 Each of the folders has its own README to explain the content:
+
 * [General development practices](development-approach/)
 * [Python resources](python/)
 * [Pyspark resources](pyspark/)
 * [RAP rollout strategy notes](./rollout-approach/)
+
 
 We also have a minimal Python RAP package template and it's freely available to use via Github: [RAP package template](https://github.com/NHSDigital/rap-package-template).
 
