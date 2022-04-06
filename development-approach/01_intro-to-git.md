@@ -303,5 +303,3 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 Github has a .gitignore [template](https://github.com/github/gitignore/blob/master/Python.gitignore) available for analysts and developers to use for their own projects. Notice how in the template, lines 117-118 contain Spyder project settings, which are configuration files created by Spyder when you first open your repository as a Spyder project. Sometimes these configuration files can contain information you don't want to publish on Github/Gitlab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
 
-# External links
-* [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)

@@ -154,5 +154,4 @@ class TestCholesterolNumerator(object):
 The functionality we are testing for is a `cholesterol_numerator` field defintion so we create a class for this functionality called `TestCholesterolNumerator`. We have identified we need two tests to guarantee this functionality so we write these tests as we normally would but put them within the `TestCholesterolNumerator` class. This makes it clear what functionality each test relates to.
 
 # External links
-- [Datacamp unit testing for data science](https://learn.datacamp.com/courses/unit-testing-for-data-science-in-python)
 - [Guide covering all the core features of pytest](https://realpython.com/pytest-python-testing/)

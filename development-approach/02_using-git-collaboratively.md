@@ -149,5 +149,4 @@ _Approving merge requests requires someone with the relevant assigned role and p
 * Don’t alter published history
 * Don’t commit generated files
 
-# External links
-[Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
+
