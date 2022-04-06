@@ -134,8 +134,4 @@ This is a really big topic and we don't want to replicate material that you can 
 * [Packages and modules from the offical docs](https://docs.python.org/3/tutorial/modules.html#packages). 
 *Good for understanding on how to organise and import sub-packages.*
 
-* [Datacamp Python Data Science Toolbox (part 1)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1)
-
-* [Datacamp software engineering for data scientists](https://learn.datacamp.com/courses/software-engineering-for-data-scientists-in-python)
-
 * [Why we share code as a .whl file](https://packaging.python.org/discussions/wheel-vs-egg/)

@@ -6,7 +6,6 @@ A function is a block of organised code that is reusable, and is used to perform
 This wiki page is focused on the use cases for functions rather than a general guide on writing python functions. For more general information on writing functions in python see the following:
 * [General guide which also discusses recursion](https://www.w3schools.com/python/python_functions.asp)
 * [General guide which also discusses scope](https://www.programiz.com/python-programming/function)
-* [Extensive datacamp guide](https://www.datacamp.com/community/tutorials/functions-python-tutorial)
 <br/><br/>
 
 

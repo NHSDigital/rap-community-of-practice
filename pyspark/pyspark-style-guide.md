@@ -15,15 +15,8 @@ You can also find a tutorial script containing lots of code snippets here.
 ## External links
 [GSS introduction to pyspark](https://gss.civilservice.gov.uk/training/introduction-to-pyspark)
 
-[Datacamp introduction to pyspark](https://campus.datacamp.com/courses/introduction-to-pyspark)
-
 [Palantir pyspark style guide](https://github.com/palantir/pyspark-style-guide)
 <br/>
-
-
-# Pyspark cheat sheet from Datacamp
-http://datacamp-community-prod.s3.amazonaws.com/02213cb4-b391-4516-adcd-57243ced8eed
-
 
 ## In-built pyspark functions
 Using functions is preferred to writing spark SQL to support testing and encapsulation. This preference is not a rule.
