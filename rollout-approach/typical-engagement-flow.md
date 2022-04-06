@@ -5,8 +5,10 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 ## Initial outreach
 
 - Hear about RAP through show-and-tells, internal advertising, slack, etc.
-- Have a look over the [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) pages to get a sense of what it is all about
+- Have a look over the [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice) pages to get a sense of what it is all about.
 - Reach out to the [RAP team](mailto:datascience@nhs.net) for a chat
+- Together with someone from the RAP team, walk through the [levels of RAP](../what-is-RAP.md#levels-of-rap) page and consider the team's scale of ambition.
+
 - If you are keen to proceed, pass the request to the RAP product owner for prioritisation and resourcing
 - Get a start date in the calendar. Think about publication timing, team capacity, etc. to choose a good time. 
 

@@ -25,13 +25,13 @@ To start formalising the RAP service, we ran a series of guided workshops where 
 
 ![identify user needs](../images/user-needs.JPG)
 
-*A screenshot from the board where we tried to identify user needs*
+*A screenshot from the board where we tried to identify user needs. I've deliberately not made these images high-resolution enough to see the detail*
 
 Once we reached a consensus on these users and their needs, we sketched out a service map for how the RAP team could meet the needs of these users. This service map runs from the first time users hear about our service all the way through to the point that we disengage from them. 
 
 ![service mapping](../images/service-map.JPG)
 
-*A screenshot from the board where we mapped out the service map including user experiences, pain-points, and our processes*
+*A screenshot from the board where we mapped out the service map including user experiences, pain-points, and our processes. I've deliberately not made these images high-resolution enough to see the detail*
 
 At each stage in the journey, we set out the questions and feelings that the users might experience and we considered what tools or processes we might put in place to improve their experience. 
 
@@ -49,55 +49,77 @@ We have shared our template for user research below. The discussion guide is onl
 
 We usually have two people from the RAP team join the call. One person to lead the discussion and another to take notes. We also record the sessions so we can review it later as a team.
 
+Once we have gathered this user research, we review it as a team and revisit our service design map above. We think about the whole service journey in light of the findings and we consider what we need to improve for our next iteration. 
 
 
+### User research guides iterative improvements to the service
+
+So far, we have been able to make very substantial improvements after every single engagement. It feels very important that we continue to give ourselves the time and space to effectively concentrate on service improvement between engagements.
+
+We've included the discussion guide used for the user research sessions below. 
+
+
+### Are users of the RAP service the NHSD teams producing the publications or the end-users of the publications? 
+
+This is a really tricky question that we've grappled with extensively. Where we've landed is that we are focussing on users of the RAP service - internal analysts. This decision is partly pragmatic - since we work with internal analysts everyday and can just ask them. Partly it reflects how NHSD is organised. We are part of an internal analytics function so other people have responsibility for the external user research. 
+
+Nevertheless, the lack of user research is a failing of our approach currently. It would be extremely helpful to get more external user research as it motivates so much of the RAP work. The Department for Education led a very strong example of using research from the end users to motivate RAP adoption and drive development of their [Explore Education Statistics tool](https://explore-education-statistics.service.gov.uk/)
+
+---
+
+</br>
+
+</br>
 
 ## Discussion guide (40 min)
 
 Day: 		
-Time: 		
+
+Time:
+
 Interviewer: 	
+
 Note-taker: 	
+
 Interviewee: 	
 
-INTRODUCTION [2 minutes]
+### INTRODUCTION 
+(2 minutes)
+
 Give some details about the purpose of the conversation and make sure your participant is comfortable with the set up, this will mainly be you talking at this stage. For example:
 - Explain the purpose of the session: we want their input on how to improve the RAP service
 - Let the participants know who is taking notes and who is leading the interview
 - Let the participants know you are recording the session (if applicable) and make sure they consent
 
 ### Warm-up questions 
-[5 minutes]
+(5 minutes)
 
 Some straightforward questions to put the participant (and you) at ease and to make the conversation seem more natural; this section will establish the level of engagement your user has had with your service. For example:
 - How long have you been in your role?
 - Describe your role within the wider team/tribe?
 
 
-### Questions about the RAP function
-[30 minutes]
+### Questions about the RAP function 
+(30 minutes)
 
 The main body of the conversation, where you will learn about your user’s experience of working with your service, their needs, their pain points and where things work well.
 </br>
 
 - **How did you first hear about RAP?** 
     
-    Follow-up prompts: 
     - Do you think this is something that we need to improve?
     - What could we do to make it easier for people to find out?
 
 </br>
 
 - **At the start of the project, did you have a clear understanding of what would happen during the engagement with the RAP team?** 
-    
-    Follow-up prompts: 
+
     - What would help to give people a better understanding of the process in future?
 
 </br>
 
 - **During the engagement, we used a mix of different training approaches: off-the-shelf interactive coding, videos and guides on the community of practice, in-person teaching sessions, and pair-coding. Could you tell me about how you made use of these and which was the most valuable for you?** 
     
-    Follow-up prompts: 
     - Was there anything that prevented you from making best use of these support options?
     - Do you think the training would work better all delivered at the start of the engagement or staggered throughout the project?
     - What could we do in future to improve this offering even futher?
@@ -106,21 +128,21 @@ The main body of the conversation, where you will learn about your user’s expe
 
 - **Different teams choose different engagement models, with more or less support provided by the RAP team on technical design and working practices. Which model did you use in your recent engagement and how well did it work for you?**
     
-    Follow-up prompts: 
     - If the RAP team were leading, did you feel like you retained ownership of the code or did you feel like the RAP team did it for you?
     - If the analyst team was leading, did you feel like you would have benefitted from more support on technical design decisions?
     - Do you think you would benefit from more support around ways of working with code, e.g. identifying features sized appropriately for a short-lived branch? Or do you think it works better for the team to figure this out internally?
 
 
 ### Wrap up 
-[3 minutes]
+(3 minutes)
 
 Thank your participant for sharing their experience, knowledge, and time with you, making sure they are comfortable with what they have told you and that they can follow up with you at any time. Ask them if they are able to ask further questions by email, if there is anything you might have missed. If applicable, offer your participant the opportunity to be involved in later stages of the user-design process (e.g. prototyping).
 
 
 
 ----
-Note-taking tips
+**Note-taking tips**
+
 It is important to make a record of the conversation that takes place. 
 
 You should use a document that has plenty of space to take note of both the questions asked and the responses from your participant. 
