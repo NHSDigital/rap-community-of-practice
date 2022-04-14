@@ -60,9 +60,9 @@ diabetes/
 
 ## Generic package template
 
-To help get you started, we have created a generic package structure that you can adapt for your own purposes. The repository is stored on [GitLab]. You can fork this repo and use it as a starting point for your own package.
+To help get you started, we have created a generic package structure that you can adapt for your own purposes. The repository is stored on [Github](https://github.com/NHSDigital/rap-package-template). You can fork this repo and use it as a starting point for your own package.
 
-## So what now? 
+## So what now? C
 
 * Make your own package either by adding the files yourself or by cloning the [generic template] that we provide.
 * Once you have the package structure in place, you can install that package on your machine using these two commands:
@@ -133,9 +133,5 @@ This is a really big topic and we don't want to replicate material that you can 
 
 * [Packages and modules from the offical docs](https://docs.python.org/3/tutorial/modules.html#packages). 
 *Good for understanding on how to organise and import sub-packages.*
-
-* [Datacamp Python Data Science Toolbox (part 1)](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1)
-
-* [Datacamp software engineering for data scientists](https://learn.datacamp.com/courses/software-engineering-for-data-scientists-in-python)
 
 * [Why we share code as a .whl file](https://packaging.python.org/discussions/wheel-vs-egg/)

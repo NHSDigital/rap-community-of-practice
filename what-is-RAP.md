@@ -57,23 +57,3 @@ These levels aim to offer teams a recommended maturity map for adopting RAP prac
 
 <br>
 
-
-
-
-
-## External links
-
-Here is a good [high-level overview of RAP](https://dataingovernment.blog.gov.uk/2017/03/27/reproducible-analytical-pipeline/). It explains the context of RAP in government statistics and gives some history to the work. 
-
-The GSS have produced a list of the [benefits that come from RAP](https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/benefits-to-government-from-reproducible-analytical-pipelines/).
-
-The [ONS best practice team have a useful website](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html) covering many of the same topics we cover here. Their [best-practice checklist](https://best-practice-and-impact.github.io/qa-of-code-guidance/checklist_higher.html)  is particularly useful.
-
-The Statistics Authority has published this excellent report on [overcoming barriers to RAP adoption](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/).
-
-The [AQUA book of analytical standards](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government).
-
-Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 102(2):e01801. https://doi.org/10.1002/bes2.1801
-
-There is also a cross-government RAP Champions group that meets occasionally. If you would like to make a commitment to working as a RAP champion then please get in touch with Connor Quinn.
-

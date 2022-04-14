@@ -309,5 +309,4 @@ If you are happy to merge the two branches, then select the type of Pull Request
 GitHub has a .gitignore [template](https://github.com/github/gitignore/blob/main/R.gitignore) available to analysts and developers to use in their projects. Notice how in the template, line 22 contain RStudio project settings, which are configuration files created by RStudio when you first open your repository as an RStudio project. Sometimes these configuration files can contain information you don't want to publish on GitHub/GitLab, thus by including them in the .gitignore file you are ensuring that these files will never leave your local machine.
 
 # External links
-* [Datacamp introduction to git](https://learn.datacamp.com/courses/introduction-to-git)
 * [GitHub Docs - Pull requests](https://docs.github.com/en/pull-requests)

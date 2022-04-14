@@ -3,14 +3,16 @@ This means that some links may not work for external readers.***
 
 ***Repository owner: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services)***
 
-***Email: datascience@nhs.net***
+***Email: [datascience@nhs.net](mailto:datascience@nhs.net)***
 
 ***To contact us raise an issue on Github or via email and will respond promptly.***
 
 # RAP community of practice
 Welcome to the landing page for the RAP community of practice repo. 
 
-You can learn all about reproducible analytical pipelines (RAP) on our [What is RAP](what-is-RAP.md) page. In a nutshell though, RAP is becoming the standard for creating analytical outputs in government. RAP combines a number of ways of working that help to improve the reliability, transparency, and speed of statistics publications. Reproducible Analytical Pipelines follow the principles of the [AQUA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. 
+**The [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis), tasked with finding ways to deliver better, broader, and safer use of NHS data for analysis and research, identified RAP as the essential element to ensure high-quality analysis.** More, Reproducible Analytical Pipelines follow the principles of the [AQUA Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. 
+
+You can learn all about reproducible analytical pipelines (RAP) on our [What is RAP](what-is-RAP.md) page. In a nutshell though, RAP is becoming the standard for creating analytical outputs in government. RAP combines a number of ways of working that help to improve the reliability, transparency, and speed of statistics publications. 
 
 The RAP community of practice is to for all analysts and data scientists who are interested in adopting the working practices included in [reproducible analytical pipelines (RAP)](what-is-RAP.md). This repo is a central repository for resources and guidance to help teams adopting RAP practices. There is an associated [MS Teams page](https://teams.microsoft.com/l/channel/19%3aEnoJ_c3NIwcWaLoqHyrbmiui8SI-8lZ1B2SvxNuGbyU1%40thread.tacv2/General?groupId=1c1528d7-030e-48eb-92cf-dc0f6a618ea0&tenantId=50f6071f-bbfe-401a-8803-673748e629e2) where you can introduce yourself, ask for help, or discuss different approaches. You can also ask issues directly by [opening an issue on the repo](https://github.com/NHSDigital/rap-community-of-practice/issues). Over time we hope to build up a community of people who can self-support and further develop these ways of working.
 
@@ -38,16 +40,38 @@ We maintain a list of people who are willing to dedicate some time to support ot
 As we work alongside teams, we try to produce reusable learning materials pitched at specifically supporting NHSD teams. We try (with partial success) to avoid reproducing guidance that is easily available online. Instead, we link to lots of external resources where you can self-serve. Our focus instead aims to create some bespoke guidance that lays out how you would accomplish these practices in the NHSD setting.
 
 Each of the folders has its own README to explain the content:
-* [General development practices](development-approach/README.md)
-* [Python resources](python/README.md)
-* [Pyspark resources](pyspark/README.md)
-* [RAP rollout strategy notes](./rollout-approach/README.md)
+* [General development practices](development-approach/)
+* [Python resources](python/)
+* [Pyspark resources](pyspark/)
+* [RAP rollout strategy notes](./rollout-approach/)
 
 We also have a minimal Python RAP package template and it's freely available to use via Github: [RAP package template](https://github.com/NHSDigital/rap-package-template).
 
 These resources are demand-driven so if you want something then please raise an issue on the repo or ask on the [MS Teams page](https://teams.microsoft.com/l/channel/19%3aEnoJ_c3NIwcWaLoqHyrbmiui8SI-8lZ1B2SvxNuGbyU1%40thread.tacv2/General?groupId=1c1528d7-030e-48eb-92cf-dc0f6a618ea0&tenantId=50f6071f-bbfe-401a-8803-673748e629e2). We would also ask you to contribute if you can improve on any of the resources or can fill in any other gaps. 
 
 The resources are not intended to be prescriptive. There are many ways to accomplish a task and teams have valid reasons for choosing other approaches. Instead the intention of the resources provided here is to offer a way in for teams who want to adopt good practices that they have heard about but don't know where to start.
+
+
+## External links
+Here is a good [high-level overview of RAP](https://dataingovernment.blog.gov.uk/2017/03/27/reproducible-analytical-pipeline/). It explains the context of RAP in government statistics and gives some history to the work. 
+
+The GSS have produced a list of the [benefits that come from RAP](https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/benefits-to-government-from-reproducible-analytical-pipelines/).
+
+The [ONS best practice team have a useful website](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html) covering many of the same topics we cover here. Their [best-practice checklist](https://best-practice-and-impact.github.io/qa-of-code-guidance/checklist_higher.html)  is particularly useful.
+
+The Statistics Authority has published this excellent report on [overcoming barriers to RAP adoption](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/).
+
+The [AQUA book of analytical standards](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government).
+
+The Turing Institute has published [The Turing Way handbook to reproducible, ethical and collaborative data science](https://the-turing-way.netlify.app/welcome.html)
+
+There are several slack channels that discuss RAP and related topics: the [govdatascience.slack.com RAP channel](https://govdatascience.slack.com/archives/C6H22U3H9), the [NHS-R community](nhsrcommunity.slack.com), and the [NHS-pycom community](nhs-pycom.slack.com)
+
+Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 102(2):e01801. https://doi.org/10.1002/bes2.1801
+
+The GSS training portal offers an [Introduction to RAP course](https://gss.civilservice.gov.uk/training/introduction-to-reproducible-analytical-pipelines-rap/)
+
+
 
 ## Misc
 We have taken inspiration from the [NHSD software engineering COP](https://github.com/NHSDigital/software-engineering-quality-framework/blob/master/insights/review.md). It has tons of great material so I encourage you to read and reflect on these working practices.
