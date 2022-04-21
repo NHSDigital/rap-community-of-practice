@@ -36,7 +36,7 @@ These levels aim to offer teams a recommended maturity map for adopting RAP prac
 - [ ] Data produced by code in an open-source language (e.g., python, R, SQL) 
 - [ ] Code is version controlled. This should be the fundamental basis for all later improvements. [See git basics](development-approach/01_intro-to-git.md) and [Using git collaboratively](development-approach/02_using-git-collaboratively.md)
 - [ ] Code has been peer reviewed and adheres to agreed coding standards. E.g [style guide for Pyspark](pyspark/pyspark-style-guide.md).
-- [ ] Code is published publicly on github. [See process flow for publishing safely](https://nhsd-confluence.digital.nhs.uk/display/DAT/DS_216%3A+Main+diagram)
+- [ ] Code is published publicly on github. [See process flow for publishing safely](development-approach/08_how-to-publish-your-code-in-the-open.md)
 - [ ] Open data published (if there is a publication) 
 - [ ] The publication should link to the code repo and vice versa (if there is a publication).
 
