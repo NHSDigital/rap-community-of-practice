@@ -70,6 +70,10 @@ Below is a list of common commands for reference. We only list basic commands he
 
 * Delete a local branch: `git branch -D <your branch name>`.
 
+### Undoing changes via Git commands
+
+GitLab has a guide covering various cases on undoing any changes: https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
+
 # Setup for Git Basics exercise
 ## Creating your access token
 
@@ -196,6 +200,28 @@ There are many ways to add a new file to your branch. One way is to upload a fil
 
 The easiest way is to simply create the file (any type of file) in your working directory, while in your branch. You can also copy a file from another directory. The file you create or copy can be any type of file.
 
+### For VS Code users
+
+1. To open VS Code from the terminal (this will save you a few extra clicks) simply type in the Command Prompt of your choice (e.g. Anaconda Prompt/Git Bash/Powershell):
+
+![](../images/code_from_cmd.PNG)
+
+2. Once VS Code loads, you will notice the on the left hand side panel the folder structure of the cloned repository:
+
+![](../images/vscode_file_structure.PNG)
+
+You can continue using the Command Prompt or you can continue with using the VS Code built in terminal. To add a new file in your repository right click in the folder structure, in this case we want to add a file in the practice folder of the repository:
+
+![](../images/add_file.PNG)
+
+3. Name the file, add a file format in the name, for example `.py` for a python file, `.md` for a markdown file etc.
+
+4. Type something in the new file! 
+
+5. Save your changes within VS Code, either from the top toolbar File -> Save or by `Ctrl + S`.
+
+### For Spyder users
+
 For this exercise, create a file while in Spyder, with simply right-clicking on the repository's folder and then selecting the Create New File option:
 
 * To view and edit the repository's folders and files in Spyder:
@@ -265,7 +291,7 @@ After submitting a merge/pull request, you can block the request from being merg
 
 This will assign your request as a draft merge request, blocking it from being merged. Once the development work is completed then you can unassign the "Mark as draft" option and the merge request can be accepted.
 
-# General: How to accept a merge request
+# General: How to accept a merge request on GitLab
 
 Once you are assigned the merge request's reviewer, you should receive an email notification from Gitlab with a link to the merge request's webpage.
 
