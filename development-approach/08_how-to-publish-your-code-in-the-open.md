@@ -26,15 +26,16 @@ Releasing code externally is part of the RAP project, the targets below are agre
 ## How to prepare your code and repository
 Coding in the Open is an internal process of NHSD's Analytics Service team to implement the Data Services Strategy where we want to open our data and source code to enhance knowledge sharing and code reusability. We have designed a process that will guide teams from the start of a project through its core development, its publishing assurance phase and reaching the final step "Publish code on NHSD Github repository". The process in place will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
 
-Projects and publications with the aim to be published should follow the **Fit-for-publishing Main Diagram workflow**:
+Projects and publications with the aim to be published should follow the **Fit-for-publishing workflow**:
 
 ![](../images/publishing_diagram.PNG)
 
-After designing and developing the source code on NHSD's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted.
+### Workflow initial steps
+1. After designing and developing the source code on NHSD's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted.
 
-At the beginning of this phase a **snapshot** of the project's repository is taken (download the zip file of the branch) or a separate Gitlab branch is created for the review. The purpose of the snapshot is to remove all repository history and previous commits.
+2. At the beginning of this phase a **snapshot** of the project's repository is taken (download the zip file of the branch) or a separate GitLab branch is created for the review. The purpose of the snapshot is to remove all repository history and previous commits.
 
-After creating the snapshot, the next step is to apply the **Fit-for-publishing checklist**:
+3. After creating the snapshot, the next step is to apply the **Fit-for-publishing checklist**:
 ### Fit for publishing checklist
 This checklist covers the review process in place to ensure that the code is: 
 1. Fit for purpose 
@@ -43,16 +44,16 @@ This checklist covers the review process in place to ensure that the code is:
 4. No data should be stored in the snapshot.  
 
 To access the checklist click on the link below and select the Download option:
-* [Repository validation checklist](https://github.com/NHSDigital/rap-community-of-practice/blob/main/images/Fit_for_publishing_checklist.docx)
+* PDF version for viewing: [Fit for publishing checkilst PDF](../images/Fit_for_publishing_checklist.pdf)
+* Download the Work doc version to edit: [Fit for publishing checklist Word](../images/Fit_for_publishing_checklist.docx)
 
-For each subsection of the checklist an **internal reviewer** is assigned by the development team to check and add comments and suggestions to be impletemented. Once those are reviewed and implemented the checklist is passed on to an **external reviewer** (outside of the development team) to carry out checks and add any comments and suggestions in the external review columns. Once the external review is complete, each checklist section is assigned a **RAG status** by the lead analyst.
+For each subsection of the checklist: 
+* an **internal reviewer** (someone who worked on the project) is assigned by the development team to check and add comments and suggestions to be implemented. Once those are reviewed and implemented the checklist is passed on to
+* an **external reviewer** (outside of the development team) to carry out checks and add any comments and suggestions in the external review columns. 
+* Once the external review is complete, each checklist section is assigned a **RAG status** by the project's lead analyst (**Confirmation of Readiness by Lead Analyst step in the workflow diagram above**).
+* Once the repository is granted the **final confirmation** for publishing from a Senior Manager (as per the workflow diagram shown above), you can then proceed to the final step, which is going **live** with your Github repository on the [NHS Digital public repository](https://github.com/NHSDigital).
 
-Once the repository is granted the **final confirmation** for publishing from a Senior Manager (as per the **Main Diagram** workflow shown above), you can then proceed to the final step, which is going **live** with your Github repository on the [NHS Digital public repository](https://github.com/NHSDigital).
-
-**Please note:** Should the workflow at any point reach to a failed step, follow the ```No``` direction to be steered towards the revision and reiteration steps.
-
-### Fit for publishing checklist example
-Here's an **example** of the NDA RAP checklist that was applied to the repository's snapshot: [NDA RAP checklist] and the [NDA RAP Github repo](https://github.com/NHSDigital/national-diabetes-audit).
+**Please note:** Should the workflow at any point reach to a failed step, follow the workflow diagram towards the revision and iteration steps.
 
 ## Further reading
 * [Sharing Code in the Open by NHSX](https://nhsx.github.io/AnalyticsUnit/codeintheopen.html)
