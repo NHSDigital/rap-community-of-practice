@@ -2,7 +2,7 @@
 
 ## What is a package and why should I care?
 
-A python package is a way to bundle your code into a single thing that can be shared and reused. If our goal is to be able to share and reuse code across NHSD and externally then there are many benefits to packaging code:
+A python package is a way to bundle your code into a single thing that can be shared and reused. If our goal is to be able to share and reuse code across NHS Digital and externally then there are many benefits to packaging code:
 
 - **Shareable**: The most important reason to use packages is that it is **the way** to share python code. Not using packages runs the risk that other people will not be able to run your code... "It works fine on my machine". 
 - **Databricks**: It looks likely that packaging code will be the easiest way to get your code onto databricks. (NB: we are keeping a close eye on Data Refinery to answer this question)

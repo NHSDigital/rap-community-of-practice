@@ -258,7 +258,6 @@ Just as before we are using the control error handling gives us to log a useful 
 * [Logging Cookbook](https://docs.python.org/3/howto/logging-cookbook.html "https://docs.python.org/3/howto/logging-cookbook.html")[](https://docs.python.org/3/howto/logging-cookbook.html#formatting-styles "https://docs.python.org/3/howto/logging-cookbook.html#formatting-styles")
 * [Logging HowTo](https://docs.python.org/3/howto/logging.html "https://docs.python.org/3/howto/logging.html")
 * [Logging in Python](https://realpython.com/python-logging)
-* [Recording of the logging demo for Diabetes RAP project.]
 
 **Error handling:**
 * [General guide on errors and error handling](https://docs.python.org/3/tutorial/errors.html)

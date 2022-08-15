@@ -11,7 +11,7 @@ In Git, each user has the entire repository (project's working directory) on the
 Remote repositories are versions of your project that are hosted on an online Version Control System. In NHS Digital, we store that in GitLab, site for internal users (GitHub, site for the public).
 
 ## Why should I care?
-Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHSD has chosen. While Git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
+Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHS Digital has chosen. While Git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
 
 The benefits of using version control include:
 

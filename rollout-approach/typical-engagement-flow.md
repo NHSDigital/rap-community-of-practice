@@ -1,6 +1,8 @@
-Many people ask about what a typical engagement with the RAP team might look like. Since every team is different and since the service is still in a formative state, there is no really typical engagement. 
+Many people ask about what a typical engagement with the RAP team at NHS Digital looks like. Since every team is different and since the service is still in a formative state, there is no really typical engagement. 
 
 Nevertheless, the text below lays out the type of activities that occur in across the engagement. The approach described is the [support model](./support-models.md#1-rap-team-leads-development) where the RAP team leads the development as this is our most frequent approach. 
+
+> Please note that a direct engagement with the RAP team at NHS Digital is currently only available to NHS Digital teams. The below is intended to help other organisations that may be developing their own RAP capabilities and are looking for guidance.
 
 ## Initial outreach
 
@@ -16,7 +18,7 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 ## Setting the foundation
 - Identify a publication/product that needs taking through RAP process
 - Identify people in the publication team who will learn RAP process (PO and min 2 analysts)
-- Identify people in the RAP team to support the publication team through RAP transition
+- Identify people in the RAP team, or those familiar with RAP practices, to support the publication team through RAP transition
 - Set up a Jira board for tracking work and confluence space for documenting learning, agreed decisions
 - Teams meet and ice breaker session to get to know each other. Set out the plan for the engagement, review roles and responsibilities, lessons learned from previous projects, etc. 
 
@@ -44,9 +46,10 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 ## Being transparent
 - Publish code on github
 - Add a link to the code repository in the publication and a link to the publication in the code repository
-- Show and tell in NHS D on what we have learned, documents added to github
+- Show and tell on what we have learned, documents added to github
 
 ## Close-down
-- Do a review with the RAP team to confirm that we've met all the elements of baseline RAP (or silver/gold)
-- Do a user-research session with the RAP team to suggest improvements to the service for those who come later
+- Review the codebase to confirm that all the elements of baseline RAP (or silver/gold) have been met.
+- Reflect on the resources and materials available throughout the process and suggest improvements or additions.
+- Do a user-research session with the RAP team to suggest improvements to the service for those who come later.
 - Take some time to reflect on the process internally as a team and consider how you plan to take forward the work.

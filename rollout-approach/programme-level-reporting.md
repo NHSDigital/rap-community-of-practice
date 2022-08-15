@@ -1,12 +1,10 @@
 # Programme level reporting
 
-The RAP team offers a service to support teams to reach their  RAP goals. We try to avoid being put in situations where we are chasing teams to complete RAP work - the dynamic works better if teams choose to approach us. Nevertheless, it is important for us to track the engagements that we take on so that we can account for our work.
-
+The RAP team at NHS Digital offers a service to support teams to reach their  RAP goals. We try to avoid being put in situations where we are chasing teams to complete RAP work - the dynamic works better if teams choose to approach us. Nevertheless, it is important for us to track the engagements that we take on so that we can account for our work.
 
 How we do this has taken on several forms as we have figured out what service we are providing and improved our understanding of the needs of teams. 
 
 The table below shows a representative view of how we track engagements. In our experience, agreeing these fields with team leads ahead of time leads to far more effective engagements since everyone has sight of the trade-offs from the outset. 
-
 
 |Publication | Lead analyst | Pipeline risk | Current tech | [Development Goal](/rollout-approach/support-models.md) | [Support model](/rollout-approach/support-models.md#1-rap-team-leads-development) | [Target RAP level](../what-is-RAP.md#levels-of-rap) | Achieved RAP level |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,11 +12,8 @@ The table below shows a representative view of how we track engagements. In our 
 | pub 2 | John Smith | High | SQL | quality | RAP team leads development | Silver | Baseline |
 [---]
 
-
-
 ## How many projects in flight?
 
 We are very careful not to spread ourselves too thin, particularly at this formative stage of the service. We've had great initial success by giving ourselves the time to work with teams to learn. That does provide an upper limit on how fast the rollout can move. 
 
 One of the artefacts missing from the CoP is some kind of document that makes explicit the relationship between (1) speed of RAP rollout and (2) how many people you put behind it. Practically, we are supporting two projects at a time right now - one full engagement and one light touch support.
-
