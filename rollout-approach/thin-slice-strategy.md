@@ -1,6 +1,6 @@
 # Thin-slice strategy for building RAP pipelines
 
-The RAP team often adopts a 'thin-slice' strategy when we work with teams to migrate legacy pipelines. This guide explains the rationale behind the approach and gives a rough outline of how it plays out in practice
+The RAP team at NHS Digital often adopts a 'thin-slice' strategy when we work with teams to migrate legacy pipelines. This guide explains the rationale behind the approach and gives a rough outline of how it plays out in practice
 
 This approach is inspired by DevOps practices in software development where rather than tackling the whole project at once, you build the smallest possible bit of functionality end-to-end. 
 

@@ -8,7 +8,7 @@ Specifically this guide compares writing notebooks in browser-based environments
 At the end of this guide, the reader have a better understanding of the relative pros/cons of developing in browser-based notebooks versus IDEs and when/why they might choose one over the other for a given project.
 
 ### What if I don't have a choice?
-This guide assumes you have a choice! Clearly, in some cases / projects (e.g. analysts working in DAE / TRE V1), this choice is made for you. 
+This guide assumes you have a choice! Clearly, in some cases / projects, due to pre-existing infrastructure limitations, this choice is made for you. 
 
 Hopefully this guide will still prove useful for two reasons:
 1. You can refer back to it in future projects when you have more flexibility
@@ -42,17 +42,17 @@ This section provides a high-level checkbox summary of the features provided by 
 ## Summary
 The table shows a quick summary of the features of notebooks compared to IDEs. For more details on each point see the detailed breakdown in the following sections.
 
-| Feature                                             | Notebooks   | IDEs   |
-| --------------------------------------------------- | :---------: | :----: |
-| Interactive outputs (tables, plots, etc)            | O           | X*     |
-| Storytelling and sharing results                    | O           | X      |
-| Benefits out-of-the-box (minimal configuration)     | O           | X      |
-| Deterministic outputs (i.e. same result every run)  | X           | O      |
-| Supports modular code structure & packages          | X           | O      |
-| Supports unit testing frameworks                    | X           | O      |
-| Nice version control (e.g. readable git diffs)      | X           | O      | 
-| Autocomplete / autoformatting & syntax highlighting | X           | O      |
-| Compatible with sharing code external to NHSD       | X           | O      |
+| Feature                                              | Notebooks   | IDEs   |
+| -----------------------------------------------------| :---------: | :----: |
+| Interactive outputs (tables, plots, etc)             | O           | X*     |
+| Storytelling and sharing results                     | O           | X      |
+| Benefits out-of-the-box (minimal configuration)      | O           | X      |
+| Deterministic outputs (i.e. same result every run)   | X           | O      |
+| Supports modular code structure & packages           | X           | O      |
+| Supports unit testing frameworks                     | X           | O      |
+| Nice version control (e.g. readable git diffs)       | X           | O      | 
+| Autocomplete / autoformatting & syntax highlighting  | X           | O      |
+| Compatible with sharing code external to NHS Digital | X           | O      |
 
 *See [Interactive cells in IDEs?](#interactive-cells-in-ides)
 
@@ -86,7 +86,7 @@ Another nice benefit of notebooks is that they are generally set up to work out 
 
 IDEs on the other hand either come in two flavours: big,feature-heavy ones like Visual Studio (not code) take a lot of set up and plugins to get going; lightweight ones like Atom or Visual Studio Code are often little more than text editors out-of-the-box. While IDEs ofter almost limitless customisability (you can even write your own themes and extensions for a lot of them!) and powerful, development-enhancing functionality, they often take more time to get set up in the first place. 
 
-**IDEs also require you to have an adequate environment available** for them to be installed and used. This can be a problem, for instance, at NHSD, since installing software to local machines is often prohibited. Thus, in some cases, not only do you need to set up and configure the IDE to get the benefits, you also need to sort out the appropriate environment to install and use it in the first place.
+**IDEs also require you to have an adequate environment available** for them to be installed and used. This can be a problem, for instance, at NHS Digital, since installing software to local machines is often prohibited. Thus, in some cases, not only do you need to set up and configure the IDE to get the benefits, you also need to sort out the appropriate environment to install and use it in the first place.
 
 **Notebooks can be much quicker and simpler to get started with** (especially if they are already set up for you!) allowing teams to start delivering on analytical projects straight away.
 

@@ -127,9 +127,7 @@ with file_path.open("r") as file:
 ```
 
 ## Example: load data into pandas DataFrame
-pathlib Paths are accepted by most pandas methods for reading data. This example shows how to do this for the SDD-RAP project.
-
-Note: pyreadstat will need to be installed for the example below to work.
+pathlib Paths are accepted by most pandas methods for reading data. This example shows how to do this for a real RAP project:
 
 ```python
 import pandas as pd

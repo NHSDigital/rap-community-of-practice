@@ -24,14 +24,14 @@ Releasing code externally is part of the RAP project, the targets below are agre
 | Oct-23 | 100% |
 
 ## How to prepare your code and repository
-Coding in the Open is an internal process of NHSD's Analytics Service team to implement the Data Services Strategy where we want to open our data and source code to enhance knowledge sharing and code reusability. We have designed a process that will guide teams from the start of a project through its core development, its publishing assurance phase and reaching the final step "Publish code on NHSD Github repository". The process in place will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
+ We have designed a process that will guide teams from the start of a project through its core development, its publishing assurance phase and reaching the final step "Publish code on NHS Digital Github repository". The process in place will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
 
 Projects and publications with the aim to be published should follow the **Fit-for-publishing workflow**:
 
 ![](../images/publishing_diagram.PNG)
 
 ### Workflow initial steps
-1. After designing and developing the source code on NHSD's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted.
+1. After designing and developing the source code on NHS Digital's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted.
 
 2. At the beginning of this phase a **snapshot** of the project's repository is taken (download the zip file of the branch) or a separate GitLab branch is created for the review. The purpose of the snapshot is to remove all repository history and previous commits.
 

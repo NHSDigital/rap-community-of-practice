@@ -11,7 +11,7 @@ In Git, each user has the entire repository (project's working directory) on the
 Remote repositories are versions of your project that are hosted on an online Version Control System. In NHS Digital, we store that in GitLab site for internal users (GitHub site for the public).
 
 ## Why should I care?
-Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHSD has chosen. While git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
+Using version control is one of the fundamental skills needed by analysts to produce high-quality analytical outputs. Git is **the standard** for tracking code over time and is the way that NHS Digital has chosen. While git has a steep initial learning curve, the payoff is huge and so we strongly recommend taking the time to learn this as a team.
 
 The benefits of using version control include:
 
@@ -77,9 +77,12 @@ GitLab has a guide covering various cases on undoing any changes: https://docs.g
 # Setup for Git Basics exercise
 ## Creating your access token
 
-When copying a Git repository from Gitlab for the first time, git will prompt you to input your credentials, to verify your ID. This will be your Gitlab username and the Gitlab access token as your password. 
-
-* To create the access token, head over to Preferences in Gitlab, after clicking the top right profile picture:
+When cloning a Git repository from a web-hosted repository platform such as GitHub or Gitlab for the first time, you will be prompted to input your credentials, which is usually your username and password. Where two-factor authentication is enabled, and for internal repository platforms, you will need to generate an access token which you use as your password. 
+> For NHS Digital employees using our internal Gitlab, your username is your Gitlab username and your password is your access token. 
+<details>
+  <summary>Creating an access token</summary>
+  
+  * In Gitlab, navigate to Preferences by clicking the top right profile picture:
 
 ![](../images/image1.jpg)
 
@@ -87,7 +90,10 @@ When copying a Git repository from Gitlab for the first time, git will prompt yo
 
 ![](../images/image21.jpg)
 
-* Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc). This will be your password for the git credentials (task 2 of this exercise).
+* Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc).
+</details>
+
+
 
 ## Troubleshooting credentials
 You might see something like this at any point:

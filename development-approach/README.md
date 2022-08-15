@@ -28,7 +28,7 @@ Another topic we encounter frequently is the question of **when to use Jupyter n
 
 * [Learn about the difference between using notebooks vs IDEs](07_notebooks_versus_ide_development.md)
 
-In NHSD we have committed to publishing more and more of our code over time to **improve the transparency** of our analytical work. We have a process in place to publish code safely. 
+In NHS Digital we have committed to publishing more and more of our code over time to **improve the transparency** of our analytical work. We have a process in place to publish code safely. 
 
 * [Learn how to publish your code in the open](08_how-to-publish-your-code-in-the-open.md)
 

@@ -8,9 +8,9 @@ The single most valuable tool we have had in our work is the report from the ONS
 
 I would strongly encourage organisations who want to adopt RAP practices to read this report and share with senior leaders. You might also consider running a [pre-mortem](https://www.atlassian.com/team-playbook/plays/pre-mortem) with the project sponsor and senior analytical leaders to anticipate and avoid some of the problems mentioned in this report.
 
-## NHSD rollout strategy
+## NHS Digital rollout strategy
 
-**Support models**. The most important principle for supporting RAP adoption in NHSD has been to adapt our offering to the needs of teams. As we have worked with different teams it has been clear that there is no 'one-size-fits-all' approach. Instead we negotiate the support model with teams based on a variety of considerations. [Learn about the different support models and considerations in the Support Models section](./support-models.md).
+**Support models**. The most important principle for supporting RAP adoption in NHS Digital has been to adapt our offering to the needs of teams. As we have worked with different teams it has been clear that there is no 'one-size-fits-all' approach. Instead we negotiate the support model with teams based on a variety of considerations. [Learn about the different support models and considerations in the Support Models section](./support-models.md).
 
 **Service design**. We have taken this approach a step further by framing the work of the central RAP team as a service. We have gone through a number of rounds of service design and user research. [Learn more about our approach to RAP service design](./service-design-and-user-research.md)
 
