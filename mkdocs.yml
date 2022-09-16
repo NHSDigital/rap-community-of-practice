@@ -1,0 +1,80 @@
+site_name: NHS Digital
+# site_url: https://example.com
+repo_url: https://github.com/NHSDigital/rap-community-of-practice
+repo_name: RAP Community of Practice
+edit_uri: edit/master/docs/
+plugins:
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - search
+nav:
+  - Home: README.md
+  - About: about.md
+  - What is RAP:
+      - About RAP: what_is_RAP/README.md
+      - Benefits and Aims of RAP: what_is_RAP/benefits_and_aims_of_RAP.md
+      - Levels of RAP: what_is_RAP/levels_of_RAP.md
+  - Our RAP Service:
+      - About Our RAP Service: our_RAP_service/README.md
+      - Lessons Learned: our_RAP_service/lessons-learned.md
+      - Programme Level Reporting: our_RAP_service/programme-level-reporting.md
+      - Service Design and User Research: our_RAP_service/service-design-and-user-research.md
+      - Support Models: our_RAP_service/support-models.md
+      - The RAP Team: our_RAP_service/the-RAP-team.md
+      - Thin Slice Strategy: our_RAP_service/thin-slice-strategy.md
+      - Typical Engagement Flow: our_RAP_service/typical-engagement-flow.md
+  - Implementing RAP:
+      - About Implementing RAP: implementing_RAP/README.md
+      - General guidance:
+          - Code Review: implementing_RAP/general_guidance/code-review.md
+          - Coding Best Practice: implementing_RAP/general_guidance/coding-best-practice.md
+          - How to Publish your Code in the Open: implementing_RAP/general_guidance/how-to-publish-your-code-in-the-open.md
+          - Notebooks vs IDE Development: implementing_RAP/general_guidance/notebooks_versus_ide_development.md
+          - Quality Assuring Analytical Outputs: implementing_RAP/general_guidance/quality-assuring-analytical-ouputs.md
+          - Tidy Data: implementing_RAP/general_guidance/tidy-data.md
+          - Training your Team: implementing_RAP/general_guidance/training-your-team.md
+      - Git:
+          - Intro to Git: implementing_RAP/git/intro-to-git.md
+          - Using Git Collaboratively: implementing_RAP/git/using-git-collaboratively.md
+      - Python:
+          - Back Testing: implementing_RAP/python/backtesting.md
+          - Basic Python Data Analysis Operations: implementing_RAP/python/basic-python-data-analysis-operations.md
+          - Handling File Paths: implementing_RAP/python/handling-file-paths.md
+          - Logging and Error Handling in Python: implementing_RAP/python/logging-and-error-handling.md
+          - Project Structure and Packaging: implementing_RAP/python/project-structure-and-packaging.md
+          - Python Functions: implementing_RAP/python/python-functions.md
+          - Unit Testing: implementing_RAP/python/unit-testing.md
+          - Unit Testing Field Definitons: implementing_RAP/python/unit-testing-field-definitions.md
+          - Virtual Environments: implementing_RAP/python/virtual-environments.md
+          - Visualisation in Python: implementing_RAP/python/visualisation-in-python.md
+      - PySpark:
+          - About PySpark: implementing_RAP/pyspark/README.md
+          - Logging and Error Handling in PySpark: implementing_RAP/pyspark/logging-and-error-handling.md
+          - PySpark Style Guide: implementing_RAP/pyspark/pyspark-style-guide.md
+          - PySpark Tutorial: implementing_RAP/pyspark/pyspark-tutorial.py
+      - R:
+          - External Resources: implementing_RAP/R/README.md
+          - Git with RStudio: implementing_RAP/R/git_with_RStudio.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Contribute: CONTRIBUTE.md
+  - Licence: LICENCE
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+  font:
+    text: Arial
+  logo: images/logo/nhs-logo.png
+  favicon: images/favicon/favicon.ico
+  features:
+    - search.share
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - tables
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NHSDigital/rap-community-of-practice
+      name: NHS Digital Analytical Services

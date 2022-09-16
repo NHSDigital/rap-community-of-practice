@@ -28,4 +28,4 @@ Here are a few things you can do that will increase the likelihood of your pull 
 [fork]: https://github.com/pages-themes/slate/fork
 [pr]: https://github.com/pages-themes/slate/compare
 [style]: http://ben.balter.com/jekyll-style-guide/
-[code-of-conduct]: CODE_OF_CONDUCT.md
+[code-of-conduct]: ./CODE_OF_CONDUCT.md

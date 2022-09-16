@@ -41,7 +41,7 @@ plt.ylabel('Sepal width') # y axis title/label
 plt.show()
 ```
 
-![](/images/image_1.PNG)
+![](../../images/image_1.PNG)
 
 Notice how we set the colour of the data points (color parameter) and the shape (marker parameter = square). To edit the transparency degree (alpha parameter) of the points:
 
@@ -53,7 +53,7 @@ plt.ylabel('Sepal width')
 plt.show()
 ```
 
-![](/images/image_2.PNG)
+![](../../images/image_2.PNG)
 
 ## Applications
 
@@ -96,7 +96,7 @@ plt.savefig('SDD_YP_England_2018_plot1.svg', bbox_inches='tight') # save as .svg
 
 Notice how `plt.show()` which displays the plot is not included in this code as it's not necessary as we are saving our plots with the `plt.savefig()` function. The three plots will be saved in the local folder your code is also stored or in a folder of your choice. Presenting the .svg image:
 
-![](/images/plot4.svg)
+![](../../images/plot4.svg)
 
 The advantages of a .svg file compared to using a .png file is better outlined through reading [Benefits of using SVG (scalable vector graphics)](https://blog.tbhcreative.com/2017/06/benefits-of-using-svg.html#:~:text=Scalability,size%20they%20are%20being%20at.&text=The%20SVG%20image%20is%20clear,version%20starts%20to%20appear%20pixelated.).
 
@@ -123,7 +123,7 @@ plt.show()
 
 In this case we opted to display the chart, if you wish to save it then `plt.savefig()` function should be added at the end of the code.
 
-![](/images/plot_no3.PNG)
+![](../../images/plot_no3.PNG)
 
 ## Further reading
 

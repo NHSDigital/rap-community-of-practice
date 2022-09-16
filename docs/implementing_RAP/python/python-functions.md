@@ -257,7 +257,7 @@ It makes it easy for team members to understand the purpose of the function. Whi
 It makes it easy for new team members to come on board. Reading through many lines of code can be exhausting, reading docstrings very quickly conveys the intended functionality that the function delivers.
 When using an IDE with coding hints team members can quickly see a description of what the function does, which saves them from having to read through all the code of the function in order to understand what it delivers. Example:
 
-![](/images/python_docstring_benefits.png)
+![](../../images/python_docstring_benefits.png)
 There are also some additional kinds of documentation that can be done on functions which will not be discussed here, such as type hints and annotations.
 
 Once you have multiple function in your project, you will need to organise them. This can be done by creating their own module so that the functions can be imported into other part of your code. You can also generate methods for classes, these topics are beyond the scope of this wiki for now but it is worth to learn more when you are getting used to Python language.

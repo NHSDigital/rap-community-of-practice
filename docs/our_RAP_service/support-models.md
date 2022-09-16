@@ -9,11 +9,10 @@ We often identify three competing demands for RAP projects. Each of these goals 
 | We want to build this pipeline as quickly as possible | Accept the most basic code that is functional despite lower code quality                         | Code will be more difficult to run and maintain. Risk that [tech debt](https://en.wikipedia.org/wiki/Technical_debt) may snowball until BAU delivery becomes impossible |
 | We want to build the best possible pipeline           | Hire a team of external specialists to do it for us                                              | Risk that the team becomes demotivated or does not understand the code                                                                                                  |
 | We want to train our analysts to write good code      | Give analysts lots of defended time away from their day job with high-quality in-person training | BAU delivery will slow down. May not be possible given resource constraints                                                                                             |
-|                                                       |
 
 </br>
 
-![venn diagram](/images/venn_diagram_trade-offs.png)
+![venn diagram](../images/venn_diagram_trade-offs.png)
 
 _Different goals suggest different trade-offs between improvements to code, building capacity in the team, and the resourcing constraints on the RAP team_
 

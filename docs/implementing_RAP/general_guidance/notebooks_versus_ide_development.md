@@ -39,10 +39,10 @@ Ultimately, while there is not necessarily a 'right' or 'wrong' choice, it is wo
 
 ## External links
 
-- [Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/core_programming.html?highlight=notebooks#notebooks)
+- [Quality Assurance of Code for Analysis and Research][2]
 - Referenced below:
-    - [Importing Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Importing%20Notebooks.html)
-    - [%run command in Databricks](https://docs.databricks.com/notebooks/notebooks-use.html#run-a-notebook-from-another-notebook)
+  - [Importing Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Importing%20Notebooks.html)
+  - [%run command in Databricks](https://docs.databricks.com/notebooks/notebooks-use.html#run-a-notebook-from-another-notebook)
 
 ## Comparison
 
@@ -116,13 +116,9 @@ When operating in tandem, two key drawbacks of notebooks are:
 
 Taken together, this allows downstream cells to impact upstream results.
 
-<div align="center">
-<figure>
- <img src=/images/notebook_cells_working_order.PNG height="300px">
- <img src=/images/notebook_cells_broken_order.PNG height="300px">
- <figcaption>It worked the first time (left), but not the second (right)!</figcaption>
-</figure>
-</div>
+![](../../images/notebook_cells_working_order.PNG#smallimg) ![](../../images/notebook_cells_broken_order.PNG#smallimg)
+
+_It worked the first time (left), but not the second (right)!_
 
 **This is bad for reproducibility**: it is possible for two analysts to generate different results from the same notebooks, based on the order in which cells are executed; moreover, in long notebooks it can be hard to spot that this effect is happening or from where it originated.
 
@@ -141,16 +137,9 @@ This is more challenging with notebooks, because importing functionality from no
 
 A note on Databricks specifically: it seems simple to import code across notebooks and thus to be able to break down longer notebooks into smaller, more manageable chunks. However, there is a catch: when `%run` is called, the two notebooks - the parent notebook where run is called and the child that is being run - share the same scope; this means that any variables, functions etc available for reading and writing in the cells of one notebook are available for reading and writing in the cells of the other.
 
-<figure>
-</figure>
+![](../../images/databricks_notebook_parent_run.PNG#smallimg) ![](../../images/databricks_notebook_child_run.PNG#smallimg)
 
-<div align="center">
-<figure> 
- <img src=/images/databricks_notebook_parent_run.PNG width="300px">
- <img src=/images/databricks_notebook_child_run.PNG width="200px">
- <figcaption>The parent (left) errors because the child (right) causes hidden changes within the scope</figcaption>
-</figure>
-</div>
+_The parent (left) errors because the child (right) causes hidden changes within the scope_
 
 At best, this makes the code harder to understand, because after the `%run` there can be references to objects that are hidden in the child notebook. At worst, **this can introduce unintended side effects and lead to bugs**.
 
@@ -170,21 +159,15 @@ Tests are harder to implement in notebooks because testing frameworks, such as u
 
 **Notebooks are inherently difficult to review and audit** through version control software like git: they are stored in a complicated (JSON) format internally, which enables is rendered nicely on screen for the user when viewed through the tool (e.g. Jupyter / Databricks), but it is hard to see differences between versions through tools like git.
 
-<div align="center">
-<figure> 
- <img alt="Git diff from Jupyter notebook" src=/images/git_diff_notebook.PNG width="700px">
- <figcaption>Git diff from a (simple!) Jupyter notebook: lots to look at!</figcaption>
-</figure>
-</div>
+![](../../images/git_diff_notebook.PNG#bigimg)
+
+_Git diff from a (simple!) Jupyter notebook: lots to look at!_
 
 **Text files (usually what is written in IDEs) are simple to version control** because it is easy to compare a line in the file between two given versions, since everything is designed to be read by humans. This makes it easy to understand what has changed between each version of a file and to rollback to previous versions if required.
 
-<div align="center">
-<figure> 
- <img alt="Git diff from Python file" src=/images/git_diff_python_file.PNG width="700px">
- <figcaption>Git diff from a Python file: much clearer!</figcaption>
-</figure>
-</div>
+![](../../images/git_diff_python_file.PNG#bigimg)
+
+_Git diff from a Python file: much clearer!_
 
 ### Supports actually writing code
 
@@ -213,7 +196,7 @@ Since this guide is targeting data analysts / scientists seeking to implement RA
 1. Start analytical pieces of work in notebooks, thus benefitting from the flexibility and interactivity - especially during the early phases of projects and when results need to be presented to wider audiences
 2. As the codebase / pipeline grows, refactor the code into functions and classes contained within modules alongside a full test suite - this will help ensure that the outputs are reproducible and the code is maintanable, and it will be necessary when it comes to automating pipelines in production
 
-The ONS best-practice team list [some of the problems with notebooks](https://best-practice-and-impact.github.io/qa-of-code-guidance/core_programming.html):
+The ONS best-practice team list [some of the problems with notebooks][2]:
 
 > Notebooks are inherently difficult to review and audit through version control software like git. Simple text files like scripts can be version controlled easily as you can see which lines of text change from one version to another. Notebooks store their internal workings in a much more complicated format, hence seeing the changes from one notebook to another as differences line by line is not possible in common version control tools.
 
@@ -228,3 +211,14 @@ The ONS best-practice team list [some of the problems with notebooks](https://be
 See also this video by Joel Grus: [I don't like notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U).
 
 [1]: ./how-to-publish-your-code-in-the-open.md
+[2]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html?highlight=notebooks#:~:text=Think%20carefully%20about%20whether%20notebooks%20are%20a%20suitable%20way%20to%20organise%20your%20code%23
+
+<br></br>
+
+<style>img[src*="#bigimg"] {
+   width:100%;
+}
+img[src*="#smallimg"]{
+    width:45%;
+}
+</style>

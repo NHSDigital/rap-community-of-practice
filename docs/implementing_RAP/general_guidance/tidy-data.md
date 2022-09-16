@@ -178,6 +178,7 @@ Transforming this dataset into a tidy version would cause unnecessary duplicatio
 In this instance, it is recommended that the tidy dataset is split into two, one for each observational unit, the song title and the rank of the song:
 
 **Table 1**
+
 |ID | Artist | Song Title | Duration|
 | --- | --- | --- | ---|
 |1 | The Beatles | We Can Work It Out | 3:00|
@@ -187,6 +188,7 @@ In this instance, it is recommended that the tidy dataset is split into two, one
 |5 | Four Tops | Reach Out I'll Be There | 3:10|
 
 **Table 2**
+
 |ID | Date Entered | Rank|
 | --- | --- | ---|
 |3 | 1966-12-10 | 7|

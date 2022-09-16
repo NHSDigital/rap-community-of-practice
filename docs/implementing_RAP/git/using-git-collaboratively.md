@@ -143,7 +143,7 @@ The developer only creates a short-lived feature branch (a branch from the trunk
 The request get reviews by a team member or a group of developers (if it is a refactor or large changes). The comment on changes stay directly on the GitLab page and there may have discussions.
 Once these are done with compiling and all testing, the merge will be incorporated into the trunk by the reviewer.
 
-![](/images/git_branching.png)
+![](../../images/git_branching.png)
 
 ## Using git collaboratively exercise
 

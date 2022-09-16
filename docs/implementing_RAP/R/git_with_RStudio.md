@@ -94,7 +94,7 @@ ii. Create a folder in your local directory, this is where the GitHub (remote) r
 
 i. The repository's clone URL will be on the GitHub repository's main page (see image below).
 
-![](/images/git_clone.PNG)
+![](../../images/git_clone.PNG)
 
 ii. Type `git clone <repository's clone url>` the git-demo repository using your local terminal. Enter your credentials when prompted (GitHub username and access token for the password.)
 
@@ -106,7 +106,7 @@ iii. Type `cd <windows explorer repo folder address>` (open the newly downloaded
 
 iv. Type `git status` in the terminal. You should see the this message:
 
-![](/images/image3.jpg)
+![](../../images/image3.jpg)
 
 #### 3. Create and switch to a new branch
 
@@ -116,11 +116,11 @@ Notice how in the image above, the first line says "On branch main". In Git, **"
 
 i. To create a **new branch**, head over to GitHub, on the repository's main page, same webpage we used to find the Git clone repository's URL. To create a new branch on GitHub simply click on the "main" button underneath your repository's title.
 
-![](/images/create_branch.PNG)
+![](../../images/create_branch.PNG)
 
 ii. Once in the dropdown menu, type in the branch's new name and hit Enter. You should now have a new branch, copy of the main branch.
 
-![](/images/create_branch_github.PNG)
+![](../../images/create_branch_github.PNG)
 
 iii. In the above image notice how it points the original branch we are copying from, in grey letters: from "main". If you wish to create a new branch, which will be a copy from a different branch to "main", then set the repository to the branch you wish to copy from and then repeat steps i. and ii.
 
@@ -130,7 +130,7 @@ v. To start working on your branch and select, type in the terminal `git checkou
 
 vi. Type `git status` and this way you can confirm that you are in a new branch. Git will display a message showing the current branch name and the current branch's information.
 
-![](/images/image564.JPG)
+![](../../images/image564.JPG)
 
 _**Reminder:** any changes you make while in the main branch won't be uploaded to GitHub, as the main branch is protected and locked, so make sure you are in your own working branch! You can confirm this with step vi. above._
 
@@ -157,24 +157,27 @@ The easiest way is to simply create the file (any type of file) in your working 
 
 For this exercise, create a file while in RStudio, with simply right-clicking on the repository's folder and then selecting the Create New File option:
 
-- To view and edit the repository's folders and files in RStudio:
+To view and edit the repository's folders and files in RStudio:
 
-  1. Open RStudio
-  2. On the top toolbar go File -> New Project, this will open a Create New Project dialogue.
+i. Open RStudio
 
-  ![](/images/new_project.PNG)
+ii. On the top toolbar go File -> New Project, this will open a Create New Project dialogue.
 
-  3. In the Create New Project dialogue, select existing directory (since we have already cloned the GitHub repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository and click Create Project.
+![](../../images/new_project.PNG)
 
-  ![](/images/create_new_project.PNG)
+iii. In the Create New Project dialogue, select existing directory (since we have already cloned the GitHub repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository and click Create Project.
 
-  4. You should be able to see the project structure on the lower right hand side windown as it is displayed on GitHub.
+![](../../images/create_new_project.PNG)
 
-  ![](/images/project_structure.PNG)
+iv. You should be able to see the project structure on the lower right hand side windown as it is displayed on GitHub.
 
-  5. On the top toolbar select File -> New File -> Rscript and save the file somewhere in your repository (don't forget to name your Rscipt!).
-  6. Add something into that file, a simple print statement or a comment.
-  7. Save it on RStudio.
+![](../../images/project_structure.PNG)
+
+v. On the top toolbar select File -> New File -> Rscript and save the file somewhere in your repository (don't forget to name your Rscipt!).
+
+vi. Add something into that file, a simple print statement or a comment.
+
+vii. Save it on RStudio.
 
 **Tip:** RStudio will have created a .Rproj/.Rhistory configuration file when you create an R project. To avoid having this uploaded to GitHub, a .gitignore file that contains those file formats will automatically block them from being pushed to the repository. See [.gitignore][5] for more information.
 
@@ -204,17 +207,17 @@ To use GitHub with RStudio Cloud and not RStudio desktop, first create an accoun
 
 - To create a project from GitHub, select the "Your Workspace" option on the left hand side once in RStudio Cloud and select New Project on the far right of the top toolbar, in the Your Projects space.
 
-![](/images/new_project_git.PNG)
+![](../../images/new_project_git.PNG)
 
 - This will open a new dialogue that will ask for the Git Repository URL, this is the URL you copy, as described in [Step 2][4] of this guide.
 - You will be prompted to enter your username (GitHub username) and your password, which is the access token created from the [Create Access token step](#creating-your-access-token-on-github).
 - Once the Git repository is deployed, you will notice the repository file structure on the right hand side panel.
 
-![](/images/project_structure.PNG)
+![](../../images/project_structure.PNG)
 
 - Steps [3](#3-create-and-switch-to-a-new-branch), [4](#4-add-a-new-file) and [5](#5-commit-your-changes-follow-standard-git-command-workflow) will be the same, the only change being that instead of using your local terminal to input Git commands, you will be using the RStudio Cloud built-in terminal.
 
-![](/images/terminal.PNG)
+![](../../images/terminal.PNG)
 
 ## How to submit a pull request
 
@@ -238,7 +241,7 @@ To submit a pull request:
 
 Once you are assigned the pull request's reviewer, you should receive an email notification from GitHub with a link to the pull request's webpage. You can also view any active pull requests by clicking on Pull Requests on the top bar menu.
 
-![](/images/pull_requests.PNG)
+![](../../images/pull_requests.PNG)
 
 On the Pull request page, there are four tabs: Conversation, Commits, Checks and Files changed:
 
@@ -272,7 +275,7 @@ If you are happy to merge the two branches, then select the type of Pull Request
 
 3. Type `git status` in the terminal to ensure that `ii` happened successfully and you are on the default main branch. You should see this message:
 
-![](/images/image3.jpg)
+    ![](../../images/image3.jpg)
 
 4. Type `git pull` to update your local main branch with the latest version of the remote/online GitHub main branch. This might take a few seconds.
 

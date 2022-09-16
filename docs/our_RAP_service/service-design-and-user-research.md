@@ -64,7 +64,7 @@ Nevertheless, the lack of user research is a failing of our approach currently. 
 
 ---
 
-Download the [Discussion guide](/images/discussion_guide.docx)
+Download the [Discussion guide](../images/discussion_guide.docx)
 
 ## Discussion guide (40 min)
 

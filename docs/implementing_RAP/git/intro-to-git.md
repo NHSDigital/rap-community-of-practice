@@ -4,7 +4,7 @@
 
 This page is intended as a starting point for someone who is new to using git. It shows you the basic commands and the workflow to use git on your own.
 
-To use git as a team you should complete this section and the following section on [using git collaboratively][1].
+To use git as a team you should complete this section and the following section on [using Git collaboratively][1].
 
 ## What is version control?
 
@@ -112,19 +112,15 @@ When cloning a Git repository from a web-hosted repository platform such as GitH
 
 > For NHS Digital employees using our internal Gitlab, your username is your Gitlab username and your password is your access token.
 
-<details>
-  <summary>Creating an access token</summary>
-  
-  * In Gitlab, navigate to Preferences by clicking the top right profile picture:
+* In Gitlab, navigate to Preferences by clicking the top right profile picture:
 
-![](/images/image1.jpg)
+![](../../images/image1.jpg)
 
 - On the left hand side menu select Access token. You should see this page after clicking:
 
-![](/images/image21.jpg)
+![](../../images/image21.jpg)
 
 - Add a token name, select all boxes for the scope, leave the date blank (token will never expire) and select Create Access Token. The access token that will appear at the top of the page needs to saved in a text document (Notepad etc).
-</details>
 
 ### Troubleshooting credentials
 
@@ -192,7 +188,7 @@ i. The repository's clone URL will be on the Gitlab repository's main page (see 
 
 [Git demo repo with practice exercises]
 
-![](/images/repo_url.JPG)
+![](../../images/repo_url.JPG)
 
 ii. Type `git clone <repository's clone url>` the git-demo repository using your local terminal (Anaconda Prompt). Enter your credentials when prompted (gitlab username and access token for the password.)
 
@@ -204,7 +200,7 @@ iii. Type `cd <windows explorer repo folder address>` (open the newly downloaded
 
 iv. Type `git status` in the terminal. You should see the this message:
 
-![](/images/image3.jpg)
+![](../../images/image3.jpg)
 
 ### 3. Create and switch to a new branch
 
@@ -214,15 +210,15 @@ Notice how in the image above, the first line says "On branch master". In Git, *
 
 i. To create a **new branch**, head over to Gitlab, on the repository's main page, same webpage we used to find the git clone repository's URL. On the left hand side menu select Repository -> Branches.
 
-![](/images/select_branches.JPG)
+![](../../images/select_branches.JPG)
 
 ii. Once in the branches list page, select New Branch (big blue button) on the right hand side.
 
-![](/images/new_branch.JPG)
+![](../../images/new_branch.JPG)
 
 iii. In the New Branch page, type your branch name and select the branch you want to copy from. On most cases it will be the master branch so Gitlab has this option select by default. Once happy with your choices, select Create branch.
 
-![](/images/branch_info.JPG)
+![](../../images/branch_info.JPG)
 
 iv. Back to the terminal (e.g. Anaconda Prompt etc), type `git branch -a` to view a list of all available branches existing in the repository. The branches that contain the `remote/` path are the branches online, on Gitlab. Have a look at the list. You will notice your new branch is not there yet. To update your local master branch with all the lastest updates on Gitlab, type `git pull`. Type `git branch -a` and you should see your branch available in the list now.
 
@@ -230,7 +226,7 @@ v. To start working on your branch and select, type in the terminal `git checkou
 
 vi. Type `git status` and this way you can confirm that you are in a new branch. Git will display a message showing the current branch name and the current branch's information.
 
-![](/images/image564.JPG)
+![](../../images/image564.JPG)
 
 _**Reminder:** any changes you make while in the master branch won't be uploaded to Gitlab, as the master branch is protected and locked, so make sure you are in your own working branch! You can confirm this with step vi. above._
 
@@ -259,15 +255,15 @@ The easiest way is to simply create the file (any type of file) in your working 
 
 1. To open VS Code from the terminal (this will save you a few extra clicks) simply type in the Command Prompt of your choice (e.g. Anaconda Prompt/Git Bash/Powershell):
 
-![](/images/code_from_cmd.PNG)
+    ![](../../images/code_from_cmd.PNG)
 
 2. Once VS Code loads, you will notice the on the left hand side panel the folder structure of the cloned repository:
 
-![](/images/vscode_file_structure.PNG)
+    ![](../../images/vscode_file_structure.PNG)
 
-You can continue using the Command Prompt or you can continue with using the VS Code built in terminal. To add a new file in your repository right click in the folder structure, in this case we want to add a file in the practice folder of the repository:
+    You can continue using the Command Prompt or you can continue with using the VS Code built in terminal. To add a new file in your repository right click in the folder structure, in this case we want to add a file in the practice folder of the repository:
 
-![](/images/add_file.PNG)
+    ![](../../images/add_file.PNG)
 
 3. Name the file, add a file format in the name, for example `.py` for a python file, `.md` for a markdown file etc.
 
@@ -279,25 +275,25 @@ You can continue using the Command Prompt or you can continue with using the VS 
 
 For this exercise, create a file while in Spyder, with simply right-clicking on the repository's folder and then selecting the Create New File option:
 
-- To view and edit the repository's folders and files in Spyder:
+To view and edit the repository's folders and files in Spyder:
 
   1. Open Spyder
   2. On the top toolbar go Projects -> New Project, this will open a Create New Project dialogue.
 
-  ![](/images/image4.JPG)
+      ![](../../images/image4.JPG)
 
   3. In the Create New Project dialogue, select existing directory (since we have already cloned the Gitlab repository to your local machine and have a folder) and in Location select the Open Folder icon to select the existing folder repository:
 
-  ![](/images/image45.JPG)
+      ![](../../images/image45.JPG)
 
   4. In the Select directory dialogue, select the folder that contains your repository's contents. In this example, I have a repository called "demo":
 
-  ![](/images/image46.JPG)
+      ![](../../images/image46.JPG)
 
   5. You should be able to see the project structure on the left hand side menu as it is displayed on Gitlab, in the image above.
   6. Right-click on the Practice folder and select New and New File.
 
-  ![](/images/image5.jpg)
+      ![](../../images/image5.jpg)
 
   7. Name the file.
   8. Add something into that file.
@@ -323,7 +319,7 @@ vi. Type `git push`. This command will upload all your commited changes to Gitla
 
 Simply head over to Gitlab, and the repository page on Gitlab, select your branch and compare the changes between your branch and the master branch.
 
-![](/images/dropdown_menu_repo.JPG)
+![](../../images/dropdown_menu_repo.JPG)
 
 ## How to submit a merge request
 
@@ -345,7 +341,7 @@ To submit a merge request:
 
 After submitting a merge/pull request, you can block the request from being merged if you opt for the "Mark as draft option":
 
-![](/images/draft_example.PNG)
+![](../../images/draft_example.PNG)
 
 This will assign your request as a draft merge request, blocking it from being merged. Once the development work is completed then you can unassign the "Mark as draft" option and the merge request can be accepted.
 
@@ -355,7 +351,7 @@ Once you are assigned the merge request's reviewer, you should receive an email 
 
 You can also view any active merge requests by clicking on the left hand side menu, once in the repository's page.
 
-![](/images/image6.jpg)
+![](../../images/image6.jpg)
 
 In the merge request page, there are three tabs: Overview, Commits and Changes.
 
@@ -378,7 +374,7 @@ If you are happy with the new changes, then select Merge and the merge request s
 
 3. Type `git status` in the terminal to ensure that `ii` happened successfully and you are on the default master branch. You should see this message:
 
-![](/images/image3.jpg)
+    ![](../../images/image3.jpg)
 
 4. Type `git pull` to update your local master branch with the latest version of the remote/online/Gitlab master branch. This might take a few seconds.
 

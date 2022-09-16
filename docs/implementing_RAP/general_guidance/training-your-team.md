@@ -9,5 +9,5 @@ Some initial pointers to get you started:
 - **Talk to the RAP champions:** The RAP champions (both your RAP trained colleagues and the Data Science RAP squad) have probably trained a number of people - ask them for advice. You can find out how to get in touch [here][1].
 - **The thin-slice approach is built with training in mind:** [See our pages on the the "thin slice" approach of doing RAP][2] - by doing a simple part of the publication from end to end, you create something people can learn from, and then with help expand. This can provide the structure around which you can train people.
 
-[1]: /docs/README.md#support
+[1]: /docs/about.md#support
 [2]: /docs/our_RAP_service/thin-slice-strategy.md
