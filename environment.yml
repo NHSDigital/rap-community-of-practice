@@ -1,0 +1,8 @@
+name: rap-cop-pages
+channels:
+  - defaults
+  - conda-forge 
+dependencies:
+  - mkdocs
+  - mkdocs-material
+  - mkdocs-git-revision-date-localized-plugin

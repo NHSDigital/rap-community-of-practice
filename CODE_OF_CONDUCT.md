@@ -22,7 +22,7 @@ diverse, inclusive, and healthy community.
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our
+Examples of behaviour that contributes to a positive environment for our
 community include:
 
 - Demonstrating empathy and kindness toward other people
@@ -33,7 +33,7 @@ community include:
 - Focusing on what is best not just for us as individuals, but for the
   overall community
 
-Examples of unacceptable behavior include:
+Examples of unacceptable behaviour include:
 
 - The use of sexualized language or imagery, and sexual attention or
   advances of any kind
@@ -47,8 +47,8 @@ Examples of unacceptable behavior include:
 ## Enforcement Responsibilities
 
 Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
+acceptable behaviour and will take appropriate and fair corrective action in
+response to any behaviour that they deem inappropriate, threatening, offensive,
 or harmful.
 
 Community leaders have the right and responsibility to remove, edit, or reject
@@ -66,7 +66,7 @@ representative at an online or offline event.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be
 reported to the community leaders responsible for enforcement at
 datascience@nhs.net.
 All complaints will be reviewed and investigated and will result in a response that

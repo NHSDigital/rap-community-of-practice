@@ -1,0 +1,83 @@
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+</head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+  {% if page.previous_page or page.next_page %} {% if page.meta and
+  page.meta.hide %} {% set hidden = "hidden" if "footer" in page.meta.hide %} {%
+  endif %}
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="{{ lang.t('footer.title') }}"
+    {{
+    hidden
+    }}
+  >
+    {% if page.previous_page %} {% set direction = lang.t("footer.previous") %}
+    <a
+      href="{{ page.previous_page.url | url }}"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="{{ direction }}: {{ page.previous_page.title | e }}"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        {% include ".icons/material/arrow-left.svg" %}
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> {{ direction }} </span>
+          {{ page.previous_page.title }}
+        </div>
+      </div>
+    </a>
+    {% endif %} {% if page.next_page %} {% set direction = lang.t("footer.next")
+    %}
+    <a
+      href="{{ page.next_page.url | url }}"
+      class="md-footer__link md-footer__link--next"
+      aria-label="{{ direction }}: {{ page.next_page.title | e }}"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> {{ direction }} </span>
+          {{ page.next_page.title }}
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        {% include ".icons/material/arrow-right.svg" %}
+      </div>
+    </a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:datascience@nhs.net"><p>Contact Us</p></a>
+    <p>Developed by <a href="https://digital.nhs.uk/">NHS Digital</a></p>
+    <p>
+      View the project on
+      <a href="https://github.com/NHSDigital/rap-community-of-practice"
+        >GitHub</a
+      >
+    </p>
+  </div>
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2022 Crown Copyright (NHS Digital)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
