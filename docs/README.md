@@ -12,7 +12,7 @@ RAP is becoming the standard for creating analytical outputs in government; comb
 
 The [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis), tasked with finding ways to deliver better, broader, and safer use of NHS data for analysis and research, identified RAP as the essential element to ensure high-quality analysis.
 
-The Data Science team at NHS Digital have been championing RAP practices and providing support for analytical teams across our organisation. We have published these resources in the spirit of openness and transparency, and in the hope that other teams in other organisations may find them useful.
+The Data Science team at NHS Digital have been championing RAP practices and providing support for analytical teams across our organisation. We have published these resources in the spirit of openness and transparency, and in the hope that other teams in other organisations may find them useful. You can find out more about our incredible contributors on our [Acknowledgements](acknowledgements.md) page.
 
 Learn more about our [RAP service][3].
 

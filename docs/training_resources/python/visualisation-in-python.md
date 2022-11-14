@@ -123,6 +123,20 @@ In this case we opted to display the chart, if you wish to save it then `plt.sav
 
 ![](../../images/plot_no3.PNG)
 
+## Visualisations and accessibility
+> **From the Government Analysis Function policy on [data visualisation charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).**
+
+Accessibility legislation came into force in September 2020. This means all content published on public sector websites must meet the level A and AA success criterion in the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/).
+
+**This includes charts.**
+
+Content on public sector websites that does not meet the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/) can get complaints related to the [Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018](https://www.legislation.gov.uk/uksi/2018/852/contents/made) and/or the [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents). This could cause reputational damage and loss of public trust.
+
+Make sure whoever is responsible for the content you publish is aware of this and the possible risks involved.
+
+### More info on data visualisations standards
+* [Government Analysis Function - Data visualisation](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/#relevant-success-criterion-for-charts)
+
 ## Further reading
 
 - [An Intuitive Guide to Data Visualisation in Python](https://www.analyticsvidhya.com/blog/2021/02/an-intuitive-guide-to-visualization-in-python/)

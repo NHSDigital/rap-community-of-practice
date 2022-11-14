@@ -11,6 +11,7 @@ nav:
   - Home: README.md
   - About: about.md
   - Support: support.md
+  - Acknowledgements: acknowledgements.md
   - Introduction to RAP:
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
@@ -27,6 +28,7 @@ nav:
       - Code review: implementing_RAP/code-review.md
       - Coding best practice: implementing_RAP/coding-best-practice.md
       - How to publish your code in the open: implementing_RAP/how-to-publish-your-code-in-the-open.md
+      - Guidance on accessibility: implementing_RAP/accessibility-how-to.md
       - Notebooks vs IDE development: implementing_RAP/notebooks_versus_ide_development.md
       - Quality assuring analytical outputs: implementing_RAP/quality-assuring-analytical-outputs.md
       - Technical workflow: implementing_RAP/technical-workflow.md

@@ -16,7 +16,7 @@ The Government Digital Service released an **[informative video](https://www.you
 
 ## How to prepare your code and repository
 
-We have designed a process that will guide teams from the start of a project through its core development, its publishing assurance phase and reaching the final step "Publish code on NHS Digital Github repository". The process in place will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
+We have designed a process which will ensure **no sensitive data or algorithms** will be published, removing any risks associated with any type of sensitive information being released.
 
 Projects and publications with the aim to be published should follow the **Fit-for-publishing workflow**:
 
@@ -24,7 +24,7 @@ Projects and publications with the aim to be published should follow the **Fit-f
 
 ### Workflow initial steps
 
-1. After designing and developing the source code on NHS Digital's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted.
+1. **Starting point:** After designing and developing the source code on NHS Digital's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted. Expect that all code should be published unless there's an evidence based case to not publish (e.g. sensitive algorithm).
 
 2. At the beginning of this phase a **snapshot** of the project's repository is taken (download the zip file of the branch) or a separate GitLab branch is created for the review. The purpose of the snapshot is to remove all repository history and previous commits.
 
@@ -52,6 +52,18 @@ For each subsection of the checklist:
 - Once the repository is granted the **final confirmation** for publishing from a Senior Manager (as per the workflow diagram shown above), you can then proceed to the final step, which is going **live** with your Github repository on the [NHS Digital public repository](https://github.com/NHSDigital).
 
 **Please note:** Should the workflow at any point reach to a failed step, follow the workflow diagram towards the revision and iteration steps.
+
+### Moving your code to the NHS Digital GitHub
+
+To publish the code on Github, you need to make a repo and then just upload your repo snapshot (see above). You'll need to be, or become a member of the [NHS Digital Github organisation](https://github.com/NHSDigital) to do this.
+
+> For NHS Digital colleagues, [we've made a guide with specifically how you do each of the above](https://nhsd-confluence.digital.nhs.uk/display/KH/Github+-+publishing+your+code).
+
+### Adding topics to your GitHub repository
+Adding topics to your repository can be useful for users who are searching on GitHub to find similar topics of interest, e.g. an user searching for RAP repositories using `rap` or a user searching for NHS repositories containing analytical work with the topic `nhs-digital-publication`. GitHub has very good documentation on how to add topics to your repository, see [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+
+### Updating the Data Services - Analytics Service repository
+Once a new publication's repository is published on GitHub, feel free to update the [Data Services - Analytics Service repository](https://github.com/NHSDigital/data-analytics-services) to reflect this change.
 
 ## Further reading
 
