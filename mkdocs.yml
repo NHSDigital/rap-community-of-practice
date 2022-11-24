@@ -32,6 +32,7 @@ nav:
       - Notebooks vs IDE development: implementing_RAP/notebooks_versus_ide_development.md
       - Quality assuring analytical outputs: implementing_RAP/quality-assuring-analytical-outputs.md
       - Technical workflow: implementing_RAP/technical-workflow.md
+      - When to stop coding: implementing_RAP/when-to-stop-coding.md
       - Tidy data: implementing_RAP/tidy-data.md
       - Tools: implementing_RAP/tools.md
   - Training resources:
