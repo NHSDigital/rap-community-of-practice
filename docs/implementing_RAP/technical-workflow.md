@@ -162,8 +162,8 @@ Inspiration has been drawn from:
 [4]: ./notebooks_versus_ide_development.md
 [5]: ./tools.md#conda-environment
 [6]: ../training_resources/git/intro-to-git.md#the-gitignore-file
-[7]: ../training_resources/python/virtual-environments.md#how-to-create-a-new-virtual-environment-using-conda
-[8]: ../training_resources/python/virtual-environments.md#how-to-activate-an-environment
+[7]: ../training_resources/python/virtual-environments/conda.md#how-to-create-a-new-virtual-environment-using-conda
+[8]: ../training_resources/python/virtual-environments/conda.md#how-to-activate-an-environment
 [9]: ./tools.md#the-terminal
 [10]: ../training_resources/git/intro-to-git.md#common-basic-commands
 [11]: ./tools.md#code-editing
@@ -171,6 +171,6 @@ Inspiration has been drawn from:
 [13]: ./tools.md#interactive-python-notebooks
 [14]: ../training_resources/python/python-functions.md
 [15]: ./tools.md#linting-in-vs-code
-[16]: ../training_resources/python/virtual-environments.md#conda-environment
+[16]: ../training_resources/python/virtual-environments/conda.md#conda-environment
 [17]: ../training_resources/git/using-git-collaboratively.md#resolving-merge-conflicts
 [18]: ../training_resources/git/using-git-collaboratively.md

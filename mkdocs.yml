@@ -46,7 +46,10 @@ nav:
           - Handling file paths: training_resources/python/handling-file-paths.md
           - Logging and error handling in Python: training_resources/python/logging-and-error-handling.md
           - Project structure and packaging: training_resources/python/project-structure-and-packaging.md
-          - Virtual environments: training_resources/python/virtual-environments.md
+          - Virtual environments:
+              - Why use virtual environments?: training_resources/python/virtual-environments/why-use-virtual-environments.md
+              - Venv: training_resources/python/virtual-environments/venv.md
+              - Conda: training_resources/python/virtual-environments/conda.md
           - Unit testing: training_resources/python/unit-testing.md
           - Unit testing field definitions: training_resources/python/unit-testing-field-definitions.md
           - Back testing: training_resources/python/backtesting.md
@@ -72,6 +75,7 @@ theme:
   features:
     - search.share
     - content.code.annotate
+    - content.tabs.link
   icon:
     admonition:
       <type>: material/alert
@@ -91,6 +95,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - admonition
   - pymdownx.details
   - pymdownx.critic

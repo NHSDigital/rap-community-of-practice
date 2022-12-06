@@ -102,7 +102,7 @@ Example of Windows vs Linux commands differences:
 - display current directory - `pwd` (mac, linux) - `chpwd` or `%cd%` (Windows)
 - List of other [command differences](https://www.geeksforgeeks.org/linux-vs-windows-commands/)
 
-For more info on conda virtual environments see [here](../python/virtual-environments.md).
+For more info on conda virtual environments see [here](../python/virtual-environments/conda.md).
 
 ## Setup for Git Basics exercise
 

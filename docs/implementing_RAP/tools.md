@@ -255,5 +255,5 @@ Once you've converted the file, you can run the code as you would with any other
 
 [1]: ../training_resources/git/intro-to-git.md#what-is-a-terminal
 [2]: ../training_resources/git/intro-to-git.md
-[3]: ../training_resources/python/virtual-environments.md
+[3]: ../training_resources/python/virtual-environments/conda.md
 [4]: ./notebooks_versus_ide_development.md
