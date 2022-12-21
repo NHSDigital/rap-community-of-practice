@@ -71,3 +71,5 @@ Once a new publication's repository is published on GitHub, feel free to update 
 - [Be open and use open source](https://www.gov.uk/guidance/be-open-and-use-open-source)
 - [The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)
 - [Open source repositories by the Government Digital Service](https://github.com/alphagov)
+
+*NHS Digital is not affiliated with any of these websites or companies.*

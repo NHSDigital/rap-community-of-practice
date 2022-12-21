@@ -8,12 +8,13 @@ Accessibility regulations have been implemented for all public sectors and gover
 > **See the [NHS "digital service manual"](https://service-manual.nhs.uk/accessibility) on accessibility and why it matters**.
 
 We follow suit at NHS Digital, building up on government accessibility directives, releasing and maintaining a wide range of NHS services and products, encompassing accessibility standards in each project development's phase:
-* **product and delivery:** including the questions product or delivery managers need to be asking.
-* **user research:** from identifying target groups and accessibility challenges to including users with access needs in research and practicalities like making your research sessions more accessible on the day.
-* **content:** how to write effective, clear content as well as headings, good link names, handling images in content and making multimedia accessible.
-* **design:** it includes, for example, colour contrast, designing new components (only after you've tested existing ones) and handling errors in forms.
-* **development**, including information on how to make your service accessible for those who can’t use a mouse or trackpad and rely on keyboards or joysticks.
-* **testing:** different kinds of testing (user research, manual and automated) and the wide range of things that may need checking.
+
+- **product and delivery:** including the questions product or delivery managers need to be asking.
+- **user research:** from identifying target groups and accessibility challenges to including users with access needs in research and practicalities like making your research sessions more accessible on the day.
+- **content:** how to write effective, clear content as well as headings, good link names, handling images in content and making multimedia accessible.
+- **design:** it includes, for example, colour contrast, designing new components (only after you've tested existing ones) and handling errors in forms.
+- **development**, including information on how to make your service accessible for those who can’t use a mouse or trackpad and rely on keyboards or joysticks.
+- **testing:** different kinds of testing (user research, manual and automated) and the wide range of things that may need checking.
 
 > **Find out more on how NHS Digital works on [making digital services accessible](https://digital.nhs.uk/blog/transformation-blog/2019/making-digital-services-accessible)**.
 
