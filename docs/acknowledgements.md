@@ -9,6 +9,6 @@ The **NHS Digital Data Science Skilled Team** has been the core of this work, bu
 | [Helen Richardson](https://github.com/helrich)|[Jonny Laidler](https://github.com/JonathanLaidler) |[Harriet Sands](https://github.com/harrietrs)  |  [Maakhe Ndhlela](https://github.com/maakhe)|
 |:----------------------------------|:-----|:----|:---|
 | __[Connor Quinn](https://github.com/connor1q)__|__[Alistair Jones](https://github.com/alistair-jones)__ |__[Daniel Goldwater](https://github.com/DanGoldwater1)__ | __[Joseph Wilson](https://github.com/josephwilson8-nhs)__|
-| __[Philip Hoang Le](https://github.com/philip-le)__ |__[Sam Hollings](https://github.com/SamHollings)__ |__[Abbie Prescott](https://github.com/abbieprescott)__ | |
+| __[Philip Hoang Le](https://github.com/philip-le)__ |__[Sam Hollings](https://github.com/SamHollings)__ |__[Abbie Prescott](https://github.com/abbieprescott)__ |__[Xiyao Zhuang](https://github.com/xiyaozhuang)__ |
 
 **You guys really put the "champion" in RAP Champion!!!**
