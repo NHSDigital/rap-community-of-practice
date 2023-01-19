@@ -1,4 +1,4 @@
-:root > * {
+:root>* {
   --md-primary-fg-color: #005eb8;
   --md-default-bg-color: #f8f8f8;
   -moz-osx-font-smoothing: grayscale;
@@ -53,7 +53,7 @@ code {
   border-top: 3px solid #005eb8;
 }
 
-.footer > * {
+.footer>* {
   flex: 1 100%;
 }
 
@@ -83,4 +83,15 @@ code {
 
 table {
   background-color: white !important;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

@@ -1,4 +1,4 @@
-site_name: Community of Practice
+site_name: RAP Community of Practice
 # site_url: https://example.com
 repo_url: https://github.com/NHSDigital/rap-community-of-practice
 repo_name: RAP Community of Practice
@@ -7,6 +7,9 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - search
+  - mkdocs-jupyter:
+      include_source: True
+      theme: dark
 nav:
   - Home: README.md
   - About: about.md
@@ -48,6 +51,7 @@ nav:
           - Handling file paths: training_resources/python/handling-file-paths.md
           - Logging and error handling in Python: training_resources/python/logging-and-error-handling.md
           - Project structure and packaging: training_resources/python/project-structure-and-packaging.md
+          - Using Python f-strings to run SQL queries: training_resources/python/using-f-strings-sql-queries.md
           - Virtual environments:
               - Why use virtual environments?: training_resources/python/virtual-environments/why-use-virtual-environments.md
               - Venv: training_resources/python/virtual-environments/venv.md
@@ -60,6 +64,7 @@ nav:
           - Logging and error handling in PySpark: training_resources/pyspark/logging-and-error-handling.md
           - PySpark style guide: training_resources/pyspark/pyspark-style-guide.md
           - Download our PySpark tutorial: training_resources/pyspark/pyspark-tutorial.py
+          - Efficient Pyspark case study: training_resources/pyspark/efficient-pyspark-case-study.ipynb
       - R:
           - External resources: training_resources/R/README.md
           - Git with RStudio: training_resources/R/git_with_RStudio.md
@@ -103,6 +108,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true 
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
   - pymdownx.details
   - pymdownx.critic
@@ -117,3 +124,7 @@ extra:
       name: NHS Digital Analytical Services
   generator: false
 copyright: Copyright &copy; 2022 Crown Copyright (NHS Digital)
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
