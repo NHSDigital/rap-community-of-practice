@@ -1,0 +1,24 @@
+name: "Create a Release"
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  release-if-merged:
+    if: |
+      github.event.pull_request.merged == true && 
+      startsWith(github.head_ref, 'release/v') &&
+      github.repository == 'NHSDigital/rap-community-of-practice'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Get Release Name from PR Branch Name and create a release
+        run: |
+          RELEASE_NAME=${HEAD_REF//release\//}
+          gh release create $RELEASE_NAME -t $RELEASE_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HEAD_REF: ${{ github.head_ref }}

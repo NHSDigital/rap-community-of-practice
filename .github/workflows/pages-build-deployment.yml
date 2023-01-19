@@ -1,10 +1,8 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
+name: Build and Deploy Website Pages
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Triggers the workflow on push events but only for the "main" branch and in the docs directory
   push:
     branches:
       - 'main'
@@ -16,18 +14,23 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains a single job called "deploy"
   deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - name: "Checkout Code"
+        uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v2
+      - name: "Setup Python"
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force --clean --verbose
+
+      - name: "Install Python Packages"
+        run: pip install -r requirements.txt
+        
+      - name: "Run mkdocs to build website"
+        run: mkdocs gh-deploy --force --clean --verbose

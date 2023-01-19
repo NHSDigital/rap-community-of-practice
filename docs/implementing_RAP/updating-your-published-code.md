@@ -25,7 +25,7 @@
     |Pre-requisite | Importance | Note |
     |--------------|------------|------|
     |[Publishing Code in the Open][1]]|Necessary|You need to have done this before, or at least understand the process|
-    |[Intro to Git](..\training_resources\git\intro-to-git.md)|Necessary|There will be some use of GitHub and GitLab so knowing about Git is needed|
+    |[Intro to Git](../training_resources/git/intro-to-git.md)|Necessary|There will be some use of GitHub and GitLab so knowing about Git is needed|
 
 After you've [published your code][1] for the first time, you may go on to do subsequent additions, changes and updates to the codebase held in our internal "development" repositories. It will then be time to update the code that has been published.
 
