@@ -118,9 +118,9 @@ The "Straightforward" part of "KISS" refers to how things break and the sophisti
 
 !!! note
 
-  KISS originally meant **"Keep It Simple, Stupid"**, with the Aerospace Engineer Kelly Johnson of the Lockheed Martin Skunk Works being attributed with coining the phrase. The Skunk Works developed experimental and advanced aeroplanes, including the SR-71 Blackbird spy plane and the F-117 Nighthawk stealth bomber.
-  
-  While sounding like a churlish addition, the "Stupid" part of "KISS" means the same as "Straightforward". Kelly Johnson would task Design Engineers to design their aeroplanes to be repairable under combat conditions in the field by an average mechanic with a standard set of tools.
+    KISS originally meant **"Keep It Simple, Stupid"**, with the Aerospace Engineer Kelly Johnson of the Lockheed Martin Skunk Works being attributed with coining the phrase. The Skunk Works developed experimental and advanced aeroplanes, including the SR-71 Blackbird spy plane and the F-117 Nighthawk stealth bomber.
+    
+    While sounding like a churlish addition, the "Stupid" part of "KISS" means the same as "Straightforward". Kelly Johnson would task Design Engineers to design their aeroplanes to be repairable under combat conditions in the field by an average mechanic with a standard set of tools.
 
 With analytical pipelines, this concept can apply to both the code design you use in your functions and your overall approach to your pipeline. Your pipeline overall should be kept simple, which helps with transparency, allowing someone unfamiliar with the process to understand what your pipeline does. In addition, if you are looking to release your pipeline as a package, make sure that you don't try to make the *All-Purpose NHS Data Super-Pipeline Package*, but instead a specific pipeline with a specific range of outputs. Focusing on your pipeline's results can help implement the KISS principle.
 

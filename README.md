@@ -1,5 +1,5 @@
 # [RAP Community of Practice](https://NHSDigital.github.io/rap-community-of-practice/)
-![CI](https://github.com/NHSDigital/rap-community-of-practice/actions/workflows/main.yml/badge.svg "CI badge indicating passing or failing status")
+![CI](https://github.com/NHSDigital/rap-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsdigital/rap-community-of-practice "Release version")](https://github.com/NHSDigital/rap-community-of-practice/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
 [![licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")

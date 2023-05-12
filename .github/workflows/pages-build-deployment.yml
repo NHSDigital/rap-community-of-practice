@@ -1,4 +1,4 @@
-name: Build and Deploy Website Pages
+name: Website Deployment 
 
 # Controls when the workflow will run
 on:

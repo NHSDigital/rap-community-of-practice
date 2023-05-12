@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Useful links
 
 ## Strategic
@@ -13,7 +18,7 @@
 - The [ONS best practice team have a useful website - often called the Quack book] covering many of the same topics we cover here. Their [best-practice checklist] is particularly useful.
 - The Turing Institute's [The Turing Way handbook to reproducible, ethical and collaborative data science]
 - We have taken inspiration from the [NHS Digital software engineering COP].
-- [**NHS PyCom Coding Club Github**][Coding Club]: Lots of great guides and lessons here from the NHS Python Community
+- [**NHS PyCom Coding Club Github**][coding club]: Lots of great guides and lessons here from the NHS Python Community
 
 ## Examples, Challenges, Benefits
 
@@ -28,45 +33,45 @@
 
 - There are several communities to discuss Python, R and Git in the Health and
   Public sectors:
-  - **Government Data Science community** ([website][GDS community website] |
-      [slack][GDS community slack] #rap_collaboration | [GitHub][GDS community GitHub])
-    - **Government Analysis Function RAP Champion network** ([website][Analysis Function website])
-  - **NHS Python Community (NHS-pycom)** ([website][NHS-pycom website] | [slack][NHS-pycom slack] | [GitHub][NHS-pycom GitHub] | [Coding Club])
-  - **NHS R Community** ([website][NHS-R website] | [slack][NHS-R slack] |[GitHub][NHS-R GitHub])
-  - **AnalystX** ([website][AnalystX website] | [Future NHS - AnalystX] | [GitHub][AnalystX GitHub])
+  - **Government Data Science community** ([website][gds community website] |
+    [slack][gds community slack] #rap_collaboration | [GitHub][gds community github])
+    - **Government Analysis Function RAP Champion network** ([website][analysis function website])
+  - **NHS Python Community (NHS-pycom)** ([website][nhs-pycom website] | [slack][nhs-pycom slack] | [GitHub][nhs-pycom github] | [Coding Club])
+  - **NHS R Community** ([website][nhs-r website] | [slack][nhs-r slack] |[GitHub][nhs-r github])
+  - **AnalystX** ([website][analystx website] | [Future NHS - AnalystX] | [GitHub][analystx github])
 - We have an **NHS Digital RAP Teams group** (internal to NHS Digital - contact us @ [data.science@nhs.net])
   - [NHS Digital Github]
   - Our very own [NHS Digital RAP Community of Practice]
 
-[RAP strategy]: https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/
-[RAP Strategy Implementation Plan 2023]: https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/analysisfunctionrapstrategy2023implementationplan
-[Goldacre Review]: https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis
+[rap strategy]: https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/
+[rap strategy implementation plan 2023]: https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/analysisfunctionrapstrategy2023implementationplan
+[goldacre review]: https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis
 [helpful summary]: https://www.bennett.ox.ac.uk/blog/2022/07/bennett-insights-an-overview-of-uk-data-policy-developments/
-[AQUA book of analytical standards]: https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
-[ONS best practice team have a useful website - often called the Quack book]: https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html
+[aqua book of analytical standards]: https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
+[ons best practice team have a useful website - often called the quack book]: https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html
 [best-practice checklist]: https://best-practice-and-impact.github.io/qa-of-code-guidance/checklist_higher.html
-[The Turing Way handbook to reproducible, ethical and collaborative data science]: https://the-turing-way.netlify.app/welcome.html
-[NHS Digital software engineering COP]: https://github.com/NHSDigital/software-engineering-quality-framework/blob/master/insights/review.md
-[Coding Club]: https://github.com/nhs-pycom/coding-club
-[This blog post]: https://dataingovernment.blog.gov.uk/2017/03/27/reproducible-analytical-pipeline/
-[benefits that come from RAP]: https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/benefits-to-government-from-reproducible-analytical-pipelines/
-[report on overcoming barriers to RAP adoption]: https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/
-[A Beginner's Guide to Conducting Reproducible Research]: https://doi.org/10.1002/bes2.1801
-[Introduction to RAP course]: https://gss.civilservice.gov.uk/training/introduction-to-reproducible-analytical-pipelines-rap/
-[research on the rollout of RAP across different departments]: https://best-practice-and-impact.github.io/CARS-3/index.html
-[GDS community website]: https://www.gov.uk/service-manual/communities/data-science-community
-[GDS community slack]: https://govdatascience.slack.com/
-[GDS community GitHub]: https://github.com/ukgovdatascience
-[Analysis Function website]: https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/
-[NHS-pycom website]: https://nhs-pycom.net/
-[NHS-pycom slack]: https://nhs-pycom.slack.com
-[NHS-pycom GitHub]: https://github.com/nhs-pycom
-[NHS-R website]: https://nhsrcommunity.com/
-[NHS-R slack]: https://nhsrcommunity.slack.com
-[NHS-R GitHub]: https://github.com/nhs-r-community
-[AnalystX website]: https://analystx.uk/
-[Future NHS - AnalystX]: https://future.nhs.uk/connect.ti/DataAnalytics/grouphome
-[AnalystX GitHub]: https://github.com/nhs-analystx
+[the turing way handbook to reproducible, ethical and collaborative data science]: https://the-turing-way.netlify.app/welcome.html
+[nhs digital software engineering cop]: https://github.com/NHSDigital/software-engineering-quality-framework/blob/master/insights/review.md
+[coding club]: https://github.com/nhs-pycom/coding-club
+[this blog post]: https://dataingovernment.blog.gov.uk/2017/03/27/reproducible-analytical-pipeline/
+[benefits that come from rap]: https://gss.civilservice.gov.uk/reproducible-analytical-pipelines/benefits-to-government-from-reproducible-analytical-pipelines/
+[report on overcoming barriers to rap adoption]: https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/
+[a beginner's guide to conducting reproducible research]: https://doi.org/10.1002/bes2.1801
+[introduction to rap course]: https://gss.civilservice.gov.uk/training/introduction-to-reproducible-analytical-pipelines-rap/
+[research on the rollout of rap across different departments]: https://best-practice-and-impact.github.io/CARS-3/index.html
+[gds community website]: https://www.gov.uk/service-manual/communities/data-science-community
+[gds community slack]: https://govdatascience.slack.com/
+[gds community github]: https://github.com/ukgovdatascience
+[analysis function website]: https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/
+[nhs-pycom website]: https://nhs-pycom.net/
+[nhs-pycom slack]: https://nhs-pycom.slack.com
+[nhs-pycom github]: https://github.com/nhs-pycom
+[nhs-r website]: https://nhsrcommunity.com/
+[nhs-r slack]: https://nhsrcommunity.slack.com
+[nhs-r github]: https://github.com/nhs-r-community
+[analystx website]: https://analystx.uk/
+[future nhs - analystx]: https://future.nhs.uk/connect.ti/DataAnalytics/grouphome
+[analystx github]: https://github.com/nhs-analystx
 [data.science@nhs.net]: mailto:data.science@nhs.net
-[NHS Digital Github]: https://github.com/NHSDigital
-[NHS Digital RAP Community of Practice]: https://github.com/NHSDigital/rap-community-of-practice
+[nhs digital github]: https://github.com/NHSDigital
+[nhs digital rap community of practice]: https://github.com/NHSDigital/rap-community-of-practice

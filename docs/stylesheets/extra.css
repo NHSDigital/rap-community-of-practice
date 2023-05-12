@@ -29,7 +29,7 @@
 }
 
 .md-logo-nhs {
-  height: 80px;
+  height: auto;
 }
 
 .md-header__button.md-logo-nhs :is(img, svg) {

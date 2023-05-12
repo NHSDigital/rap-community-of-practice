@@ -19,7 +19,7 @@ This guide will detail what you need to consider before starting a RAP engagemen
 
 ## RAP pre-engagement questionnaire
 
-The analyst team needs to assess their ability to carry out a RAP project end-to-end by completing a RAP pre-engagement questionnaire(Link TBC).
+The analyst team needs to assess their ability to carry out a RAP project end-to-end by completing a [RAP pre-engagement questionnaire](./rap-pre-engagement-questionnaire.md).
 
 The questionnaire will contain a series of questions which will revolve around initial project considerations:
 
