@@ -11,21 +11,22 @@ plugins:
       include_source: True
       theme: dark
 nav:
-  - Home: README.md
+  - Home: index.md
   - About: about.md
-  - Support: support.md
-  - Acknowledgements: acknowledgements.md
   - Introduction to RAP:
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
+      - What is open source?: introduction_to_RAP/what-is-open-source.md
   - Our RAP service:
-      - The RAP team: our_RAP_service/README.md
+      - our_RAP_service/index.md
       - Building team capability: our_RAP_service/building_team_capability.md
       - Support models: our_RAP_service/support-models.md
       - Thin slice strategy: our_RAP_service/thin-slice-strategy.md
       - Typical engagement flow: our_RAP_service/typical-engagement-flow.md
+      - RAP pre-engagement Questionnare: our_RAP_service/rap-pre-engagement-questionnaire.md
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
       - Service design and user research: our_RAP_service/service-design-and-user-research.md
+      
   - Implementing RAP:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
       - Code review: implementing_RAP/code-review.md
@@ -45,6 +46,7 @@ nav:
           - Using Git collaboratively: training_resources/git/using-git-collaboratively.md
           - Git Hooks: training_resources/git/githooks.md
       - Python:
+          - Intro to python: training_resources/python/intro-to-python.md
           - Basic Python data analysis operations: training_resources/python/basic-python-data-analysis-operations.md
           - Python functions: training_resources/python/python-functions.md
           - Visualisation in Python: training_resources/python/visualisation-in-python.md
@@ -68,7 +70,10 @@ nav:
       - R:
           - External resources: training_resources/R/README.md
           - Git with RStudio: training_resources/R/git_with_RStudio.md
+  - Support: support.md
+  - Glossary: glossary.md
   - Useful links: useful_links.md
+  - Acknowledgements: acknowledgements.md
 theme:
   name: material
   custom_dir: overrides
@@ -77,12 +82,14 @@ theme:
     primary: indigo
   font:
     text: Arial
-  logo: images/NHS-Digital-logo_LEFT-WHITE-235x183.png
-  favicon: images/NHS Digital logo_WEB_LEFT.svg
+  logo: images/logo/nhs-blue-on-white.jpg
+  favicon: images/favicon/favicon.ico
   features:
     - search.share
     - content.code.annotate
     - content.tabs.link
+    - navigation.tabs
+    - navigation.indexes
   icon:
     admonition:
       <type>: material/alert
@@ -107,7 +114,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
   - pymdownx.arithmatex:
       generic: true
   - admonition
@@ -128,3 +135,5 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+watch:
+  - overrides

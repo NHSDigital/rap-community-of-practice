@@ -36,12 +36,12 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 - Identify training needs of the publication team through conversations
 - Dedicated training. The content is tailored to the specific team but a typical sequence might look like:
 
-    - [Concept of a thin slice and how to choose the thin slice][5]
-    - Access to off-the-shelf interactive training for self-led training
-    - [PySpark style guide][6]
-    - [Version control][7]
-    - [Writing good functions][8]
-    - [Unit tests][9]
+  - [Concept of a thin slice and how to choose the thin slice][5]
+  - Access to off-the-shelf interactive training for self-led training
+  - [PySpark style guide][6]
+  - [Version control][7]
+  - [Writing good functions][8]
+  - [Unit tests][9]
 
 - Buddy pairs work to replicate the thin slide outputs
 - Set up automated code testing once the numbers are correct
@@ -66,7 +66,7 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 
 [1]: ./support-models.md
 [2]: ../implementing_RAP/rap-readiness.md
-[3]: ../README.md
+[3]: ../index.md
 [4]: ../introduction_to_RAP/levels_of_RAP.md
 [5]: ./thin-slice-strategy.md
 [6]: ../training_resources/pyspark/pyspark-style-guide.md
