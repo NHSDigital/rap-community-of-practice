@@ -1,16 +1,5 @@
 {% extends "base.html" %}
 
-{% block extrahead %}
-<script type='text/javascript'>
-  window.smartlook||(function(d) {
-    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-    c.charset='utf-8';c.src='https://web-sdk.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', '8ebdc7e47014354d79010314ebf1c8d3c4acb81d', { region: 'eu' });
-</script>
-{% endblock %}
-
 {% block content %}
 {% if page.nb_url %}
     <a href="{{ page.nb_url }}" title="Download Notebook" class="md-content__button md-icon">
