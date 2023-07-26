@@ -130,6 +130,8 @@ extra:
       link: https://github.com/NHSDigital/rap-community-of-practice
       name: NHS Digital Analytical Services
   generator: false
+  analytics:
+    provider: smartlook
 copyright: Copyright &copy; 2022 Crown Copyright (NHS Digital)
 extra_javascript:
   - javascripts/mathjax.js
