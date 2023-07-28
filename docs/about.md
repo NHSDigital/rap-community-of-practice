@@ -63,7 +63,7 @@ This collection of resources is [© Crown copyright](http://www.nationalarchives
 [2]: ./implementing_RAP/how-to-publish-your-code-in-the-open.md
 [3]: ./training_resources/python/basic-python-data-analysis-operations.md
 [4]: ./training_resources/R/README.md
-[8]: ./training_resources/git/intro-to-git.md
+[8]: ./training_resources/git/introduction-to-git.md
 [11]: ./introduction_to_RAP/why_RAP_is_important.md#aims-of-rap
 [12]: ./introduction_to_RAP/levels_of_RAP.md
 [13]: ./our_RAP_service#support

@@ -18,6 +18,6 @@ Error messages in PySpark can be especially unhelpful - often returning hundreds
         sys.exit(1)
 ```
 
-Just as before we are using the control error handling gives us to log a useful error message. However, in this case the exception encountered is a custom PySpark exception rather than an inbuilt python exception. PySpark exceptions produce a different stack trace which is long and sometimes difficult to read. So not only do we use error handling here to log our error message, we also take this opportunity to log a more informative readable message as well.
+Just as before we are using the control error handling gives us to log a useful error message. However, in this case the exception encountered is a custom PySpark exception rather than an inbuilt Python exception. PySpark exceptions produce a different stack trace which is long and sometimes difficult to read. So not only do we use error handling here to log our error message, we also take this opportunity to log a more informative readable message as well.
 
 [1]: ../python/logging-and-error-handling.md

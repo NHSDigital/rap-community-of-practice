@@ -29,7 +29,7 @@ Python comes with a standard "[logging](https://docs.python.org/3/library/loggin
 - Track what is going on in the system for better monitoring
 - Control what output is created and how it looks
 
-You can read the official python [logging tutorial](https://docs.python.org/3/howto/logging.html) for instructions on how to customise and adapt the logger.
+You can read the official Python [logging tutorial](https://docs.python.org/3/howto/logging.html) for instructions on how to customise and adapt the logger.
 
 As a basic example - here is the code to set up a logger:
 
@@ -83,7 +83,7 @@ You can find a full list of things to add in the [docs](https://docs.python.org/
 
 ## Error handling in Python
 
-Error handling using try/except is useful and powerful. When python hits an error, it produces something called an exception. An exception is an object that tries can tell you something about what has gone wrong. There are many different types of exceptions - see the full list [here](https://www.tutorialsteacher.com/python/error-types-in-python).
+Error handling using try/except is useful and powerful. When Python hits an error, it produces something called an exception. An exception is an object that tries can tell you something about what has gone wrong. There are many different types of exceptions - see the full list [here](https://www.tutorialsteacher.com/python/error-types-in-python).
 
 To get started with error handling however, the simplest way is to start with a block of code like below:
 
@@ -249,7 +249,7 @@ except:
 print(my_file.contents())
 ```
 
-This is a very basic example but this topic is well covered by the official python [error handling tutorial](https://docs.python.org/3/tutorial/errors.html) and so you can look there for an in-depth summary.
+This is a very basic example but this topic is well covered by the official Python [error handling tutorial](https://docs.python.org/3/tutorial/errors.html) and so you can look there for an in-depth summary.
 
 There is a balance to be found in applying both logging and error handling. For most code you don't need or want everything wrapped up like this - it becomes messy. Pay attention to places where your code interfaces with anything external.
 <br/>

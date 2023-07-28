@@ -111,11 +111,3 @@ You can also have tabs:
 ## Further Reading
 
 - Provide any useful links people might need to further their learning
-
-??? info "_External Links Disclaimer_"
-
-    *NHS Digital makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
-
-    *NHS Digital is not affiliated with any of the websites or companies in the links to external websites.*
-
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [RAP Community of Practice GitHub].*

@@ -13,11 +13,11 @@ Engaging in RAP and re-designing a project will be a learning experience, and si
 Here, we provide a recommended set of minimum criteria.
 
 - [ ] A basic grounding in programming
-  > We recommend the training available here: [introduction to programming](https://www.kaggle.com/learn/intro-to-programming)
+  > We recommend the training available here: [introduction to programming]
 - [ ] A basic grasp of the open-source languages which we intend to use
-  > For Python, we recommend this training: [introduction to Python](https://www.kaggle.com/learn/python) training. For SQL, [this training](https://www.kaggle.com/learn/intro-to-sql).
+  > For Python, we recommend this training: [introduction to Python] training. For SQL, [this training].
 - [ ] An initial grasp of git: what it is, and what its used for.
-  > We provide an [introduction to git][1].
+  > We provide an [introduction to git][git].
 
 ## Resources
 
@@ -28,9 +28,9 @@ Planning up front will make your RAP project much smoother. Here we provide a su
 - [ ] Permissions
   > Do all members of your team have the necessary permissions to access the data assets and platforms necessary for your project? **Acquiring permissions can sometimes be very slow** - it's best to try to line up all necessary permissions well before you need to begin actual coding on your project.
 - [ ] Knowledge of existing tools and how to use them
-  > There are many tools which have been developed for teams just like yours to work more quickly and effectively. We have a curated list of [relevant tools][2].
+  > There are many tools which have been developed for teams just like yours to work more quickly and effectively. We have a curated list of [relevant tools].
 - [ ] A template for your project.
-  > Starting your project from a template will save you a lot of time and effort. We have an [example project template](https://github.com/NHSDigital/rap-package-template) which we would recommend as a starting point.
+  > Starting your project from a template will save you a lot of time and effort. We have an [example project template] which we would recommend as a starting point.
 - [ ] A reasonable amount of contingency planning
   > NHSD members can view some documentation at the 'Risks, Issues, Dependencies & Decisions Log' within the Data Science Skilled Team's confluence page.
 
@@ -39,7 +39,7 @@ Planning up front will make your RAP project much smoother. Here we provide a su
 Converting a project to meet RAP standards takes a significant amount of time. In the medium and long-term, using RAP's is hugely time-saving, since you will have automated so much of your workflow. But in the short term, setting up that automation is demanding. We advise that you make space for training, building, and managing your RAP project.
 
 - [ ] Time to engage with the training resources
-  > As a **very** rough ballpark estimate, expect someone with no coding experience to take ~15 hours to complete the training listed in the [skills](#skills) section; and a further ~8 hours to complete the training we provide e.g. [Python][3], [Git][4], [R][5].
+  > As a **very** rough ballpark estimate, expect someone with no coding experience to take ~15 hours to complete the training listed in the [skills] section; and a further ~8 hours to complete the training we provide e.g. [Python], [Git], [R].
 - [ ] Time to create the RAP
   > Designing, coding, and testing your new pipeline is a time consuming process; especially if this is your first RAP project. We recommend making sure that a group of people are working together on this. Time commitments will, of course, depend upon the nature of the project.
 - [ ] Time to continue with business as usual
@@ -55,19 +55,24 @@ Converting a project to meet RAP standards takes a significant amount of time. I
 
 Code can always, always be improved. How good is 'good enough' for your project? It's a good idea to set clear goals for yourself at the outset of the project. These can always be revised as you go, but it's good to have a established an established target. This will give you something clear to work towards, and will help you know when to stop developing your RAP and start deploying it. Here is a list of points to consider when setting your goals, and thinking about how your RAP will fit into your team's work going forwards.
 
-- [ ] A target [level of RAP][6] to aim for. Typically, this ought to be baseline RAP.
+- [ ] A target [level of RAP][level of RAP] to aim for. Typically, this ought to be baseline RAP.
 - [ ] A publication or project which you're aiming to transform.
-  > We advise limiting yourself to something small to begin with. It's better to complete something small than to start many things and not finish them. We have further advice about doing this in our [thin slice guide][7].
+  > We advise limiting yourself to something small to begin with. It's better to complete something small than to start many things and not finish them. We have further advice about doing this in our [thin slice guide][thin slice guide].
 - [ ] A plan for how you will transition. Once the RAP project is ready for use, you will need to swap out the pre-RAP version for the new pipeline. This might involve, for example, giving your customers advance warning of any new formats you will be publishing data in.
 - [ ] How will you put your team's new skills to use once this project is completed? Are there other projects which would benefit from RAP, and other teams you could help?
 - [ ] Is the RAP community of practice something you could contribute to? Within NHSD, this is an important and growing community of data practitioners who are developing the skills and tools to deploy RAP further.
 - [ ] Are any of your outputs going to change?
-  > Building a new pipeline can serve as an opportunity to improve our team's outputs. For example, you could make sure that any new publications conform to the [Government Statistical Service Accessibility Guidelines](https://gss.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/).
+  > Building a new pipeline can serve as an opportunity to improve our team's outputs. For example, you could make sure that any new publications conform to the [Government Statistical Service Accessibility Guidelines].
 
-[1]: ../training_resources/git/intro-to-git.md
-[2]: ./tools.md
-[3]: ../training_resources/python/basic-python-data-analysis-operations.md
-[4]: ../training_resources/git/intro-to-git.md
-[5]: ../training_resources/R/README.md
-[6]: ../introduction_to_RAP/levels_of_RAP.md
-[7]: ../our_RAP_service/thin-slice-strategy.md
+[Git]: ../training_resources/git/introduction-to-git.md
+[relevant tools]: ./tools.md
+[Python]: ../training_resources/python/basic-python-data-analysis-operations.md
+[R]: ../training_resources/R/README.md
+[level of RAP]: ../introduction_to_RAP/levels_of_RAP.md
+[thin slice guide]: ../our_RAP_service/thin-slice-strategy.md
+[introduction to programming]: https://www.kaggle.com/learn/intro-to-programming
+[introduction to Python]: https://www.kaggle.com/learn/python
+[this training]: https://www.kaggle.com/learn/intro-to-sql
+[example project template]: https://github.com/NHSDigital/rap-package-template
+[skills]: #skills
+[Government Statistical Service Accessibility Guidelines]: https://gss.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/

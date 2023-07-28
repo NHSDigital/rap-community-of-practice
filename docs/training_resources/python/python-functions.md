@@ -8,7 +8,7 @@ A function is a block of organised code that is reusable, and is used to perform
 
 In Python, the standard library provides many useful built-in function such as len(), print(), str(), int(), however the programmer can define their own function to suit their particular needs and requirements.
 
-Python functions are defined by using the `def` keyword. Here is an example of a python function which converts the argument `temp` which is a value representing a temperature in Fahrenheit, into Celsius:
+Python functions are defined by using the `def` keyword. Here is an example of a Python function which converts the argument `temp` which is a value representing a temperature in Fahrenheit, into Celsius:
 
 ```python
     # Define the function
@@ -33,7 +33,7 @@ If you don't specify anything to be returned, your function will return None.
 In this example we can see all the features of a function:
 
 - The name of the function is `fahrenheit_to_celsius()` (you should use snake_case here)
-- The function has one argument`temp`. Function arguments in python are listed between the parentheses after the function name. Additional function arguments are separated by commas.
+- The function has one argument`temp`. Function arguments in Python are listed between the parentheses after the function name. Additional function arguments are separated by commas.
 - The code body calculates the value of the input Fahrenheit temperature in Celsius.
 - The function returns the result of this calculation. This is done using the return keyword in python. When the program hits the return keyword it immediately returns the value specified after the keyword and exits the function. If the function doesn't return anything (which it does not need to) then the function is exited when all the code in the function body has been executed.
 - When calling a function, you need to supply argument inputs for all parameters, otherwise, the Python interpreter will raise a TypeError. Remember to supply the arguments in the same order that the parameters are appeared so that it can be assigned correctly.
@@ -221,7 +221,7 @@ Another benefit of using functions is that they aid in testing the project. Func
 
 By breaking down processing steps into functions we can individually document each of these functions, whereas if we instead had a long sequence of code the best documentation that is possible are simple code comments throughout. The next section goes into detail on documenting functions and the benefits of doing so.
 
-Python docstrings make it possible to document your defined python functions, and describe their functionality. Here is an example of a well-documented python function:
+Python docstrings make it possible to document your defined Python functions, and describe their functionality. Here is an example of a well-documented Python function:
 
 ```python
 def fahrenheit_to_celsius(temp: float) -> float:
@@ -376,7 +376,7 @@ def interest(n):
 
 ## External links
 
-This wiki page is focused on the use cases for functions rather than a general guide on writing python functions. For more general information on writing functions in python see the following:
+This wiki page is focused on the use cases for functions rather than a general guide on writing Python functions. For more general information on writing functions in Python see the following:
 
 - [General guide which also discusses recursion](https://www.w3schools.com/python/python_functions.asp)
 - [General guide which also discusses scope](https://www.programiz.com/python-programming/function)

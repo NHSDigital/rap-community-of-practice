@@ -15,7 +15,7 @@ conda create --name myenvironment python=3.9
 ```
 
 - The `--name` tag specifies a name for the environment: in this example the environment will be named "myenvironment", but you can replace this will something better suited to your project.
-- `python=3.9` specifies python version you wish the virtual environment to run, in this case version 3.9.
+- `python=3.9` specifies Python version you wish the virtual environment to run, in this case version 3.9.
 
 To check the packages that are installed in the [active environment](#how-to-activate-an-environment), enter:
 
@@ -69,10 +69,10 @@ There are a few options for how to export environments and recreated environment
 
 ### Pip requirements.txt
 
-If you followed the [Project structure and package organisation][1] guide, you will have created a `requirements.txt` file in your repository, which specifies all the python packages you wish to install.
+If you followed the [Project structure and package organisation][1] guide, you will have created a `requirements.txt` file in your repository, which specifies all the Python packages you wish to install.
 
 - The benefit of a requirements.txt file created with Pip is that anyone with a Python installation should be able to install it (i.e. someone else wouldn't need to have conda installed)
-- The drawback is that the requirements.txt file offers an incomplete specification for the environment (for example, it does not specify the python version), so projects using requirements.txt files must be careful to specify any additional dependencies in another way (e.g. via a README).
+- The drawback is that the requirements.txt file offers an incomplete specification for the environment (for example, it does not specify the Python version), so projects using requirements.txt files must be careful to specify any additional dependencies in another way (e.g. via a README).
 
 To create a working conda environment using the requirements.txt file, simply follow the conda environment creation commands from above and instead of the simple package installation, first activate the target environment:
 

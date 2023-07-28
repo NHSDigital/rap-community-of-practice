@@ -69,7 +69,7 @@ The following examples show how pathlib makes it easier to extract specific attr
 #### Example: absolute path to the current file
 
 ```python
-# Note: __file__ is a global python variable
+# Note: __file__ is a global Python variable
 this_file_path = pathlib.Path(__file__)
 print("Path to file:", this_file_path)
 ```

@@ -64,7 +64,7 @@ We recommend using conda (bundled with Anaconda), an open-source package manager
 
 This will show up on GitHub when we push the code, written in Markdown (hence the .md extension).
 
-> Markdown is a "markup language", which is basically just a way to write plain text that end up getting formatted nicely. It is used on GitHub and GitLab, and can also be used in an [interactive python notebook](#interactive-python-notebooks) cell.
+> Markdown is a "markup language", which is basically just a way to write plain text that end up getting formatted nicely. It is used on GitHub and GitLab, and can also be used in an [interactive Python notebook](#interactive-python-notebooks) cell.
 
 On the first line of your README.md file, you should write the title. You must put a # (hash) key followed by a space before the title of your project. The number of hashes sets the header level, with one hash being the title. Other headings in your README should be at least two hashes.
 
@@ -183,7 +183,7 @@ Once you have selected a Python interpreter, there are several different ways to
 
 You can run your Python script by clicking the **Run Python File in Terminal** play button in the top-right side of the editor.
 
-![Run python file button](../images/run-python-file-button.png)
+![Run Python file button](../images/run-python-file-button.png)
 
 The button opens a terminal in which your Python interpreter is automatically activated, then runs your script.
 
@@ -253,7 +253,7 @@ Use the convert icon on the toolbar to convert the Notebook (.ipynb) file to a P
 
 Once you've converted the file, you can run the code as you would with any other Python file. This offers a more convenient way to find and resolve code bugs, which is difficult to do directly in a Jupyter notebook.
 
-[1]: ../training_resources/git/intro-to-git.md#what-is-a-terminal
-[2]: ../training_resources/git/intro-to-git.md
+[1]: ../training_resources/git/introduction-to-git.md#how-do-i-use-git
+[2]: ../training_resources/git/introduction-to-git.md
 [3]: ../training_resources/python/virtual-environments/conda.md
 [4]: ./notebooks_versus_ide_development.md

@@ -136,7 +136,7 @@ Your test functions will obviously be stored in a file but having all of your te
 - Integration tests which test the interaction between modules of the program (occurs after unit testing).
 - Backtesting used to check how successful the pipeline is on historical data.
 
-These three classes of tests need to be separated out. The simplest way to do this is to have a subfolder in your main tests folder for each fo these kinds of tests, and then within these subfolders have python files containing the tests:
+These three classes of tests need to be separated out. The simplest way to do this is to have a subfolder in your main tests folder for each fo these kinds of tests, and then within these subfolders have Python files containing the tests:
 
 - "tests":
   - "unittests":

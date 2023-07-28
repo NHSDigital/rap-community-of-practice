@@ -22,7 +22,7 @@ A common bad practice in stats production is to combine data production and data
 - Code is messy and difficult to maintain. Code should do one thing only - either produce the data or format the data.
 - Once the data has been formatted it becomes less useful for other analysts since it is not machine readable. Before another team can use the data, they need to reformat it.
 
-Tidy data offers a consistent format for data analysis purposes that is easy for analysts to produce, easy for humans to interpret, and easy for statistical tools like python and R to read. Tidy data offers more flexibility for readability and simplicity for data analysis purposes, as opposed to 'messy' or non-tidy data that can be have its own structure and rules. Tidy data involves "structuring datasets to facilitate analysis."
+Tidy data offers a consistent format for data analysis purposes that is easy for analysts to produce, easy for humans to interpret, and easy for statistical tools like Python and R to read. Tidy data offers more flexibility for readability and simplicity for data analysis purposes, as opposed to 'messy' or non-tidy data that can be have its own structure and rules. Tidy data involves "structuring datasets to facilitate analysis."
 
 Having a consistent way of storing data, like in the tidy format, allows for analysts to easily use the same tools of analysis in a universal way, for example R or Python. Then, time is spent on producing all kinds of published outputs from the tidy structure, other pieces of analysis and data visualisation outputs such as dashboards.
 

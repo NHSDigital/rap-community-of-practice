@@ -16,9 +16,9 @@
     |--------------|------------|------|
     |[Levels of RAP](../../introduction_to_RAP/levels_of_RAP.md)|Essential|Having well organised code and following a standard directory format is a component of **Silver RAP**|
 
-A python package is a way to bundle your code into a single thing that can be shared and reused. If our goal is to be able to share and reuse code across NHS England and externally then there are many benefits to packaging code:
+A Python package is a way to bundle your code into a single thing that can be shared and reused. If our goal is to be able to share and reuse code across NHS England and externally then there are many benefits to packaging code:
 
-- **Shareable**: The most important reason to use packages is that it is the way to share python code. Not using packages runs the risk that other people will not be able to run your code... "It works fine on my machine".
+- **Shareable**: The most important reason to use packages is that it is the way to share Python code. Not using packages runs the risk that other people will not be able to run your code... "It works fine on my machine".
 - **Databricks**: It looks likely that packaging code will be the easiest way to get your code onto databricks. (NB: we are keeping a close eye on Data Refinery to answer this question)
 - **Reliability**: Packages go a long way to ensuring that other people in your team can open your code and run it without hitting issues.
 - **Organised**: Packages allow you to organise your code in logical sections. This makes it much easier to test and to maintain over time.
@@ -26,11 +26,11 @@ A python package is a way to bundle your code into a single thing that can be sh
 
 This is a tricky topic at first so we recommend asking for some support when you set this up for the first time.
 
-## How to package python code
+## How to package Python code
 
-In order to package your code, you just need to follow the standard templates for python projects. I describe this briefly here but provide links to the comprehensive official guidance below.
+In order to package your code, you just need to follow the standard templates for Python projects. I describe this briefly here but provide links to the comprehensive official guidance below.
 
-Here is an outline of a very basic python project for a publication as an example:
+Here is an outline of a very basic Python project for a publication as an example:
 
 ```txt
 project_name
@@ -53,9 +53,9 @@ Note that the whole directory is called `project_name` but we also have a sub-fo
 
 The README.md file is extremely important as this functions as the package’s landing page. The README provides a bird's eye view of the whole package. You should treat it as the first thing a new starter might read when trying to understand your code. It might contain an overview of the code, details of inputs/outputs, how to install package, ownership, contributing and licence info.
 
-The random-seeming files (`pyproject.toml`, `requirements.txt`, etc.) are all involved in dependency management. Your package will depend on certain things being in place in order to run - these files manage those dependencies. Be aware that dependency management has evolved over the years in python and other languages and best practice has changed over time. Here, we aim to keep it as simple as possible while still achieving the goal of producing robust, shareable code.
+The random-seeming files (`pyproject.toml`, `requirements.txt`, etc.) are all involved in dependency management. Your package will depend on certain things being in place in order to run - these files manage those dependencies. Be aware that dependency management has evolved over the years in Python and other languages and best practice has changed over time. Here, we aim to keep it as simple as possible while still achieving the goal of producing robust, shareable code.
 
-Also note the funny looking `__init__.py`. This file tells python that this code is part of a package. With this file in place you can import functions from the different parts of your code. E.g. `from sdd.example_package.example import my_function`. Again - you can learn more about this in the links below.
+Also note the funny looking `__init__.py`. This file tells Python that this code is part of a package. With this file in place you can import functions from the different parts of your code. E.g. `from sdd.example_package.example import my_function`. Again - you can learn more about this in the links below.
 
 Here is another for the [NDA publication](https://github.com/NHSDigital/national-diabetes-audit) so you can see the pattern. We have a more elaborate version of this below.
 
@@ -99,7 +99,7 @@ conda env create -f environment.yml
 conda activate <environment_name>
 ```
 
-  Once the package is installed it will be able to identify all the modules inside your code. If you have populated the `setup.py` and `requirements.txt`, python will install all of the bits that your code needs in order to run.
+  Once the package is installed it will be able to identify all the modules inside your code. If you have populated the `setup.py` and `requirements.txt`, Python will install all of the bits that your code needs in order to run.
 
 - More importantly, other people can install finished your package from gitlab using `pip install git+path_to_my_repo`. For example `pip install git+https://<domain>/<path>/diabetes_rap`
 
@@ -107,7 +107,7 @@ conda activate <environment_name>
 
 ## Adapting package structure for analytical work
 
-Every python project should follow the standard package structure to help ensure portability and reliability. Nevertheless, there is scope to adapt this structure to fit the workflow of specific projects. The [cookie cutter data science template](https://drivendata.github.io/cookiecutter-data-science/#directory-structure) shows how you can include folders for output data, validation reports, figures, etc.
+Every Python project should follow the standard package structure to help ensure portability and reliability. Nevertheless, there is scope to adapt this structure to fit the workflow of specific projects. The [cookie cutter data science template](https://drivendata.github.io/cookiecutter-data-science/#directory-structure) shows how you can include folders for output data, validation reports, figures, etc.
 The figure below shows how we have applied this structure to the [RAP package template](https://github.com/NHSDigital/rap-package-template).
 
 ```
@@ -172,7 +172,7 @@ Some things to notice about this structure:
 
   - The `config.toml` file contains all of the parameters that we expect to change frequently, e.g. input data.
   - The `create_publication.py` file organises the steps in a simple, easy-to-understand manner that should be readable by anyone, even if they don't know python. In this way, we aim to reduce risk by make the code accessible to new staff.
-  - The `requirements.txt` file which specifies all the python packages you wish to install. See [venv virtual environments guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/virtual-environments/venv/).
+  - The `requirements.txt` file which specifies all the Python packages you wish to install. See [venv virtual environments guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/virtual-environments/venv/).
   - The `environment.yml` is Conda offering a way to export and share environments via a yaml file. See [Conda virtual environments guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/virtual-environments/conda/) for more info.
   - The `pyproject.toml` file, which contains build system requirements and information, which are used by pip to build the package. For more information see [pyproject.toml documentation](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/). 
 
@@ -203,11 +203,3 @@ This is a really big topic and we don't want to replicate material that you can 
   _Good for understanding on how to organise and import sub-packages._
 
 - [Why we share code as a .whl file](https://packaging.python.org/discussions/wheel-vs-egg/)
-
-??? info "_External Links Disclaimer_"
-
-    *NHS Digital makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
-
-    *NHS Digital is not affiliated with any of the websites or companies in the links to external websites.*
-
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [RAP Community of Practice GitHub].*

@@ -6,7 +6,7 @@ See Matplotlib Examples Gallery:
 
 - [Matplotlib Examples gallery](https://matplotlib.org/stable/gallery/index.html)
 
-There are many python packages that provide different features in order to create all kinds of plots. We will present one of the most commonly used packages in this guide: Matplotlib.
+There are many Python packages that provide different features in order to create all kinds of plots. We will present one of the most commonly used packages in this guide: Matplotlib.
 
 ## Basic plots
 

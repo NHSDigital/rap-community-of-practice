@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We tend to use PySpark interleaved with python. That means we follow standard python organisation of modules, functions, tests, etc., but where we do data manipulation we drop to PySpark.
+We tend to use PySpark interleaved with python. That means we follow standard Python organisation of modules, functions, tests, etc., but where we do data manipulation we drop to PySpark.
 
 PySpark gives you many ways to accomplish operations. We do not lay out all of the different options here because it would be confusing. Instead, these examples give you the single approach that we have chosen to use. it is perfectly valid for you to choose a different way.
 
@@ -217,7 +217,7 @@ df = (
 )
 ```
 
-### PySpark inside a python function
+### PySpark inside a Python function
 
 We can create functions like in python, same logic applies, but instead using PySpark style:
 

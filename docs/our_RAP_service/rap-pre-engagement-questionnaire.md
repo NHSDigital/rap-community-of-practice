@@ -64,11 +64,3 @@ It's a good idea to go through this checklist with the subject matter experts of
 ## Further Reading
 
 - [Are you ready for RAP?](../implementing_RAP/rap-readiness.md)
-
-??? info "_External Links Disclaimer_"
-
-    *NHS England makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
-
-    *NHS England is not affiliated with any of the websites or companies in the links to external websites.*
-
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [RAP Community of Practice GitHub].*
