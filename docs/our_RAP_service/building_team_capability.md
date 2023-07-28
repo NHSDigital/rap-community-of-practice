@@ -120,7 +120,7 @@ Other training to consider running depending on your team's requirements. We sug
 
 - [How to do code reviews][7]. Code reviews can be deceiving as someone who's new to code reviews understand that their work is being judged. It is recommended to hold a team code review session and review a few example scripts, using our guidelines and considerations to demonstrate how useful and invaluable code reviews can be in improving overall code quality while also developing your coding skills at the same time.
 
-- [Project structure session, how to package your code][8]. A python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS Digital as well as externally.
+- [Project structure session, how to package your code][8]. A Python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS Digital as well as externally.
 
 - **[PEP8](https://peps.python.org/pep-0008/) and Linting**. Linting is a tool that highlights programming errors, stylistic errors and bugs in your code. Each programming software has its own linting application, it is recommended to enable this feature as it helps avoiding this type of errors.
 
@@ -138,7 +138,7 @@ For example, if all members of the RAP project team are comfortable using versio
 
 [1]: ../introduction_to_RAP/levels_of_RAP.md
 [2]: ../our_RAP_service/thin-slice-strategy.md
-[3]: ../training_resources/git/intro-to-git.md
+[3]: ../training_resources/git/introduction-to-git.md
 [4]: ../training_resources/git/using-git-collaboratively.md
 [5]: ../training_resources/python/basic-python-data-analysis-operations.md
 [6]: ../training_resources/python/python-functions.md

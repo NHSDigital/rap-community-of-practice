@@ -161,11 +161,11 @@ Inspiration has been drawn from:
 [3]: ../training_resources/python/project-structure-and-packaging.md
 [4]: ./notebooks_versus_ide_development.md
 [5]: ./tools.md#conda-environment
-[6]: ../training_resources/git/intro-to-git.md#the-gitignore-file
+[6]: ../training_resources/git/introduction-to-git.md#gitignore
 [7]: ../training_resources/python/virtual-environments/conda.md#how-to-create-a-new-virtual-environment-using-conda
 [8]: ../training_resources/python/virtual-environments/conda.md#how-to-activate-an-environment
 [9]: ./tools.md#the-terminal
-[10]: ../training_resources/git/intro-to-git.md#common-basic-commands
+[10]: ../training_resources/git/introduction-to-git.md#common-git-commands
 [11]: ./tools.md#code-editing
 [12]: ./tools.md#interactive-cells-in-vs-code
 [13]: ./tools.md#interactive-python-notebooks

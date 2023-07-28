@@ -29,7 +29,7 @@ Best practice recommends that we create a different virtual environment for each
 
 Git is a version control system which can help with keeping track of changes to code. Git isn't specific to python, and is used almost universally for coding. Git is a program which runs locally on your computer. Where git really comes into it's own, though, is when you use it to help with collaborating on code with others. Github and Gitlab are two websites which help to do this.
 
-You can read more about git on our [introduction to Git](training_resources/git/intro-to-git.md) page.
+You can read more about git on our [introduction to Git](training_resources/git/introduction-to-git.md) page.
 
 ## IDE
 

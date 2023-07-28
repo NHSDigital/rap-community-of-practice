@@ -286,8 +286,8 @@ If you are happy to merge the two branches, then select the type of Pull Request
 - [GitHub Docs - Pull requests](https://docs.github.com/en/pull-requests)
 
 [1]: ../git/using-git-collaboratively.md
-[2]: ../git/intro-to-git.md
-[3]: ../git/intro-to-git.md#common-basic-commands
-[4]: ../git/intro-to-git.md#2-git-clone-copydownload-a-gitlab-repository
-[5]: ../git/intro-to-git.md#the-gitignore-file
-[6]: ../git/intro-to-git.md#creating-your-access-token
+[2]: ../git/introduction-to-git.md
+[3]: ../git/introduction-to-git.md#common-git-commands
+[4]: ../git/quick_start_guides/gitlab_quick_start_guide.md
+[5]: ../git/introduction-to-git.md#gitignore
+[6]: ../git/quick_start_guides/gitlab_quick_start_guide.md

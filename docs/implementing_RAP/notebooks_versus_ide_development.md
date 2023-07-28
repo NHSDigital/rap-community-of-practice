@@ -177,7 +177,7 @@ We have created a [suggested workflow][5] that is not intended to be seen as the
 [1]: ./how-to-publish-your-code-in-the-open.md
 [2]: https://best-practice-and-impact.github.io/qa-of-code-guidance/modular_code.html?highlight=notebooks#:~:text=Think%20carefully%20about%20whether%20notebooks%20are%20a%20suitable%20way%20to%20organise%20your%20code%23
 [3]: ../training_resources/python/unit-testing.md
-[4]: ../training_resources/git/intro-to-git.md
+[4]: ../training_resources/git/introduction-to-git.md
 [5]: ../implementing_RAP/technical-workflow.md
 
 <br></br>

@@ -11,7 +11,7 @@
 
     |Pre-requisite | Importance | Note |
     |--------------|------------|------|
-    |[Intro to Git][intro-to-git]|Necessary|This guide assumes you are using Git to version control|
+    |[Intro to Git][introduction-to-git]|Necessary|This guide assumes you are using Git to version control|
     |[Using Git collaboratively][using-git-collaboratively]|Helpful|Get started using Git as a team|
 
 ## What are Git hooks?
@@ -166,7 +166,7 @@ Create a new GitHub Actions workflow file `.github/workflows/workflow-name.yaml`
 
 *NHS Digital is not affiliated with any of these websites or companies.*
 
-[intro-to-git]: ./intro-to-git.md
+[introduction-to-git]: ./introduction-to-git.md
 [using-git-collaboratively]: ./using-git-collaboratively.md
 [govcookiecutter-repo]: https://github.com/best-practice-and-impact/govcookiecutter
 [python-website]: https://www.python.org/

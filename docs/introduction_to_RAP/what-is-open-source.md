@@ -49,7 +49,7 @@ Any open source code can be reused by our developers to reduce costs, avoid dupl
 
 ## Examples of open source projects
 
-**[Splink]** - Splink is a Python package developed by the Ministry of Justice for probabilistic record linkage. It deduplicates and/or links records from datasets that lack a unique identifier. The core linkage algorithm is an implementation of Fellegi-Sunter's model of record linkage, with various customisations to improve accuracy. Check out the publication ['Splink: MoJ’s open source library for probabilistic record linkage at scale'] to find out more.
+**[Splink]** - Splink is a Python package developed by the Ministry of Justice for probabilistic record linkage. It deduplicates and/or links records from datasets that lack a unique identifier. The core linkage algorithm is an implementation of Fellegi-Sunter's model of record linkage, with various customisations to improve accuracy. Check out the publication ['Splink: MoJ’s open source library for probabilistic record linkage at scale'][splink-publication] to find out more.
 
 The package is fully open source and can be found on GitHub. It is accompanied by a set of [interactive demos] to illustrate its functionality, whereby users can run real record linking jobs in their web browser.
 
@@ -65,20 +65,12 @@ The package is fully open source and can be found on GitHub. It is accompanied b
 - [The benefits of coding in the open] (GDS)
 - [Open source policy] (NHSX)
 
-??? info "_External Links Disclaimer_"
-
-    *NHS Digital makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
-
-    *NHS Digital is not affiliated with any of the websites or companies in the links to external websites.*
-
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [RAP Community of Practice GitHub].*
-
 [levels of rap]: ./levels_of_RAP.md
 [python]: https://www.python.org/about/
 [python software foundation]: https://www.python.org/psf-landing/
 [the technology code of practice]: https://www.gov.uk/guidance/the-technology-code-of-practice
 [splink]: https://github.com/moj-analytical-services/splink/
-[splink: moj’s open source library for probabilistic record linkage at scale]: https://www.gov.uk/government/publications/joined-up-data-in-government-the-future-of-data-linking-methods/splink-mojs-open-source-library-for-probabilistic-record-linkage-at-scale
+[splink-publication]: https://www.gov.uk/government/publications/joined-up-data-in-government-the-future-of-data-linking-methods/splink-mojs-open-source-library-for-probabilistic-record-linkage-at-scale
 [interactive demos]: https://github.com/moj-analytical-services/splink_demos
 [coronavirus-dashboard-github]: https://github.com/publichealthengland/coronavirus-dashboard
 [coronavirus dashboard]: https://coronavirus.data.gov.uk/

@@ -2,11 +2,11 @@
 
 !!! warning
 
-    This guide assumes you have a core python installation with the py launcher installed to use the `py` command. See [python.org][python-website] to download a version of python.
+    This guide assumes you have a core Python installation with the py launcher installed to use the `py` command. See [python.org][python-website] to download a version of python.
 
-The venv module is part of python's standard library. It supports creating lightweight virtual environments, each with their own independent set of packages installed in their site directories. A virtual environment is created on top of an existing python installation, known as the virtual environment’s “base” python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available.
+The venv module is part of python's standard library. It supports creating lightweight virtual environments, each with their own independent set of packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available.
 
-When used from within a virtual environment, common installation tools such as pip will install python packages into a virtual environment without needing to be told to do so explicitly.
+When used from within a virtual environment, common installation tools such as pip will install Python packages into a virtual environment without needing to be told to do so explicitly.
 
 ## How to create a virtual environment using venv
 
@@ -26,7 +26,7 @@ To create a new venv environment for your project, open a terminal and enter:
 
 !!! note
 
-    - The optional `<python-version>` tag specifies the python version you wish the virtual environment to run. If omitted, it will default to the latest python version installed on your system.
+    - The optional `<python-version>` tag specifies the Python version you wish the virtual environment to run. If omitted, it will default to the latest Python version installed on your system.
 
     - `<venv-directory>` describes the name of the virtual environment. You have to provide this, as it also defines the name of the directory in which the virtual environment will be created. It is recommended to choose a name that reflects the project you are working on. If you are using git, remember to add this path to your `.gitignore` file!
 
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 The following contains a full example do illustrate how easy it is to get started with virtual environments!
 
-We create the virtual environment for project-1 in a folder called `venv` (which is automatically ignored by many stock `.gitignore` files) and call it `project-1`. After installing the requirements it's good to go, and one could use it to run python files, interactive development, etc. just like a normal python interpreter.
+We create the virtual environment for project-1 in a folder called `venv` (which is automatically ignored by many stock `.gitignore` files) and call it `project-1`. After installing the requirements it's good to go, and one could use it to run Python files, interactive development, etc. just like a normal Python interpreter.
 
 === "Windows PowerShell"
 

@@ -10,6 +10,9 @@ plugins:
   - mkdocs-jupyter:
       include_source: True
       theme: dark
+  - redirects:
+      redirect_maps:
+        "training_resources/git/intro-to-git.md": "training_resources/git/introduction-to-git.md"
 nav:
   - Home: index.md
   - About: about.md
@@ -17,6 +20,7 @@ nav:
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
+      - The history of RAP: introduction_to_RAP/history_of_RAP.md
   - Our RAP service:
       - our_RAP_service/index.md
       - Building team capability: our_RAP_service/building_team_capability.md
@@ -26,9 +30,10 @@ nav:
       - RAP pre-engagement Questionnare: our_RAP_service/rap-pre-engagement-questionnaire.md
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
       - Service design and user research: our_RAP_service/service-design-and-user-research.md
-      
+
   - Implementing RAP:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
+      - Process Mapping: implementing_RAP/process_mapping.md
       - Code review: implementing_RAP/code-review.md
       - Coding best practice: implementing_RAP/coding-best-practice.md
       - When to stop coding: implementing_RAP/when-to-stop-coding.md
@@ -42,11 +47,19 @@ nav:
       - Tools: implementing_RAP/tools.md
   - Training resources:
       - Git:
-          - Intro to Git: training_resources/git/intro-to-git.md
+          - Introduction to Git: training_resources/git/introduction-to-git.md
           - Using Git collaboratively: training_resources/git/using-git-collaboratively.md
           - Git Hooks: training_resources/git/githooks.md
+          - Quick Start Guides:
+              - Git: training_resources/git/quick_start_guides/git_quick_start_guide.md
+              - GitHub: training_resources/git/quick_start_guides/github_quick_start_guide.md
+              - GitLab: training_resources/git/quick_start_guides/gitlab_quick_start_guide.md
+          - Walkthroughs:
+              - Committing Work: training_resources/git/git_walkthroughs/committing_work_walkthrough.md
+              - Working with Branches: training_resources/git/git_walkthroughs/working_with_branches_walkthrough.md
+              - Pull and Merge Requests: training_resources/git/git_walkthroughs/pull_and_merge_requests_walkthrough.md
       - Python:
-          - Intro to python: training_resources/python/intro-to-python.md
+          - Intro to Python: training_resources/python/intro-to-python.md
           - Basic Python data analysis operations: training_resources/python/basic-python-data-analysis-operations.md
           - Python functions: training_resources/python/python-functions.md
           - Visualisation in Python: training_resources/python/visualisation-in-python.md
@@ -96,11 +109,13 @@ theme:
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
+  - def_list
   - pymdownx.tasklist:
       # clickable_checkbox: true
       custom_checkbox: true
   - tables
   - attr_list
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

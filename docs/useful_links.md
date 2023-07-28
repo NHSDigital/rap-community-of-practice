@@ -19,6 +19,7 @@ hide:
 - The Turing Institute's [The Turing Way handbook to reproducible, ethical and collaborative data science]
 - We have taken inspiration from the [NHS Digital software engineering COP].
 - [**NHS PyCom Coding Club Github**][coding club]: Lots of great guides and lessons here from the NHS Python Community
+- **[Building reproducible analytical pipelines with R](https://raps-with-r.dev/)**
 
 ## Examples, Challenges, Benefits
 
