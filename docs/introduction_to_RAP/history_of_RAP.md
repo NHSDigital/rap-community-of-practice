@@ -10,7 +10,7 @@ We thought it was worth laying out some of the key moments in RAP history - than
      * [Open Source Guidance: Security considerations when coding in the open](https://www.gov.uk/government/publications/open-source-guidance/security-considerations-when-coding-in-the-open)
      * [Central Digital and Data Office: Be open and use Open Source](https://www.gov.uk/guidance/be-open-and-use-open-source)
 
-: Ed Humpherson, DG at [OSR](https://osr.statisticsauthority.gov.uk/) write a [blog](https://osr.statisticsauthority.gov.uk/blog/a-robot-by-any-name/) about the first MoJ RAP, which took inspiration from [the eesectors RAP exemplar](https://github.com/DCMSstats/eesectors).
+: Ed Humpherson, DG at [OSR](https://osr.statisticsauthority.gov.uk/) wrote a [blog](https://osr.statisticsauthority.gov.uk/blog/a-robot-by-any-name/) about the first MoJ RAP, which took inspiration from [the eesectors RAP exemplar](https://github.com/DCMSstats/eesectors).
 
 
 ## Early history of RAP
