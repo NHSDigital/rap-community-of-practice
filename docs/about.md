@@ -5,7 +5,7 @@ hide:
 
 # RAP Community of Practice
 
-> **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
+> **This material is maintained by the [NHS England Data Science team](mailto:datascience@nhs.net)**.
 
 > You can see some examples of our work [here](https://github.com/NHSDigital/data-analytics-services), including [underlying code to NHS Digital publications](https://github.com/NHSDigital/data-analytics-services#rap-publication-repositories) which have been published as a direct outcome of the service our team provides.
 
@@ -17,7 +17,7 @@ RAP is becoming the standard for creating analytical outputs in government; comb
 
 The [Goldacre Review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis), tasked with finding ways to deliver better, broader, and safer use of NHS data for analysis and research, identified RAP as the essential element to ensure high-quality analysis.
 
-The Data Science team at NHS Digital have been championing RAP practices and providing support for analytical teams across our organisation. We have published these resources in the spirit of openness and transparency, and in the hope that other teams in other organisations may find them useful. You can find out more about our incredible contributors on our [Acknowledgements](acknowledgements.md) page.
+The Data Science team at NHS England have been championing RAP practices and providing support for analytical teams across our organisation. We have published these resources in the spirit of openness and transparency, and in the hope that other teams in other organisations may find them useful. You can find out more about our incredible contributors on our [Acknowledgements](acknowledgements.md) page.
 
 Learn more about our [RAP service][19].
 
@@ -32,9 +32,9 @@ See more about our [aims][11].
 
 ## Tutorials and resources
 
-As we work alongside teams at NHS Digital, we try to produce reusable learning materials. We try to avoid reproducing guidance that is easily available online. Instead, we link to lots of external resources where you can self-serve.
+As we work alongside teams at NHS England, we try to produce reusable learning materials. We try to avoid reproducing guidance that is easily available online. Instead, we link to lots of external resources where you can self-serve.
 
-We also have created some bespoke guidance that lays out how you would accomplish these practices in the NHS Digital setting, which are available internally.
+We also have created some bespoke guidance that lays out how you would accomplish these practices in the NHS England setting, which are available internally.
 
 The 'Implementing RAP' section shows you how you can start using RAP principles within your own team such as using [code reviews][14], [publishing your code][2] or [useful tools][15].
 
@@ -49,7 +49,7 @@ We have also developed some training resources on:
 
 These resources are intended to help people get started with RAP. We welcome all feedback.
 
-If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/rap-community-of-practice/issues) or contact the team via the NHS Digital RAP MS Teams page (internal to NHS Digital), or [email](mailto:datascience@nhs.net).
+If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/rap-community-of-practice/issues) or contact the team via the NHS England "RAP Community of Practice" MS Teams  (internal to NHS England), or [email](mailto:datascience@nhs.net).
 
 You can also follow our guidance on [how to contribute](https://github.com/NHSDigital/rap-community-of-practice/blob/main/CONTRIBUTE.md).
 

@@ -1,6 +1,6 @@
 # Programme level reporting
 
-The RAP team at NHS Digital offers a service to support teams to reach their RAP goals. We try to avoid being put in situations where we are chasing teams to complete RAP work - the dynamic works better if teams choose to approach us. Nevertheless, it is important for us to track the engagements that we take on so that we can account for our work.
+The RAP team at NHS England offers a service to support teams to reach their RAP goals. We try to avoid being put in situations where we are chasing teams to complete RAP work - the dynamic works better if teams choose to approach us. Nevertheless, it is important for us to track the engagements that we take on so that we can account for our work.
 
 How we do this has taken on several forms as we have figured out what service we are providing and improved our understanding of the needs of teams.
 

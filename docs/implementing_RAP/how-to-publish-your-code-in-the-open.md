@@ -24,7 +24,7 @@ Projects and publications with the aim to be published should follow the **Fit-f
 
 ### Workflow initial steps
 
-1. **Starting point:** After designing and developing the source code on NHS Digital's internal Gitlab platform, you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted. Expect that all code should be published unless there's an evidence based case to not publish (e.g. sensitive algorithm).
+1. **Starting point:** After designing and developing the source code (e.g. on NHS Digital's internal Gitlab instance), you should ensure at this step that your repository, code and tests are all set and ready for external review, having addressed any security concerns. Your project is ready to go through Senior Manager approval for publishing and enter the **Publishing Assurance** phase, once approval is granted. [Expect that all code should be published unless there's an evidence based case to not publish](https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed).
 
 2. At the beginning of this phase a **snapshot** of the project's repository is taken (download the zip file of the branch) or a separate GitLab branch is created for the review. The purpose of the snapshot is to remove all repository history and previous commits.
 
@@ -57,7 +57,7 @@ For each subsection of the checklist:
 
 To publish the code on Github, you need to make a repo and then just upload your repo snapshot (see above). You'll need to be, or become a member of the [NHS Digital Github organisation](https://github.com/NHSDigital) to do this.
 
-> For NHS Digital colleagues, [we've made a guide with specifically how you do each of the above](https://nhsd-confluence.digital.nhs.uk/display/KH/Github+-+publishing+your+code).
+> For NHS England colleagues, [we've made a guide with specifically how you do each of the above](https://nhsd-confluence.digital.nhs.uk/display/KH/Github+-+publishing+your+code).
 
 ### Adding topics to your GitHub repository
 Adding topics to your repository can be useful for users who are searching on GitHub to find similar topics of interest, e.g. an user searching for RAP repositories using `rap` or a user searching for NHS repositories containing analytical work with the topic `nhs-digital-publication`. GitHub has very good documentation on how to add topics to your repository, see [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
@@ -72,4 +72,4 @@ Once a new publication's repository is published on GitHub, feel free to update 
 - [The benefits of coding in the open](https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/)
 - [Open source repositories by the Government Digital Service](https://github.com/alphagov)
 
-*NHS Digital is not affiliated with any of these websites or companies.*
+*NHS England is not affiliated with any of these websites or companies.*

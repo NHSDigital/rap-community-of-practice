@@ -7,7 +7,7 @@ Accessibility regulations have been implemented for all public sectors and gover
 
 > **See the [NHS "digital service manual"](https://service-manual.nhs.uk/accessibility) on accessibility and why it matters**.
 
-We follow suit at NHS Digital, building up on government accessibility directives, releasing and maintaining a wide range of NHS services and products, encompassing accessibility standards in each project development's phase:
+We follow suit at NHS England, building up on government accessibility directives, releasing and maintaining a wide range of NHS services and products, encompassing accessibility standards in each project development's phase:
 
 - **product and delivery:** including the questions product or delivery managers need to be asking.
 - **user research:** from identifying target groups and accessibility challenges to including users with access needs in research and practicalities like making your research sessions more accessible on the day.

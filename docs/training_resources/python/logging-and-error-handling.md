@@ -75,9 +75,9 @@ You can find a full list of things to add in the [docs](https://docs.python.org/
 
 ### Video tutorial: Logging demo
 
-!!! Info "Internal to NHS Digital"
+!!! Info "Internal to NHS England"
 
-    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+    This video can be found internal to NHS England within the RAP community of practice MS Teams page under:
 
     Files > COP video tutorials > Error Handling
 

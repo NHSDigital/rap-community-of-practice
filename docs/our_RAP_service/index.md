@@ -5,9 +5,9 @@ report, we have set up a central RAP team to coordinate efforts and set standard
 
 This team tends to be made up of about 5 data scientists and we flex the resource up and down according to demand.
 
-Over time, we hope that the central RAP team can be resourced with a mix of all kinds of roles in NHS Digital. We think that this collaborative approach to resourcing will make it more likely that the whole community owns the problem.
+Over time, we hope that the central RAP team can be resourced with a mix of all kinds of roles in NHS England. We think that this collaborative approach to resourcing will make it more likely that the whole community owns the problem.
 
-There are already lots of people playing an informal 'RAP champion' role by supporting colleagues. This group of people would be the natural candidates to guide the NHS Digital RAP community over time.
+There are already lots of people playing an informal 'RAP champion' role by supporting colleagues. This group of people would be the natural candidates to guide the NHS England RAP community over time.
 
 > The rest of this section shares the resources our RAP team has developed for the management, planning, and strategy for embedding RAP practices in a large organisation. We hope that sharing our approach and considerations will help others.
 

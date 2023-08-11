@@ -76,11 +76,11 @@ In the subsection above, an example of a messy dataset was transformed to a tidy
 **_Note:_**
 _It's perfectly valid and understandable to have your own structured way of presenting data in your published outputs, like in the table below (Occupation and Salaries). You should only format your data like this as a final output step - after producing your data in tidy format. Tidy data focuses not so much on the data formatting perspective but on the data production side, as tidy data enables the analyst to focus on analytical questions and not on data processing._
 
-!!! Info "Internal to NHS Digital"
+!!! Info "Internal to NHS England"
 
     How to transform your tidy data into a publication style output example: **From tidy to publication output**.
 
-    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+    This video can be found internal to NHS England within the RAP community of practice MS Teams page under:
 
     Files > COP video tutorials > From tidy data to publication
 
@@ -216,9 +216,9 @@ In these cases, it is recommended that each table is 'tidied' up, and then combi
 
 ## Diabetes tidy data example
 
-!!! Info "Internal to NHS Digital"
+!!! Info "Internal to NHS England"
 
-    This video can be found internal to NHS Digital within the RAP community of practice MS Teams page under:
+    This video can be found internal to NHS England within the RAP community of practice MS Teams page under:
 
     Files > COP video tutorials > Diabetes tidy example
 

@@ -2,7 +2,7 @@
 
 !!! info
 
-    **This guide is tailored towards internal NHS Digital users with access to the internal instance of GitLab.** If you do not have an existing account check your team's internal processes for onboarding new GitLab users. NHS Digital users should also see our Confluence guidance on our internal implementation of Gitlab, Github and Git.
+    **This guide is tailored towards internal NHS England users with access to the internal instance of GitLab.** If you do not have an existing account check your team's internal processes for onboarding new GitLab users. NHS England users should also see our Confluence guidance on our internal implementation of Gitlab, Github and Git.
 
     If you have access to a different instance of GitLab then these steps should be mostly the same.
 

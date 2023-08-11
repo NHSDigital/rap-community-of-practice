@@ -164,7 +164,6 @@ Create a new GitHub Actions workflow file `.github/workflows/workflow-name.yaml`
 - [pre-commit documentation][pre-commit-docs]
 - [detect-secrets repository][detect-secrets-repo]
 
-*NHS Digital is not affiliated with any of these websites or companies.*
 
 [introduction-to-git]: ./introduction-to-git.md
 [using-git-collaboratively]: ./using-git-collaboratively.md

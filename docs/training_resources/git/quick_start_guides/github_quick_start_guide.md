@@ -203,7 +203,7 @@ In this section, we will run through the steps of creating a new repository on G
 
 ## Accessing the NHS Digital Organisation
 
-If you work in NHS Digital then your team or directorate will likely have their own processes and ways of working on GitHub, including onboarding processes.
+If you work in NHS England then your team or directorate will likely have their own processes and ways of working on GitHub, including onboarding processes.
 
 If you work within the Data Science Skill Team, there is a onboarding guide on [confluence].
 

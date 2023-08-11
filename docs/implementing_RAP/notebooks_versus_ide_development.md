@@ -49,7 +49,7 @@ The table below gives a summary of the features of notebooks compared to IDEs. F
 | Supports unit testing frameworks                     |     X     |  O   |
 | Nice version control (e.g. readable git diffs)       |     X     |  O   |
 | Autocomplete / auto-formatting & syntax highlighting |     X     |  O   |
-| Compatible with sharing code external to NHS Digital |     X     |  O   |
+| Compatible with sharing code external to NHS England |     X     |  O   |
 
 ??? Info "Key"
 
@@ -85,7 +85,7 @@ Notebooks are generally set up to work out of the box, enabling the users to con
 
 IDEs on the other hand either come in two flavours: big, feature-heavy ones take a lot of set up and plugins to get going; lightweight ones like Atom or Visual Studio Code are often little more than text editors out-of-the-box. While IDEs offer almost limitless customisability (you can even write your own themes and extensions for a lot of them!) and powerful, development-enhancing functionality, they often take more time to get set up in the first place.
 
-> IDEs require you to have an adequate environment for them to be installed, used and customised (i.e. installing useful extensions). This can be prohibitive, for instance at NHS Digital where installing software to local machines is restricted.
+> IDEs require you to have an adequate environment for them to be installed, used and customised (i.e. installing useful extensions). This can be prohibitive, for instance at NHS England where installing software to local machines is restricted.
 
 ## Benefits of IDEs
 

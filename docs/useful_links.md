@@ -40,9 +40,9 @@ hide:
   - **NHS Python Community (NHS-pycom)** ([website][nhs-pycom website] | [slack][nhs-pycom slack] | [GitHub][nhs-pycom github] | [Coding Club])
   - **NHS R Community** ([website][nhs-r website] | [slack][nhs-r slack] |[GitHub][nhs-r github])
   - **AnalystX** ([website][analystx website] | [Future NHS - AnalystX] | [GitHub][analystx github])
-- We have an **NHS Digital RAP Teams group** (internal to NHS Digital - contact us @ [data.science@nhs.net])
+- We have an **NHS England "RAP Community of Practice" MS Teams** (internal to NHS England - contact us @ [data.science@nhs.net])
   - [NHS Digital Github]
-  - Our very own [NHS Digital RAP Community of Practice]
+  - Our very own [NHS England RAP Community of Practice]
 
 [rap strategy]: https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/
 [rap strategy implementation plan 2023]: https://www.ons.gov.uk/aboutus/whatwedo/programmesandprojects/analysisfunctionrapstrategy2023implementationplan
@@ -75,4 +75,4 @@ hide:
 [analystx github]: https://github.com/nhs-analystx
 [data.science@nhs.net]: mailto:data.science@nhs.net
 [nhs digital github]: https://github.com/NHSDigital
-[nhs digital rap community of practice]: https://github.com/NHSDigital/rap-community-of-practice
+[nhs england rap community of practice]: https://github.com/NHSDigital/rap-community-of-practice

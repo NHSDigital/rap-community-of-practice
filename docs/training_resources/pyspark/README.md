@@ -10,7 +10,7 @@ PySpark is a flavour of Python that enables us to make use of the distributed pr
 
 We recommend that analytical teams in NHS Digital should in general use PySpark for their code. There are a number of reasons for this:
 
-- In NHS Digital we have some very large datasets. Given our tech stack, the best way for us to process these datasets is to use PySpark. Other options risk running out of memory or disrupting the work of other teams by using compute resource inefficiently.
+- In NHS England we have some very large datasets. Given our tech stack, the best way for us to process these datasets is to use PySpark. Other options risk running out of memory or disrupting the work of other teams by using compute resource inefficiently.
 
 - If you know that you will need to use PySpark _sometimes_ then it is easier to just use it from the outset instead of trying to adapt Python or R when you run out of memory.
 

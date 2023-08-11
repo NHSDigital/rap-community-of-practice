@@ -147,7 +147,6 @@ Spyder is a Python IDE that is bundled with Anaconda during installation. It can
 - [List of other package managers][package-managers]
 - [Using up Spyder with conda environments][spyder-conda-envs]
 
-*NHS Digital is not affiliated with any of these websites or companies.*
 
 [python-venvs]: https://docs.python.org/3/tutorial/venv.html
 [install-anaconda]: https://docs.anaconda.com/anaconda/install/index.html

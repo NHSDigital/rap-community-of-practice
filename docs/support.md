@@ -9,9 +9,9 @@ If your team is embarking upon a RAP journey, you should understand [why RAP are
 
 From there, we recommend reaching out for some in-person support.
 
-## Support for NHS Digital colleagues
+## Support for NHS England colleagues
 
-**If you work at NHS Digital**, the **Data Science RAP squad are your main RAP Champions: get in touch!** We you can offer some in-person support in several forms:
+**If you work at NHS England**, the **Data Science RAP squad are your main RAP Champions: get in touch!** We you can offer some in-person support in several forms:
 
 - Reviewing your RAP work and assessing your progress against the [levels of RAP][2]
 - Peer review of code
@@ -20,11 +20,11 @@ From there, we recommend reaching out for some in-person support.
 - Pair coding
 - Shadowing another team
 
-There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our NHS Digital RAP MS Teams page (internal to NHS Digital).
+There is also a growing community of RAP experts outside the Data Science RAP squad - you can find them on our NHS England RAP MS Teams page (internal to NHS England).
 
 ## Support for other colleagues
 
-**If you're not in NHS Digital**, the [RAP Champions Network](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions) can offer support through:
+**If you're not in NHS England**, the [RAP Champions Network](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions) can offer support through:
 
 - Helping you understand why and how they implemented RAP in your department and why it worked for them
 - Sharing code via platforms like GitHub so that others can learn from and adapt what has been done
@@ -35,7 +35,7 @@ They also have more guidance on how to get started, and get help [here](https://
 
 There are several forums where you can introduce yourself, ask for help, or discuss different approaches:
 
-- NHS Digital RAP MS Teams page (internal to NHS Digital)
+- NHS England RAP MS Teams page (internal to NHS England)
 - [RAP Slack channel](https://nhsrcommunity.slack.com/archives/C03N1GXHEH0) from the [NHS-R](https://nhsrcommunity.com/) community
 - [RAP collaboration Slack channel](https://govdatascience.slack.com/archives/C6H22U3H9) on the cross-government data science Slack Workspace (open to all civil servants, including NHS staff)
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
