@@ -4,7 +4,7 @@ Scientific research has increasingly relied on code to conduct complex statistic
 
 These practices have been applied to government analytic work under the banner of **Reproducible Analytical Pipelines (RAP)**. RAPs bring together a number of good practices to help ensure all published statistics meet the highest standards of transparency and reproducibility.
 
-Over time, all analytical work in NHS Digital (and across government) will be expected to adopt the RAP practices. For example, RAP practices are a key element needed in order to meet the standards of quality analysis set out in the [Aqua Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. This adoption will take time and should not be considered as all-or-nothing. There are stages to RAP. Teams can take the journey one step at a time with support from this community.
+Over time, all analytical work in NHS England (and across government) will be expected to adopt the RAP practices. For example, RAP practices are a key element needed in order to meet the standards of quality analysis set out in the [Aqua Book](https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government) guidelines, which revolve around analysis being reproducible, auditable, transparent, and quality assured. This adoption will take time and should not be considered as all-or-nothing. There are stages to RAP. Teams can take the journey one step at a time with support from this community.
 
 ## The benefits of RAP at NHS Digital
 
@@ -31,9 +31,9 @@ RAP therefore helps us to:
 This community of practice aims to support teams in adopting RAP practices through:
 
 1. **Developing learning materials including reusable templates:**
-   Most of the learning materials were initially adapted for the NHS Digital analytical environment, but most are applicable elsewhere.
+   Most of the learning materials were initially adapted for the NHS England analytical environment, but most are applicable elsewhere.
 2. **Offering support as teams establish new working practices:**
-   We offer in-person support to NHS Digital teams in the form of bespoke coaching sessions. We also co-ordinate informal weekly drop-in sessions (internal to NHS Digital) and host monthly workshops, where you can learn from others at different stages of RAP adoption, and get advice. If you would like to attend these please [contact us](mailto:datascience@nhs.net).
+   We offer in-person support to NHS England teams in the form of bespoke coaching sessions. We also co-ordinate informal weekly drop-in sessions (internal to NHS England) and host monthly workshops, where you can learn from others at different stages of RAP adoption, and get advice. If you would like to attend these please [contact us](mailto:datascience@nhs.net).
 
 This work is prompted by the observations that teams can struggle to adopt RAP practices without support. While no one element of RAP is particularly difficult, learning several new skills at the same time as delivering BAU is challenging. Teams can struggle to protect time to embed these practices. (The Statistics Authority report on [the barriers to RAP adoption](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/) is an excellent discussion of the challenges in rolling out RAP).
 

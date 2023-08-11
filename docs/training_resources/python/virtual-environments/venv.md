@@ -109,4 +109,3 @@ We create the virtual environment for project-1 in a folder called `venv` (which
 [virtual-env-primer]: https://realpython.com/python-virtual-environments-a-primer/
 [execution-policy]: https://learn.microsoft.com/en-gb/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
 
-*NHS Digital is not affiliated with any of these websites or companies.*

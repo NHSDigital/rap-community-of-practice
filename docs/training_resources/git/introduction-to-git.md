@@ -5,7 +5,7 @@
     * Code version control is becoming a fundamental skill for any analyst.
     * It is needed to meet [**Baseline RAP**].
     * Allows tracking and management of changes to code, and disaster recovery.
-    * [Git] is free and open-source; it is the most common code version control system and is used widely in NHS Digital.
+    * [Git] is free and open-source; it is the most common code version control system and is used widely in NHS England.
     * It is recommended to use Git in the command-line, though GUIs can also be useful. Guidance [here].
     * Typically we only put code in Git repos. The [`.gitignore` file][gitignore] allows you to automatically exclude CSVs and other things we don't want adding to the Git repo.
 
@@ -81,7 +81,7 @@ Remote repositories are versions of your project that are hosted on an online Ve
 
         * Both GitHub and GitLab function in very similar ways, [with some differences in terminology], e.g. Merge Requests vs Pull Requests.
 
-        * NHS Digital has a number of internally hosted instances of GitLab. These can only be accessed by members of the instance.
+        * NHS England has a number of internally hosted instances of GitLab. These can only be accessed by members of the instance.
 
         **Get started with GitLab by checking out our [GitLab Quick Start Guide]**
 

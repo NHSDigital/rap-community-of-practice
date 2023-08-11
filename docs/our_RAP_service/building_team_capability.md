@@ -9,7 +9,7 @@ This guide will detail what you need to consider before starting a RAP engagemen
 - [ ] Identify a publication/product that needs taking through RAP process
 - [ ] Fill out a [pre-RAP questionnaire](#rap-pre-engagement-questionnaire)
 - [ ] Identify people in the publication team who will learn RAP process (Product Owner in a team of ~4 analysts of varying skill levels)
-- [ ] Identify people who can provide support (the RAP team at NHS Digital) through RAP transition
+- [ ] Identify people who can provide support (the RAP team at NHS England) through RAP transition
 - [ ] Assess the team's existing capability
 - [ ] Plan pre-RAP training
 - [ ] Consider the appropriate [level of RAP][1] to aim for, taking skills into account
@@ -120,7 +120,7 @@ Other training to consider running depending on your team's requirements. We sug
 
 - [How to do code reviews][7]. Code reviews can be deceiving as someone who's new to code reviews understand that their work is being judged. It is recommended to hold a team code review session and review a few example scripts, using our guidelines and considerations to demonstrate how useful and invaluable code reviews can be in improving overall code quality while also developing your coding skills at the same time.
 
-- [Project structure session, how to package your code][8]. A Python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS Digital as well as externally.
+- [Project structure session, how to package your code][8]. A Python package is a way to bundle your code into a single thing that can be shared and reused. Our goal is to be able to share and reuse code across NHS England as well as externally.
 
 - **[PEP8](https://peps.python.org/pep-0008/) and Linting**. Linting is a tool that highlights programming errors, stylistic errors and bugs in your code. Each programming software has its own linting application, it is recommended to enable this feature as it helps avoiding this type of errors.
 

@@ -29,7 +29,7 @@
 
 After you've [published your code][1] for the first time, you may go on to do subsequent additions, changes and updates to the codebase held in our internal "development" repositories. It will then be time to update the code that has been published.
 
-!!! info "NHS Digital colleagues"
+!!! info "NHS England colleagues"
 
     See our internal confluence pages on [**"Git, GitLab and GitHub"**][3] which explains our internal setup.
 
@@ -126,7 +126,6 @@ see that published as soon as possible.
 - [Semantic Versioning][4]
 - [Keep a changelog][6]
 
-*NHS Digital is not affiliated with any of the websites or companies linked to 
 above.*
 
 [1]: how-to-publish-your-code-in-the-open.md

@@ -1,6 +1,6 @@
 # Designing a RAP service
 
-As the roll-out of RAP has progressed in NHS Digital, we have come to recognise that we are offering a service. This is quite a change in direction for a team that previously was focussed on development. We've had to quickly reframe our approach to rolling out RAP in NHS Digital to reflect this change.
+As the roll-out of RAP has progressed in NHS Digital, we have come to recognise that we are offering a service. This is quite a change in direction for a team that previously was focused on development. We've had to quickly reframe our approach to rolling out RAP in NHS England to reflect this change.
 
 The RAP service aims to support teams in adopting RAP practices through setting standards, providing reusable training and code, and through directly supporting teams as they progress along the RAP journey.
 
@@ -56,9 +56,9 @@ So far, we have been able to make very substantial improvements after every sing
 
 We've included the discussion guide used for the user research sessions below.
 
-### Are users of the RAP service the NHS Digital teams producing the publications or the end-users of the publications?
+### Are users of the RAP service the NHS England teams producing the publications or the end-users of the publications?
 
-This is a really tricky question that we've grappled with extensively. Where we've landed is that we are focussing on users of the RAP service - internal analysts. This decision is partly pragmatic - since we work with internal analysts everyday and can just ask them. Partly it reflects how NHS Digital is organised. We are part of an internal analytics function so other people have responsibility for the external user research.
+This is a really tricky question that we've grappled with extensively. Where we've landed is that we are focussing on users of the RAP service - internal analysts. This decision is partly pragmatic - since we work with internal analysts everyday and can just ask them. Partly it reflects how NHS England is organised. We are part of an internal analytics function so other people have responsibility for the external user research.
 
 Nevertheless, the lack of user research is a failing of our approach currently. It would be extremely helpful to get more external user research as it motivates so much of the RAP work. The Department for Education led a very strong example of using research from the end users to motivate RAP adoption and drive development of their [Explore Education Statistics tool](https://explore-education-statistics.service.gov.uk/).
 

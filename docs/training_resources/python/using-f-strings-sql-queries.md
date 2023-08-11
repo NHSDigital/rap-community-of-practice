@@ -242,4 +242,3 @@ Python should successfully execute the SQL Server stored procedure with your par
 - [String formatting: Input and output](https://docs.python.org/3/tutorial/inputoutput.html)
 - [Executing SQL Server stored procedures via Python (citation for section above)](https://www.mytecbits.com/internet/python/execute-sql-server-stored-procedure)
 
-_NHS Digital is not affiliated with any of these websites or companies_

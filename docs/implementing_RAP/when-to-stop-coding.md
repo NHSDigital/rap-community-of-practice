@@ -235,7 +235,6 @@ These metrics are only approximate proxies for how well-tested your code is. It 
 * [Refactoring Guru][refactoring-guru]
 * [Code Refactoring Best Practices: When (and When Not) to Do It][code-refactoring-best-practices]
 
-*NHS Digital is not affiliated with any of these websites or companies.*
 
 <!-- Links -->
 [diminishing-returns]: #the-point-of-diminishing-returns
