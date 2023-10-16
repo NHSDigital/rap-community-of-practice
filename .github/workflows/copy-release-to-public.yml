@@ -1,0 +1,66 @@
+name: "Copy Release to Public RAP CoP Repo"
+# This github action is used to copy our latest release from our private RAP_CoP_Dev repo to the pubic rap_community_of_practice repo
+# This happens when a release is published, and it will result in a new branch being made in the pubic repo for this release, containing
+# the changes since the last release.
+on:
+  release: # we want this job to run automatically when a release is published
+    types: [published]
+  workflow_dispatch: # This means we can run the action manually if we want
+
+jobs:
+  copy-release:
+    runs-on: "ubuntu-latest"
+    if: github.repository == 'NHSDigital/RAP_CoP_dev'
+    steps:
+      - name: Checkout private
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.EXTERNAL_REPO_TOKEN }}
+          path: private
+
+      - name: Checkout public
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.EXTERNAL_REPO_TOKEN }}
+          repository: NHSDigital/rap-community-of-practice
+          path: public
+
+      - name: Read the release name and save it to the environment
+        run: |
+          cd private
+          echo RELEASE_NAME=$(gh release view --json name | jq -r '.name') >> $GITHUB_ENV
+        env:
+          GITHUB_TOKEN: ${{ secrets.EXTERNAL_REPO_TOKEN }}
+
+      - name: Create a RELEASE_BRANCH name and save to env
+        run: echo RELEASE_BRANCH=release/${{ env.RELEASE_NAME }} >> $GITHUB_ENV
+
+      - name: Create release branch and push changes to private
+        run: |
+          cd private
+          git branch ${{ env.RELEASE_BRANCH }}
+          git push -u origin ${{ env.RELEASE_BRANCH }}
+
+      - name: Delete .git folder from private
+        run: |
+          cd private
+          rm -rf .git
+
+      - name: Delete contents of public (apart from .git folder)
+        run: |
+          cd public
+          find . -maxdepth 1 \( ! -name . -a ! -name .git \) -exec rm -fr {} +
+
+      - name: Copy contents of private to public
+        run: |
+          cp -r private/. public/
+
+      - name: Create release branch, commit changes to it, and push to public
+        run: |
+          cd public
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+          git checkout -b ${{ env.RELEASE_BRANCH }}
+          git add .
+          git commit -m "Release ${{ env.RELEASE_NAME }}"
+          git push -u origin ${{ env.RELEASE_BRANCH }}

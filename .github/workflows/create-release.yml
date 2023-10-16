@@ -18,7 +18,7 @@ jobs:
       - name: Get Release Name from PR Branch Name and create a release
         run: |
           RELEASE_NAME=${HEAD_REF//release\//}
-          gh release create $RELEASE_NAME -t $RELEASE_NAME
+          gh release create -d $RELEASE_NAME -t $RELEASE_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HEAD_REF: ${{ github.head_ref }}

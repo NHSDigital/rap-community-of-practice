@@ -17,6 +17,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Introduction to RAP:
+      - What is RAP?: introduction_to_RAP/what_is_RAP.md
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
@@ -27,7 +28,7 @@ nav:
       - Support models: our_RAP_service/support-models.md
       - Thin slice strategy: our_RAP_service/thin-slice-strategy.md
       - Typical engagement flow: our_RAP_service/typical-engagement-flow.md
-      - RAP pre-engagement Questionnare: our_RAP_service/rap-pre-engagement-questionnaire.md
+      - RAP pre-engagement Questionnaire: our_RAP_service/rap-pre-engagement-questionnaire.md
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
       - Service design and user research: our_RAP_service/service-design-and-user-research.md
 
@@ -45,6 +46,7 @@ nav:
       - Notebooks vs IDE development: implementing_RAP/notebooks_versus_ide_development.md
       - Tidy data: implementing_RAP/tidy-data.md
       - Tools: implementing_RAP/tools.md
+      - Example Pipeline (Python): implementing_RAP/example-pipeline.md
   - Training resources:
       - Git:
           - Introduction to Git: training_resources/git/introduction-to-git.md

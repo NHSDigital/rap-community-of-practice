@@ -9,6 +9,7 @@ hide:
 
 - The Government Analysis Function's [RAP strategy] details the roles we all have to play in working towards RAP.
   - The ONS have also published their [RAP Strategy Implementation Plan 2023]
+  - **[Other government department RAP implementation plans](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/departmental-rap-plans/)**
 - The [Goldacre Review] mentions RAP extensively as a key tool in improving the use of patient data.
 - The Bennett Institute of Applied Data Science has written a [helpful summary] that is helpful for understanding the above documents in the context of UK data policy developments.
 

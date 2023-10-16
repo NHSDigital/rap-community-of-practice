@@ -56,7 +56,7 @@ Remote repositories are versions of your project that are hosted on an online Ve
         **Get started with Git with our [Git Quick Start Guide]**
 
     === "GitHub"
-        * GitHub is a cloud-based remote repository storage service, accessible [online][GitHub website].
+        * GitHub is a cloud-based remote repository storage service accessible [online][GitHub website].
         
         * GitHub was released in 2008 and is maintained by Microsoft.
 
@@ -66,20 +66,20 @@ Remote repositories are versions of your project that are hosted on an online Ve
 
         * NHS Digital has a [GitHub "Organisation"] which can host both public code repositories and private ones only visible to NHS Digital colleagues. 
         
-        * This website is hosted out of the NHS Digital github organisation - [see the repo here].
+        * This website is hosted out of the NHS Digital GitHub organisation - [see the repo here].
 
-        * GitHub also provides some addition features, such as [GitHub Pages] which is used to host static websites. [This website] is hosted in this exact way.
+        * GitHub also provides some additional features, such as [GitHub Pages], which is used to host static websites. [This website] is hosted in this exact way.
 
         **Get started with GitHub by checking out our [GitHub Quick Start Guide]**
 
     === "GitLab"
-        * GitLab, like GitHub is a remote repository storage service. It is accessible [online][GitLab website].
+        * GitLab, like GitHub, is a remote repository storage service. It is accessible [online][GitLab website].
         
         * It was released in 2014 and is maintained by GitLab Inc, which is considered the first partly-Ukrainian unicorn.
 
         * GitLab hosts Git repositories, focusing on centralising source code hosting. It provides user management features.
 
-        * Both GitHub and GitLab function in very similar ways, [with some differences in terminology], e.g. Merge Requests vs Pull Requests.
+        * Both GitHub and GitLab function in very similar ways [with some differences in terminology], e.g. Merge Requests vs Pull Requests.
 
         * NHS England has a number of internally hosted instances of GitLab. These can only be accessed by members of the instance.
 
@@ -101,34 +101,34 @@ You can start using Git on your machine with our [Git Quick Start Guide]. Howeve
 
         The Command Line acts like a mediator - it takes text input (a command) and returns an output (a process, a result, an action) that depends on the command input's process. 
         
-        Command line terminals can be used to input commands such as listing of directories, moving folders and files, version control (Git) and creating isolated environments (conda, venv etc).
+        Command line terminals can be used to input commands such as listing directories, moving folders and files, version control (Git) and creating isolated environments (conda, venv etc).
 
     **Using the Command Line is the recommended method of interacting with Git**. It is the only method that you can use to run *all* Git commands.
 
 
-    There a number of command line terminals that are available for you to use, depending on what Operating System (OS) you are using:
+    There are a number of command line terminals that are available for you to use, depending on what Operating System (OS) you are using:
 
     === "Windows"
 
         **Git Bash** is a recommended method of interacting with Git in Windows. Git Bash comes packaged with [Git for Windows] and provides a Bash emulation used to run Git from the command line. This provides commonality of commands with other OS's.
 
-        Alternatively, **Powershell"" is a powerful terminal built into Windows by default. Once installed, using Git is exactly the same as in Git Bash. However, other commands (like creating a new folder or viewing a folder's contents) might differ. In these guides, any differences in commands between Powershell and Git Bash will be highlighted.
+        Alternatively, **Powershell** is a powerful terminal built into Windows by default. Once installed, using Git is exactly the same as in Git Bash. However, other commands (like creating a new folder or viewing a folder's contents) might differ. In these guides, any differences in commands between Powershell and Git Bash will be highlighted.
 
         It is also possible to set up other terminals, like Anaconda Prompt and the legacy CMD prompts to work with Git.
 
     === "MacOS"
 
-        **Terminal** is the built in command line terminal for MacOS. It uses an extended variant of Bash called [Zsh], which adds some new features and support for plugins and themes. It still runs on the same commands as Bash, so it has many of the same features and commands.
+        **Terminal** is the built-in command line terminal for MacOS. It uses an extended variant of Bash called [Zsh], which adds some new features and support for plugins and themes. It still runs on the same commands as Bash, so it has many of the same features and commands.
 
     === "Linux"
 
-        **Terminal** is the build in command line terminal for Linux. It uses Bash on most distributions of Linux. 
+        **Terminal** is the built-in command line terminal for Linux. It uses Bash on most distributions of Linux. 
 
         It is relatively straightforward to customise the terminal in Linux, for example, setting it up to use Zsh with [Oh My ZSH]
 
 === "Using a GUI"
 
-    GUIs make it easier to use Git by presenting Git outputs in a more user-friendly state and remove the need to remember the exact commands needed. They are great for getting simple tasks done.
+    GUIs make it easier to use Git by presenting Git outputs in a more user-friendly state and removing the need to remember the exact commands needed. They are great for getting simple tasks done.
 
     Git comes with built-in GUI tools for committing ([git-gui]) and browsing ([gitk]), but there are several also third-party tools, like [GitHub Desktop], and integrations with IDEs, like [Visual Studio Code].
 
@@ -141,12 +141,12 @@ Below is a list of common commands for reference. We only list basic commands he
 `git init`
 
 :   **Create a new Git repo locally.**  
-    The init command is short for "initialise", it's the command that will do all of the initial setup of a repository. The directory needs to actually exist before we can create a new repository with Git.
+    The init command is short for "initialise"; it's the command that will do all of the initial setup of a repository. The directory needs to actually exist before we can create a new repository with Git.
 
 `git clone <url>`
 
 :   **Clone an existing Git Repository**  
-    Happens only once, when you need to create a local copy of a GitLab repository.
+    Happens only once when you need to create a local copy of a GitLab repository.
 
 `git status`
 
@@ -162,22 +162,22 @@ Below is a list of common commands for reference. We only list basic commands he
 `git commit -m "<message>"`
 
 :   **Commit staged files with a message**  
-    Committing changes in this way captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project
+    Committing changes in this way captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project.
 
 `git pull`
 
 :   **Update your current branch with the online/remote branch info**  
-    Pulls the latest changes from the repository, only affects the current active branch you’re in.
+    Pulls the latest changes from the repository and only affects the current active branch you’re in.
 
 `git push`
 
 :   **Update the online/remote branch with commits from your current branch**  
-    Pushes the latest changes to the repository, only affects the current active branch you're in.
+    Pushes the latest changes to the repository and only affects the current active branch you're in.
 
 `git fetch`
 
 :   **Downloads the online/remote repository information, including commits, files, and branches**  
-    Unlike the more agressive `git pull`, your local development work is unchanged. However, your local repository is aware of any changes that can be later integrated into your local work.  
+    Unlike the more aggressive `git pull`, your local development work is unchanged. However, your local repository is aware of any changes that can be later integrated into your local work.  
     `git fetch` is a great way to safely check what everybody else has been working on in the shared repository.
 
 `git log`
@@ -193,7 +193,7 @@ Below is a list of common commands for reference. We only list basic commands he
 `echo '<pattern>' >> .gitignore`
 
 :   **Adds a pattern to the end of .gitignore file**  
-    This file specifies untracked files that git should ignore such as the sensitive information related to security or the data itself. Files already tracked by git are not affected.  
+    This file specifies untracked files that git should ignore, such as the sensitive information related to security or the data itself. Files already tracked by git are not affected.  
     See the section on [what should you be version controlling] for more details.
 
 `git checkout`
@@ -218,7 +218,7 @@ Below is a list of common commands for reference. We only list basic commands he
 
 !!! abstract "Git Cheat-Sheets"
 
-    Keep a list of everyday Git Commands by bookmarking this cheat-sheet: [Git Commands Cheat-Sheet]
+    Keep a list of everyday Git Commands by bookmarking this cheat sheet: [Git Commands Cheat-Sheet]
 
 !!! info Undoing changes via Git commands
 
@@ -226,10 +226,10 @@ Below is a list of common commands for reference. We only list basic commands he
 
 ## What should I be version controlling?
 
-While most guides on Git will talk about tracking code files (i.e. `.py`, `.sql`, etc.)  with Git, nearly any type of file on your computer can be tracked. However, there are some files that it is strongly recommended you do not version control using Git, for a number of reasons:
+While most guides on Git will talk about tracking code files (i.e. `.py`, `.sql`, etc.)  with Git, nearly any type of file on your computer can be tracked. However, there are some files that it is strongly recommended you do not version control using Git for a number of reasons:
 
 * Large data files, directories, and databases; e.g. `data-files/`, `data/`, `.dbs`:
-    * Git struggles to store large files and remote repositories normally have a hard limit on file sizes.
+    * Git struggles to store large files, and remote repositories normally have a hard limit on file sizes.
     * Lookup or test data files of a reasonable size would probably be fine to include.
     * These files might also contain Personal Identifiable Data (PID) which must not be added to the commit history.
 * Configuration files and directories; e.g. `.config`, `.vscode/`:
@@ -238,15 +238,15 @@ While most guides on Git will talk about tracking code files (i.e. `.py`, `.sql`
 * Environment and credentials files; e.g. `.env`, `.credentials`:
     * These files might contain credentials, PATs, API keys, or other environment variables that are sensitive and should not be shared.
     * *Note: you should NEVER put credentials directly into your code. They should always be stored in a `.env` file or equivalent which are not committed to the Git repository*
-    * GitHub and GitLab also allow you to store "secrets" for repos which can be used by collaborators, but cannot be seen, copied or accessed directly.
-* Run time files (e.g logs); e.g. `.logs`:
+    * GitHub and GitLab also allow you to store "secrets" for repos which can be used by collaborators but cannot be seen, copied or accessed directly.
+* Run time files (e.g. logs); e.g. `.logs`:
     * Log files that are generated by your code are very useful for providing infomation on what was happening when your code was running. They are very useful in debugging. However, these files are usually individual to the system and can get very big.
 
 !!! danger
 
-    Once a file or directory is committed, a record of it and it's contents will persist in the commit history. Simply deleting the file or directory at a later date will still leave a trace in the commit history.
+    Once a file or directory is committed, a record of it and its contents will persist in the commit history. Simply deleting the file or directory at a later date will still leave a trace in the commit history.
 
-    It is possible to scrub the Git history of any record of this file, however, this is risky in of itself and should be completed with great care. Prevention is much preferable to the cure.
+    It is possible to scrub the Git history of any record of this file; however, this is risky in of itself and should be completed with great care. Prevention is much preferable to the cure.
 
     Even after scrubbing the Git history, **consider any secret information that has been committed to a repository as potentially exposed.** Carry out mitigation activities, like revoking and reissuing access keys and reporting PID leaks.
 
@@ -264,25 +264,25 @@ data/
 *.xlsx
 ```
 
-Github has a [.gitignore template for python] available for analysts and developers to use for their own projects.
+GitHub has a [.gitignore template for python] available for analysts and developers to use for their own projects.
 
-Some common patterns and format for Git-Ignore files include:
+Some common patterns and formats for Git-Ignore files include:
 
 `Blank Line`
 
-:  A blank line doesn’t refer to any file name, so we can use it to separate two file names for the ease of reading.
+:  A blank line doesn’t refer to any file name, so we can use it to separate two file names for ease of reading.
 
 `#`
 
-:   A line beginning with the `#` symbol refers to a comment. However if `#` is used as a pattern then use backslash so that it is not misunderstood as a comment, `\#`
+:   A line beginning with the `#` symbol refers to a comment. However, if `#` is used as a pattern, then use backslash so that it is not misunderstood as a comment, `\#`
 
 `/`
 
-:   Used as a directory separator i.e to include directories, for example `webdev/`. 
+:   Used as a directory separator, i.e. to include directories, for example, `webdev/`. 
 
 `*.extension_name`
 
-:   Used to match an extension name. For example `*.txt` and `*.log` can be used to match ALL the files that have .txt and .log as their extension respectively.
+:   Used to match an extension name. For example, `*.txt` and `*.log` can be used to match ALL the files that have .txt and .log as their extension, respectively.
 
 `**/any_name`
 
@@ -290,27 +290,27 @@ Some common patterns and format for Git-Ignore files include:
 
 `any_name/**`
 
-:   Used to match anything that is inside the directory of the name any_name. for example `webdev/**` matches all the files inside webdev directory.
+:   Used to match anything that is inside the directory of the name any_name. For example, `webdev/**` matches all the files inside the webdev directory.
 
 `!include_file.extension_name`
 
 :   Used to create a negating pattern to exclude a file from a different pattern. In this example, all files with `.extension_name` are excluded, except `include_file.extension_name`.  
 
-    This does not work if trying negate something in an already ignored directory. For example, `!example_directory/example_file.md` would not negate `example_directory/` and `example_file.md` would still be ignored.
+    This does not work if trying to negate something in an already ignored directory. For example, `!example_directory/example_file.md` would not negate `example_directory/` and `example_file.md` would still be ignored.
 
 ### Tracking Binary Format Files
 
-Git is primarily designed to work with text file formats as it can easily track changed to and within the file. If you are tracking files stored in binary format (e.g. Microsoft Files and other proprietary file formats, media, compressed files, etc), Git will only be able to track that a change has happened to the file, but not the exact changes made.
+Git is primarily designed to work with text file formats as it can easily track changes to and within the file. If you are tracking files stored in binary format (e.g. Microsoft Files and other proprietary file formats, media, compressed files, etc.), Git will only be able to track that a change has happened to the file, but not the exact changes made.
 
-It is usually advised not to track binary files unless there is a good reason to. The [RAP Community of Practice] repository stores picture files to include in our documentation. Your repository might include a compressed directory containing example output file your pipeline might produce.
+It is usually advised not to track binary files unless there is a good reason to. The [RAP Community of Practice] repository stores picture files to include in our documentation. Your repository might include a compressed directory containing an example output file your pipeline might produce.
 
-Finally, some proprietary file formats (e.g. Microsoft Office Files) have equivalent (possibly less feature rich) text based open file formats. Consider converting to these file formats to allow more detailed version control tracking (and allow more users to access those files).
+Finally, some proprietary file formats (e.g. Microsoft Office Files) have equivalent (possibly less feature-rich) text-based open file formats. Consider converting to these file formats to allow more detailed version control tracking (and allow more users to access those files).
 
 ## What next?
 
 Now you have been introduced to Git, make sure you are set up to use it with our [Git][Git quick start guide], [GitHub][github quick start guide], and [GitLab][gitlab quick start guide] quick start guides.
 
-Once you are set up, checkout our guide on [using git collaboratively] with your team and start incorporating it into your work.
+Once you are set up, check out our guide on [using git collaboratively] with your team and start incorporating it into your work.
 
 We also have a number of walkthroughs that will guide you through using the powerful features provided by Git for the first time:
 
