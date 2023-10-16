@@ -100,7 +100,7 @@ We recommend before the RAP engagement (example for Python/Pandas) for analysts 
 
 ### Pair programming support
 
-During a RAP project (e.g. at the start of the [thin slice][2] it can be beneficial to set up coding buddy pairs, usually an experienced programmer with an inexperienced one, to form a mentoring style collaboration and in addition to help with troubleshooting code, version control, code reviews and any programming related questions.
+During a RAP project (e.g. at the start of the [thin slice][2]) it can be beneficial to set up coding buddy pairs, usually an experienced programmer with an inexperienced one, to form a mentoring style collaboration and in addition to help with troubleshooting code, version control, code reviews and any programming related questions.
 
 The level of engagement is up to the programming pairs, daily catch-ups for instance is often observed as a workable standard.
 
