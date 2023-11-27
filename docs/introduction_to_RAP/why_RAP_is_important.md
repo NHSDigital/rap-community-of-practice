@@ -33,7 +33,7 @@ This community of practice aims to support teams in adopting RAP practices throu
 1. **Developing learning materials including reusable templates:**
    Most of the learning materials were initially adapted for the NHS England analytical environment, but most are applicable elsewhere.
 2. **Offering support as teams establish new working practices:**
-   We offer in-person support to NHS England teams in the form of bespoke coaching sessions. We also co-ordinate informal weekly drop-in sessions (internal to NHS England) and host monthly workshops, where you can learn from others at different stages of RAP adoption, and get advice. If you would like to attend these please [contact us](mailto:datascience@nhs.net).
+   We offer in-person support to NHS England teams in the form of bespoke coaching sessions. We also co-ordinate informal weekly drop-in sessions (internal to NHS England) and host monthly workshops, where you can learn from others at different stages of RAP adoption, and get advice. If you would like to attend these please [contact us](mailto:england.rapchampions@nhs.net).
 
 This work is prompted by the observations that teams can struggle to adopt RAP practices without support. While no one element of RAP is particularly difficult, learning several new skills at the same time as delivering BAU is challenging. Teams can struggle to protect time to embed these practices. (The Statistics Authority report on [the barriers to RAP adoption](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/) is an excellent discussion of the challenges in rolling out RAP).
 

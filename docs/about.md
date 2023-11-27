@@ -5,7 +5,7 @@ hide:
 
 # RAP Community of Practice
 
-> **This material is maintained by the [NHS England Data Science team](mailto:datascience@nhs.net)**.
+> **This material is maintained by the [NHS England RAP Community of Practice](mailto:england.rapchampions@nhs.net)**.
 
 > You can see some examples of our work [here](https://github.com/NHSDigital/data-analytics-services), including [underlying code to NHS Digital publications](https://github.com/NHSDigital/data-analytics-services#rap-publication-repositories) which have been published as a direct outcome of the service our team provides.
 
@@ -49,7 +49,7 @@ We have also developed some training resources on:
 
 These resources are intended to help people get started with RAP. We welcome all feedback.
 
-If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/rap-community-of-practice/issues) or contact the team via the NHS England "RAP Community of Practice" MS Teams  (internal to NHS England), or [email](mailto:datascience@nhs.net).
+If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/rap-community-of-practice/issues) or contact the team via the NHS England "RAP Community of Practice" MS Teams  (internal to NHS England), or [email](mailto:england.rapchampions@nhs.net).
 
 You can also follow our guidance on [how to contribute](https://github.com/NHSDigital/rap-community-of-practice/blob/main/CONTRIBUTE.md).
 
