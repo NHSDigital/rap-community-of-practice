@@ -6,7 +6,7 @@
 [![licence: OGL3](https://img.shields.io/badge/Licence-OGL3-darkgrey "licence: Open Government Licence 3")](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 
-> **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
+> **This material is maintained by the [NHS RAP Community of Practice](mailto:england.rapchampions@nhs.net)**.
 >
 > See our other work here: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services).
 
