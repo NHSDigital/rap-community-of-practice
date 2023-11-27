@@ -29,7 +29,7 @@ Other functionality, like setting up and using Docker containers, can be explore
 
 The process is made up of four distinct steps. One that runs on the private [RAP_CoP_dev] and the other three that run on the public [rap-community-of-practice]. The first figure below shows a Git Flow Overview of the deployment process and where the four actions are involved. The second figure below shows a flowchart of the release process, roughly summarising the steps within the actions.
 
-!["Git Process Overview"](/../images/overview-of-publishing-workflows.png "Git Process Overview")
+!["Git Process Overview"](../images/overview-of-publishing-workflows.png "Git Process Overview")
 
 !!! info
 
@@ -37,11 +37,11 @@ The process is made up of four distinct steps. One that runs on the private [RAP
 
     The Release Process Flowchart (below) more accurately depicts the process flow.
 
-!["Release Process Flowchart"](/../images/flowchart.png "Release Process Flowchart")
+!["Release Process Flowchart"](../images/flowchart.png "Release Process Flowchart")
 
 ## Action 1 - [Copy Release to Public RAP CoP Repo]
 
-!["Action 1 - copy-release-to-public flowchart"](/../images/flowchart-action-1.png "Action 1 - copy-release-to-public flowchart")
+!["Action 1 - copy-release-to-public flowchart"](../images/flowchart-action-1.png "Action 1 - copy-release-to-public flowchart")
 
 Action 1 is kicked off by creating and publishing a release to the private [RAP_CoP_dev]. The release tags the repository with the semantic version number, e.g. v1.2.3.
 
@@ -129,7 +129,7 @@ Line three creates the release branch, with the following lines pushing the bran
 
 ## Action 2 - [Create Pull Request for Release Branch]
 
-!["Action 2 - create-release-pr flowchart"](/../images/flowchart-action-2.png "Action 2 - create-release-pr flowchart")
+!["Action 2 - create-release-pr flowchart"](../images/flowchart-action-2.png "Action 2 - create-release-pr flowchart")
 
 Action 2 is kicked off manually with a `workflow_dispatch` event or a push to a branch matching the pattern `release/*`. Therefore, Action 1 should trigger Action 2.
 
@@ -177,7 +177,7 @@ The pull request must be manually reviewed and approved before it is merged into
 
 ## Action 3 - [Create a Release]
 
-!["Action 3 - create-release flowchart"](/../images/flowchart-action-3.png "Action 3 - create-release flowchart")
+!["Action 3 - create-release flowchart"](../images/flowchart-action-3.png "Action 3 - create-release flowchart")
 
 Action 3 is only triggered when a pull request is closed. This is because it requires the Pull Request's source branch to name the release branch.
 
@@ -233,7 +233,7 @@ A release with the matching version to the release on the private [RAP_CoP_dev] 
 
 ## Action 4 - [Build and Deploy Website Pages]
 
-!["Action 4 - pages-build-deployment flowchart"](/../images/flowchart-action-4.png "Action 4 - pages-build-deployment flowchart")
+!["Action 4 - pages-build-deployment flowchart"](../images/flowchart-action-4.png "Action 4 - pages-build-deployment flowchart")
 
 Action 4, is triggered on a push to the main branch with changes to the docs directory. It can also be triggered manually via a workflow_dispatch.
 
@@ -297,7 +297,7 @@ Three flags are parsed with the command:
 
 The process is made up of 4 distinct steps. One that runs on the private [RAP_CoP_dev] and the other three that run on the public [rap-community-of-practice]. The first figure below shows a Git Flow Overview of the deployment process and where the four actions are involved. The second figure below shows a flowchart of the release process, roughly summarising the steps within the actions.
 
-!["Git Process Overview"](/../images/overview-of-publishing-workflows-push.png "Git Process Overview")
+!["Git Process Overview"](../images/overview-of-publishing-workflows-push.png "Git Process Overview")
 
 !!! info
 
@@ -305,11 +305,11 @@ The process is made up of 4 distinct steps. One that runs on the private [RAP_Co
 
     The Release Process Flowchart (below) more accurately depicts the process flow.
 
-!["Release Process Flowchart"](/../images/flowchart-push.png "Release Process Flowchart")
+!["Release Process Flowchart"](../images/flowchart-push.png "Release Process Flowchart")
 
 ### Action 1 - [Push Release to Public RAP CoP Repo]
 
-!["Action 1 - push-release-to-public flowchart"](/../images/flowchart-action-1-push.png "Action 1 - push-release-to-public flowchart")
+!["Action 1 - push-release-to-public flowchart"](../images/flowchart-action-1-push.png "Action 1 - push-release-to-public flowchart")
 
 Action 1 is kicked off by creating and publishing a release to the private [RAP_CoP_dev]. The release tags the repository with the semantic version number, e.g. v1.2.3.
 
