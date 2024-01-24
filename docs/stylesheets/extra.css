@@ -95,3 +95,7 @@ table {
 html {
   scroll-behavior: smooth;
 }
+
+iframe {
+  border:none;
+}

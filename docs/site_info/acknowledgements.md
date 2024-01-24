@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # Acknowledgements
 
 It's taken a lot of work to make the NHS England RAP Community of Practice and further the cause of RAP within NHS England more generally.
@@ -17,5 +11,6 @@ The **NHS England Data Science Skilled Team** has been the core of this work, bu
 | :-------------------------------------------------- | :------------------------------------------------------ | :------------------------------------------------------- | :-------------------------------------------------------- | :-------------------------------------------------------- |
 | **[Connor Quinn](https://github.com/connor1q)**     | **[Alistair Jones](https://github.com/alistair-jones)** | **[Daniel Goldwater](https://github.com/DanGoldwater1)** | **[Joseph Wilson](https://github.com/josephwilson8-nhs)** | **[Humaira Hussein](https://github.com/humairahussein1)**   |
 | **[Philip Hoang Le](https://github.com/philip-le)** | **[Sam Hollings](https://github.com/SamHollings)**      | **[Abbie Prescott](https://github.com/abbieprescott)**   | **[Xiyao Zhuang](https://github.com/xiyaozhuang)**        | **[Warren Davies](https://github.com/warren-davies4)**   |
+| **[Simone Chung](https://github.com/simonechung)** | **[Jennifer Struthers](https://github.com/jenniferstruthers1-nhs)** |||
 
 **You guys really put the "champion" in RAP Champion!!!**
