@@ -22,6 +22,7 @@ nav:
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
       - The history of RAP: introduction_to_RAP/history_of_RAP.md
+      - RAP in health: introduction_to_RAP/RAP_in_health.md
   - Our RAP service:
       - our_RAP_service/index.md
       - Building team capability: our_RAP_service/building_team_capability.md
@@ -31,7 +32,6 @@ nav:
       - RAP pre-engagement Questionnaire: our_RAP_service/rap-pre-engagement-questionnaire.md
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
       - Service design and user research: our_RAP_service/service-design-and-user-research.md
-      - Website Release Process: our_RAP_service/rap-release-workflow.md 
 
   - Implementing RAP:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
@@ -52,6 +52,7 @@ nav:
       - Git:
           - Introduction to Git: training_resources/git/introduction-to-git.md
           - Using Git collaboratively: training_resources/git/using-git-collaboratively.md
+          - Making code discoverable: training_resources/git/making-code-discoverable.md
           - Git Hooks: training_resources/git/githooks.md
           - Quick Start Guides:
               - Git: training_resources/git/quick_start_guides/git_quick_start_guide.md
@@ -70,6 +71,7 @@ nav:
           - Logging and error handling in Python: training_resources/python/logging-and-error-handling.md
           - Project structure and packaging: training_resources/python/project-structure-and-packaging.md
           - Using Python f-strings to run SQL queries: training_resources/python/using-f-strings-sql-queries.md
+          - Using config files: training_resources/python/config-files.md
           - Virtual environments:
               - Why use virtual environments?: training_resources/python/virtual-environments/why-use-virtual-environments.md
               - Venv: training_resources/python/virtual-environments/venv.md
@@ -86,10 +88,15 @@ nav:
       - R:
           - External resources: training_resources/R/README.md
           - Git with RStudio: training_resources/R/git_with_RStudio.md
+      - Refactoring Golden Rules: training_resources/refactoring-guide.md
   - Support: support.md
   - Glossary: glossary.md
   - Useful links: useful_links.md
-  - Acknowledgements: acknowledgements.md
+  - Site info:
+      - Acknowledgements: site_info/acknowledgements.md
+      - Website Release Process: site_info/rap-release-workflow.md
+      - GitHub Repository Traffic Statistics: site_info/repo_traffic_information.md
+      - Website Traffic Data Collection: site_info/website_traffic_information.md
 theme:
   name: material
   custom_dir: overrides

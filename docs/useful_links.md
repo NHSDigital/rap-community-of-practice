@@ -19,6 +19,7 @@ hide:
 - The [ONS best practice team have a useful website - often called the Quack book] covering many of the same topics we cover here. Their [best-practice checklist] is particularly useful.
 - The Turing Institute's [The Turing Way handbook to reproducible, ethical and collaborative data science]
 - We have taken inspiration from the [NHS Digital software engineering COP].
+- The [Health RAP Playbook], currently in alpha testing, contains specific advice on doing RAP in a healthcare setting.
 - [**NHS PyCom Coding Club Github**][coding club]: Lots of great guides and lessons here from the NHS Python Community
 - **[Building reproducible analytical pipelines with R](https://raps-with-r.dev/)**
 
@@ -77,3 +78,4 @@ hide:
 [data.science@nhs.net]: mailto:data.science@nhs.net
 [nhs digital github]: https://github.com/NHSDigital
 [nhs england rap community of practice]: https://github.com/NHSDigital/rap-community-of-practice
+[Health RAP Playbook]: https://nhsengland.github.io/Health-RAP-Playbook-Alpha/

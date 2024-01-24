@@ -50,3 +50,5 @@ We thought it was worth laying out some of the key moments in RAP history - than
 
 **2023**
 : [ONS publishes their RAP implementation plan, followed by other departments](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/departmental-rap-plans/)
+
+: The [Health RAP Playbook (Alpha)](https://nhsengland.github.io/Health-RAP-Playbook-Alpha/) is launched
