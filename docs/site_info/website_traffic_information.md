@@ -1,5 +1,5 @@
 ## How we collect data
-We use Usermaven as a cookie-less web traffic analytics tool to anonymously track our website vistors. This data helps us understand how the site is being used and how we can improve it. No personally identifiable information is stored by us or Usermaven and it is GDPR and CCPA compliant.
+We use [Usermaven](https://usermaven.com/) as a cookie-less web traffic analytics tool to anonymously track our website vistors. This data helps us understand how the site is being used and how we can improve it. No personally identifiable information is stored by us or Usermaven and it is GDPR and CCPA compliant.
 
 For more information on Usermaven's cookie-less tracking and how it protects users privacy, click [here](https://usermaven.com/blog/cookieless-tracking){:target="_blank"}.
 
