@@ -1,5 +1,15 @@
-# Project and Package structuring
+---
+title: Project and Package structuring
 
+tags: 
+  - Project structure
+  - Python
+  - Packaging
+  - Pip
+  - Anaconda
+---
+
+#
 !!! tip "TLDR"
     - Generally you should use a standard repo structure - this page describes how and why
     - [RAP Python Package template](https://github.com/NHSDigital/rap-package-template) comes with sections for the different bits of your code, testing and prepares you for making your code into a Python package.

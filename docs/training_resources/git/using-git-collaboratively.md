@@ -1,4 +1,12 @@
-# Using Git Collaboratively
+---
+title: Using Git Collaboratively
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

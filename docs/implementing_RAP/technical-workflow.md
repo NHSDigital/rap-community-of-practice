@@ -1,4 +1,16 @@
-# Technical Working Setup & Best Practices
+---
+title: Technical Working Setup & Best Practices
+summary: What's the best way to streamline your working practices and tools to improve your effiency? Read on for some tips...
+tags: 
+  - Workflow
+  - Project structure
+  - Git
+  - Linting
+  - Conda
+  - Anaconda
+---
+
+#
 
 > **Note:** This guide (and most of this repository) is written primarily for Python development but some parts are generally applicable to other languages.
 

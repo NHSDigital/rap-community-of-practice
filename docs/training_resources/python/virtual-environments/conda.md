@@ -1,4 +1,13 @@
-# Conda environment
+---
+title: Conda environment
+
+tags: 
+  - Python
+  - Virtual environments
+  - Anaconda
+---
+
+#
 
 Conda is the environment manager (and package manager) bundled with Anaconda, which is a commonly used distribution of Python, R and other applications. See [these instructions][install-anaconda] on how to install and setup Anaconda. Python packages (and other applications) in Conda are curated by the Anaconda team, however, there is also "conda-forge" which is a "channel" of their package repository which is managed by "the community", i.e. whoever made the packages.
 

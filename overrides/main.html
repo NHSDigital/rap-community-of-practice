@@ -7,6 +7,15 @@
     </a>
 {% endif %}
 
+
+{% if page and page.meta %}
+    <h1 class="header-with-tags"> {{ page.meta.title }} </h1>
+
+    {% if page.meta.summary %}
+        <div role="doc-subtitle"> {{ page.meta.summary }} </div>
+        {% endif %}
+{% endif %}
+    
 {{ super() }}
 
 <details class="info" open="">

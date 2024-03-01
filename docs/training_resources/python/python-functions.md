@@ -1,4 +1,15 @@
-# Python functions
+---
+title: Python functions
+
+tags: 
+  - Python
+  - Functions
+  - Docstrings
+  - Coding tips
+  - PySpark
+---
+
+#
 
 > We are currently updating our minimal Python RAP package template, which is freely available to use via Github: [RAP package template](https://github.com/NHSDigital/rap-package-template).
 
@@ -11,13 +22,9 @@ In Python, the standard library provides many useful built-in function such as l
 Python functions are defined by using the `def` keyword. Here is an example of a Python function which converts the argument `temp` which is a value representing a temperature in Fahrenheit, into Celsius:
 
 ```python
-    # Define the function
-    def fahrenheit_to_celsius(temp):
         new_temp = (temp - 32) * (5/9)
         return new_temp
 
-    # Use the function
-    fahrenheit_to_celsius(77)
     >>> 25.0
 ```
 
@@ -66,20 +73,14 @@ For example, we take the following function to implement bubble sort. A sorting 
 If we had three arrays we wanted to sort (arr1, arr2, arr3) and we didn't use a function we would have to repeat our code three times. This produces messy code that is hard to read. Can you spot the errors in the code below?
 
 ```python
-    # Sort array 1
-    n = len(arr1)
     for i in range(n-1):
         for j in range(0, n-i-1):
             if arr1[j] > arr1[j + 1] :
                 arr1[j], arr1[j + 1] = arr1[j + 1], arr1[j]
-    # Sort array 2
-    n = len(arr2)
     for i in range(m-1):
         for j in range(0, n-i-1):
             if arr2[j] > arr2[j + 1] :
                 arr2[i], arr2[j + 1] = arr2[j + 1], arr2[j]
-    # Sort array 3
-    n = len(arr3)
     for j in range(n-1):
         for i in range(0, n-i-1):
             if arr3[j] > arr3[j + 1] :
@@ -89,12 +90,8 @@ If we had three arrays we wanted to sort (arr1, arr2, arr3) and we didn't use a 
 Writing repetitive non-functional code is bad practice. Copy pasting processes like this and changing variable names can result in mistakes and will make a project excessively verbose. By using the defined function before, all of these issues are fixed with no functionality lost:
 
 ```python
-    # Sort array 1
-    bubblesort(arr=arr1)
     # Sort array 2
     bubblesort(arr=arr2)
-    # Sort array 3
-    bubblesort(arr=arr3)
 ```
 
 Re-usability is not the only benefit of functions, and just because a process is only done once does not mean that it should not be placed inside the body of a function instead.
@@ -120,22 +117,14 @@ cholesterol_numerator = (
 Using functions can better elucidate the steps of a process. A long process typically has several logical steps to it each of which can be delivered by a block of code. If we attempt to write out all the steps of the process in a long sequence of code this will be very difficult to read, and identifying the separate steps of the process is difficult. Below is an example from the diabetes RAP that uses functions, functions aren't being used here to cut down on code re-use but rather to make the steps of the delivered process more clear:
 
 ```python
-    # Step 3: Identify the best record for each person
-    best_record = identify_best_record(record_scores=record_scores)
     # Step 4: Use the best record to cut down the record_scores table, creating the golden record
     golden_record = create_golden_record_table(record_scores=record_scores,
                                                 best_record=best_record)
-    # Step 5: Derive additional fields for the golden record table
-    enriched_golden_record = enrich_golden_record(golden_record=golden_record,
                                         hes_diabetes=hes_diabetes,
                                         imd_scores=imd_scores)
-    # Step 6: Output the golden record table to SQL so we can avoid recalculating next time
-    write_df_to_SQL(df_to_write = enriched_golden_record,
                     target_table = golden_record_sql,
                     mode = 'overwrite',
                     database = params['work_db'])
-    # Step 7: after attain the golden_record (either by saved table or generate new one), we build final table
-    final_table = produce_aggregates(golden_record)
 ```
 
 It is important to note that overuse of functions like this can be a bad thing. Breaking down a process into too many functions will make code harder to read. An extreme example can demonstrate this:
@@ -165,20 +154,14 @@ This code delivers a function bubblesort which has the same functionality as the
 Another benefit is that using functions allows us to adapt to new changes through the use of arguments. For example lets say in our initial bubble sort example it was decided that calling the arrays `arr1`, `arr2`, and `arr3` was not descriptive enough. The lead on the project decides that instead these arrays should be renamed to `array1`, `array2`, and `array3`. Without using a function we would have to change every occurrence of these variables in our long messy code:
 
 ```python
-# Sort array 1
-n = len(array1)
 for i in range(n-1):
     for j in range(0, n-i-1):
         if array1[j] > array1[j + 1] :
             array1[j], array1[j + 1] = array1[j + 1], array1[j]
-# Sort array 2
-n = len(array2)
 for i in range(n-1):
     for j in range(0, n-i-1):
         if array2[j] > array2[j + 1] :
             array2[j], array2[j + 1] = array2[j + 1], array2[j]
-# Sort array 3
-n = len(array3)
 for i in range(n-1):
     for j in range(0, n-i-1):
         if array3[j] > array3[j + 1] :
@@ -188,24 +171,16 @@ for i in range(n-1):
 This is bad practice. It is time consuming and could also result in mistakes. If instead we used a defined function we would only have to change the name of the variable passed as an argument:
 
 ```python
-# Sort array 1
-bubblesort(arr=array1)
 # Sort array 2
 bubblesort(arr=array2)
-# Sort array 3
-bubblesort(arr=array3)
 ```
 
 Another example could be seen in the diabetes RAP. Lets say that in step 5 we instead want to use some `new_hes_diabetes` data, we can simply update that one argument without having to rewrite the whole logical step of the process:
 
 ```python
-# OLD Step 5: Derive additional fields for the golden record table
-golden_record = enrich_golden_record(golden_record=golden_record,
                                     hes_diabetes=hes_diabetes,
                                     imd_scores=imd_scores)
 
-# NEW Step 5: Derive additional fields for the golden record table
-golden_record = enrich_golden_record(golden_record=golden_record,
                                     # change:
                                     hes_diabetes=new_hes_diabetes,
                                     imd_scores=imd_scores)

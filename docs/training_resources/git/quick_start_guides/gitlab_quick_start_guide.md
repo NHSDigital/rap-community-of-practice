@@ -1,4 +1,13 @@
-# GitLab Quick Start Guide
+---
+title: GitLab Quick Start Guide
+
+tags: 
+  - Git
+  - Version control
+  - GitLab
+---
+
+#
 
 !!! info
 

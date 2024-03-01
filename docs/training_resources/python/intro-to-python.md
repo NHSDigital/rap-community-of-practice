@@ -1,4 +1,15 @@
-# Intro to Python
+---
+title: Intro to Python
+
+tags: 
+  - Coding tips
+  - Python
+  - Virtual environments
+  - VS Code
+  - PySpark
+---
+
+#
 
 !!! tip "TLDR"
     - Python is a general-purpose, open-source programming language, good for data analysis, available on many data platforms

@@ -1,9 +1,20 @@
 ---
-#hide table of contents whitespace
-hide: toc
+title: Logging and error handling in PySpark
+
+tags: 
+  - PySpark
+  - Logging
+  - Error handling
+  - Spark
+  - Coding tips
+
+hide:
+  - toc
 ---
 
-# Logging and error handling in PySpark
+#
+
+
 
 !!! Info
     See our documentation on [logging and error handling in Python][1] to find out more.

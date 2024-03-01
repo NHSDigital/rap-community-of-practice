@@ -1,4 +1,15 @@
-# How to Publish your Code in the Open
+---
+title: How to Publish your Code in the Open
+
+tags: 
+  - Publishing code
+  - Transparency
+  - Workflow
+  - GitHub
+  - GitHub topics
+---
+
+#
 
 In NHS Digital we have committed to publishing more and more of our code over time to **improve the transparency** of our analytical work.
 

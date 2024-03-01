@@ -1,4 +1,12 @@
-# Working with Branches
+---
+title: Working with Branches
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

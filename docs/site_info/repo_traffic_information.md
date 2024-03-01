@@ -1,4 +1,11 @@
-# GitHub Repository Traffic Statistics
+---
+title: GitHub Repository Traffic Statistics
+
+tags: 
+  - RAP CoP website
+---
+
+#
 
 We store the files that make up this website in a public GitHub repository, [RAP Community of Practice](https://github.com/NHSDigital/rap-community-of-practice), and GitHub has a feature that allows you to view and analyse the traffic coming into your repository. We have compiled this information and displayed it for you below.
 

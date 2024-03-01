@@ -1,4 +1,12 @@
-# Levels of RAP
+---
+title: Levels of RAP
+
+tags: 
+  - Levels of RAP
+  - Preparing for RAP
+---
+
+#
 
 To help analyst teams implement RAP, we've created a maturity framework we call the 'levels of RAP'.
 

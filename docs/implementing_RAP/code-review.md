@@ -1,4 +1,12 @@
-# Code review
+---
+title: Code review
+
+tags: 
+  - Code reviews
+  - Workflow
+---
+
+#
 
 [![link to code quality comic image](https://imgs.xkcd.com/comics/code_quality.png)](https://xkcd.com/1513)
 

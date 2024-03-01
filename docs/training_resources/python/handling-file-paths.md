@@ -1,4 +1,15 @@
-# Handling file paths
+---
+title: Handling file paths
+
+tags: 
+  - Python
+  - Coding tips
+  - Pathlib
+  - File paths
+  - Pandas
+---
+
+#
 
 ## What is pathlib?
 
@@ -45,19 +56,13 @@ operations
 For example, you can access the current working directory with the `cwd` attribute.
 
 ```python
-# Print the current working directory (cwd)
-print("CWD:", pathlib.Path.cwd())
 ```
 
 Pass strings to Path constructor to create a Path object
 
 ```python
-# . is the current directory
-cwd_path = pathlib.Path(".")
 print("CWD (again):", cwd_path)
 
-# Use resolve to get the absolute path!
-cwd_abspath = cwd_path.resolve()
 print("Absolute CWD:", cwd_abspath)
 
 ```
@@ -69,8 +74,6 @@ The following examples show how pathlib makes it easier to extract specific attr
 #### Example: absolute path to the current file
 
 ```python
-# Note: __file__ is a global Python variable
-this_file_path = pathlib.Path(__file__)
 print("Path to file:", this_file_path)
 ```
 
@@ -151,8 +154,6 @@ pathlib Paths are accepted by most pandas methods for reading data. This example
 import pandas as pd
 import pyreadstat  # needed to parse sav files in spss
 import pathlib2  # This is just a backwards compatible pathlib!
-
-# https://realpython.com/python-pathlib/
 
 # Add parameters
 BASE_DIR = pathlib2.Path(r"\\<path>\Publication\RAP")

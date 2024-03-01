@@ -1,4 +1,9 @@
-# Designing a RAP service
+---
+title: Designing a RAP service
+
+tags: 
+  - RAP engagements
+---
 
 As the roll-out of RAP has progressed in NHS Digital, we have come to recognise that we are offering a service. This is quite a change in direction for a team that previously was focused on development. We've had to quickly reframe our approach to rolling out RAP in NHS England to reflect this change.
 
@@ -143,6 +148,8 @@ If relevant:
 Thank your participant for sharing their experience, knowledge, and time with you, making sure they are comfortable with what they have told you and that they can follow up with you at any time. Ask them if they are able to ask further questions by email, if there is anything you might have missed. If applicable, offer your participant the opportunity to be involved in later stages of the user-design process (e.g. prototyping).
 
 ---
+
+#
 
 **Note-taking tips**
 

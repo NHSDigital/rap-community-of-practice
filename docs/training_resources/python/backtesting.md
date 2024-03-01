@@ -1,5 +1,13 @@
-# Back testing
+---
+title: Back testing
 
+tags: 
+  - Testing
+  - Backtesting
+  - Quality assurance
+---
+
+#
 ## What is back testing and why do I care? <a name="what"></a>
 
 Now that you are writing code in a reproducible manner, and perhaps using Python instead of another language, it is important that the code still produces the same results as the old code. Mistakes can easily be made in translating from one code base to another.

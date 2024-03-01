@@ -1,4 +1,12 @@
-# Pull and Merge Requests
+---
+title: Pull and Merge Requests
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

@@ -1,4 +1,12 @@
-# RAP Pre-engagement Questionnaire
+---
+title: RAP Pre-engagement Questionnaire
+
+tags: 
+  - Preparing for RAP
+  - RAP engagements
+---
+
+#
 
 !!! tip "TLDR"
     - These questions will help you plan out your RAP engagement.

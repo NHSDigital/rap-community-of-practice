@@ -1,4 +1,12 @@
-# Committing Work
+---
+title: Committing Work
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

@@ -1,13 +1,23 @@
-Note: this is temporarily sitting here until we decide on its future home
+---
+title: Refactoring Golden rules
 
-# Refactoring Golden rules
+tags: 
+  - Coding tips
+  - Loose coupling
+  - Project structure
+  - Refactoring
+---
+
+#
+
+Note: this is temporarily sitting here until we decide on its future home
 
 !!! tip "TLDR"
 
     - Refactoring means improving your code without changing what it does.
-    - Your aim is to make the code more readable, more maintabalbe, more reusable, and more efficient.
+    - Your aim is to make the code more readable, more maintainable, more reusable, and more efficient.
     - If you don't refactor your code, it can become increasingly more difficult and time-consuming to maintain over time.
-    - in this article you will learn golden rules on what good code looks like, and examples of "code smells" which indicate when code might need refactoring.```
+    - In this article you will learn golden rules on what good code looks like, and examples of "code smells" which indicate when code might need refactoring.
 
 ??? success "Pre-requisites"
 

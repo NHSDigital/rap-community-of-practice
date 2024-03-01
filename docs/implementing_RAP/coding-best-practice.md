@@ -1,10 +1,14 @@
 ---
-#hide table of contents whitespace
-hide: toc
+title: Coding Best Practice
+
+tags: 
+  - Coding tips
+
+hide:
+  - toc
 ---
 
-# Coding Best Practice
-
+#
 You can find guidance on coding best practice at these pages:
 
 General Code Development

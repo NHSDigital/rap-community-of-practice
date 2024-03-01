@@ -1,4 +1,12 @@
-# RAP squad support models
+---
+title: RAP squad support models
+
+tags: 
+  - RAP engagements
+  - RAP champions
+---
+
+#
 
 Every team approaches RAP from a different starting position - different BAU pressures, different team make-up and coding proficiency, different delivery cadence. We have spent a lot of time trying to figure out how best to support teams to engage with RAP. One of our main take-aways is that the support model of the RAP team should be tailored to the context of the team being supported.
 
