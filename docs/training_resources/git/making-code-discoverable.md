@@ -1,4 +1,13 @@
-# Making Code Discoverable using Github Topics.
+---
+title: Making Code Discoverable using Github Topics.
+
+tags: 
+  - Git
+  - Version control
+  - GitHub topics
+---
+
+#
 
 [comment]: <> (this is a mkdocs material style admonition - it will look better on the website)
 !!! tip "TLDR"

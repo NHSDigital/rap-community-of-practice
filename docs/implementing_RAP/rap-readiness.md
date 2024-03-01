@@ -1,4 +1,12 @@
-# Ready for RAP?
+---
+title: Ready for RAP?
+
+tags: 
+  - Preparing for RAP
+  - RAP project management
+---
+
+#
 
 RAPs' yield long-term benefits for the teams that use them. They are robust against errors, staff turnover, and changing outputs; they reduce human effort, computing time, and complexity; they save money through using open-source software, increasing re-usability, and lowering resource requirements.
 

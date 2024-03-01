@@ -1,4 +1,16 @@
-# Visualisations in Python
+---
+title: Visualisations in Python
+
+tags: 
+  - Data visualisation
+  - Python
+  - Matplotlib
+  - Accessibility
+  - Pandas
+  - Numpy
+---
+
+#
 
 Creating visualisations can require a lot of effort.
 
@@ -25,15 +37,11 @@ Using the famous iris dataset we can produce a scatter plot of the sepal length 
 from matplotlib import pyplot as plt
 import seaborn as sns
 
-# View a list of pre-loaded Seaborn datasets
-for dataset in sns.get_dataset_names():
     print(dataset)
 
 df = sns.load_dataset("iris") # we import iris data
 print(df.head(3)) # view first 3 rows of the data
 
-# Create a scatter plot
-plt.scatter(df['sepal_length'], df['sepal_width'], color='green', marker='s')
 plt.xlabel('Sepal length') # x axis title/label
 plt.ylabel('Sepal width') # y axis title/label
 plt.show()
@@ -44,8 +52,6 @@ plt.show()
 Notice how we set the colour of the data points (color parameter) and the shape (marker parameter = square). To edit the transparency degree (alpha parameter) of the points:
 
 ```
-# Edit data points transparency with the parameter alpha
-plt.scatter(df['sepal_length'], df['sepal_width'], alpha=0.2)
 plt.xlabel('Sepal length')
 plt.ylabel('Sepal width')
 plt.show()
@@ -72,18 +78,12 @@ df1 = pd.read_csv(path_1) # Create a Pandas dataframe
 After loading our Python packages and dummy data we can start working on producing the first plot:
 
 ```
-# Create a line chart (Plot 1)
-plt.figure(figsize=(10, 5)) # set the figure size
 plt.plot(df1['Year'], df1['Percent'], label="Sepal", linewidth=2, linestyle='-') # create the plot
 
-# Define labels and ticks
-plt.ylabel("Percent", loc='top', rotation="horizontal") # y label title and location
 plt.xticks(np.arange(1982, 2020, step=2)) # x axis ticks range
 plt.yticks(np.arange(0, 70, step=10)) # y axis ticks range
 plt.grid(axis='y') # opting for y axis gridlines
 
-# Create annotations (done here for one annotation to avoid redundancy)
-plt.annotate('Jan 2003: Large new health warnings on cigarette packs', xy=(2003, 42), xytext=(2003, 52), size=9,
                                                                         bbox=dict(boxstyle="square", fc='0.95', pad=1, ec="none"),
                                                                         arrowprops=dict(facecolor='black', shrink=0.05, width=0.5, headwidth=6))
 plt.box(False) # remove outer borders
@@ -103,13 +103,9 @@ The advantages of a .svg file compared to using a .png file is better outlined t
 Similarly, to create the third plot (horizontal bar chart) on the publication webpage:
 
 ```
-# Create the Pandas dataframe
-percent_y = [2, 7, 14, 22, 31]
 index = ['11 years', '12 years', '13 years', '14 years', '15 years']
 df = pd.DataFrame({'Percent': percent_y}, index = index)
 
-# Plot the horizontal bar chart
-ax = df.plot.barh() # plot the chart
 ax.invert_yaxis() # invert the y axis
 plt.xlabel("Percent", loc='right', rotation="horizontal") # place the x label
 ax.get_legend().remove() # remove the unnecessary legend

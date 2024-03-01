@@ -1,4 +1,15 @@
-# Unit testing field definitions
+---
+title: Unit testing field definitions
+
+tags: 
+  - Unit testing
+  - Testing
+  - Field Definitions
+  - Python
+  - PySpark
+---
+
+#
 
 This section focuses on one specific application of unit testing that is very relevant to analysts; testing the definitions of different fields (columns). One of the biggest burdens on stats teams is to maintain accurate definitions of fields over time as the specifications change. This drift in definitions is also one of the biggest sources of errors in stats publications. In the worst cases you may find that a field is defined in dozens of locations across a code-base. Each of these needs to be updated each time a change happens - leading to burden and risk.
 

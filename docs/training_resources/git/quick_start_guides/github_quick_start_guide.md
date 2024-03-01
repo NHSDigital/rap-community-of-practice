@@ -1,4 +1,13 @@
-# GitHub Quick Start Guide
+---
+title: GitHub Quick Start Guide
+
+tags: 
+  - Git
+  - Version control
+  - GitHub
+---
+
+#
 
 !!! tip "TLDR"
 

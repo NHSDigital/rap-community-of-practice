@@ -1,4 +1,11 @@
-# Our RAP Service
+---
+title: Our RAP Service
+
+tags: 
+  - RAP engagements
+---
+
+#
 
 Following the recommendations in the [Overcoming Barriers to RAP](https://osr.statisticsauthority.gov.uk/publication/reproducible-analytical-pipelines-overcoming-barriers-to-adoption/)
 report, we have set up a central RAP team to coordinate efforts and set standards across NHS Digital.

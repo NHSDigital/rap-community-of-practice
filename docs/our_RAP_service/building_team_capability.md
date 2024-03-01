@@ -1,4 +1,11 @@
-# How to prepare my team for RAP
+---
+title: How to prepare my team for RAP
+
+tags: 
+  - Preparing for RAP
+---
+
+#
 
 [![Comic image of team chat](https://imgs.xkcd.com/comics/team_chat.png)](https://xkcd.com/1782)
 

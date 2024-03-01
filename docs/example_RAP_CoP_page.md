@@ -1,4 +1,12 @@
-# Page Template
+---
+title: Add your title here
+
+# Uncomment and add your tags here
+# tags:
+#   - 
+---
+
+#
 
 ## Some introductory subtitle
 

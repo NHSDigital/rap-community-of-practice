@@ -1,4 +1,17 @@
-# Example Pipeline (Python)
+---
+title: Example Pipeline (Python)
+
+tags: 
+  - Python
+  - Thin slice strategy
+  - Process mapping
+  - Project structure
+  - Loose coupling
+  - Open-source
+  - Coding tips
+---
+
+#
 
 !!! tip "TLDR"
     - This is an [example of a pipeline](https://github.com/NHSDigital/RAP_example_pipeline_python) made in Python with RAP principles in mind

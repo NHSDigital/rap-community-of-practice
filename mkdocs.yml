@@ -13,6 +13,8 @@ plugins:
   - redirects:
       redirect_maps:
         "training_resources/git/intro-to-git.md": "training_resources/git/introduction-to-git.md"
+  - tags:
+      tags_file: tags.md
 nav:
   - Home: index.md
   - About: about.md
@@ -20,6 +22,7 @@ nav:
       - What is RAP?: introduction_to_RAP/what_is_RAP.md
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
+      - Government policy on RAP: introduction_to_RAP/gov-policy-on-rap.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
       - The history of RAP: introduction_to_RAP/history_of_RAP.md
       - RAP in health: introduction_to_RAP/RAP_in_health.md
@@ -35,6 +38,10 @@ nav:
 
   - Implementing RAP:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
+      - Technical Skills for RAP:
+          - Git for Engagements: implementing_RAP/skills_for_rap/git_for_rap.md
+          - Python for Engagements: implementing_RAP/skills_for_rap/python_for_rap.md
+          - R for Engagements: implementing_RAP/skills_for_rap/r_for_rap.md
       - Process Mapping: implementing_RAP/process_mapping.md
       - Code review: implementing_RAP/code-review.md
       - Coding best practice: implementing_RAP/coding-best-practice.md
@@ -54,6 +61,7 @@ nav:
           - Using Git collaboratively: training_resources/git/using-git-collaboratively.md
           - Making code discoverable: training_resources/git/making-code-discoverable.md
           - Git Hooks: training_resources/git/githooks.md
+          - GitHub vs GitLab Terminology: training_resources/git/github_gitlab_terminology.md
           - Quick Start Guides:
               - Git: training_resources/git/quick_start_guides/git_quick_start_guide.md
               - GitHub: training_resources/git/quick_start_guides/github_quick_start_guide.md
@@ -92,6 +100,7 @@ nav:
   - Support: support.md
   - Glossary: glossary.md
   - Useful links: useful_links.md
+  - Tags: tags.md
   - Site info:
       - Acknowledgements: site_info/acknowledgements.md
       - Website Release Process: site_info/rap-release-workflow.md
@@ -113,6 +122,7 @@ theme:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
+    - toc.integrate
   icon:
     admonition:
       <type>: material/alert
@@ -121,7 +131,7 @@ extra_css:
 markdown_extensions:
   - def_list
   - pymdownx.tasklist:
-      # clickable_checkbox: true
+      clickable_checkbox: true
       custom_checkbox: true
   - tables
   - attr_list

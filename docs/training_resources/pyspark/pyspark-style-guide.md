@@ -1,4 +1,18 @@
-# PySpark style guide
+---
+title: PySpark style guide
+
+tags: 
+  - PySpark
+  - Spark
+  - Coding tips
+  - Code style
+  - SQL
+
+hide:
+  - toc
+---
+
+#
 
 ## Introduction
 
@@ -230,11 +244,7 @@ def group_by_and_count_column(data: df, column_name: str):
 
     Returns: groups from column and count
     “””
-    # Group by CCG Code and count number of records per CCG
-    df_count = df.groupBy(df.column_name).count()
 
-    # sort by CCG Code descending order
-    result = df_count.sort(desc("count"))
 
     return result
 ```

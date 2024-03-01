@@ -1,9 +1,13 @@
 ---
+title: RAP Community of Practice
+
+tags: 
+  - RAP CoP website
 hide:
   - navigation
 ---
 
-# RAP Community of Practice
+#
 
 > **This material is maintained by the [NHS England RAP Community of Practice](mailto:england.rapchampions@nhs.net)**.
 

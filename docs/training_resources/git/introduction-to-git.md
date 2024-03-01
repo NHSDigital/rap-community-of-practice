@@ -1,4 +1,14 @@
-# Introduction to Git
+---
+title: Introduction to Git
+
+tags: 
+  - Git
+  - Version control
+  - GitHub
+  - GitLab
+---
+
+#
 
 !!! tip "TLDR"
 

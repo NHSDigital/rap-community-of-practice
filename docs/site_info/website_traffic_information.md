@@ -1,3 +1,11 @@
+---
+title: Website traffic information
+tags: 
+  - RAP CoP website 
+---
+
+#
+
 ## How we collect data
 We use [Usermaven](https://usermaven.com/) as a cookie-less web traffic analytics tool to anonymously track our website vistors. This data helps us understand how the site is being used and how we can improve it. No personally identifiable information is stored by us or Usermaven and it is GDPR and CCPA compliant.
 

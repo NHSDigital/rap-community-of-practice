@@ -1,4 +1,13 @@
-# Quality Assuring Analytical Outputs
+---
+title: Quality Assuring Analytical Outputs
+
+tags: 
+  - Preparing for RAP
+  - RAP project management
+  - Quality assurance
+---
+
+#
 
 ## RAP Quality Assurance Plan
 
@@ -11,8 +20,6 @@ You can also create the QA log to audit if the QA plan has been followed – tra
 ## Quality assurance checklist
 
 Here is a quality assurance checklist which we adapted from [ONS's Quality Assurance of Code for Analysis and Research](https://best-practice-and-impact.github.io/qa-of-code-guidance/checklist_higher.html) and updated to apply in Data Science team for some previous projects. You can select the relevant steps for your project depending on its complexity and the required level of quality assurance.
-
-> (you can check the boxes below by adding an 'x' in between the square braces: `- [ ]` becomes `- [x]` in your markdown)
 
 ### Governance and IG
 

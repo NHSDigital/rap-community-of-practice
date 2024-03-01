@@ -1,4 +1,12 @@
-# Git Quick Start Guide
+---
+title: Git Quick Start Guide
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

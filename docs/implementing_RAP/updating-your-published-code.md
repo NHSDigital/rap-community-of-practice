@@ -1,4 +1,12 @@
-# How to update your published code
+---
+title: How to update your published code
+
+tags: 
+  - Publishing code
+  - Transparency
+---
+
+#
 
 ## Introduction
 

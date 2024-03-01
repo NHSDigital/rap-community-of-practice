@@ -1,5 +1,13 @@
-# The History of RAP
-We thought it was worth laying out some of the key moments in RAP history - thanks to colleagues from NHS England and the Government Data Science Community for filling in the gaps!
+---
+title: The History of RAP
+
+tags: 
+  - History
+  - Policy
+---
+
+#
+
 
 ## Pre-RAP - The promotion of open code
 **2017**
@@ -25,6 +33,7 @@ We thought it was worth laying out some of the key moments in RAP history - than
      * [RAP Companion](https://ukgovdatascience.github.io/rap_companion/)
      * [Introduction to RAP course by the Govt Analysis Function](https://analysisfunction.civilservice.gov.uk/training/introduction-to-reproducible-analytical-pipelines-rap/)
      * [ONS Data Science Campus - RAP journey training course](https://datasciencecampus.ons.gov.uk/capability/data-science-campus-faculty/reproducible-analytical-pipeline-journey/)
+     * **Matthew Upson** publishes his article [Why Government needs sustainable software too](https://www.software.ac.uk/blog/why-government-needs-sustainable-software-too) on the Software Sustainability Institute's website.
 
 **2020**
 : Flourishing of blog posts in 2020s, e.g. [Rappers Delight](https://dataingovernment.blog.gov.uk/2020/03/24/rappers-delight/)

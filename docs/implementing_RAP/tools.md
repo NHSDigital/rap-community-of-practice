@@ -1,4 +1,16 @@
-# Workflow tools explained
+---
+title: Workflow tools explained
+
+tags: 
+  - Workflow
+  - Git
+  - Python
+  - VS Code
+  - Anaconda
+  - Conda
+---
+
+#
 
 Getting data science tools configured to your needs and working together is a core part of any data science project. Learning how to troubleshoot problems with these tools quickly is an important skill.
 
@@ -223,12 +235,8 @@ To work with this integration, you must install the Jupyter package in your base
 You can then create and run Jupyter-like code cells, defined within Python code using a `# %%` comment:
 
 ```Python
-# %%
-msg = "Hello World"
 print(msg)
 
-# %%
-msg = "Hello again"
 print(msg)
 ```
 

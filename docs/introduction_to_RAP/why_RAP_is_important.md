@@ -1,5 +1,12 @@
-# Why RAP is important
+---
+title: Why RAP is important
 
+tags: 
+  - Benefits of RAP
+  - Policy
+---
+
+#
 Scientific research has increasingly relied on code to conduct complex statistical analyses in recent years. As code has become ubiquitous, new ways of working have emerged to ensure that scientific findings are rigorous and reproducible.
 
 These practices have been applied to government analytic work under the banner of **Reproducible Analytical Pipelines (RAP)**. RAPs bring together a number of good practices to help ensure all published statistics meet the highest standards of transparency and reproducibility.

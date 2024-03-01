@@ -1,4 +1,12 @@
-# Git Hooks
+---
+title: Git Hooks
+
+tags: 
+  - Git
+  - Version control
+---
+
+#
 
 !!! tip "TLDR"
 

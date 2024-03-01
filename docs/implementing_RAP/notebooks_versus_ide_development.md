@@ -1,4 +1,19 @@
-# Development tools
+---
+title: Development tools
+
+tags: 
+  - Workflow
+  - Notebooks
+  - IDEs
+  - Jupyter
+  - Databricks
+  - Version control
+  - Git
+  - Testing
+  - Unit testing
+---
+
+#
 
 ## What is this guide for?
 

@@ -1,4 +1,14 @@
-# When to Stop Coding?
+---
+title: When to Stop Coding?
+
+tags: 
+  - Coding tips
+  - Refactoring
+  - Levels of RAP
+  - Testing
+---
+
+#
 
 !!! tip "TLDR"
 

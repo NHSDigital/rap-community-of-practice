@@ -1,4 +1,11 @@
-# Tidy Data
+---
+title: Tidy Data
+
+tags: 
+  - Tidy data
+---
+
+#
 
 Adopting inconsistent data formats leads to a huge amount of wasted effort and can actually lead to very complex code. By adopting **tidy data format** for your work you can both improve your service to users and simplify your own production pipeline.
 

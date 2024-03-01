@@ -1,9 +1,13 @@
 ---
+title: Support
+
+tags:
+  - RAP engagements
 hide:
   - navigation
 ---
 
-# Support
+#
 
 If your team is embarking upon a RAP journey, you should understand [why RAP are important][1] and think about which [levels of RAP][2] that you want to aim for.
 

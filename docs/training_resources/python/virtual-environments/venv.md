@@ -1,4 +1,13 @@
-# Venv environment
+---
+title: Venv environment
+
+tags: 
+  - Python
+  - Virtual environments
+  - Anaconda
+---
+
+#
 
 !!! warning
 

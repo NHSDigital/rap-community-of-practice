@@ -1,4 +1,13 @@
-# Using Python f-strings to run SQL queries
+---
+title: Using Python f-strings to run SQL queries
+
+tags: 
+  - Python
+  - SQL
+  - Pandas
+---
+
+#
 
 !!! tip "TLDR"
     - [Python can be used to run SQL strings](#parametrising-sql-queries-using-python-f-strings), and they can be parametrised using [f-strings](#option) to make "dynamic SQL"
@@ -54,8 +63,6 @@ import sqlalchemy as sa # read in sqlalchemy package
 import pandas as pd # read in pandas
 import pyodbc # import odbc drivers for SQL
 
-# Python function
-def get_df_from_sql(query, server, database) -> pd.DataFrame:
     """
     Use sqlalchemy to connect to the NHSD server and database with the help
     of mssql and pyodbc packages
@@ -96,8 +103,6 @@ def create_sql_query(database, table, year, code_value) -> str:
 ```
 Notice how we inserted a standard SQL query into a Python f-string format and assigned it to the variable `query`. The when we call this function, all we need to do is insert the arguments for `database`, `table`, `year` and `code_value` and assign the result to a `variable`.
 ```py
-# call function and assign to variable for arguments: database = NHS, table = patients, year = 2020, code_value = 3)
-sql_query_for_publication = create_sql_query("NHS", "patients", "2020", "3")
 ```
 Now that we have our query loaded up with our chosen parameters, we can go ahead and create our `Pandas` dataframe:
 ```py
@@ -135,11 +140,7 @@ def read_in_sql_query(sql_file_path: str, **sql_parameters) -> str:
 ```
 We can call this function to create our query, from the `.sql` file:
 ```py
-# location of sql folder containing SQL scripts
-sql_file_path = r'src\sql_scripts\my_sql_query.sql'
 
-# call function
-sql_parameters = {database: "NHS", table: "patients", year: "2020", code_value: "3"}
 sql_query_for_publication = read_in_sql_file(sql_file_path, **sql_parameters)
 ```
 We can reuse the get_df_from_sql() function from Option 1 to read in the data and create a `Pandas` dataframe:
@@ -199,39 +200,23 @@ When run in SQL Server, the stored procedure above will produce an output contai
 ```py
 import pyodbc as po
  
-# Connection variables
-server = '' 
 database = ''
 username = '' # username and password might not be required to connect
 password = ''
 
-# this can be wrapped in a fuction like in the example above using the variables server, database, username, password.
-try:
     # Connection string
     cnxn = po.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' +
             server+';DATABASE='+database+';UID='+username+';PWD=' + password)
     cursor = cnxn.cursor()
  
-    # Prepare the stored procedure execution script and parameter values
-    storedProc = "Exec PatientsNHSERegion @PatientID = ?, @NHSECode = ?"
     params = ("1234590", 5150)
  
-    # Execute Stored Procedure With Parameters
-    cursor.execute(storedProc, params)
  
-    # Iterate the cursor
-    row = cursor.fetchone()
     while row:
-        # Print the row
-        print(str(row[0]) + " : " + str(row[1] or '') )
         row = cursor.fetchone()
  
-    # Close the cursor and delete it
-    cursor.close()
     del cursor
  
-    # Close the database connection
-    cnxn.close()
  
 except Exception as e:
     print("Error: %s" % e)

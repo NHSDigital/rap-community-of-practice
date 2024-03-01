@@ -1,4 +1,14 @@
-# Virtual environments
+---
+title: Virtual environments
+
+tags: 
+  - Python
+  - Virtual environments
+  - Pip
+  - Anaconda
+---
+
+#
 
 ## What are virtual environments?
 

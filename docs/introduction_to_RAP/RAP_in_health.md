@@ -1,4 +1,11 @@
-#RAP in Health
+---
+title: RAP in Health
+tags: 
+  - RAP Playbook
+  - Policy
+---
+
+#
 
 When applying RAP to health data, unique challenges may arise, particularly concerning data safety. To support those currently engaged or interested in RAP within healthcare, NHS England has launched the [Health RAP Playbook]. This resource provides valuable advice and guidance tailored for individuals working specifically in health analytics.
 

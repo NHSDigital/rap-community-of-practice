@@ -1,4 +1,11 @@
-# RAP Release Workflow
+---
+title: RAP Release Workflow
+
+tags: 
+  - RAP CoP website
+---
+
+#
 
 !!! tip "TLDR"
 
