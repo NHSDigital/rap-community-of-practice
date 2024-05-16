@@ -43,7 +43,7 @@ Run the commands (or follow the MkDocs documentation to locally pip install MkDo
     # requirements.txt
 
     ## using pip and venv
-    python -m venv venv
+    python -m venv .venv
     source venv/Scripts/activate
     python -m pip install -r requirements.txt
 
@@ -59,7 +59,7 @@ To host the website locally to view the live changes, run the command:
 ```bash
     mkdocs serve
 ```
-Open up http://127.0.0.1:8000/ in your browser, and you'll see the [RAP Community of Practice home page](https://nhsdigital.github.io/rap-community-of-practice/) being displayed
+Open up http://127.0.0.1:8000/ in your browser, and you'll see the [RAP Community of Practice home page](https://nhsdigital.github.io/rap-community-of-practice/) being displayed with your updates applied.
 
 Read more: [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/#getting-started-with-mkdocs)
 
