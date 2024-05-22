@@ -44,7 +44,7 @@ Run the commands (or follow the MkDocs documentation to locally pip install MkDo
 
     ## using pip and venv
     python -m venv .venv
-    source venv/Scripts/activate
+    source .venv/bin/activate
     python -m pip install -r requirements.txt
 
     ## using Conda
