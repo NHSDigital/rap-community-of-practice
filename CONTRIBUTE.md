@@ -42,15 +42,13 @@ Run the commands (or follow the MkDocs documentation to locally pip install MkDo
 
     # requirements.txt
 
-    ## using pip and venv
-    python -m venv .venv
-    source .venv/bin/activate
+    ## using pip
     python -m pip install -r requirements.txt
 
     ## using Conda
     conda create --name <env_name> --file requirements.txt
 ```
-Read more: [Install packages in a virtual environment using pip and venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+For best practices on creating virtual environments, please refer to the [RAP Community of Practice training resources](./docs/training_resources/python/virtual-environments/why-use-virtual-environments.md).
 
 ### Hosting
 
