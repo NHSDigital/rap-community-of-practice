@@ -43,11 +43,12 @@ Run the commands (or follow the MkDocs documentation to locally pip install MkDo
     # requirements.txt
 
     ## using pip
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
 
     ## using Conda
     conda create --name <env_name> --file requirements.txt
 ```
+For best practices on creating virtual environments, please refer to the [RAP Community of Practice training resources](./docs/training_resources/python/virtual-environments/why-use-virtual-environments.md).
 
 ### Hosting
 
