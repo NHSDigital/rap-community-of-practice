@@ -3,12 +3,9 @@ name: Website Deployment
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push events but only for the "main" branch and in the docs directory
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'docs/**'
-
+  release:
+    - created
+    
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
