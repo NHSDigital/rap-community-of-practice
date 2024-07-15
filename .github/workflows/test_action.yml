@@ -1,0 +1,13 @@
+name: Manual Trigger Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+      - name: Print Hello
+        run: echo "Hello, World!"
