@@ -58,6 +58,10 @@ To host the website locally to view the live changes, run the command:
     mkdocs serve
 ```
 
+Open up http://127.0.0.1:8000/ in your browser, and you'll see the [RAP Community of Practice home page](https://nhsdigital.github.io/rap-community-of-practice/) being displayed with your updates applied.
+
+Read more: [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/#getting-started-with-mkdocs)
+
 ### Editing the contents
 
 To add a new file to the repository and website, you can add the file as you would normally and then update 'nav' in mkdocs.yml to include the file within the nested list. Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
