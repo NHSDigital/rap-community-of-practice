@@ -235,8 +235,12 @@ To work with this integration, you must install the Jupyter package in your base
 You can then create and run Jupyter-like code cells, defined within Python code using a `# %%` comment:
 
 ```Python
+# %%
+msg = "Hello World"
 print(msg)
 
+# %%
+msg = "Hello again"
 print(msg)
 ```
 

@@ -237,14 +237,18 @@ We can create functions like in python, same logic applies, but instead using Py
 
 ```python
 def group_by_and_count_column(data: df, column_name: str):
-    “”
+    """
     Groups by specified column and returns count per grouping and sorts by descending order.
 
     Args: dataset we are reading from & the column we wish to group by
 
     Returns: groups from column and count
-    “””
+    """
+    # Group by CCG Code and count number of records per CCG
+    df_count = df.groupBy(df.column_name).count()
 
+    # sort by CCG Code descending order
+    result = df_count.sort(desc("count"))
 
     return result
 ```
