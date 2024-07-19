@@ -1,0 +1,245 @@
+:root>* {
+  --md-primary-fg-color: #005eb8;
+  --md-default-bg-color: #f8f8f8;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f8f8f8;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100%;
+  color: black;
+  --md-footer-bg-color: #f8f8f8;
+  --md-footer-fg-color: black;
+  --md-footer-fg-color--light: black;
+}
+
+.md-typeset h1 {
+  color: black;
+  font-size: 2em;
+  line-height: 1.3;
+  margin: 0 0 1.25em;
+}
+
+.md-typeset h1.header-with-tags {
+  margin-bottom: 6px;
+}
+
+.md-typeset div[role="doc-subtitle"] { 
+  font-size: 1.1em;
+  font-style: italic;
+  line-height: 1.3rem;
+  margin-bottom: 15px;
+  color: #888;
+}
+
+
+.md-typeset table:not([class]) th {
+  font-size: .85rem;
+  padding: .9375em 1em;
+}
+
+.md-footer {
+  background-color: #f6f8f8 !important;
+}
+
+.md-copyright {
+  color: black;
+}
+
+.md-logo-nhs {
+  height: auto;
+}
+
+.md-header__button.md-logo-nhs :is(img, svg) {
+  width: 85px !important;
+  height: auto !important;
+}
+
+code {
+  background: #e5f1fa !important;
+}
+
+.md-ellipsis {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #f6f8f8;
+  border-top: 3px solid #005eb8;
+}
+
+.footer>* {
+  flex: 1 100%;
+}
+
+.footer a {
+  color: #005eb8;
+}
+
+.footer_left p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1vh;
+}
+
+.legal {
+  color: #999;
+  font-size: 14px;
+  justify-content: right;
+  text-align: right;
+  align-items: right;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+table {
+  background-color: white !important;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 40px;
+  margin: -40px 0 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.md-typeset h2 {
+  font-size: 1.6rem;
+  /* font-weight: bold; */
+  margin-bottom: 0em;
+  line-height: 1.2rem;
+}
+
+.md-typeset h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0em;
+  line-height: 1.2rem;
+}
+
+iframe {
+  border:none;
+}
+
+.md-typeset .md-tags {
+  margin-bottom: 30px;
+}
+
+.md-typeset .md-tags a.md-tag {
+  border-radius: 0px;
+  background-color: #005eb8;
+  color: white;
+  border: 2px #005eb8 solid;
+  transition: 0.4s;
+}
+
+.md-typeset .md-tags:focus a.md-tag {
+  background-color: #fff;
+} 
+
+.md-typeset .md-tags a.md-tag:hover {
+  color: #005eb8;
+  background-color: white;
+} 
+.align-centre {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p.pquote{
+  position: relative;
+  --padding: 0.6rem;
+  padding: var(--padding);
+  color: var(--text-color, black);
+  font-weight: 600;
+  font-style: italic;
+  background-color: var(--bg-color, white);
+  display: grid;
+  gap: 1rem;
+  background-size: 0.5rem 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0.3rem 0.3rem 1rem rgb(0 0 0 / .5)
+}
+
+p.pquote::before{
+  --qHeight: 2rem;
+  content: "";
+  margin-left: calc(var(--padding) * -.15);
+  margin-top: calc(var(--padding) * -.15);
+  height: var(--qHeight);
+  width: calc(var(--qHeight) * 1.1);
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      transparent calc(var(--qHeight) / 4 - 1px),
+      var(--accent-color, black) calc(var(--qHeight) / 4) calc(var(--qHeight) / 2), 
+      transparent calc(var(--qHeight) / 2 + 1px)
+    ),
+    linear-gradient(var(--accent-color, black), var(--accent-color, black));
+  background-size: calc(var(--qHeight) / 2) calc(var(--qHeight) / 2);
+  background-position: top left, bottom left;
+  background-repeat: space no-repeat
+}
+
+p.pquote--card { 
+  max-width: 25rem; 
+  margin-inline: auto 
+}
+
+p.pquote--left { 
+  max-width: 25rem;
+  text-align: left;
+  margin-inline: 0px 
+}
+
+p.pquote--card::before{
+  --qHeight: 3rem;
+}
+
+p.pquote--blue {
+  --bg-color: #41B6E6;
+  --accent-color: #003087;
+}
+
+p.pquote--red {
+  --accent-color: red;
+}
+
+p.pquote--serif{
+  padding-top: 50px;
+}
+
+p.pquote--serif::before{
+  background: none;
+  content: "“";
+  color: var(--accent-color);
+  display: block;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: none;
+  font-family: Serif;
+  font-style: normal;
+  position:absolute;
+  top: .4rem;
+  left: .4rem;
+}
+
+
+p.pquote--inline{
+  padding-left: 3rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+}
