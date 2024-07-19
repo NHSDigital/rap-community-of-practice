@@ -113,6 +113,8 @@ This is bad practice as instead of handling the specific errors the code could t
 
 ```python
 try:
+    # Some problematic code that could raise different kinds of exceptions
+except ValueError as e:
     print('Found a value error!')
     print(repr(e))
     exit()
@@ -130,6 +132,8 @@ Alternatively if we really did want to handle all of those exceptions in the sam
 
 ```python
 try:
+    # Some problematic code that could raise different kinds of exceptions
+except (ValueError, ZeroDivisionError, KeyError) as e:
     print('Found an error!')
     print(repr(e))
     exit()
@@ -172,6 +176,8 @@ As a general rule of thumb avoid using the generic `Exception` class at all. It 
 
 ```python
 try:
+    # Some problematic code that could raise different kinds of exceptions
+except Exception:
     print('Found an error!')
     exit()
 ```
@@ -205,6 +211,8 @@ def divide_two_numbers(a: float, b: float) -> float:
         print('Division failed because of: ' + repr(e))
         raise ZeroDivisionError
 
+# In use:
+a = 1.0
 b = 0
 try:
     result = divide_two_numbers(a, b)
@@ -223,6 +231,8 @@ Doing this raises a new ZeroDivisionError, which loses the stack trace of the or
 
 ```python
 except ZeroDivisionError:
+    # Do stuff
+    raise
 ```
 
 #### Don't let the program continue if it can't

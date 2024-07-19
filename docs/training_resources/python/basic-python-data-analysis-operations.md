@@ -28,6 +28,8 @@ df - dataframe
 ```py
 df = pd.read_csv('your_file.csv')
 
+# or if required to edit headers for example
+
 df = pd.read_csv('your_file.csv', header=..., na_values=..., sep=..., etc)
 ```
 
@@ -84,6 +86,8 @@ You will soon notice after importing your data from the .sav file that the colum
 
 ```py
 df.columns = df.columns.str.lower()
+# or
+df.columns = df.columns.str.upper()
 ```
 
 ### Extracting the required columns
@@ -91,7 +95,11 @@ df.columns = df.columns.str.lower()
 To select a column:
 
 ```py
+# columns to keep
+to_keep = ["column 1", "column 2", "column 3", ...]
 
+# create the new table
+filtered_df = df[to_keep]
 ```
 
 ### Filter where a variable is not null/missing
@@ -99,24 +107,38 @@ To select a column:
 To filter rows based on some specific criteria:
 
 ```py
+# not null
+new_df = df[df["my_column"].notnull()]
 ```
 
 ### Joins
 
 ```py
+# a left join, one column to join on
+joined_df = df.merge(other_df, how="left", on="my_column")
 
+# inner join, on multiple columns
+joined_df = df.merge(other_df, how="inner", on=["column 1", "column 2"])
 ```
 
 ### Add a new column
 
 ```py
+# create new table with a new column that adds 5 to each value of another selected column
+new_df = df.assign(new_column=df["my column"] + 5)
 ```
 
 ### Sorting variables
 
 ```py
+# ascending order can be False or True
+df.sort_values(by="my column", ascending=False)
 
+# if you want to see missing values first, assign na_position
+df.sort_values(by="my column", ascending=False, na_position="first")
 
+# sort by multiple columns
+df.sort_values(by=["my column 1", "my column 2", ...])
 ```
 
 ### Transposing columns
@@ -124,8 +146,14 @@ To filter rows based on some specific criteria:
 There's a few ways to transpose columns:
 
 ```py
+# set the index of columns
+df.set_index(["my column 1", "my column 2", "my column 3", ...], inplace=True)
 
+# using pandas transpose to transpose rows with columns and vice versa
+df_transposed = df.T
 
+# using pandas stack() to transpose non-index columns into a single new column
+df = df.stack().reset_index()
 ```
 
 To set the name of the axis for the index or columns you can use `rename_axis()`:
@@ -137,9 +165,16 @@ df = df.stack().rename_axis().reset_index()
 ### Grouping by variables
 
 ```py
+# group by one column
+new_df = df.groupby("my_column")
+
+# group by multiple columns
 
 # list of columns to group by
 grouped = ["column 1", "column 2", "column 3", ...]]
+
+# return new table with grouped columns
+new_df = df.groupby(grouped)
 
 ```
 
@@ -154,8 +189,12 @@ new_df = df.groupby(grouped).agg(total_sum=("column to be summarised", "sum"), t
 ### Creating totals per row and per column
 
 ```py
+# total per column, adds a new row "Column Total"
+# this will sum all numeric row values for each column
 df.loc["Column Total"] = df.sum(numeric_only=True, axis=0)
 
+# total per row, creates a new column "Row Total"
+# this will sum all numeric column values for each row
 df.loc[:, "Row Total"] = df.sum(numeric_only=True, axis=1)
 ```
 
@@ -164,8 +203,14 @@ df.loc[:, "Row Total"] = df.sum(numeric_only=True, axis=1)
 When creating different aggregations/groupings which are saved in different dataframes, you can then combine these aggregations into one table. For example, suppose you have calculated the totals for age and gender in different dataframes and you wish to append these results to the final output dataframe.
 
 ```py
+# list the final output dataframe to store its aggregations
+list_df = [df]
 
+# append the calculated totals
+list_df.append(calc_totals_df)
 
+# concatenate into a single dataframe
+output_df = pd.concat(list_df, axis=0)
 ```
 
 ### Creating derivations
@@ -173,6 +218,8 @@ When creating different aggregations/groupings which are saved in different data
 To create a derivation based on the equivalent CASE WHEN SQL operation, there are several ways to do this in python:
 
 ```py
+# pandas package CASE WHEN
+# create the age 11 to 15 derivation
 df.loc[df["age"] < 0, "age11_15"] = df["age"]
 df.loc[(df["age"] > 0) & (df["age"] < 11), "age11_15"] = 11
 df.loc[(df["age"] > 10) & (df["age"] < 16), "age11_15"] = df["age"]
@@ -182,6 +229,8 @@ df.loc[df["age"] > 14, "age11_15"] = 15
 This results in creating a new column "age11_15" in the existing dataframe, based on the CASE WHEN conditions we applied for the new derivation.
 
 ```py
+# NumPy package CASE WHEN
+# create the age 11 to 15 derivation
 age11_15 = np.select(
     [
      df['age'] == 10, # WHEN
@@ -194,6 +243,8 @@ age11_15 = np.select(
     default=df['age'] # ELSE assign "age" column values
     )
 
+# assign the result to a new column
+df["age11_15"] = age11_15
 ```
 
 In the first bracket you assign the "WHEN" part of the condition, second bracket the "THEN", and "default=..." represents the "ELSE" part.
@@ -203,14 +254,24 @@ The NumPy option is faster and more efficient whereas Pandas is user friendlier 
 ### Apply a column order
 
 ```py
+# create a list of the column headers in a specific order
+column_order = ["column 1", "column 2", "column 3", ...]
 
+# apply list to dataframe
+df = df[column_order]
 ```
 
 ### Exporting the output
 
 ```py
+# write output to a .csv
+df.to_csv("output.csv", ... <multiple parameters that can be inserted>)
 
+# write output to an excel workbook
+df.to_excel("output.xlsx", sheet_name="Sheet_name_1", ... <multiple parameters that can be inserted>)
 
+# write multiple sheets from different dataframes
+with pd.ExcelWriter("output.xlsx") as writer:
     df1.to_excel(writer, sheet_name="Sheet_name_1")
     df2.to_excel(writer, sheet_name="Sheet_name_2")
 ```
