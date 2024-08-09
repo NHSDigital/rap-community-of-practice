@@ -14,6 +14,7 @@ plugins:
       redirect_maps:
         "training_resources/git/intro-to-git.md": "training_resources/git/introduction-to-git.md"
         "about.md": "site_info/about.md"
+        "our_RAP_service/thin-slice-strategy.md": "implementing_RAP/thin-slice-strategy.md"
   - tags:
       tags_file: tags.md
 nav:
@@ -30,7 +31,6 @@ nav:
       - our_RAP_service/index.md
       - Building team capability: our_RAP_service/building_team_capability.md
       - Support models: our_RAP_service/support-models.md
-      - Thin slice strategy: our_RAP_service/thin-slice-strategy.md
       - Typical engagement flow: our_RAP_service/typical-engagement-flow.md
       - RAP pre-engagement Questionnaire: our_RAP_service/rap-pre-engagement-questionnaire.md
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
@@ -43,6 +43,7 @@ nav:
           - Python for Engagements: implementing_RAP/skills_for_rap/python_for_rap.md
           - R for Engagements: implementing_RAP/skills_for_rap/r_for_rap.md
       - Process Mapping: implementing_RAP/process_mapping.md
+      - Thin slice strategy: implementing_RAP/thin-slice-strategy.md
       - Code review: implementing_RAP/code-review.md
       - Coding best practice: implementing_RAP/coding-best-practice.md
       - When to stop coding: implementing_RAP/when-to-stop-coding.md
