@@ -18,7 +18,7 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - Introduction to RAP:
+  - What is RAP?:
       - What is RAP?: introduction_to_RAP/what_is_RAP.md
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
