@@ -13,11 +13,11 @@ plugins:
   - redirects:
       redirect_maps:
         "training_resources/git/intro-to-git.md": "training_resources/git/introduction-to-git.md"
+        "about.md": "site_info/about.md"
   - tags:
       tags_file: tags.md
 nav:
   - Home: index.md
-  - About: about.md
   - What is RAP?:
       - What is RAP?: introduction_to_RAP/what_is_RAP.md
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
@@ -102,6 +102,7 @@ nav:
   - Useful links: useful_links.md
   - Tags: tags.md
   - Site info:
+      - About: site_info/about.md
       - Acknowledgements: site_info/acknowledgements.md
       - Website Release Process: site_info/rap-release-workflow.md
       - GitHub Repository Traffic Statistics: site_info/repo_traffic_information.md

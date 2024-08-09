@@ -3,8 +3,6 @@ title: RAP Community of Practice
 
 tags: 
   - RAP CoP website
-hide:
-  - navigation
 ---
 
 #
