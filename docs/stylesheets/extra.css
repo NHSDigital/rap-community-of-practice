@@ -1,3 +1,5 @@
+
+
 :root>* {
   --md-primary-fg-color: #005eb8;
   --md-default-bg-color: #f8f8f8;
@@ -242,4 +244,81 @@ p.pquote--inline{
   padding-left: 3rem;
   padding-top: 1.2rem;
   padding-bottom: 1rem;
+}
+
+.quote-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+  text-align: left;
+}
+
+.quote-banner__text-area {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.quote-banner__main-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote-banner__sub-text {
+  font-size: 1.2em;
+}
+
+.quote-banner__image {
+  width: 300px;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+button.button-blue {
+  border-radius: 0px;
+  background-color: #005eb8;
+  color: white;
+  border: 2px #005eb8 solid;
+  transition: 0.4s;
+}
+
+button.button-blue::hover {
+  background-color: white;
+  color: #005eb8;
+  border: 2px white solid;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.fade-in-up--active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+  .quote-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quote-banner__text-area {
+    margin-bottom: 25px;
+  }
 }

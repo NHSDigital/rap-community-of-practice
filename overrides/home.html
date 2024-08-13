@@ -7,7 +7,12 @@
   }
 
   .container {
-    background: #425563;
+    background: none;
+  }
+
+  .container--blue {
+    background-color: #005eb8;
+    color: white;
   }
 
   .hero {
@@ -31,6 +36,7 @@
   .hero-content {
     flex: 2;
     margin: 1.6rem 0.8rem;
+    color: black;
   }
 
   .hero h1 {
@@ -49,14 +55,16 @@
     margin-top: 0.5rem;
     margin-right: 0.5rem;
 
-    color: var(--md-primary-bg-color);
+    color: var(--md-default-bg-color);
+    border: 2px var(--md-primary-fg-color) solid;
+    transition: 0.4s;
   }
 
   .hero .md-button:focus,
   .hero .md-button:hover {
-    color: var(--md-default-bg-color);
-    background-color: var(--md-accent-fg-color);
-    border-color: var(--md-accent-fg-color);
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-default-bg-color);
+    border: 2px var(--md-primary-fg-color) solid;
   }
 
   .top-hr {
@@ -170,7 +178,7 @@
       <div class="hero-image">
         <img
           id="hero-img"
-          src="images/Staff_hot_desking_in_the_HUB_01.jpeg"
+          src="images/your-country-needs-you-to-rap.jpg"
           draggable="false"
         />
       </div>
@@ -185,7 +193,7 @@
           <li>Most <strong>transparant</strong></li>
         </ul>
 
-        <p>This NHS England RAP Community of Practice site is your one-stop shop for RAP training resources and guidance.</p>
+        <p>This NHS England RAP Community of Practice site is your one-stop shop for RAP resources and guidance.</p>
         <p>Start here:</p>
         <a
           href="{{ page.next_page.url | url }}"
@@ -198,6 +206,26 @@
     </div>
   </div>
 </section>
+
+<section class="container container--blue">
+  <div class="md-typeset md-grid">
+    <div class="quote-banner">
+      <div class="quote-banner__text-area">
+        <div class="quote-banner__main-text fade-in-up fade-in-up--active">
+          "The principles of RAP are excellent, well thought through, and reflect a strong basic minimum standard."
+        </div>
+        <div class="quote-banner__sub-text fade-in-up fade-in-up--active">
+          Prof. Ben Goldacre, The Goldacre Review, 2022
+        </div>
+      </div>
+      <div class="quote-banner__image-area">
+        <img class="quote-banner__image fade-in-up fade-in-up--active" src="images/prof-ben-goldacre.jpg" alt="Photo of Prof. Ben Goldacre" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <!-- Main site box descriptions -->
 <div class="top-hr">
