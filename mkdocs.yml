@@ -53,9 +53,9 @@ nav:
   - Implementing RAP:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
       - Technical Skills for RAP:
-        - Git for Engagements: implementing_RAP/skills_for_rap/git_for_rap.md
-        - Python for Engagements: implementing_RAP/skills_for_rap/python_for_rap.md
-        - R for Engagements: implementing_RAP/skills_for_rap/r_for_rap.md
+        - Git: implementing_RAP/skills_for_rap/git_for_rap.md
+        - Python: implementing_RAP/skills_for_rap/python_for_rap.md
+        - R: implementing_RAP/skills_for_rap/r_for_rap.md
       - Process Mapping: implementing_RAP/process_mapping.md
       - Thin slice strategy: implementing_RAP/thin-slice-strategy.md
       - Workflow:
