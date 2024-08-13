@@ -308,8 +308,19 @@ button.button-blue::hover {
   transform: translate(0, 0);
 }
 
+[dir=ltr] .md-typeset ol li, [dir=ltr] .md-typeset ul li.no-bullet {
+  list-style: none;
+  margin-left: .75em;
+}
 
+li.no-bullet img {
+  margin-right: 10px;
+}
 
+.flex-align {
+  display: flex;
+  align-items: center;
+}
 
 
 @media screen and (max-width: 700px) {
