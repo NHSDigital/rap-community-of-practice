@@ -318,6 +318,50 @@ button.button-blue::hover {
   transform: translate(0, 0);
 }
 
+.intersect-fade-in-right {
+  opacity: 0;
+  transform: translate(-10vh, 0);
+  transition: all 1s;
+}
+
+.intersect-fade-in-right--active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.intersect-fade-in-left {
+  opacity: 0;
+  transform: translate(10vh, 0);
+  transition: all 1s;
+}
+
+.intersect-fade-in-left--active {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.intersect-fade-in {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.intersect-fade-in--active {
+  opacity: 1;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-400 {
+  transition-delay: 400ms;
+}
+
+.delay-600 {
+  transition-delay: 600ms;
+}
+
+
 [dir=ltr] .md-typeset ol li, [dir=ltr] .md-typeset ul li.no-bullet {
   list-style: none;
   margin-left: .75em;
@@ -351,9 +395,6 @@ li.no-bullet img {
 .content-wrapper--text-area .md-button--primary {
   align-self: flex-start;
 }
-
-
-
 
 .--row-reverse {
   flex-direction: row-reverse;
