@@ -13,6 +13,7 @@
   --md-footer-bg-color: #f8f8f8;
   --md-footer-fg-color: black;
   --md-footer-fg-color--light: black;
+  --nhs-dark-blue: #003087;
 }
 
 .md-typeset h1,
@@ -254,7 +255,7 @@ p.pquote--inline{
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   text-align: left;
 }
 
@@ -278,9 +279,9 @@ p.pquote--inline{
 }
 
 .quote-banner__image {
-  width: 300px;
+  width: 200px;
   height: auto;
-  max-width: 300px;
+  max-width: 250px;
   max-height: 300px;
   border-radius: 50%;
   flex-shrink: 0;
@@ -342,14 +343,7 @@ li.no-bullet img {
   align-self: flex-start;
 }
 
-.quote-banner__image {
-  width: 300px;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
+
 
 
 
