@@ -300,13 +300,13 @@ button.button-blue::hover {
   border: 2px white solid;
 }
 
-.fade-in-up {
+.intersect-fade-in-up {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 1s;
 }
 
-.fade-in-up--active {
+.intersect-fade-in-up--active {
   opacity: 1;
   transform: translate(0, 0);
 }
