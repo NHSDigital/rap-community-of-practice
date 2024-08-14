@@ -353,7 +353,9 @@ li.no-bullet img {
 
 
 
-
+.--row-reverse {
+  flex-direction: row-reverse;
+}
 
 @media screen and (max-width: 900px) {
   .quote-banner {
@@ -367,6 +369,16 @@ li.no-bullet img {
   }
 
   .content-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .content-wrapper .content-wrapper--image--area {
+    width: 60%;
+    margin: 10px;
+  }
+
+  .content-wrapper .content-wrapper--image img {
+    width: 100%;
+    height: auto;
   }
 }
