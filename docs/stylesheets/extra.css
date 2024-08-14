@@ -252,7 +252,7 @@ p.pquote--inline{
 
 .quote-banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 30px;
@@ -268,23 +268,29 @@ p.pquote--inline{
 }
 
 .quote-banner__main-text {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   font-style: italic;
   margin-bottom: 20px;
 }
 
 .quote-banner__sub-text {
-  font-size: 1.2em;
+  font-size: 1.15em;
+}
+
+.quote-banner__image-area {
+  width: 20%;
+  height: auto;
+  max-width: 300px;
+  min-width: 200px
+  max-height: 250px;
+  flex-shrink: 0;
 }
 
 .quote-banner__image {
-  width: 200px;
+  width: 100%;
   height: auto;
-  max-width: 250px;
-  max-height: 300px;
   border-radius: 50%;
-  flex-shrink: 0;
 }
 
 button.button-blue {
@@ -330,13 +336,14 @@ li.no-bullet img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 
+  max-width: 1200px;
 }
 
 .content-wrapper--text-area {
   display: block;
   width: 60%;
   max-width: 600px;
+  margin: 10px;
 }
 
 .content-wrapper--text-area .md-button--primary {
@@ -348,7 +355,7 @@ li.no-bullet img {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .quote-banner {
     flex-direction: column;
     text-align: center;
@@ -356,5 +363,10 @@ li.no-bullet img {
 
   .quote-banner__text-area {
     margin-bottom: 25px;
+    padding-right: 0px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
   }
 }
