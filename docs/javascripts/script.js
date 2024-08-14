@@ -1,3 +1,8 @@
+const ioConfiguration = {
+    rootMargin: '-200px 0% -200px 0%',
+    threshold: 0
+  };
+
 const observer = new IntersectionObserver(entries => {
     
     entries.forEach(entry => {
@@ -15,8 +20,8 @@ const observer = new IntersectionObserver(entries => {
             })
         }
     });
-});
-  
+}, ioConfiguration);
+
 const intersects = document.querySelectorAll('[class*="intersect"]');
 intersects.forEach( intersect => {
     observer.observe(intersect);
