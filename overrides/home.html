@@ -51,7 +51,8 @@
     border-color: var(--md-primary-fg-color);
   }
 
-  .hero .md-button {
+  .hero .md-button,
+  .container .md-button {
     margin-top: 0.5rem;
     margin-right: 0.5rem;
 
@@ -61,7 +62,9 @@
   }
 
   .hero .md-button:focus,
-  .hero .md-button:hover {
+  .hero .md-button:hover,
+  .container .md-button:focus,
+  .container .md-button:hover {
     color: var(--md-primary-fg-color);
     background-color: var(--md-default-bg-color);
     border: 2px var(--md-primary-fg-color) solid;
@@ -244,12 +247,46 @@
         <p>It'll show you how to take a process you currently do in a very manual, time-consuming way, and rebuild it in-line with RAP principles.</p>
         <p>Learn more:</p>
         <a
-          href="{{ page.next_page.url | url }}"
+          href="{{ base_url }}/implementing_RAP/rap-readiness/"
           title="{{ page.next_page.title | striptags }}"
           class="md-button md-button--primary"
         >
           How to RAP
         </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper">
+      <div class="content-wrapper--text-area intersect-fade-in-up">
+        <h2>Our RAP Service</h2>
+        <p>We offer support to NHS England teams looking to implement RAP.</p>
+        <p>We'll:</p>
+        <ul>
+          <li>Work alongside your team for 6-12 weeks</li>
+          <li>Work with you to recreate one of your processes in the RAP way</li>
+          <li>Deliver training in Git, Python, R, Databricks, and anything else you'll need</li>
+        </ul>
+        <p>Learn more:</p>
+        <a
+          href="{{ base_url }}/our_RAP_service/"
+          title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary"
+        >
+          Our RAP Service
+        </a>
+      </div>
+      <div class="content-wrapper--image--area">
+        <div class="content-wrapper--image">
+          <img
+            src="images/your-country-needs-you-to-rap.jpg"
+            draggable="false"
+            class="intersect-fade-in-up"
+          />
+        </div>
       </div>
     </div>
   </div>
