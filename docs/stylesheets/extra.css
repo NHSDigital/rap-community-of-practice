@@ -327,7 +327,7 @@ li.no-bullet img {
 
 .content-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   max-width: 
 }
@@ -335,6 +335,7 @@ li.no-bullet img {
 .content-wrapper--text-area {
   display: block;
   width: 60%;
+  max-width: 600px;
 }
 
 .content-wrapper--text-area .md-button--primary {
