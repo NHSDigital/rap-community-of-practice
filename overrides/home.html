@@ -34,10 +34,17 @@
   }
 
   .hero {
-    display: flex;
+    display: block;
     align-items: center;
-
+    width: 100%;
+    height: calc(100vh - 118px);
+    max-width: 1960px;
+    background-image: url('images/reproducible-analytical-pipelines-cartoon-pipes-wide-nhs-dark-blue.png');
     color: var(--md-primary-bg-color);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    position: relative;
   }
 
   .hero-image {
@@ -52,16 +59,29 @@
   }
 
   .hero-content {
-    flex: 2;
-    margin: 1.6rem 0.8rem;
-    color: black;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    z-index: 1;
+    font-family: Arial;
   }
 
   .hero h1 {
     margin-bottom: 1rem;
-
     color: currentColor;
     font-weight: 700;
+    font-size: 32pt;
+  }
+
+  .hero li, .hero p {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-size: 14pt;
   }
 
   .hero .md-button--primary {
@@ -194,35 +214,48 @@
 
 <!-- Main site Entry button descriptions -->
 <section class="container">
-  <div class="md-typeset md-grid">
-    <div class="hero">
-      <div class="hero-image">
-        <img
-          id="hero-img"
-          src="images/your-country-needs-you-to-rap.jpg"
-          draggable="false"
-        />
-      </div>
-
+  <div class="hero">
       <div class="hero-content">
         <h1>Reproducible Analytical Pipelines (RAP)</h1>
 
         <p><strong>RAP</strong> is a way of working that helps you make your analytical processes:
-        <ul>
-          <li class="no-bullet flex-align"><img src="images/icon-tick-circle-fill-nhs-blue.png" /> <p><strong>Faster</strong></p></li>
-          <li class="no-bullet flex-align"><img src="images/icon-tick-circle-fill-nhs-blue.png" /> <p>More <strong>robust</strong></p></li>
-          <li class="no-bullet flex-align"><img src="images/icon-tick-circle-fill-nhs-blue.png" /> <p>More <strong>transparant</strong></p></li>
-        </ul>
+        <p><strong>Faster</strong></p>
+        <p>More <strong>robust</strong></p>
+        <p>More <strong>transparant</strong></p>
+      </div>
+  </div>
+</section>
 
-        <p>This NHS England RAP Community of Practice site is your one-stop shop for RAP resources and guidance.</p>
-        <p>Start here:</p>
+<section class="container">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper">
+      <div class="content-wrapper--text-area intersect-fade-in-right">
+        <h2>What is RAP?</h2>
+        <p><strong>Reproducible Analytical Pipelines</strong> is a set of tools, principles, and techniques to help you improve your analytical processes.</p>
+        <p>With RAP, you'll leverage open-source tools to make your work more efficient, more reusable, and less error-prone.</p>
+        <ol>
+          <li>1) Start with your current, manual process</li>
+          <li>2) Redesign it in-line with RAP principles</li>
+          <li>3) Rebuild your new pipeline with open-source tools</li>
+          <li>4) Identify reusable componenets</li>
+          <li>5) Save time be reusing these components in future projects</li>
+        </ol>
+        <p>Learn more:</p>
         <a
-          href="{{ page.next_page.url | url }}"
-          title="{{ page.next_page.title | striptags }}"
+          href="{{ base_url }}/what-is-RAP/"
           class="md-button md-button--primary"
         >
           What is RAP?
         </a>
+      </div>
+      <div class="content-wrapper--image--area">
+        <div class="content-wrapper--image">
+          <img
+            src="images/rap-journey.jpg"
+            draggable="false"
+            class="intersect-fade-in-left"
+          />
+        </div>
       </div>
     </div>
   </div>
