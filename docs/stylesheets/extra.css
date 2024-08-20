@@ -373,6 +373,22 @@ button.button-blue::hover {
   transition-delay: 600ms;
 }
 
+.delay-700 {
+  transition-delay: 700ms;
+}
+
+.delay-800 {
+  transition-delay: 800ms;
+}
+
+.delay-900 {
+  transition-delay: 900ms;
+}
+
+.delay-1000 {
+  transition-delay: 1000ms;
+}
+
 
 [dir=ltr] .md-typeset ol li, [dir=ltr] .md-typeset ul li.no-bullet {
   list-style: none;
