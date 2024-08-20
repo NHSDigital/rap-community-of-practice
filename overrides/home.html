@@ -8,7 +8,11 @@
 
   .container {
     background: none;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
+  }
+
+  .container--no-bottom-margin {
+    margin-bottom: 0px;
   }
 
   .container--blue {
@@ -38,6 +42,7 @@
     align-items: center;
     width: 100%;
     height: calc(100vh - 118px);
+    min-height: 500px;
     max-width: 1960px;
     background-image: url('images/reproducible-analytical-pipelines-cartoon-pipes-wide-nhs-dark-blue-min.jpg');
     color: var(--md-primary-bg-color);
@@ -214,7 +219,7 @@
 </style>
 
 <!-- Main site Entry button descriptions -->
-<section class="container">
+<section class="container container--no-bottom-margin">
   <div class="hero">
       <div class="hero-content">
         <h1 class="intersect-fade-in delay-100">Reproducible Analytical Pipelines (RAP)</h1>
@@ -224,10 +229,11 @@
         <p class="intersect-fade-in delay-700">More <strong>robust</strong></p>
         <p class="intersect-fade-in delay-900">More <strong>transparant</strong></p>
       </div>
+      <a href="#what-is-rap"><div class="down-arrow bounce"></div></a>
   </div>
 </section>
 
-<section class="container">
+<section class="container" id="what-is-rap">
   <div class="md-typeset md-grid">
     <div class="content-wrapper">
       <div class="content-wrapper--text-area intersect-fade-in-right">
