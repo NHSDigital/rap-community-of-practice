@@ -380,7 +380,7 @@ li.no-bullet img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1200px;
+  width: 100%;
   padding-left: 30px;
   padding-right: 30px;
 }
