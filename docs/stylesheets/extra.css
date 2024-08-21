@@ -281,10 +281,12 @@ p.pquote--inline{
 }
 
 .quote-banner__image-area {
+  display: flex;
+  align-items: center;
   width: 20%;
   height: auto;
   max-width: 300px;
-  min-width: 200px
+  min-width: 200px;
   max-height: 250px;
   flex-shrink: 0;
 }
