@@ -10,8 +10,6 @@ tags:
 
 #
 
-Note: this is temporarily sitting here until we decide on its future home
-
 !!! tip "TLDR"
 
     - Refactoring means improving your code without changing what it does.

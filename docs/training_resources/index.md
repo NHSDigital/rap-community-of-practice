@@ -7,7 +7,7 @@ tags:
 
 #
 
-In this section you'll find beginner friendly guides that will help develop the skills you'll need for RAP.
+In this section you'll find beginner-friendly guides that will help you develop the skills you'll need for RAP.
 
 ## Git
 
@@ -44,3 +44,9 @@ PySpark is an API for Spark which enables you to use Python code with Spark. If 
 R is another open-source programming language that's commonly used when working with data. It's often considered the language of choice for complex statistical work, and it has a huge range of packages available for data manipulation and visualisation too.
 
 <a href="R">Introduction to R</a>
+
+## Coding Tips
+
+In this section we'll compile some general advice and good practices that apply no matter what programming language you use. Start here:
+
+<a href="coding_tips/when-to-stop-coding">When to stop coding</a>
