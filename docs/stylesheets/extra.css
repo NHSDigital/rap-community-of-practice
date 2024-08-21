@@ -1,5 +1,3 @@
-
-
 :root>* {
   --md-primary-fg-color: #005eb8;
   --md-default-bg-color: #f8f8f8;
@@ -428,10 +426,6 @@ li.no-bullet img {
   align-self: flex-start;
 }
 
-.--row-reverse {
-  flex-direction: row-reverse;
-}
-
 .down-arrow {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
@@ -505,6 +499,14 @@ li.no-bullet img {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+.--row-reverse {
+  flex-direction: row-reverse;
+}
+
+.--underline {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 900px) {
