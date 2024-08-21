@@ -73,6 +73,7 @@ nav:
       - Example Pipeline (Python): implementing_RAP/example-pipeline.md
       - Support: implementing_RAP/support.md
   - Training resources:
+      - training_resources/index.md
       - Git:
           - Introduction to Git: training_resources/git/introduction-to-git.md
           - Using Git collaboratively: training_resources/git/using-git-collaboratively.md
