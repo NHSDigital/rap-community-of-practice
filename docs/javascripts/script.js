@@ -14,11 +14,7 @@ const observer = new IntersectionObserver(entries => {
             intersects.forEach((intersect_class) => {
                 entry.target.classList.add(intersect_class + '--active');
             })
-        } else {
-            intersects.forEach((intersect_class) => {
-                entry.target.classList.remove(intersect_class + '--active');
-            })
-        }
+        } 
     });
 }, ioConfiguration);
 
