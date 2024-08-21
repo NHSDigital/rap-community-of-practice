@@ -2,8 +2,6 @@
 title: Glossary
 tags:
   - Glossary
-hide:
-  - navigation
 ---
 
 # 
