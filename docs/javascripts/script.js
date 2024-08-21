@@ -1,5 +1,5 @@
 const ioConfiguration = {
-    rootMargin: '-200px 0% -200px 0%',
+    rootMargin: '0% 0% -100px 0%',
     threshold: 0
   };
 
