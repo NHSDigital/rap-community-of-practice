@@ -140,6 +140,8 @@ theme:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
+    - navigation.path
+    # - navigation.tabs.sticky
     - toc.integrate
   icon:
     admonition:

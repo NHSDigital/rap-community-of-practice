@@ -162,6 +162,21 @@ iframe {
   margin-right: auto;
 }
 
+nav.md-tabs {
+  display: block;
+  transition: 0.4s;
+}
+
+nav.md-tabs {
+  position: fixed;
+  top: 0px;
+}
+
+nav.md-tabs.md-tabs--show {
+  position: fixed;
+  top: 60px;
+  left: 0px;
+}
 
 p.pquote{
   position: relative;
