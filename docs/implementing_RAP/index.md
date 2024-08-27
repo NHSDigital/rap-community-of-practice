@@ -64,7 +64,7 @@ Start here: [Technical Workflow](workflow/technical-workflow/)
 
 Then you can get to work on your pipeline!
 
-We've created an [example pipeline](example-pipeline.md) that shows a very (very!) simple implementation of these principles so you can see them in action.
+We've created an [example pipeline](example-pipeline.md) that shows a very (very!) simple implementation of these principles so you can see them in action in both Python and R.
 
 ## Support
 
