@@ -1,5 +1,5 @@
 ---
-title: Example Pipeline (Python)
+title: Example Pipeline
 
 tags: 
   - Python
@@ -26,7 +26,7 @@ There’s a lot of great guidance on this site and elsewhere around how to [map 
 
 But a picture (or a codebase) tells a thousand words, and it can be really useful to see good practices put into action in an actual project. While we have a [RAP package template](https://github.com/NHSDigital/rap-package-template) that you can use as a base for your own project, this doesn’t show a fully armed and operational pipeline.
 
-That’s where the [RAP example pipeline (python version)](https://github.com/NHSDigital/RAP_example_pipeline_python) comes in! It's a simple pipeline that performs some aggregations on [artificial HES data](https://digital.nhs.uk/services/artificial-data) - and you can download and run it yourself!
+That’s where the RAP example pipeline comes in! It's a simple pipeline that performs some aggregations on [artificial HES data](https://digital.nhs.uk/services/artificial-data) - and you can download and run it yourself in [Python](https://github.com/NHSDigital/RAP_example_pipeline_python) or [R](https://github.com/nhsengland/RAP_example_pipeline_r)!
 
 Read on to find out step-by-step how we made this pipeline…
 
