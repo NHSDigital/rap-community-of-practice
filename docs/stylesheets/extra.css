@@ -14,7 +14,6 @@
   --nhs-dark-blue: #003087;
 }
 
-.md-typeset h1,
 .md-typeset .content-wrapper--text-area h2 {
   color: black;
   font-size: 2em;
@@ -26,6 +25,7 @@
 
 .md-typeset h1.header-with-tags {
   margin-bottom: 6px;
+  color: black;
 }
 
 .md-typeset div[role="doc-subtitle"] {
@@ -52,6 +52,10 @@
 
 .md-logo-nhs {
   height: auto;
+}
+
+.md-header {
+  margin-bottom: 50px;
 }
 
 .md-header__button.md-logo-nhs :is(img, svg) {
@@ -120,7 +124,6 @@ html {
 
 .md-typeset h2 {
   font-size: 1.6rem;
-  /* font-weight: bold; */
   margin-bottom: 0em;
   line-height: 1.2rem;
 }
@@ -221,7 +224,7 @@ p.pquote--card {
 p.pquote--left { 
   max-width: 25rem;
   text-align: left;
-  margin-inline: 0px 
+  margin-inline: 0px
 }
 
 p.pquote--card::before{
