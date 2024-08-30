@@ -25,9 +25,11 @@ tags:
 
 RAP (Reproducible Analytical Pipelines) is a set of principles and working practices that help you create faster, more robust, and more transparent analytical processes.
 
-You can learn more about the history of RAP and why it was devised here: [The History of RAP](history_of_RAP.md).
+This page describes what these principles are, and their benefits. 
 
-With RAP, we automate and streamline the process of ingesting, processing, modelling, and reporting data.
+Prefer a video? Then watch this [10 minute talk on Reproducible Analytical Pipelines](https://www.youtube.com/watch?v=npEh7RmdTKM) given at the [Health And Care Analytics](https://haca-conference.nhs.uk/) conference.
+
+You can learn more about the history of RAP and why it was devised here: [The History of RAP](history_of_RAP.md).
 
 ## The RAP Journey
 
