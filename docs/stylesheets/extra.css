@@ -417,14 +417,14 @@ li.no-bullet img {
   padding-right: 30px;
 }
 
-.content-wrapper--text-area {
+.content-wrapper__text-area {
   display: block;
   width: 60%;
   max-width: 600px;
   margin: 10px 20px;
 }
 
-.content-wrapper--text-area .md-button--primary {
+.content-wrapper__text-area .md-button--primary {
   align-self: flex-start;
 }
 
@@ -526,13 +526,14 @@ li.no-bullet img {
     flex-direction: column-reverse;
   }
 
-  .content-wrapper .content-wrapper--image--area {
+  .content-wrapper .content-wrapper__image-area {
     width: 60%;
     margin: 10px;
   }
 
-  .content-wrapper .content-wrapper--image img {
+  .content-wrapper .content-wrapper__image img {
     width: 100%;
+    max-width: 450px;
     height: auto;
   }
 }
