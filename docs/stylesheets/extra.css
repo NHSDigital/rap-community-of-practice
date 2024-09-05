@@ -284,6 +284,13 @@ p.pquote--inline{
   font-size: 1.15em;
 }
 
+.quote-banner__footnote {
+  font-size: .7em;
+  margin-top: 0px;
+  font-style: italic;
+}
+
+
 .quote-banner__image-area {
   display: flex;
   align-items: center;
@@ -525,6 +532,7 @@ li.no-bullet img {
 .content-wrapper .content-wrapper__image img.--max-width-600 {
   max-width: 600px;
 }
+
 
 @media screen and (max-width: 900px) {
   .quote-banner {

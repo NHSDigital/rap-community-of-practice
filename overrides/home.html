@@ -50,7 +50,7 @@
     display: block;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 118px);
+    height: calc(100vh - 110px);
     min-height: 700px;
     background-image: url('images/reproducible-analytical-pipelines-cartoon-pipes-wide-nhs-dark-blue-min.jpg');
     color: var(--md-primary-bg-color);
@@ -58,6 +58,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    transition: 0s;
   }
 
   .hero-image {
@@ -82,6 +83,7 @@
     transform: translate3d(-50%,-50%,0);
     z-index: 1;
     font-family: Arial;
+    transition: 0.4s;
   }
 
   .hero h1 {
@@ -205,6 +207,12 @@
     }
   }
 
+  @media screen and (max-width: 76.1875em) {
+    .hero {
+      height: calc(100vh - 62px);
+    }
+  }
+
   /* small screen */
   @media screen and (max-width: 800px) {
     .hero {
@@ -292,9 +300,12 @@
         <div class="quote-banner__sub-text delay-400 intersect-fade-in-up">
           Prof. Ben Goldacre, The Goldacre Review, 2022
         </div>
+        <div class="quote-banner__footnote delay-500 intersect-fade-in-up">
+          Photo from the <a href="https://haca-conference.nhs.uk/">HACA conference 2023</a>, courtesy of The Strategy Unit.
+        </div>
       </div>
       <div class="quote-banner__image-area">
-        <img class="quote-banner__image delay-600 intersect-fade-in-up" src="images/prof-ben-goldacre.jpg" alt="Photo of Prof. Ben Goldacre" />
+        <img class="quote-banner__image delay-600 intersect-fade-in-up" src="images/prof-ben-goldacre.jpg" alt="Photo of Prof. Ben Goldacre, taken at the Health And Care Analytics conference 2023, used by permission of The Strategy Unit." />
       </div>
     </div>
   </div>
