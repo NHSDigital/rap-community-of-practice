@@ -11,7 +11,7 @@ In this section you'll find beginner-friendly guides that will help you develop 
 
 ## Git
 
-<img src="../images/git-logo.png" />
+<img src="../images/logo-git-transp.png" width=200 />
 
 Git is a version control tool that helps you keep track of changes to your code, and makes it possible for multiple people to collaborate on a coding project.
 
@@ -21,7 +21,7 @@ There is a learning curve, but once you get the hang of Git, you'll wonder how y
 
 ## Python
 
-<img src="../images/python-logo-master-v3-TM.png" />
+<img src="../images/logo-python-transp.png" width=200 />
 
 Python is a powerful and flexible programming language that's commonly used in the data world. You can use it for whole range of tasks that you'd otherwise need multiple software packages to do, including data querying/manipulation, statistical analysis, auto-populating Excel and Word reports, visualisation, and more.
 
@@ -39,7 +39,7 @@ PySpark is an API for Spark which enables you to use Python code with Spark. If 
 
 ## R
 
-<img src="../images/R-logo.jpg" />
+<img src="../images/logo-r-transp.png" width=150 />
 
 R is another open-source programming language that's commonly used when working with data. It's often considered the language of choice for complex statistical work, and it has a huge range of packages available for data manipulation and visualisation too.
 

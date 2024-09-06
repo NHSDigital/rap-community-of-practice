@@ -68,4 +68,4 @@ We've created an [example pipeline](example-pipeline.md) that shows a very (very
 
 ## Support
 
-No need to go it alone if you don't want to! There are plenty of places you can get some help. Have a look at the [support](support-models.md) page for some great options.
+No need to go it alone if you don't want to! There are plenty of places you can get some help. Have a look at the [support](../our_RAP_service/support-models.md) page for some great options.
