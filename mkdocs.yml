@@ -25,8 +25,8 @@ plugins:
         "implementing_RAP/accessibility-how-to.md": "implementing_RAP/workflow/accessibility-how-to.md"
         "implementing_RAP/quality-assuring-analytical-outputs.md": "implementing_RAP/workflow/quality-assuring-analytical-outputs.md"
         "implementing_RAP/tidy-data.md": "implementing_RAP/workflow/tidy-data.md"
-        "implementing_RAP/how-to-publish-your-code-in-the-open.md": "implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md"
-        "implementing_RAP/updating-your-published-code.md": "implementing_RAP/workflow/updating-your-published-code.md"
+        "implementing_RAP/how-to-publish-your-code-in-the-open.md": "implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md"
+        "implementing_RAP/updating-your-published-code.md": "implementing_RAP/publishing_code/updating-your-published-code.md"
         "implementing_RAP/when-to-stop-coding.md": "training_resources/coding_tips/when-to-stop-coding.md"
   - tags:
       tags_file: tags.md
@@ -66,8 +66,9 @@ nav:
         - Guidance on accessibility: implementing_RAP/workflow/accessibility-how-to.md
         - Quality assuring analytical outputs: implementing_RAP/workflow/quality-assuring-analytical-outputs.md
         - Tidy data: implementing_RAP/workflow/tidy-data.md
-        - How to publish your code in the open: implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md
-        - Updating published code: implementing_RAP/workflow/updating-your-published-code.md
+      - Publishing Code:
+        - How to publish your code in the open: implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
+        - Updating published code: implementing_RAP/publishing_code/updating-your-published-code.md
       - Example Pipeline (Python): implementing_RAP/example-pipeline.md
       - Support: implementing_RAP/support.md
   - Training resources:

@@ -62,7 +62,7 @@ Unless stated otherwise, the codebase is released under the MIT Licence. This co
 This collection of resources is [© Crown copyright](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) licence.
 
 [1]: ../introduction_to_RAP/why_RAP_is_important.md
-[2]: ../implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md
+[2]: ../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
 [3]: ../training_resources/python/basic-python-data-analysis-operations.md
 [4]: ../training_resources/R/README.md
 [8]: ../training_resources/git/introduction-to-git.md
@@ -73,5 +73,5 @@ This collection of resources is [© Crown copyright](http://www.nationalarchives
 [15]: ../implementing_RAP/workflow/tools.md
 [16]: ../training_resources/pyspark/README.md
 [17]: ../introduction_to_RAP/why_RAP_is_important.md
-[18]: ../implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md
+[18]: ../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
 [19]: ../our_RAP_service

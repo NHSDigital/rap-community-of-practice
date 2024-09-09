@@ -95,7 +95,7 @@ The Government's [Digital Service Standard](https://www.gov.uk/service-manual/se
 
 ![image of some python code with an arrow going from the code and pointing to an image of a cloud](../images/publishing-code.png)
 
-Learn more in our guide on [publishing your code](../implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md).
+Learn more in our guide on [publishing your code](../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md).
 
 **Advantages:**
 
@@ -183,7 +183,7 @@ This is because even when code is working correctly, there may be a way to make 
 
 This is another reason to use version control systems like Git and an accompanying cloud service like GitHub - they make the peer review and approval process much easier. 
 
-Learn more in our page on [code reviews](../implementing_RAP/workflow/code-review.md). The page on [publishing your code](../implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md) also describes a recommended code review process when making your code public.
+Learn more in our page on [code reviews](../implementing_RAP/workflow/code-review.md). The page on [publishing your code](../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md) also describes a recommended code review process when making your code public.
 
 **Advantages**:
 
