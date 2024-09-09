@@ -10,7 +10,9 @@
         defer>
     </script>
     <script>window.usermaven = window.usermaven || (function(){(window.usermavenQ = window.usermavenQ || []).push(arguments);})</script>
-    <script src="javascript/script.js" defer></script>
+    {% if page.is_homepage %}    
+        <script src="{{ base_url }}/javascript/homepage.js" defer></script>
+    {% endif %}
 {% endblock %}
 
 {% block content %}
