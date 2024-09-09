@@ -63,6 +63,18 @@
   height: auto !important;
 }
 
+a.md-nav__link:hover,
+.md-typeset a:focus, 
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color);
+  text-decoration: underline;
+}
+
+.md-sidebar__scrollwrap:hover {
+  scrollbar-color: var(--md-primary-fg-color) #0000;
+}
+
+
 code {
   background: #e5f1fa !important;
 }
