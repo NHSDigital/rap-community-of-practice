@@ -145,5 +145,5 @@ You've now you've got Python installed and you've got an editor to work in. Ther
 - check out our guide to [Python functions](python-functions.md).
 
 [levels_of_rap]: ../../introduction_to_RAP/levels_of_RAP.md
-[coding-best-practice]:../../implementing_RAP/coding-best-practice.md
+[coding-best-practice]:../../implementing_RAP/workflow/coding-best-practice.md
 [Kaggle-intro-to-Python]: https://www.kaggle.com/learn/python

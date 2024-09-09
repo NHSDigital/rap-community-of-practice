@@ -27,7 +27,6 @@ plugins:
         "implementing_RAP/tidy-data.md": "implementing_RAP/workflow/tidy-data.md"
         "implementing_RAP/how-to-publish-your-code-in-the-open.md": "implementing_RAP/workflow/how-to-publish-your-code-in-the-open.md"
         "implementing_RAP/updating-your-published-code.md": "implementing_RAP/workflow/updating-your-published-code.md"
-        "implementing_RAP/example-pipeline.md": "implementing_RAP/workflow/example-pipeline.md"
         "implementing_RAP/when-to-stop-coding.md": "training_resources/coding_tips/when-to-stop-coding.md"
   - tags:
       tags_file: tags.md

@@ -20,7 +20,7 @@ tags:
 ??? success "Pre-requisites"
     |Pre-requisite |  Importance |  Note |
     |--------------|-----------|------------|
-    |[Coding best practice](../../implementing_RAP/coding-best-practice.md)| Helpful |Some basic coding skills will help|
+    |[Coding best practice](../../implementing_RAP/workflow/coding-best-practice.md)| Helpful |Some basic coding skills will help|
     |[Intro to Python](./intro-to-python.md)| Helpful |Some basic Python skills will help|
 
 

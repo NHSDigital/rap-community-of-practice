@@ -44,7 +44,7 @@ First of all, conduct a skills assessment to identify training needs, whether th
 
 A process map is essentially just a flow chart of the process you want to build. It can really help get your head around the process, identify redundant steps, and serves as great documentation for future team members.
 
-[Process Mapping](process-mapping.md)
+[Process Mapping](process_mapping.md)
 
 ## The Thin Slice
 

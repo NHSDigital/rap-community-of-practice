@@ -88,4 +88,4 @@ for (target_filename, gtruth_filename) in files_to_compare:
 
 - [Python assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
 
-[1]: ../../implementing_RAP/tidy-data.md
+[1]: ../../implementing_RAP/workflow/tidy-data.md

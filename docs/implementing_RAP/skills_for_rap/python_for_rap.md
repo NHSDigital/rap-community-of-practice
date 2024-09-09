@@ -41,7 +41,7 @@ We have some guidance on our site for some of the more intermediate skills, link
     - [ ] Use [config files](/training_resources/python/config-files/)
     - [ ] [Handle errors](/training_resources/python/logging-and-error-handling/) effectively
     - [ ] Write and perform [unit tests](/training_resources/python/unit-testing/)
-    - [ ] [Refactor code](/training_resources/refactoring-guide/) to improve it
+    - [ ] [Refactor code](/training_resources/coding_tips/refactoring-guide/) to improve it
 
 
 === "**Python Master**"

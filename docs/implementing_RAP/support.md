@@ -42,5 +42,5 @@ There are several forums where you can introduce yourself, ask for help, or disc
 - [RAP collaboration Slack channel](https://govdatascience.slack.com/archives/C6H22U3H9) on the cross-government data science Slack Workspace (open to all civil servants, including NHS staff)
 - [Govt Data Science Community](https://www.gov.uk/service-manual/communities/data-science-community)
 
-[1]: ./introduction_to_RAP/why_RAP_is_important.md
-[2]: ./introduction_to_RAP/levels_of_RAP.md
+[1]: ../introduction_to_RAP/why_RAP_is_important.md
+[2]: ../introduction_to_RAP/levels_of_RAP.md

@@ -28,7 +28,7 @@ R
 
 [1]: tidy-data.md
 [2]: notebooks_versus_ide_development.md
-[3]: ../training_resources/python/basic-python-data-analysis-operations.md
-[4]: ../training_resources/python/python-functions.md
-[5]: ../training_resources/pyspark/pyspark-style-guide.md
-[6]: ../training_resources/R/README.md
+[3]: ../../training_resources/python/basic-python-data-analysis-operations.md
+[4]: ../../training_resources/python/python-functions.md
+[5]: ../../training_resources/pyspark/pyspark-style-guide.md
+[6]: ../../training_resources/R/README.md

@@ -31,7 +31,7 @@ We have designed a process which will ensure **no sensitive data or algorithms**
 
 Projects and publications with the aim to be published should follow the **Fit-for-publishing workflow**:
 
-![Fit-for-publishing workflow diagram](../images/prepare_code.drawio.png)
+![Fit-for-publishing workflow diagram](../../images/prepare_code.drawio.png)
 
 ### Workflow initial steps
 
@@ -52,8 +52,8 @@ This checklist covers the review process in place to ensure that the code is:
 
 To access the checklist click on the link below and select the Download option:
 
-- PDF version for viewing: [Fit for publishing checklist PDF](../images/Fit_for_publishing_checklist.pdf)
-- Download the Work doc version to edit: [Fit for publishing checklist Word](../images/Fit_for_publishing_checklist.docx)
+- PDF version for viewing: [Fit for publishing checklist PDF](../../images/Fit_for_publishing_checklist.pdf)
+- Download the Work doc version to edit: [Fit for publishing checklist Word](../../images/Fit_for_publishing_checklist.docx)
 
 For each subsection of the checklist:
 
