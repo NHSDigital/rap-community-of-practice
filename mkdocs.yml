@@ -28,6 +28,7 @@ plugins:
         "implementing_RAP/how-to-publish-your-code-in-the-open.md": "implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md"
         "implementing_RAP/updating-your-published-code.md": "implementing_RAP/publishing_code/updating-your-published-code.md"
         "implementing_RAP/when-to-stop-coding.md": "training_resources/coding_tips/when-to-stop-coding.md"
+        "useful_links.md": "implementing_RAP/useful_links.md"
   - tags:
       tags_file: tags.md
 nav:
@@ -71,6 +72,7 @@ nav:
         - Updating published code: implementing_RAP/publishing_code/updating-your-published-code.md
       - Example Pipeline (Python): implementing_RAP/example-pipeline.md
       - Support: implementing_RAP/support.md
+      - Useful Links: implementing_RAP/useful_links.md
   - Training resources:
       - training_resources/index.md
       - Git:
