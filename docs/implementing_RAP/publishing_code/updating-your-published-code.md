@@ -96,7 +96,7 @@ This means that when you are ready to update your published code:
     ([see the existing guidance][2])
 
 It's good practice to make a new branch and do a `pull-request` in your public 
-repo too, but you could also just make the changes durectly to the `main` branch
+repo too, but you could also just make the changes directly to the `main` branch
 of the public repo.
 
 ## Versioning and Changelogs
@@ -136,8 +136,6 @@ see that published as soon as possible.
 - [GitHub Releases][5]
 - [Semantic Versioning][4]
 - [Keep a changelog][6]
-
-above.*
 
 [1]: how-to-publish-your-code-in-the-open.md
 [2]: how-to-publish-your-code-in-the-open/#moving-your-code-to-the-nhs-digital-github
