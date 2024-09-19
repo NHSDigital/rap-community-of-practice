@@ -10,8 +10,6 @@ tags:
 
 #
 
-Note: this is temporarily sitting here until we decide on its future home
-
 !!! tip "TLDR"
 
     - Refactoring means improving your code without changing what it does.
@@ -42,7 +40,7 @@ In the coding world, getting something to work is often considered just the firs
 * **Save the NHS money**: cloud computing is charged on a pay-as-you-go basis – efficient code is cheaper
 * **Switch platforms**: in RAP we aim to move from proprietary platforms to open-source tools
 
-![A cartoon from monkeyuser.com showing poorly stacked blocks, representing code that needs refactoring](../images/refactoring-guide-monkeyuser-160.png)
+![A cartoon from monkeyuser.com showing poorly stacked blocks, representing code that needs refactoring](../../images/refactoring-guide-monkeyuser-160.png)
 
 Image source: [Monkey User](https://www.monkeyuser.com/2020/features/)
 
@@ -228,4 +226,4 @@ Thinking about your pipelines, did any of the above rules jump out to you as som
 
 If you have any other refactoring golden rules that we haven't covered here, do get in touch and let us know!
 
-[coding-best-practice]:../implementing_RAP/coding-best-practice.md
+[coding-best-practice]:../../implementing_RAP/workflow/coding-best-practice.md

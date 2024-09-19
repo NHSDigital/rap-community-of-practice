@@ -168,21 +168,21 @@ Inspiration has been drawn from:
 - [Setup a Data Science Environment on your Computer](https://www.datacamp.com/tutorial/setup-data-science-environment)
 - [VS Code documentation](https://code.visualstudio.com/docs/)
 
-[1]: ../introduction_to_RAP/why_RAP_is_important.md
-[2]: ../training_resources/python/python-functions.md
-[3]: ../training_resources/python/project-structure-and-packaging.md
+[1]: ../../introduction_to_RAP/why_RAP_is_important.md
+[2]: ../../training_resources/python/python-functions.md
+[3]: ../../training_resources/python/project-structure-and-packaging.md
 [4]: ./notebooks_versus_ide_development.md
 [5]: ./tools.md#conda-environment
-[6]: ../training_resources/git/introduction-to-git.md#gitignore
-[7]: ../training_resources/python/virtual-environments/conda.md#how-to-create-a-new-virtual-environment-using-conda
-[8]: ../training_resources/python/virtual-environments/conda.md#how-to-activate-an-environment
+[6]: ../../training_resources/git/introduction-to-git.md#gitignore
+[7]: ../../training_resources/python/virtual-environments/conda.md#how-to-create-a-new-virtual-environment-using-conda
+[8]: ../../training_resources/python/virtual-environments/conda.md#how-to-activate-an-environment
 [9]: ./tools.md#the-terminal
-[10]: ../training_resources/git/introduction-to-git.md#common-git-commands
+[10]: ../../training_resources/git/introduction-to-git.md#common-git-commands
 [11]: ./tools.md#code-editing
 [12]: ./tools.md#interactive-cells-in-vs-code
 [13]: ./tools.md#interactive-python-notebooks
-[14]: ../training_resources/python/python-functions.md
+[14]: ../../training_resources/python/python-functions.md
 [15]: ./tools.md#linting-in-vs-code
-[16]: ../training_resources/python/virtual-environments/conda.md#conda-environment
-[17]: ../training_resources/git/using-git-collaboratively.md#resolving-merge-conflicts
-[18]: ../training_resources/git/using-git-collaboratively.md
+[16]: ../../training_resources/python/virtual-environments/conda.md#conda-environment
+[17]: ../../training_resources/git/using-git-collaboratively.md#resolving-merge-conflicts
+[18]: ../../training_resources/git/using-git-collaboratively.md

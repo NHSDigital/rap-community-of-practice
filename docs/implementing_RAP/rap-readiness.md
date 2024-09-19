@@ -73,11 +73,11 @@ Code can always, always be improved. How good is 'good enough' for your project?
   > Building a new pipeline can serve as an opportunity to improve our team's outputs. For example, you could make sure that any new publications conform to the [Government Statistical Service Accessibility Guidelines].
 
 [Git]: ../training_resources/git/introduction-to-git.md
-[relevant tools]: ./tools.md
+[relevant tools]: ./workflow/tools.md
 [Python]: ../training_resources/python/basic-python-data-analysis-operations.md
 [R]: ../training_resources/R/README.md
 [level of RAP]: ../introduction_to_RAP/levels_of_RAP.md
-[thin slice guide]: ../our_RAP_service/thin-slice-strategy.md
+[thin slice guide]: ./thin-slice-strategy.md
 [introduction to programming]: https://www.kaggle.com/learn/intro-to-programming
 [introduction to Python]: https://www.kaggle.com/learn/python
 [this training]: https://www.kaggle.com/learn/intro-to-sql

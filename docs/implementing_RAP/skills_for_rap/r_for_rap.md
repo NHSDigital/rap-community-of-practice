@@ -40,7 +40,7 @@ Unlike Python, we don't have that much training for using R as we mostly use Pyt
     - [ ] Use config files
     - [ ] Handle errors effectively
     - [ ] Write and perform unit tests
-    - [ ] [Refactor code](/training_resources/refactoring-guide/) to improve it
+    - [ ] [Refactor code](/training_resources/coding_tips/refactoring-guide/) to improve it
     - [ ] Use package management tools like Packrat or Pacman
 
 

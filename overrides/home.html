@@ -7,14 +7,58 @@
   }
 
   .container {
-    background: #425563;
+    background: none;
+    margin-bottom: 75px;
+  }
+
+  .container--no-bottom-margin {
+    margin-bottom: 0px;
+  }
+
+  .container--bottom-padding {
+    padding-bottom: 75px;
+  }
+
+  .container--blue {
+    background-color: #005eb8;
+    color: white;
+  }
+
+  .container--white {
+    background-color: white;
+    color: black;
+  }
+
+  .container--blue a,
+  .container--blue a:visited,
+  .container--dark-blue a,
+  .container--dark-blue a:visited {
+    color: white;
+  }
+
+  .container--blue a:hover,
+  .container--dark-blue a:hover {
+    text-decoration: underline;
+  }
+
+  .container--dark-blue {
+    background-color: var(--md-primary-fg-color);
+    color: white;
   }
 
   .hero {
-    display: flex;
+    display: block;
     align-items: center;
-
+    width: 100%;
+    height: calc(100vh - 110px);
+    min-height: 700px;
+    background-image: url('images/reproducible-analytical-pipelines-cartoon-pipes-wide-nhs-dark-blue-min.jpg');
     color: var(--md-primary-bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 0s;
   }
 
   .hero-image {
@@ -29,15 +73,31 @@
   }
 
   .hero-content {
-    flex: 2;
-    margin: 1.6rem 0.8rem;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    z-index: 1;
+    font-family: Arial;
+    transition: 0.4s;
   }
 
   .hero h1 {
     margin-bottom: 1rem;
-
     color: currentColor;
     font-weight: 700;
+    font-size: 32pt;
+    margin-bottom: 50px;
+  }
+
+  .hero li, .hero p {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-size: 14pt;
   }
 
   .hero .md-button--primary {
@@ -45,18 +105,23 @@
     border-color: var(--md-primary-fg-color);
   }
 
-  .hero .md-button {
+  .hero .md-button,
+  .container .md-button {
     margin-top: 0.5rem;
     margin-right: 0.5rem;
 
-    color: var(--md-primary-bg-color);
+    color: var(--md-default-bg-color);
+    border: 2px var(--md-primary-fg-color) solid;
+    transition: 0.4s;
   }
 
   .hero .md-button:focus,
-  .hero .md-button:hover {
-    color: var(--md-default-bg-color);
-    background-color: var(--md-accent-fg-color);
-    border-color: var(--md-accent-fg-color);
+  .hero .md-button:hover,
+  .container .md-button:focus,
+  .container .md-button:hover {
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-default-bg-color);
+    border: 2px var(--md-primary-fg-color) solid;
   }
 
   .top-hr {
@@ -142,6 +207,12 @@
     }
   }
 
+  @media screen and (max-width: 76.1875em) {
+    .hero {
+      height: calc(100vh - 62px);
+    }
+  }
+
   /* small screen */
   @media screen and (max-width: 800px) {
     .hero {
@@ -149,12 +220,16 @@
     }
 
     .hero h1 {
-      font-size: 1.4rem;
+      font-size: 3em;
     }
 
     .hero-image {
       flex: 1;
       order: 0;
+    }
+
+    .hero-content p {
+      font-size: 1.7em;
     }
 
     #hero-img {
@@ -164,188 +239,213 @@
 </style>
 
 <!-- Main site Entry button descriptions -->
-<section class="container">
-  <div class="md-typeset md-grid">
-    <div class="hero">
-      <div class="hero-image">
-        <img
-          id="hero-img"
-          src="images/Staff_hot_desking_in_the_HUB_01.jpeg"
-          draggable="false"
-        />
-      </div>
-
+<section class="container container--no-bottom-margin">
+  <div class="hero">
       <div class="hero-content">
-        <h1>RAP Community of Practice</h1>
+        <h1 class="intersect-fade-in delay-100">Reproducible Analytical Pipelines (RAP)</h1>
 
-        <p>
-          Improve <b>reliability</b>, <b>transparency</b>, and <b>speed</b> of
-          statistics publications.
-        </p>
+        <p class="intersect-fade-in delay-200"><strong>RAP</strong> is a way of working that helps you make your analytical processes:
+        <p class="intersect-fade-in delay-300"><strong>Faster</strong></p>
+        <p class="intersect-fade-in delay-400">More <strong>robust</strong></p>
+        <p class="intersect-fade-in delay-500">More <strong>transparent</strong></p>
+      </div>
+      <a href="#what-is-rap"><div class="down-arrow bounce"></div></a>
+  </div>
+</section>
 
+<section class="container container--white container--no-bottom-margin container--bottom-padding" id="what-is-rap">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper">
+      <div class="content-wrapper__text-area intersect-fade-in-right">
+        <h2>What is RAP?</h2>
+        <p><strong>Reproducible Analytical Pipelines</strong> is a set of tools, principles, and techniques to help you improve your analytical processes.</p>
+        <p>With RAP, you'll leverage open-source tools to make your work more efficient, more reusable, and less error-prone.</p>
+        <p>The RAP journey:</p>
+        <ol>
+          <li>Start with your current, manual process</li>
+          <li>Redesign it in-line with RAP principles</li>
+          <li>Rebuild your new pipeline with open-source tools</li>
+          <li>Identify reusable components</li>
+          <li>Save time by reusing these components in future projects</li>
+        </ol>
+        <p>Learn more:</p>
         <a
-          href="{{ page.next_page.url | url }}"
-          title="{{ page.next_page.title | striptags }}"
+          href="{{ base_url }}/introduction_to_RAP/what_is_RAP/"
           class="md-button md-button--primary"
         >
-          Get started
+          What is RAP?
         </a>
-
-        <a
-          href="https://github.com/NHSDigital/data-analytics-services"
-          title="data-analytics-services"
-          class="md-button"
-        >
-          See our work
-        </a>
+      </div>
+      <div class="content-wrapper__image-area">
+        <div class="content-wrapper__image">
+          <img
+            src="images/rap-journey.jpg"
+            draggable="false"
+            class="intersect-fade-in-left --max-width-600"
+            alt="diagram with 5 sections. 1 - a straw house. 2 - a blueprint for a new house. 3 - a fully constructed new house made of bricks. 4 - a pile of bricks. 5 - more houses made from bricks."
+          />
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Main site box descriptions -->
-<div class="top-hr">
-  <a href="introduction_to_RAP/why_RAP_is_important" class="feature-item">
-    <h2>
-      <svg
-        viewBox="-2 -2 24.00 24.00"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        transform="rotate(0)"
-      >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            fill="#f8f8f8"
-            fill-rule="evenodd"
-            d="M10 3a7 7 0 100 14 7 7 0 000-14zm-9 7a9 9 0 1118 0 9 9 0 01-18 0zm10.01 4a1 1 0 01-1 1H10a1 1 0 110-2h.01a1 1 0 011 1zM11 6a1 1 0 10-2 0v5a1 1 0 102 0V6z"
-          ></path>
-        </g>
-      </svg>
+<section class="container container--blue">
+  <div class="md-typeset md-grid">
+    <div class="quote-banner">
+      <div class="quote-banner__text-area">
+        <div class="quote-banner__main-text delay-200 intersect-fade-in-up">
+          "The principles of RAP are excellent, well thought through, and reflect a strong basic minimum standard."
+        </div>
+        <div class="quote-banner__sub-text delay-400 intersect-fade-in-up">
+          Prof. Ben Goldacre, The Goldacre Review, 2022
+        </div>
+        <div class="quote-banner__footnote delay-500 intersect-fade-in-up">
+          Photo from the <a href="https://haca-conference.nhs.uk/">HACA conference 2023</a>, courtesy of The Strategy Unit.
+        </div>
+      </div>
+      <div class="quote-banner__image-area">
+        <img class="quote-banner__image delay-600 intersect-fade-in-up" src="images/prof-ben-goldacre.jpg" alt="Photo of Prof. Ben Goldacre, taken at the Health And Care Analytics conference 2023, used by permission of The Strategy Unit." />
+      </div>
+    </div>
+  </div>
+</section>
 
-      Introduction to RAP
-    </h2>
+<section class="container">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper --row-reverse">
+      <div class="content-wrapper__text-area intersect-fade-in">
+        <h2>How to RAP</h2>
+        <p>Are you interested in RAP, but don't know how to get started?</p>
+        <p>Check out our guidance on implementing RAP!</p>
+        <p>It'll show you how to take a process you currently do in a very manual, time-consuming way, and rebuild it in-line with RAP principles.</p>
+        <p>Learn more:</p>
+        <a
+          href="{{ base_url }}/implementing_RAP/rap-readiness/"
+          title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary"
+        >
+          How to RAP
+        </a>
+        </div>
+        <div class="content-wrapper__image-area">
+          <div class="content-wrapper__image">
+            <img
+              src="images/join_the_rap_revolution-800-min.jpg"
+              draggable="false"
+              class="intersect-fade-in delay-400"
+              alt="Cartoon of a colourful pipe with charts, cogs, and smiley emojis along it, with the message 'Join the RAP Revolution!' at the top"
+            />
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <p>Why its important, the benefits and breaking it down into levels.</p>
-  </a>
+<section class="container container--dark-blue">
+  <div class="md-typeset md-grid">
+    <div class="quote-banner">
+      <div class="quote-banner__text-area">
+        <div class="quote-banner__main-text intersect-fade-in-up">
+          "Recommendation 7: promote and resource ‘Reproducible Analytical Pipelines’ ... as the minimum standard for academic and NHS data analysis"
+        </div>
+        <div class="quote-banner__sub-text intersect-fade-in-up">
+          Data Saves Lives, 2022 government strategy report
+        </div>
+      </div>
+      <div class="quote-banner__image-area">
+        <img class="quote-banner__image intersect-fade-in-up" src="images/data_saves_lives.png" alt="Text stating 'Data Saves Lives'" />
+      </div>
+    </div>
+  </div>
+</section>
 
-  <a href="our_RAP_service" class="feature-item">
-    <h2>
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <g id="User / Users">
-            <path
-              id="Vector"
-              d="M21 19.9999C21 18.2583 19.3304 16.7767 17 16.2275M15 20C15 17.7909 12.3137 16 9 16C5.68629 16 3 17.7909 3 20M15 13C17.2091 13 19 11.2091 19 9C19 6.79086 17.2091 5 15 5M9 13C6.79086 13 5 11.2091 5 9C5 6.79086 6.79086 5 9 5C11.2091 5 13 6.79086 13 9C13 11.2091 11.2091 13 9 13Z"
-              stroke="#f8f8f8"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </g>
-        </g>
-      </svg>
+<section class="container">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper">
+      <div class="content-wrapper__text-area intersect-fade-in-right">
+        <h2>Our RAP Service</h2>
+        <p>The NHS England Data Science team offers support to NHSE teams looking to implement RAP.</p>
+        <p>We'll:</p>
+        <ul>
+          <li>Work alongside your team for 6-12 weeks</li>
+          <li>Work with you to recreate one of your processes in the RAP way</li>
+          <li>Deliver training in Git, Python, R, Databricks, and anything else you'll need</li>
+        </ul>
+        <p>Learn more:</p>
+        <a
+          href="{{ base_url }}/our_RAP_service/"
+          title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary"
+        >
+          Our RAP Service
+        </a>
+      </div>
+      <div class="content-wrapper__image-area">
+        <div class="content-wrapper__image">
+          <img
+            src="images/DS_team_photo_smaller.jpeg"
+            alt="Group photo of the members of the NHS England Data Science Team"
+            draggable="false"
+            class="intersect-fade-in-left --max-width-600"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      Our RAP service
-    </h2>
+<section class="container container--dark-blue">
+  <div class="md-typeset md-grid">
+    <div class="quote-banner">
+      <div class="quote-banner__text-area">
+        <div class="quote-banner__main-text intersect-fade-in-up">
+          Are you an NHS Employee? Check out our Future NHS page for details of support we can offer, including drop-in sessions, monthly workshops, our Teams channel, and more!
+        </div>
+        <div class="quote-banner__sub-text intersect-fade-in-up">
+          <a href="https://future.nhs.uk/RAP" class="--underline">RAP Community of Practice Future NHS Page</a>
+        </div>
+      </div>
+      <div class="quote-banner__image-area">
+        <a href="https://future.nhs.uk/RAP"><img class="quote-banner__image intersect-fade-in-up" src="images/RAP_blue_pipe.png" alt="A pipe with the word 'RAP' written on it" /></a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <p>How we roll out the RAP Champion service in NHSE.</p>
-  </a>
-
-  <a href="implementing_RAP/rap-readiness" class="feature-item">
-    <h2>
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <path
-            stroke="#f8f8f8"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-          ></path>
-          <path
-            stroke="#f8f8f8"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M10.47 4.32c.602-1.306 2.458-1.306 3.06 0l.218.473a1.684 1.684 0 0 0 2.112.875l.49-.18c1.348-.498 2.66.814 2.162 2.163l-.18.489a1.684 1.684 0 0 0 .875 2.112l.474.218c1.305.602 1.305 2.458 0 3.06l-.474.218a1.684 1.684 0 0 0-.875 2.112l.18.49c.498 1.348-.814 2.66-2.163 2.162l-.489-.18a1.684 1.684 0 0 0-2.112.875l-.218.473c-.602 1.306-2.458 1.306-3.06 0l-.218-.473a1.684 1.684 0 0 0-2.112-.875l-.49.18c-1.348.498-2.66-.814-2.163-2.163l.181-.489a1.684 1.684 0 0 0-.875-2.112l-.474-.218c-1.305-.602-1.305-2.458 0-3.06l.474-.218a1.684 1.684 0 0 0 .875-2.112l-.18-.49c-.498-1.348.814-2.66 2.163-2.163l.489.181a1.684 1.684 0 0 0 2.112-.875l.218-.474Z"
-          ></path>
-        </g>
-      </svg>
-
-      Implementing RAP
-    </h2>
-
-    <p>Broad guidance on the elements of RAP and how to get ready for them.</p>
-  </a>
-
-  <a href="training_resources/git/introduction-to-git" class="feature-item">
-    <h2>
-      <svg
-        viewBox="-4 -4 28.00 28.00"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        fill="#f8f8f8"
-      >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        ></g>
-        <g id="SVGRepo_iconCarrier">
-          <title>book [#f8f8f8]</title>
-          <desc>Created with Sketch.</desc>
-          <defs></defs>
-          <g
-            id="Page-1"
-            stroke="none"
-            stroke-width="1"
-            fill="none"
-            fill-rule="evenodd"
-          >
-            <g
-              id="Dribbble-Light-Preview"
-              transform="translate(-260.000000, -2759.000000)"
-              fill="#f8f8f8"
-            >
-              <g id="icons" transform="translate(56.000000, 160.000000)">
-                <path
-                  d="M222,2612.40709 C222,2612.84565 221.729,2613.23594 221.324,2613.3787 L215,2615.60539 L215,2603.71501 L215,2603.53322 L220.676,2601.53454 C221.325,2601.3055 222,2601.80055 222,2602.50615 L222,2612.40709 Z M213,2603.71501 L213,2615.60539 L206.676,2613.3787 C206.271,2613.23594 206,2612.84565 206,2612.40709 L206,2602.50615 C206,2601.80055 206.675,2601.3055 207.324,2601.53454 L213,2603.53322 L213,2603.71501 Z M221.337,2599.11785 L214.331,2601.64444 C214.117,2601.72147 213.883,2601.72147 213.669,2601.64444 L206.663,2599.11785 C205.362,2598.64847 204,2599.6396 204,2601.05592 L204,2613.11577 C204,2613.997 204.547,2614.78065 205.36,2615.06207 L213.68,2617.94608 C213.888,2618.01797 214.112,2618.01797 214.32,2617.94608 L222.64,2615.06207 C223.453,2614.78065 224,2613.997 224,2613.11577 L224,2601.05592 C224,2599.6396 222.638,2598.64847 221.337,2599.11785 L221.337,2599.11785 Z"
-                  id="book-[#f8f8f8]"
-                ></path>
-              </g>
-            </g>
-          </g>
-        </g>
-      </svg>
-
-      Training Resources
-    </h2>
-
-    <p>Our technical guidance on Git, Python and more!</p>
-  </a>
-</div>
-
-<!-- <div class="top-hr">
-  <div class="hr"></div>
-</div> -->
+<section class="container">
+  <div class="md-typeset md-grid">
+    <div class="content-wrapper --row-reverse">
+      <div class="content-wrapper__text-area intersect-fade-in-left">
+        <h2>Training Resources</h2>
+        <p>On this very site we have a range of step-by-step, ground-up training guides on topics like:</p>
+        <ul>
+          <li>Python</li>
+          <li>Git</li>
+          <li>R</li>
+          <li>General coding tips</li>
+        </ul>
+        <p>Learn more:</p>
+        <a
+          href="{{ base_url }}/training_resources/git/introduction-to-git/"
+          class="md-button md-button--primary"
+        >
+          Training Resources
+        </a>
+      </div>
+      <div class="content-wrapper__image-area">
+        <div class="content-wrapper__image">
+          <img
+            src="images/training-guides-450.jpg"
+            draggable="false"
+            alt="AI-generated image showing a laptop with a stream of light-bulbs shooting out of it"
+            class="intersect-fade-in-right"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 {% endblock %} {% block content %}{% endblock %} {% block footer %} {{ super()
 }} {% endblock %}

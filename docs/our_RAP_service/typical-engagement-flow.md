@@ -75,7 +75,7 @@ Nevertheless, the text below lays out the type of activities that occur in acros
 [2]: ../implementing_RAP/rap-readiness.md
 [3]: ../index.md
 [4]: ../introduction_to_RAP/levels_of_RAP.md
-[5]: ./thin-slice-strategy.md
+[5]: ../implementing_RAP/thin-slice-strategy.md
 [6]: ../training_resources/pyspark/pyspark-style-guide.md
 [7]: ../training_resources/git/using-git-collaboratively.md
 [8]: ../training_resources/python/python-functions.md

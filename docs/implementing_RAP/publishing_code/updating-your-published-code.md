@@ -33,7 +33,7 @@ tags:
     |Pre-requisite | Importance | Note |
     |--------------|------------|------|
     |[Publishing Code in the Open][1]|Necessary|You need to have done this before, or at least understand the process|
-    |[Intro to Git](../training_resources/git/introduction-to-git.md)|Necessary|There will be some use of GitHub and GitLab so knowing about Git is needed|
+    |[Intro to Git](../../training_resources/git/introduction-to-git.md)|Necessary|There will be some use of GitHub and GitLab so knowing about Git is needed|
 
 After you've [published your code][1] for the first time, you may go on to do subsequent additions, changes and updates to the codebase held in our internal "development" repositories. It will then be time to update the code that has been published.
 
@@ -63,37 +63,40 @@ This means that when you are ready to update your published code:
 
 === "GitHub"
 
-    1. do a `pull-request` (a.k.a. `merge`) from your `main` branch into your 
-    `publish` branch ![pull request button](../images/pull-request-button.jpg 
+    * do a `pull-request` (a.k.a. `merge`) from your `main` branch into your 
+    `publish` branch ![pull request button](../../images/pull-request-button.jpg 
     "picture showing the pull request button")
 
-    2. if required by your manager, go through the 
+    * if required by your manager, go through the 
     "[Publishing Code in the Open][1]" process and checklist
 
-           - focus on just the things in the `pull-request' that have
-           **changed** ![files changed button](../images/pull-request-files-changed-button.jpg "picture showing the pull request files changed button")
+          * focus on just the things in the `pull-request' that have
+          **changed** ![files changed button](../../images/pull-request-files-changed-button.jpg "picture showing the pull request files changed button")
 
-    3. when you're happy with the changes and they have been **"approved"** in
+    * when you're happy with the changes and they have been **"approved"** in
     the `pull-request` you can move the code from `publish` branch to the
     public repo ([see the existing guidance][2])
 
 === "GitLab"
 
-    1. do a `merge-request` (a.k.a. `merge`) from your `main` branch into your
-    `publish` branch ![pull request button](../images/gitlab merge request button.jpg "picture showing the pull request button")
+    * do a `merge-request` (a.k.a. `merge`) from your `main` branch into your
+    `publish` branch 
+    
+        ![pull request button](../../images/gitlab merge request button.jpg "picture showing the pull request button")
 
-    2. if required by your manager, go through the 
+    * if required by your manager, go through the 
     "[Publishing Code in the Open][1]" process and checklist
 
-           - focus on just the things in the `merge-request' that have **changed**
-           ![files changed button](../images/gitlab merge request changes button.jpg "picture showing the pull request files changed button")
+           * focus on just the things in the `merge-request' that have **changed**
+           
+              ![files changed button](../../images/gitlab merge request changes button.jpg "picture showing the pull request files changed button")
 
-    3. when you're happy with the changes and they have been **"approved"** in the
+    * when you're happy with the changes and they have been **"approved"** in the
     `merge-request` you can move the code from `publish` branch to the public repo
     ([see the existing guidance][2])
 
 It's good practice to make a new branch and do a `pull-request` in your public 
-repo too, but you could also just make the changes durectly to the `main` branch
+repo too, but you could also just make the changes directly to the `main` branch
 of the public repo.
 
 ## Versioning and Changelogs
@@ -133,8 +136,6 @@ see that published as soon as possible.
 - [GitHub Releases][5]
 - [Semantic Versioning][4]
 - [Keep a changelog][6]
-
-above.*
 
 [1]: how-to-publish-your-code-in-the-open.md
 [2]: how-to-publish-your-code-in-the-open/#moving-your-code-to-the-nhs-digital-github

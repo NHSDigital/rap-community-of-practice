@@ -129,7 +129,7 @@ You can search for something particular by typing what you are looking for in se
 
 The command palette is a great place to look for any kind of code editing functionality you might need.
 
-![Open Command Palette](../images/OpenCommandPalette.gif)
+![Open Command Palette](../../images/OpenCommandPalette.gif)
 
 ### Synchronise your settings
 
@@ -139,7 +139,7 @@ A handy feature of VS Code is Settings Sync, which lets you sync VS Code configu
 
 You can turn on Settings Sync from the Manage gear menu at the bottom of the Activity Bar:
 
-![turn on settings sync](../images/turn-on-sync.png)
+![turn on settings sync](../../images/turn-on-sync.png)
 
 ### Extensions
 
@@ -166,7 +166,7 @@ The command presents a list of available interpreters that VS Code can find auto
 
 You will see your Python version in the bottom right-hand corner:
 
-![no interpreter selected](../images/no-interpreter-selected-statusbar.png)
+![no interpreter selected](../../images/no-interpreter-selected-statusbar.png)
 
 > Note: When using Anaconda, the correct interpreter should have the suffix `('base':conda)`, for example `Python 3.7.3 64-bit ('base':conda)`.
 > If you activate your [conda environment](#conda-environment) before opening your workspace in VS Code from the terminal, this should be automatically selected.
@@ -177,7 +177,7 @@ Once your Python interpreter has been selected, VS Code knows to highlight the t
 
 IntelliSense is a code completion aid. The user is given a list of options when they begin to type the variable named, greeting.
 
-![IntelliSense](../images/intellisense.png)
+![IntelliSense](../../images/intellisense.png)
 
 IntelliSense generally opens automatically in most useful situations. You can also trigger it by pressing `ctrl + space`.
 
@@ -195,7 +195,7 @@ Once you have selected a Python interpreter, there are several different ways to
 
 You can run your Python script by clicking the **Run Python File in Terminal** play button in the top-right side of the editor.
 
-![Run Python file button](../images/run-python-file-button.png)
+![Run Python file button](../../images/run-python-file-button.png)
 
 The button opens a terminal in which your Python interpreter is automatically activated, then runs your script.
 
@@ -222,7 +222,7 @@ python my_script.py
 
 You can also add a path to your conda executable (`conda.exe` in the Anaconda installation folder) in settings of VS Code. This is useful as then you can add new packages to your environment from within VS Code.
 
-![path-to-conda-settings](../images/path-to-conda.png)
+![path-to-conda-settings](../../images/path-to-conda.png)
 
 > **Note:** it is not recommended to add conda to your path on Windows.
 
@@ -261,11 +261,11 @@ Handily, you can also convert Jupyter notebooks to Python code files very easily
 
 Use the convert icon on the toolbar to convert the Notebook (.ipynb) file to a Python file (.py).
 
-![Jupyter notebook convert toolbar](../images/jupyter-notebook-convert.png)
+![Jupyter notebook convert toolbar](../../images/jupyter-notebook-convert.png)
 
 Once you've converted the file, you can run the code as you would with any other Python file. This offers a more convenient way to find and resolve code bugs, which is difficult to do directly in a Jupyter notebook.
 
-[1]: ../training_resources/git/introduction-to-git.md#how-do-i-use-git
-[2]: ../training_resources/git/introduction-to-git.md
-[3]: ../training_resources/python/virtual-environments/conda.md
+[1]: ../../training_resources/git/introduction-to-git.md#how-do-i-use-git
+[2]: ../../training_resources/git/introduction-to-git.md
+[3]: ../../training_resources/python/virtual-environments/conda.md
 [4]: ./notebooks_versus_ide_development.md

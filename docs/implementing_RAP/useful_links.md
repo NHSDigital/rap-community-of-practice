@@ -6,11 +6,11 @@ tags:
   - Implementing RAP
   - Community support
   - Useful links
-hide:
-  - navigation
 ---
 
 #
+
+Here are a few places you can find more information and support when implementing RAP.
 
 ## Strategic
 

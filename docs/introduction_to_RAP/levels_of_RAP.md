@@ -68,12 +68,12 @@ _Meeting all of the above requirements, plus:_
 [1]: ../training_resources/git/introduction-to-git.md
 [2]: ../training_resources/git/using-git-collaboratively.md
 [3]: ../training_resources/pyspark/pyspark-style-guide.md
-[4]: ../implementing_RAP/how-to-publish-your-code-in-the-open.md
+[4]: ../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
 [5]: ../training_resources/python/project-structure-and-packaging.md
 [6]: ../training_resources/python/python-functions.md
 [7]: ../training_resources/python/unit-testing.md
 [8]: ../training_resources/python/backtesting.md
-[9]: ../implementing_RAP/code-review.md
+[9]: ../implementing_RAP/workflow/code-review.md
 [10]: ../training_resources/python/python-functions.md#documentation
 [11]: ../training_resources/python/logging-and-error-handling.md
 [12]: ../training_resources/python/virtual-environments/conda.md

@@ -49,7 +49,7 @@ Understanding when to stop coding can also be important when considering which [
 
 Essentially, the answer comes down to reaching the point of diminishing returns. **The point at which the effort you put into your project outweighs the benefits you get from that effort.** One of these benefits might be the time saved vs the effort of time spent. The webcomic [xkcd][xkcd-comic] has a relevant comic for this case, showing how much time you can work on saving time in the future for it to be worth it.
 
-![XKCD comic demonstrating how long you can work on making a routine task more efficient before spending more time than you save over five years](../images/is_it_worth_the_time.png "Don't forget the time you spend finding the chart to look up what you save. And the time spent reading this reminder about the time spent. And the time trying to figure out if either of those makes sense. Remember, every second counts toward your life total, including these right now.")
+![XKCD comic demonstrating how long you can work on making a routine task more efficient before spending more time than you save over five years](../../images/is_it_worth_the_time.png "Don't forget the time you spend finding the chart to look up what you save. And the time spent reading this reminder about the time spent. And the time trying to figure out if either of those makes sense. Remember, every second counts toward your life total, including these right now.")
 
 For example, suppose you wanted to make your inefficient monthly report pipeline more efficient, saving 5 minutes in run time. In that case, for it to be worth it, you need to spend less than 5 hours working on the improvements (assuming you will see those benefits over five years). However, suppose your pipeline is already efficient, and you will only save 5 seconds on your total run time. Then, you will only have 5 minutes to implement improvements for it to be worth it - a tough ask!
 
@@ -255,18 +255,18 @@ These metrics are only approximate proxies for how well-tested your code is. It 
 [nhs-digital-service-standard]: https://service-manual.nhs.uk/standards-and-technology/service-standard
 [refactoring]: #are-you-refactoring-your-code-when-needed
 [testing]: #does-your-code-have-the-correct-amount-of-testing
-[levels-of-rap]: ../introduction_to_RAP/levels_of_RAP.md
+[levels-of-rap]: ../../introduction_to_RAP/levels_of_RAP.md
 [xkcd-comic]: https://xkcd.com/1205/
 [use-agile-ways-of-working]: https://service-manual.nhs.uk/standards-and-technology/service-standard-points/7-use-agile-ways-of-working
 [iterate-and-improve-frequently]: https://service-manual.nhs.uk/standards-and-technology/service-standard-points/8-iterate-and-improve-frequently
 [sprints]: https://www.atlassian.com/agile/scrum/sprints
-[documentation]: ../training_resources/python/python-functions.md#documentation
-[tdd]: ../training_resources/python/unit-testing.md#test-driven-development
-[thin-slice-pipeline]: ../our_RAP_service/thin-slice-strategy.md#thin-slice-pipeline
-[code-review]: ./code-review.md
-[silver-level-of-rap]: ../introduction_to_RAP/levels_of_RAP.md#silver-rap---implementing-best-practice
-[baseline-level-of-rap]: ../introduction_to_RAP/levels_of_RAP.md#baseline-rap---getting-the-fundamentals-right
-[unit-testing]: ../training_resources/python/unit-testing.md
+[documentation]: ../python/python-functions.md#documentation
+[tdd]: ../python/unit-testing.md#test-driven-development
+[thin-slice-pipeline]: ../../implementing_RAP/thin-slice-strategy.md#thin-slice-pipeline
+[code-review]: ../../implementing_RAP/workflow/code-review.md
+[silver-level-of-rap]: ../../introduction_to_RAP/levels_of_RAP.md#silver-rap---implementing-best-practice
+[baseline-level-of-rap]: ../../introduction_to_RAP/levels_of_RAP.md#baseline-rap---getting-the-fundamentals-right
+[unit-testing]: ../python/unit-testing.md
 [what-is-overengineering]: https://www.codesimplicity.com/post/what-is-overengineering/
 [designing-too-far-into-the-future]: https://www.codesimplicity.com/post/designing-too-far-into-the-future/
 [under-engineering-over-engineering-right-engineering]: https://blog.startifact.com/posts/older/under-engineering-over-engineering-right-engineering.html

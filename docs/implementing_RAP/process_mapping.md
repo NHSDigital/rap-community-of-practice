@@ -136,7 +136,7 @@ There are loads of tools for process mapping though, and some options be [Miro][
 [4]:https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/#section-12
 [5]: https://www.lucidchart.com/pages/process-mapping/process-map-symbols
 [6]:https://en.wikipedia.org/wiki/Unified_Modeling_Language
-[7]: ../our_RAP_service/thin-slice-strategy.md
+[7]: thin-slice-strategy.md
 [8]:https://miro.com/
 [9]:https://app.diagrams.net/
 [10]:https://www.lucidchart.com/pages/

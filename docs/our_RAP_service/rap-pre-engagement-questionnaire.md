@@ -25,7 +25,7 @@ tags:
     | [Building Team Capability](building_team_capability.md)  | Helpful    | Provides context for this checklist: what your team will need to do RAP                   |
     | [Support Models](support-models.md)                      | Helpful    | Helps you understand the different ways in which RAP champions can help analysts do RAP   |
     | [Typical Engagement Flow](typical-engagement-flow.md)    | Helpful    | An example of how an engagement might go - might help RAP champions to plan out their own |
-    | [Thin Slice Strategy](thin-slice-strategy.md)            | Helpful    | Describes how to take an existing pipeline and remake it into a RAP                       |
+    | [Thin Slice Strategy](../implementing_RAP/thin-slice-strategy.md)            | Helpful    | Describes how to take an existing pipeline and remake it into a RAP                       |
 
 This is checklist is aimed at **helping RAP Champions plan out an engagement with a team** to help them make a RAP pipeline.
 
@@ -34,7 +34,7 @@ It's a good idea to go through this checklist with the subject matter experts of
 **Before diving into RAP**, it's highly recommended that colleagues familiarise themselves the [elements of baseline RAP](..//introduction_to_RAP/levels_of_RAP.md), and do some introductory training - this will mean any engagement will be far more efficient.
 
 !!! note
-    See [Thin slice Strategy](thin-slice-strategy.md) and [Typical Engagement Flow](typical-engagement-flow.md) for more information on how to do engagements, [support models](support-models.md) for to resource and the trade-offs involved in RAP engagements.
+    See [Thin slice Strategy](../implementing_RAP/thin-slice-strategy.md) and [Typical Engagement Flow](typical-engagement-flow.md) for more information on how to do engagements, [support models](support-models.md) for to resource and the trade-offs involved in RAP engagements.
 
 
 | **Theme**            | **Sub-theme**     | **Question**                                                                                                      | **Tips**                                                                                                                            |
@@ -67,7 +67,7 @@ It's a good idea to go through this checklist with the subject matter experts of
 | | **Outputs** | Excel outputs, CSVs (do they follow [Open Data Standards for CSVs](https://github.com/NHSDigital/open-data-standards)? | This is important for consistency, to allow easier reuse|
 | | **Existing Work** | **Any other RAP pipelines in the team?** 	| These can act as a useful template. |
 | | | **Can the [RAP package template](https://github.com/NHSDigital/rap-package-template) be used?** 	| This is a great starting point to ensure your work is consistent with that of your colleagues. |
-| | **[Thin slice](./thin-slice-strategy.md)** | What will the measures and breakdowns (if applicable!) be? Or otherwise, how could you chunk up the work into the thin slice approach? | |           	|
+| | **[Thin slice](../implementing_RAP/thin-slice-strategy.md)** | What will the measures and breakdowns (if applicable!) be? Or otherwise, how could you chunk up the work into the thin slice approach? | |           	|
 
 ## Further Reading
 

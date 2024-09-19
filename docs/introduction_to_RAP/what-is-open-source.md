@@ -84,7 +84,7 @@ The package is fully open source and can be found on GitHub. It is accompanied b
 [python sdk]: https://github.com/publichealthengland/coronavirus-dashboard-api-python-sdk
 [nhs.uk frontend]: https://github.com/nhsuk/nhsuk-frontend
 [nhs covid pass verifier]: https://github.com/nhsx/covid-pass-verifier
-[how to publish your code in the open]: ../implementing_RAP/how-to-publish-your-code-in-the-open.md
+[how to publish your code in the open]: ../implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
 [be open and use open source]: https://www.gov.uk/guidance/be-open-and-use-open-source
 [the benefits of coding in the open]: https://gds.blog.gov.uk/2017/09/04/the-benefits-of-coding-in-the-open/
 [open source policy]: https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md

@@ -136,6 +136,7 @@ Next, you'll want to know [how to structure your Python projects](project-struct
 ### Where Now?
 You've now you've got Python installed and you've got an editor to work in. There's lots and lots of training resources about how to write Python code, here are some we've found useful:
 
+- [Python in an hour](https://github.com/nhsengland/HACA-2024-python-in-an-hour): this notebook was presented in a workshop at the Health and Care Analytics conference 2024. It's designed to give you a gentle introduction to Python and some of the things it can do, in just an hour.
 - [Kaggle introduction to Python][Kaggle-intro-to-Python]
 - [Govt Analysis Function Introduction to Python](https://analysisfunction.civilservice.gov.uk/training/introduction-to-python/)
 - [freecodecamp](https://www.freecodecamp.org), which has a course tailored to learning [data analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/)
@@ -145,5 +146,5 @@ You've now you've got Python installed and you've got an editor to work in. Ther
 - check out our guide to [Python functions](python-functions.md).
 
 [levels_of_rap]: ../../introduction_to_RAP/levels_of_RAP.md
-[coding-best-practice]:../../implementing_RAP/coding-best-practice.md
+[coding-best-practice]:../../implementing_RAP/workflow/coding-best-practice.md
 [Kaggle-intro-to-Python]: https://www.kaggle.com/learn/python

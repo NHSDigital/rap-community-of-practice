@@ -144,10 +144,10 @@ These levels aim to offer teams a recommended maturity map for adopting RAP prac
 For example, if all members of the RAP project team are comfortable using version control (i.e. merge requests, merge conflicts, Git commands workflow), then using Git and GitLab can be ticked off as a KPI.
 
 [1]: ../introduction_to_RAP/levels_of_RAP.md
-[2]: ../our_RAP_service/thin-slice-strategy.md
+[2]: ../implementing_RAP/thin-slice-strategy.md
 [3]: ../training_resources/git/introduction-to-git.md
 [4]: ../training_resources/git/using-git-collaboratively.md
 [5]: ../training_resources/python/basic-python-data-analysis-operations.md
 [6]: ../training_resources/python/python-functions.md
-[7]: ../implementing_RAP/code-review.md
+[7]: ../implementing_RAP/workflow/code-review.md
 [8]: ../training_resources/python/project-structure-and-packaging.md
