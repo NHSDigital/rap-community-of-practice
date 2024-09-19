@@ -1,16 +1,16 @@
 ---
 title: Data Classes
+summary: by Alistair Jones
 
 tags: 
   - Data Classes
   - Config
   - Python
   - PySpark
+
 ---
 
 #
-
-by Alistair Jones
 
 !!! tip "TLDR"
 
