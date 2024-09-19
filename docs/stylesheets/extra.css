@@ -417,7 +417,7 @@ button.button-blue::hover {
 }
 
 
-[dir=ltr] .md-typeset ol li, [dir=ltr] .md-typeset ul li.no-bullet {
+[dir=ltr] .md-typeset ol li.no-bullet, [dir=ltr] .md-typeset ul li.no-bullet {
   list-style: none;
   margin-left: .75em;
 }
