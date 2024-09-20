@@ -33,11 +33,11 @@ A class is essentially a reusable template for storing data and code which acts 
 
 Consider what happens when we call a Python function: usually it will take some input data, do something with that data and possibly return some output.
 
-In general, a function forgets about what happens between calls, so if we called it again with the same arguments we'd get the same result, again and again. 
+In general, a function forgets what happens between each call, so if we called it again with the same arguments we'd get the same result, again and again. 
 
 Classes are slightly different - there are two principal concepts:
 
-- The state of a class represents the data it stores - for example, a class representing a person might have 'name', 'dob' and 'address' stored within its state
+- The state of a class represents the data it stores - for example, a class representing a 'person' might have 'name', 'date_of_birth' and 'address' stored within its state
 - The methods of a class contain code that use and modify the state of a class.
 
 See [this page](https://www.w3schools.com/python/python_classes.asp) for a tutorial to help with getting started with classes in Python.
@@ -47,7 +47,7 @@ See [this page](https://www.w3schools.com/python/python_classes.asp) for a tutor
 
 Classes are a convenient way to program when you need to keep track of state information.
 
-It is perfectly fine not to use them and indeed for many scenarios they can unnecessarily increase complexity and can contribute towards to [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)!
+It is perfectly fine not to use them and indeed for many scenarios they can unnecessarily increase complexity and contribute towards [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code)!
 
 But when you find yourself passing the same data around the same set of functions again and again, then classes might help to reduce duplication and avoid repetition. 
 
@@ -56,9 +56,9 @@ But when you find yourself passing the same data around the same set of function
 
 A data class is a special type of class in Python. As the name suggests, data classes are typically used as containers for passing data around different parts of a pipeline or program - they don't usually have much logic defined in methods, rather they are used to pass data between functions. 
 
-_(Note that here the term "data" is meant broadly - not just the tabular data that you get from your database (though it could be), but also any value, parameter, or variable that you might need to put in your code.)_
+_(Note that here the term "data" is used in a broad sense, which refers not only to tabular data that you read in from a database or file, but also any value, parameter, or variable that you might need to put in your code.)_
 
-In a Reproducible Analytical Pipeline, we usual have some parameters that need to be passed together to different parts of the pipeline, such as the start and end dates for a publication.
+In a Reproducible Analytical Pipeline, we usually have some parameters that need to be passed together to different parts of the pipeline, such as the start and end dates for a publication.
 
 If our functions for field definitions, creating tables, etc, all need to access these parameters, one way would be to have the same parameters provided multiple times in function arguments:
 
@@ -72,9 +72,9 @@ def my_second_function(start_date: date, end_date: date):
   # some other interesting logic
 ```
 
-_(You may note that this example makes use of type hints, which are incredibly useful and necessary for explaining and using data classes. However, for brevity, type hints will not be covered in depth here - for more information, [read this](https://dev.to/dev0928/what-are-type-hints-in-python-3c2k).)_
+_(You may notice that this example makes use of type hints, which are incredibly useful and necessary for explaining and using data classes. However, for brevity, type hints will not be covered in depth here - for more information, [read this](https://dev.to/dev0928/what-are-type-hints-in-python-3c2k).)_
 
-For a small number of parameters, and a small number of functions, this is probably fine. But imagine what this starts to look like as the number of parameters increases, as does the number of functions - there starts to be lots of repeated code, which is both harder to read and more prone to errors!
+For a small number of parameters, and a small number of functions, this is probably fine. But imagine what this starts to look like as the number of parameters increases, as does the number of functions - there starts to be lots of repeated code, which is harder to read, more cumbersome to maintain and more prone to errors!
 
 ## Example: using data classes to store parameters
 
@@ -116,11 +116,11 @@ my_second_result = my_second_function(my_publication_dates)
 Although the benefits may be limited for this contrived example, we can see that:
 
 1. The intent is clearer when we read our function - rather than just having independent parameters called `start_date` and `end_date` we immediately know that these variables are a pair, representing the publication start and end dates, since they are contained together within the data class.
-2. Since `my_publication_dates` is passed to both functions, we now have a single argument for each function, so the code is easier to read and there is less room for error (e.g. it's not possible to mix up our `start_date` and `end_date` . This doesn't make a huge difference in this example with two functions and two parameters, but imagine what happens as the pipeline gets bigger.
+2. Since `my_publication_dates` is passed to both functions, we now have a single argument for each function, so the code is easier to read and there is less room for error (e.g. it's not possible to mix up our `start_date` and `end_date`). This doesn't make a huge difference in this example with two functions and two parameters, but imagine what happens as the pipeline grows in size and complexity!
 
 ## Validations using data classes
 
-A great feature of data classes is that after they are created, a special function - called `__postinit__` runs that you can use to do things like run validations or checks, or to derive additional attributes. 
+A useful feature of data classes is that after they are created, a special method called `__postinit__` is called: you can use this to do things like run validations or checks, or to derive additional attributes for the data class. 
 
 For example:
 
@@ -141,9 +141,12 @@ good_publication_dates = PublicationDates(start_date=date(2022, 1, 1), end_date=
 bad_publication_dates = PublicationDates(start_date=date(2023, 1, 1), end_date=date(2022, 1, 1)) # This will raise an AssertionError
 ```
 
-So now, in addition to the benefits we had previously, we can also have checks and validations running at the time that we define our parameters  - rather than individually within each function, or via creating another function to do these checks that we need to remember to call - the logic is built into how the parameters are defined! This also makes it clearer to someone who wants to use these parameters that there are constraints on the values.
+So now, in addition to the benefits we had previously, we can also have checks and validations running at the time that we define our parameters. This saves us adding these individually within each function or creating another function to do these checks that we need to remember to call! Instead, the checking/validation logic is built into how the parameters are defined! This also makes it clearer to someone who wants to use these parameters that there are constraints on the values.
 
-You don't have to define a `__postinit__` method but it can be useful in certain situations!
+You don't have to define a `__postinit__` method but it can be useful in certain situations.
+
+### Open-source validation libraries
+For more advanced use-cases, there are open-source libraries of validations which build on the idea of data classes - one widely used example is [Pydantic](https://docs.pydantic.dev/latest/) which is definitely worth exploring once you've understood the concepts introduced in this guide!
 
 ## Further reading
 
