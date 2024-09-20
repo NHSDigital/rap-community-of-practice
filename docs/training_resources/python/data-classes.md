@@ -148,4 +148,3 @@ You don't have to define a `__postinit__` method but it can be useful in certain
 ## Further reading
 
 - [Data classes guide on Data Quest](https://www.dataquest.io/blog/how-to-use-python-data-classes/)
-- For NHSE Employees, see this [video walkthrough](https://nhsd-confluence.digital.nhs.uk/download/attachments/483240713/Classes%20in%20RAP%20projects%20demo-20230413_103354-Meeting%20Recording.mp4?api=v2&modificationDate=1681382735402&version=1) of how data classes could be used to improve RAP projects, with examples from the National Diabetes Audit RAP project.
