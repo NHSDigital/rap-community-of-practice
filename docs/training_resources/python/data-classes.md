@@ -145,6 +145,9 @@ So now, in addition to the benefits we had previously, we can also have checks a
 
 You don't have to define a `__postinit__` method but it can be useful in certain situations.
 
+### Open-source validation libraries
+For more advanced use-cases, there are open-source libraries of validations which build on the idea of data classes - one widely used example is [Pydantic](https://docs.pydantic.dev/latest/) which is definitely worth exploring once you've understood the concepts introduced in this guide!
+
 ## Further reading
 
 - [Data classes guide on Data Quest](https://www.dataquest.io/blog/how-to-use-python-data-classes/)
