@@ -1,20 +1,5 @@
 {% extends "base.html" %}
 
-{% block libs %}
-    {{ super() }}
-    <script src="https://t.usermaven.com/lib.js" 
-        data-key="UMge94E6hn" 
-        data-tracking-host="https://events.usermaven.com"
-        data-autocapture="true"  
-        data-privacy-policy="strict" 
-        defer>
-    </script>
-    <script>window.usermaven = window.usermaven || (function(){(window.usermavenQ = window.usermavenQ || []).push(arguments);})</script>
-    {% if page.is_homepage %}    
-        <script src="{{ base_url }}/javascript/homepage.js" defer></script>
-    {% endif %}
-{% endblock %}
-
 {% block content %}
 {% if page.nb_url %}
     <a href="{{ page.nb_url }}" title="Download Notebook" class="md-content__button md-icon">

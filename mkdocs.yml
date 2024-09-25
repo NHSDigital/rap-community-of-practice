@@ -125,7 +125,6 @@ nav:
       - Acknowledgements: site_info/acknowledgements.md
       - Website Release Process: site_info/rap-release-workflow.md
       - GitHub Repository Traffic Statistics: site_info/repo_traffic_information.md
-      - Website Traffic Data Collection: site_info/website_traffic_information.md
       - Glossary: site_info/glossary.md
 theme:
   name: material
