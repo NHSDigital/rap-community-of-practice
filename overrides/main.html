@@ -2,14 +2,6 @@
 
 {% block libs %}
     {{ super() }}
-    <script src="https://t.usermaven.com/lib.js" 
-        data-key="UMge94E6hn" 
-        data-tracking-host="https://events.usermaven.com"
-        data-autocapture="true"  
-        data-privacy-policy="strict" 
-        defer>
-    </script>
-    <script>window.usermaven = window.usermaven || (function(){(window.usermavenQ = window.usermavenQ || []).push(arguments);})</script>
     {% if page.is_homepage %}    
         <script src="{{ base_url }}/javascript/homepage.js" defer></script>
     {% endif %}
@@ -21,14 +13,11 @@
         {% include ".icons/material/download.svg" %}
     </a>
 {% endif %}
-
-
 {% if page and page.meta %}
     <h1 class="header-with-tags"> {{ page.meta.title }} </h1>
-
     {% if page.meta.summary %}
         <div role="doc-subtitle"> {{ page.meta.summary }} </div>
-        {% endif %}
+    {% endif %}
 {% endif %}
     
 {{ super() }}
