@@ -1,6 +1,6 @@
 # Contribute
 
-Hi there! We're thrilled that you'd like to contribute to this landing page repository. Your help is essential for keeping it great.
+Hi there! We're thrilled that you'd like to contribute to the RAP Community of Practice! Your help is crucial in keeping it great!
 
 ## Creating an issue
 
@@ -12,7 +12,7 @@ If you want to contribute to our resources:
 
 1. [Fork][fork] or clone the repository
 2. Configure and install the dependencies if you want to run the page in your machine, otherwise none.
-3. Create a new branch: `git checkout -b my-branch-name`
+3. Create a new branch: (e.g. `git checkout -b my-branch-name`)
 4. Make your change
 5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-rap-community-of-practice-website) on how to do this)
 6. Push to your fork and [submit a pull request][pr]
@@ -28,43 +28,30 @@ To increase the likelihood of your pull request being accepted:
 
 ## Contribute to RAP Community of Practice Website
 
-### Installing MkDocs
+### Via Github Codespaces
+The **easiest way is just to open the repo in [Github Codespaces](https://github.com/features/codespaces)** - you can then make your changes, run the website to check it, and commit those back all within a VSCode environment running a fresh Python install.
 
-Run the commands (or follow the MkDocs documentation to locally pip install MkDocs):
+### Working locally
 
-```bash
-    # environment.yml
+If you don't want to use Github codespaces (or can't because it's blocked, or you've run out of credits), then you can make changes to the repo locally on your machine.
 
-    conda env create -f environment.yml
-    conda activate rap-cop-pages
+#### Requirements
 
-    ---
+It's probably most ideal to work on a linux envirnoment, but any machine which can run Python and is connected to the internet should be ok.
 
-    # requirements.txt
+#### Making a Python environment and installing dependencies
 
-    ## using pip
-    python -m pip install -r requirements.txt
+You'll need to make the same environment that we use to run the website.
 
-    ## using Conda
-    conda create --name <env_name> --file requirements.txt
-```
-For best practices on creating virtual environments, please refer to the [RAP Community of Practice training resources](./docs/training_resources/python/virtual-environments/why-use-virtual-environments.md).
-
-### Hosting
-
-To host the website locally to view the live changes, run the command:
-
-```bash
-    mkdocs serve
-```
-
-Open up http://127.0.0.1:8000/ in your browser, and you'll see the [RAP Community of Practice home page](https://nhsdigital.github.io/rap-community-of-practice/) being displayed with your updates applied.
-
-Read more: [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/#getting-started-with-mkdocs)
+1. Make a `venv` and install the python libraries found in our `requirements.txt`
+    * We have a [great little guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/virtual-environments/venv/) on how to do the above!
+1. Activate the `venv` and in the command line run: `mkdocs serve` (depending on how your python install is setup, this might need to be `python -m mkdocs serve`) 
+1. Open up http://127.0.0.1:8000/ in your browser, and you'll see the [RAP Community of Practice home page](https://nhsdigital.github.io/rap-community-of-practice/) being displayed with your updates applied.
+    * Read more: [Getting Started with MkDocs](https://www.mkdocs.org/getting-started/#getting-started-with-mkdocs)
 
 ### Editing the contents
 
-To add a new file to the repository and website, you can add the file as you would normally and then update 'nav' in mkdocs.yml to include the file within the nested list. Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
+To add a new page to the website, you can add the file as you would normally and then update 'nav' in mkdocs.yml to include the file within the nested list. Don't forget to check that the links, images, headings, and contents are all working correctly on both the website and in the GitHub repo.
 
 All of the files accessed via the website are nested within the 'docs' folder.
 
