@@ -9,11 +9,6 @@ tags:
 
 ## Current Release Process (coding in the open)
 
-!!! warning "The release process below is no longer in use!"
-
-    - The RAP Community of Practice now uses a very simple release process - fully coded in the open.
-    - This page mostly details our old release process, where we had a hidden "dev" repo, which published to this public repo on release - we're leaving this guide up here so people can learn from it and use it (it would be useful for more sensitive work)
-
 The new release workflow for the RAP Community of Practice is very simple.
 
 ```mermaid
@@ -32,6 +27,11 @@ It's important to note that the website is not built off the "main" branch - but
 This is described fully in the github action that builds the website: [pages-build-deployment](.github/workflows/pages-build-deployment.yml)
 
 ## Old release process (two repos, one private, one public)
+
+!!! warning "The release process below is no longer in use!"
+
+    - The RAP Community of Practice now uses a very simple release process - fully coded in the open.
+    - This page mostly details our old release process, where we had a hidden "dev" repo, which published to this public repo on release - we're leaving this guide up here so people can learn from it and use it (it would be useful for more sensitive work)
 
 !!! tip "TLDR"
 
