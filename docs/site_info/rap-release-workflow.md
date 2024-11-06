@@ -7,6 +7,32 @@ tags:
 
 #
 
+## Current Release Process (coding in the open)
+
+!!! warning "The release process below is no longer in use!"
+
+    - The RAP Community of Practice now uses a very simple release process - fully coded in the open.
+    - This page mostly details our old release process, where we had a hidden "dev" repo, which published to this public repo on release - we're leaving this guide up here so people can learn from it and use it (it would be useful for more sensitive work)
+
+The new release workflow for the RAP Community of Practice is very simple.
+
+```mermaid
+flowchart TD
+    Z[make a branch or fork of the repo]-->A
+    A[make changes on the branch or fork of the repo]-->B[when complete make a pull request in main branch of this repo];
+    B-->C[pull request checked];
+    C-->F[approved and changes merged into the main branch];
+    C--Feed back given-->E[Make required changes];
+    E-->C;
+    F--At a significant milestone-->D[a release is made, bumping up the version of the repo and updating the visible website];
+```
+
+It's important to note that the website is not built off the "main" branch - but instead it builds "on release".
+
+This is described fully in the github action that builds the website: [pages-build-deployment](.github/workflows/pages-build-deployment.yml)
+
+## Old release process (two repos, one private, one public)
+
 !!! tip "TLDR"
 
     - The RAP Community of Practice has embraced CI/CD by implementing an automated release process that uses GitHub Actions to move guidances written and reviewed in our private ([RAP_CoP_dev]) repository to the public ([rap-community-of-practice]) repository.
