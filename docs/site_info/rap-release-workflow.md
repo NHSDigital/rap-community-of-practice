@@ -29,7 +29,7 @@ flowchart TD
 
 It's important to note that the website is not built off the "main" branch - but instead it builds "on release".
 
-This is described fully in the github action that builds the website: [pages-build-deployment](.github/workflows/pages-build-deployment.yml)
+This is described fully in the github action that builds the website: [pages-build-deployment](https://github.com/NHSDigital/rap-community-of-practice/blob/main/.github/workflows/pages-build-deployment.yml)
 
 ## Old release process (two repos, one private, one public)
 
