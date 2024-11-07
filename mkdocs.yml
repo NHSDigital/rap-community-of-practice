@@ -70,6 +70,7 @@ nav:
       - Publishing Code:
         - How to publish your code in the open: implementing_RAP/publishing_code/how-to-publish-your-code-in-the-open.md
         - Updating published code: implementing_RAP/publishing_code/updating-your-published-code.md
+        - Licensing your code: implementing_RAP/publishing_code/licensing-your-code.md
       - Example Pipeline (Python): implementing_RAP/example-pipeline.md
       - Support: implementing_RAP/support.md
       - Useful Links: implementing_RAP/useful_links.md
