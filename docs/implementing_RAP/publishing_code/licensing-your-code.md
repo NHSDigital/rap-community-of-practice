@@ -37,6 +37,8 @@ This type of permissive licence is also recommended in the [Goldacre Review](../
 
 >"In our strong view all code whose production is paid for by public funds should be shared as open source code for review, re-use, and iterative improvement under open licenses, such as the MIT Open License; but with a robust and publicly documented exceptions framework using clear prespecified criteria whereby researchers or vendors can request special treatment, where this can be shown to be in the national interest, or provide some other comparable benefit."
 
+So essentially, use MIT unless there's a justifiable reason not to - for example, your code if subject to regulatory requirements. For more information, see the [Analyst X guidance on licences](https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md#c-licences-and-regulatory-requirements). 
+
 ## How do I apply a licence to my code?
 
 If you're using GitHub:
