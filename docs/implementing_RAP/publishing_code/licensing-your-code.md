@@ -31,9 +31,11 @@ There are many different licences, each with their own nuances. There's a nice d
 
 ## Which licence should I use?
 
-We recommend the MIT Licence. It's a simple and permissive licence, stating people can use the code for anything, as long as the MIT licence is also included whenever the code is reused.
+We recommend the MIT Licence. It's a simple and permissive licence, stating people can use the code for anything, as long as the MIT licence is also included whenever the code is reused. It's a Licence to Share!
 
-This type of permissive licence is also recommended in the [Goldacre Review](../../introduction_to_RAP/gov-policy-on-rap.md):
+![Image of a suave, James Bond style man in a tuxedo. He is holding out a laptop with computer code on it](../../images/licence-to-share.jpg "Coders vs designers")
+
+This type of permissive licence is recommended in the [Goldacre Review](../../introduction_to_RAP/gov-policy-on-rap.md):
 
 >"In our strong view all code whose production is paid for by public funds should be shared as open source code for review, re-use, and iterative improvement under open licenses, such as the MIT Open License; but with a robust and publicly documented exceptions framework using clear prespecified criteria whereby researchers or vendors can request special treatment, where this can be shown to be in the national interest, or provide some other comparable benefit."
 
