@@ -98,7 +98,7 @@ nav:
           - Handling file paths: training_resources/python/handling-file-paths.md
           - Logging and error handling in Python: training_resources/python/logging-and-error-handling.md
           - Project structure and packaging: training_resources/python/project-structure-and-packaging.md
-          - Using Python f-strings to run SQL queries: training_resources/python/using-f-strings-sql-queries.md
+          #- Using Python f-strings to run SQL queries: training_resources/python/using-f-strings-sql-queries.md
           - Using config files: training_resources/python/config-files.md
           - Data Classes: training_resources/python/data-classes.md
           - Virtual environments:
