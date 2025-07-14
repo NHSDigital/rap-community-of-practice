@@ -13,7 +13,7 @@ jobs:
   # This workflow contains a single job called "deploy"
   deploy:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -23,7 +23,10 @@ jobs:
       - name: "Setup Python"
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: 3.12
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y libxml2-dev libxslt-dev
 
       - name: "Install Python Packages"
         run: pip install -r requirements.txt
