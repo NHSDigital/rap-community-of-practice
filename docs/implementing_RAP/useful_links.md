@@ -46,7 +46,7 @@ Here are a few places you can find more information and support when implementin
   - **Government Data Science community** ([website][gds community website] |
     [slack][gds community slack] #rap_collaboration | [GitHub][gds community github])
     - **Government Analysis Function RAP Champion network** ([website][analysis function website])
-  - **NHS Python Community (NHS-pycom)** ([website][nhs-pycom website] | [slack][nhs-pycom slack] | [GitHub][nhs-pycom github] | [Coding Club])
+  - **NHS Python Community (NHS-pycom)** ([slack][nhs-pycom slack] | [GitHub][nhs-pycom github] | [Coding Club])
   - **NHS R Community** ([website][nhs-r website] | [slack][nhs-r slack] |[GitHub][nhs-r github])
   - **AnalystX** ([website][analystx website] | [Future NHS - AnalystX] | [GitHub][analystx github])
 - We have an **NHS England "RAP Community of Practice" MS Teams** (internal to NHS England - contact us @ [data.science@nhs.net])
@@ -73,7 +73,6 @@ Here are a few places you can find more information and support when implementin
 [gds community slack]: https://govdatascience.slack.com/
 [gds community github]: https://github.com/ukgovdatascience
 [analysis function website]: https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/reproducible-analytical-pipeline-rap-champions/
-[nhs-pycom website]: https://nhs-pycom.net/
 [nhs-pycom slack]: https://nhs-pycom.slack.com
 [nhs-pycom github]: https://github.com/nhs-pycom
 [nhs-r website]: https://nhsrcommunity.com/
