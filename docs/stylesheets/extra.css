@@ -66,7 +66,7 @@
 a.md-nav__link:hover,
 .md-typeset a:focus, 
 .md-typeset a:hover {
-  color: var(--md-primary-fg-color);
+  color: #ffeb3b;
   text-decoration: underline;
 }
 
