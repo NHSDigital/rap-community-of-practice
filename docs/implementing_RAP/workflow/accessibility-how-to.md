@@ -37,7 +37,7 @@ For the purposes of RAP publications it's important to consider the end user, an
 * [NHS digital service manual accessibility posters](https://service-manual.nhs.uk/accessibility/download-accessibility-posters)
 
 ## Accessibility and RAP: analyst
-As more and more NHS Digiital RAP pipelines are being published on GitHub, RAP analysts and developers need to consider documentation and user guidance adhering to accessibility practices includes the RAP pipeline itself (e.g. every user can run the pipeline without any hindrances), the public facing repository and its contents, repository documentation (e.g. README, CONTRIBUTING, CODE OF CONDUCT etc.) and other pipeline documentation.
+As more and more NHS Digital RAP pipelines are being published on GitHub, RAP analysts and developers need to consider documentation and user guidance adhering to accessibility practices includes the RAP pipeline itself (e.g. every user can run the pipeline without any hindrances), the public facing repository and its contents, repository documentation (e.g. README, CONTRIBUTING, CODE OF CONDUCT etc.) and other pipeline documentation.
 
 #### Documentation, page structure design, development and testing
 * [NHS digital service manual (DSM): content](https://service-manual.nhs.uk/accessibility/content)
