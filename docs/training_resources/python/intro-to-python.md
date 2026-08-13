@@ -128,7 +128,7 @@ Whatever the scale of your data, you might need to interact with it via SQL quer
 There are as many opinions about what constitutes good code as there are coders. It's also always a good idea to adhere to a style guide. 
 
 * For Python, we recommend using [`PEP-8`](https://peps.python.org/pep-0008/), which is also mentioned in our [Levels of RAP][levels_of_rap]
-* more specifically, the [Google Python style-guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) (which is also the core of our [Pyspark style guide](../training_resources/pyspark/pyspark-style-guide/) )
+* more specifically, the [Google Python style-guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) (which is also the core of our [Pyspark style guide](../../pyspark/pyspark-style-guide/) )
 * There are tools called **linters** which can be used to check for these styles automatically, such as [Pylint](https://pypi.org/project/pylint/)
 
 Next, you'll want to know [how to structure your Python projects](project-structure-and-packaging.md), [how to write good functions](python-functions.md), and [how to approach unit testing in Python](unit-testing.md).
